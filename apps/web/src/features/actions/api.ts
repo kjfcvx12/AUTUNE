@@ -14,6 +14,7 @@ import type {
   MaterialSearchAnswer,
   MaterialSettings,
   MaterialUploadRules,
+  MeetingMaterialsAnswer,
   MeetingReview,
   MeetingSummary,
   ReviewDecision,
@@ -305,6 +306,23 @@ export async function searchMaterials(
   );
   if (!response.ok) throw await refusedBy(response);
   return (await response.json()) as MaterialSearchAnswer;
+}
+
+/**
+ * The team's uploaded materials nearest a meeting's title (#817). The
+ * meeting's id in the path and nothing else: the server reads the title
+ * itself, and no line of the meeting has a way into what is searched with.
+ *
+ * Not through `api.extraction`, for the reason `searchMaterials` gives: where
+ * uploads are off the 404 is the framework's (`refusedBy`).
+ */
+export async function getMeetingMaterials(meetingId: string): Promise<MeetingMaterialsAnswer> {
+  const response = await fetch(
+    `${API_BASE}/api/extraction/meetings/${encodeURIComponent(meetingId)}/materials/near-title`,
+    { headers: authHeaders() },
+  );
+  if (!response.ok) throw await refusedBy(response);
+  return (await response.json()) as MeetingMaterialsAnswer;
 }
 
 /** How the team keeps its uploads: for its retention window, or until deleted. */

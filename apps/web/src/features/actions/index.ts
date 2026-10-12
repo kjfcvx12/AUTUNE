@@ -8,6 +8,7 @@
 export { ActionItemsScreen } from "./components/ActionItemsScreen";
 export { IntegrationSettingsScreen } from "./components/IntegrationSettingsScreen";
 export { MaterialsScreen } from "./components/MaterialsScreen";
+export { MeetingMaterials } from "./components/MeetingMaterials";
 export { MeetingSummaryScreen } from "./components/MeetingSummaryScreen";
 export { OwnTeamMeetingsNotice } from "./components/OwnTeamMeetingsNotice";
 /**

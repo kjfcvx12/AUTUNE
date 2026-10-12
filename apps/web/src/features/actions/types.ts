@@ -459,6 +459,20 @@ export interface MaterialSearchAnswer {
 }
 
 /**
+ * `MeetingMaterials`: the team's uploaded materials nearest one meeting's
+ * title, for a box beside the meeting. What was searched with is the title
+ * the server read -- nothing said in the meeting.
+ */
+export interface MeetingMaterialsAnswer extends MaterialSearchAnswer {
+  /** The meeting's team: where a question typed into the box is sent. */
+  team_id: string;
+  /** False for a meeting with no title: nothing was searched. */
+  asked: boolean;
+  /** The longest question the search takes. */
+  max_question_chars: number;
+}
+
+/**
  * One of the reader's teams, by name -- `TeamRead` in
  * `modules/extraction/src/autune_extraction/schemas.py`. The board across
  * meetings heads each team's items with it (`ActionItemRead.team_id`).
