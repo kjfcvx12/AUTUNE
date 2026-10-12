@@ -853,6 +853,7 @@ other module's tables.
 | GET | `/materials/upload-rules?team_id=` | What this server takes as an upload: `enabled` (`AUTUNE_EXTRACTION_MATERIAL_UPLOAD`, off by default), `max_bytes` (ten megabytes), `suffixes` (`.txt`, `.md`, `.csv` today), `max_title_chars`, `max_materials`, `search` (whether `/materials/search` answers: exactly when uploads are on) and `max_question_chars`. Members of the team only |
 | POST | `/materials/upload?team_id=` | Keep the masked text of a file (#817): a form of exactly two parts, `title` and `file`. Any member. The body is read by the route into memory after the membership check -- no `UploadFile`, no temporary file -- and the cap holds as it arrives (413 past it); read, checked for a confidentiality marking, masked and stored in this request, and the buffers wiped in a `finally`. A marked file: 422 `confidential_file` and one `ext_material_alarms` row. An unreadable one: 422 with `details.reason`. Off: the bare 404 of a route that does not exist |
 | POST | `/materials/search?team_id=` | The team's uploaded materials nearest a question, best first (#817): `{"question"}` in the body, never the address, 1 to 300 characters. Answers `hits` (at most five, one a material: `material_id`, `title`, `excerpt`, `position`), `notice` (the server's own sentence or null) and `more`. The question is masked before it is embedded and is not stored, logged or returned; an excerpt is at most 200 characters of one stored piece, and it and the title pass `screen_output` on the way out. Members of the team only; off with uploads (the bare 404) |
+| GET | `/meetings/{meeting_id}/materials/near-title` | The team's uploaded materials nearest this meeting's title, best first (#817): for a box of materials beside the meeting. Takes the meeting's id and nothing else -- no body, no query -- and the server reads the title itself. Answers `team_id`, `asked` (false for a meeting with no title: nothing was searched), `hits`, `notice` and `more` as the search does, and `max_question_chars`. Readers of the meeting only; anyone else gets the 404 an unknown meeting gets. Bare 404 where uploads are off |
 | GET | `/materials/settings?team_id=` | How the team keeps its uploads: `{"keep_until_deleted": bool, "retention_days": int, "uploads_past_their_day": int}` -- `retention_days` is the team's window today, what an upload made now is given; an earlier upload keeps its own `expires_at`. `uploads_past_their_day` counts the team's uploads already past their `expires_at` -- what switching back to the window deletes within the hour, said on the screen before the switch is saved; a count, no id or title. Members of the team only |
 | PUT | `/materials/settings?team_id=` | `{"keep_until_deleted": bool}`: switch between the team's retention window counted from the upload (false, the default) and keeping uploads until a member deletes them (true). Any member; who switched is not recorded. Answers as the GET |
 | DELETE | `/materials/{id}?team_id=` | Take one off the team's shelf, at once. Any member. An upload's masked text goes in the same transaction; a Drive file is not touched |
@@ -1463,6 +1464,20 @@ in a file name `_` separates words as a space does (`plan_confidential.pdf`).
   change to its uploaded-documents section is approved. The ask loop does
   not offer it either until its tool set names it (`agent/.../main/ask.py`,
   owned by the agent layer's main owner).
+- Beside one meeting (`material_search.near_meeting_title`,
+  `GET /meetings/{meeting_id}/materials/near-title`): the same search, asked
+  with the meeting's title -- its spaces folded, cut to 300 characters -- and
+  with nothing else of the meeting. **Nothing said in the meeting is searched
+  with**: `privacy.md` does not let live transcript text be searched against
+  materials (#817 point 6), so the route takes the meeting's id alone and the
+  function reads `Meeting.title` and no transcript row; tests hold both, and
+  that a line sent along with the request changes nothing. The title is a
+  person's words as a question is: masked before it is embedded, and in no
+  answer and no log line. A meeting with no title is not searched. A question
+  a member types into the same box goes to `POST /materials/search`, as the
+  자료 screen's does. The web's box for it (`MeetingMaterials` in
+  `features/actions`) is mounted on no screen by this module: the meeting's
+  screens are module A's.
 - Text a person types is screened when it is saved and refused if it
   reads as personal data (`typed_text.refuse_personal_data`; decided on
   #1130, `privacy.md` section 6). Ten checks behind eight routes: an action

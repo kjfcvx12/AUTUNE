@@ -73,6 +73,7 @@ from .schemas import (
     MaterialSettingsWrite,
     MaterialUploadRules,
     MaterialWrite,
+    MeetingMaterials,
     MeetingNoteUpdate,
     MeetingReview,
     MeetingSummary,
@@ -723,6 +724,43 @@ def search_materials(
         ],
         notice=found.notice,
         more=found.more,
+    )
+
+
+@router.get("/meetings/{meeting_id}/materials/near-title", response_model=MeetingMaterials)
+def materials_near_title(
+    meeting_id: str, session: SessionDep, reader: CurrentUser
+) -> MeetingMaterials:
+    """The team's uploaded materials nearest this meeting's title, best first,
+    as ``POST /materials/search`` answers a question (#817): for a box of
+    materials beside the meeting. Readers of the meeting only; anyone else
+    gets the 404 an unknown meeting gets.
+
+    **It takes the meeting's id and nothing else** -- no body, no query: what
+    is searched with is the title the server reads, so nothing said in the
+    meeting can be sent here to be searched with (``privacy.md``: live
+    transcript text is not searched against materials). A meeting with no
+    title is not searched (``asked`` false). Off with uploads, as the search
+    is: the bare 404 of a route that does not exist."""
+    if not get_settings().material_upload:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND)
+    team = _member_team(session, reader, meeting_id)
+    found = material_search.near_meeting_title(session, team, meeting_id)
+    return MeetingMaterials(
+        team_id=team,
+        asked=found is not None,
+        hits=[
+            MaterialHit(
+                material_id=hit.material_id,
+                title=hit.title,
+                excerpt=hit.excerpt,
+                position=hit.position,
+            )
+            for hit in (found.hits if found else [])
+        ],
+        notice=found.notice if found else None,
+        more=found.more if found else False,
+        max_question_chars=material_search.MAX_QUESTION_CHARS,
     )
 
 

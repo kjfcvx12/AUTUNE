@@ -543,6 +543,22 @@ class MaterialAnswer(BaseModel):
     more: bool
 
 
+class MeetingMaterials(BaseModel):
+    """The team's uploaded materials nearest one meeting's title (#817), for a
+    box beside the meeting. ``asked`` is false for a meeting with no title:
+    nothing was searched, and ``hits`` is empty for that reason and no other.
+    ``team_id`` and ``max_question_chars`` are what the box needs to send a
+    question a member types to ``POST /materials/search``. The title is not
+    here: the reader has it from the meeting."""
+
+    team_id: str
+    asked: bool
+    hits: list[MaterialHit]
+    notice: str | None
+    more: bool
+    max_question_chars: int
+
+
 class ProjectPlacement(BaseModel):
     """A person puts a decision or an item in one of the team's projects, or none."""
 

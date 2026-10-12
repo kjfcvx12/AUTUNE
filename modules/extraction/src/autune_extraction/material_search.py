@@ -49,7 +49,7 @@ from datetime import UTC, datetime
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
-from autune_core import get_logger
+from autune_core import Meeting, get_logger
 from autune_core.errors import PrivacyViolationError, ValidationError
 from autune_integrations.document_masking import mask_document, screen_output
 from autune_integrations.privacy import MASK_CHAR
@@ -368,3 +368,30 @@ def search_materials(
     return MaterialAnswer(
         hits=hits, notice=_notice(bool(masked.counts), asks_personal, hits), more=more
     )
+
+
+def title_question(title: str | None) -> str:
+    """A meeting's title as a question: its spaces folded, cut to what a
+    search takes. Nothing else of the meeting goes into it."""
+    return " ".join((title or "").split())[:MAX_QUESTION_CHARS].strip()
+
+
+def near_meeting_title(
+    session: Session, team_id: str, meeting_id: str, *, now: datetime | None = None
+) -> MaterialAnswer | None:
+    """The team's uploaded materials nearest the title of one of its meetings,
+    for a box beside that meeting. ``None`` for a meeting with no title:
+    nothing is searched. **The caller has checked that the asker may read the
+    meeting and that it is ``team_id``'s.**
+
+    **The question is the title and nothing else of the meeting.** A title is
+    what a member typed when the meeting was made. What was said in the
+    meeting -- an utterance, a live row, a summary made of them -- is not
+    read here and must not be: ``privacy.md`` does not let live transcript
+    text be searched against materials (#817 point 6). The title is a
+    person's words all the same, and ``search_materials`` treats it as any
+    question: masked before it is embedded, stored and logged nowhere."""
+    question = title_question(session.scalar(select(Meeting.title).where(Meeting.id == meeting_id)))
+    if not question:
+        return None
+    return search_materials(session, team_id, question, now=now)
