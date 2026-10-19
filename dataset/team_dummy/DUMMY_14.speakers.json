@@ -1,0 +1,57 @@
+{
+  "meeting": "DUMMY_14",
+  "title": "벼리금융기술 한도 조회 화면 가이드라인 대응 협의 (대출상품팀 × 준법감시팀)",
+  "type": "cross-team",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "탁유진",
+      "team": "대출상품팀",
+      "job": "PM",
+      "position": "차장",
+      "title": "리드"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "함승우",
+      "team": "준법감시팀",
+      "job": "Compliance",
+      "position": "차장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK03",
+      "name": "방예린",
+      "team": "대출상품팀",
+      "job": "Design",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "석지후",
+      "team": "준법감시팀",
+      "job": "Compliance",
+      "position": "과장",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "채도윤",
+      "team": "대출상품팀",
+      "job": "Dev",
+      "position": "대리",
+      "title": ""
+    }
+  ]
+}

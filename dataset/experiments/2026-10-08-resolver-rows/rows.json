@@ -1,0 +1,499 @@
+{
+ "requests": 7,
+ "items": [
+  {
+   "meeting": "invented",
+   "id": "utt_m_5",
+   "said": "그건 제가 볼게요.",
+   "written": "타임아웃 변경 및 재시도 추가는 제가 볼게요.",
+   "cited": 1,
+   "answers": [
+    {
+     "model": "gemini-3.5-flash-lite",
+     "why": "ok",
+     "wrote": "타임아웃 변경 및 재시도 추가는 제가 볼게요.",
+     "kept": true
+    }
+   ]
+  },
+  {
+   "meeting": "invented",
+   "id": "utt_m_9",
+   "said": "네 제가 올리겠습니다.",
+   "written": "공지는 네 제가 올리겠습니다.",
+   "cited": 1,
+   "answers": [
+    {
+     "model": "gemini-3.5-flash-lite",
+     "why": "ok",
+     "wrote": "공지는 네 제가 올리겠습니다.",
+     "kept": true
+    }
+   ]
+  },
+  {
+   "meeting": "invented",
+   "id": "utt_m_15",
+   "said": "시안은 제가 챙겨 볼게요.",
+   "written": null,
+   "cited": 0,
+   "answers": [
+    {
+     "model": "gemini-3.5-flash-lite",
+     "why": "unchanged",
+     "wrote": "시안은 제가 챙겨 볼게요.",
+     "kept": false
+    }
+   ]
+  },
+  {
+   "meeting": "invented",
+   "id": "utt_m_21",
+   "said": "그날은 제가 맡겠습니다.",
+   "written": "출시 당일 모니터링은 그날은 제가 맡겠습니다.",
+   "cited": 1,
+   "answers": [
+    {
+     "model": "gemini-3.5-flash-lite",
+     "why": "ok",
+     "wrote": "출시 당일 모니터링은 그날은 제가 맡겠습니다.",
+     "kept": true
+    }
+   ]
+  },
+  {
+   "meeting": "invented",
+   "id": "utt_m_25",
+   "said": "문구는 제가 정리해서 공유드릴게요.",
+   "written": "환불 정책 안내 문구는 제가 정리해서 공유드릴게요.",
+   "cited": 1,
+   "answers": [
+    {
+     "model": "gemini-3.5-flash-lite",
+     "why": "ok",
+     "wrote": "환불 정책 안내 문구는 제가 정리해서 공유드릴게요.",
+     "kept": true
+    }
+   ]
+  },
+  {
+   "meeting": "invented",
+   "id": "utt_m_37",
+   "said": "네 그럼 그것도 제가 반영할게요.",
+   "written": "네 그럼 로그 보관 기간 90일 연장도 제가 반영할게요.",
+   "cited": 1,
+   "answers": [
+    {
+     "model": "gemini-3.5-flash-lite",
+     "why": "ok",
+     "wrote": "네 그럼 로그 보관 기간 90일 연장도 제가 반영할게요.",
+     "kept": true
+    }
+   ]
+  },
+  {
+   "meeting": "invented",
+   "id": "utt_m_41",
+   "said": "설문은 제가 목요일까지 만들어 두겠습니다.",
+   "written": null,
+   "cited": 0,
+   "answers": [
+    {
+     "model": "gemini-3.5-flash-lite",
+     "why": "unchanged",
+     "wrote": "설문은 제가 목요일까지 만들어 두겠습니다.",
+     "kept": false
+    }
+   ]
+  },
+  {
+   "meeting": "invented",
+   "id": "utt_m_45",
+   "said": "근무표는 제가 다시 짜 볼게요.",
+   "written": null,
+   "cited": 0,
+   "answers": [
+    {
+     "model": "gemini-3.5-flash-lite",
+     "why": "unchanged",
+     "wrote": "근무표는 제가 다시 짜 볼게요.",
+     "kept": false
+    }
+   ]
+  },
+  {
+   "meeting": "invented",
+   "id": "utt_m_49",
+   "said": "네 최종 파일은 내일까지 올려 둘게요.",
+   "written": null,
+   "cited": 0,
+   "answers": [
+    {
+     "model": "gemini-3.5-flash-lite",
+     "why": "unchanged",
+     "wrote": "네 최종 파일은 내일까지 올려 둘게요.",
+     "kept": false
+    }
+   ]
+  },
+  {
+   "meeting": "invented",
+   "id": "utt_m_53",
+   "said": "회의록은 제가 정리해서 올리겠습니다.",
+   "written": null,
+   "cited": 0,
+   "answers": [
+    {
+     "model": "gemini-3.5-flash-lite",
+     "why": "unchanged",
+     "wrote": "회의록은 제가 정리해서 올리겠습니다.",
+     "kept": false
+    }
+   ]
+  },
+  {
+   "meeting": "8.txt",
+   "id": "utt_8_14",
+   "said": "맞아요, 그 부분은 4분기에 좀 더 신경 쓰겠습니다. 일단 이번 주 금요일까지 마이너 버그 백로그 정리해서 우선순위 다시 매겨볼게요.",
+   "written": "맞아요, 마이너 버그 백로그 쌓이는 부분은 4분기에 좀 더 신경 쓰겠습니다. 일단 이번 주 금요일까지 마이너 버그 백로그 정리해서 우선순위 다시 매겨볼게요.",
+   "cited": 1,
+   "answers": [
+    {
+     "model": "gemini-3.5-flash-lite",
+     "why": "ok",
+     "wrote": "맞아요, 마이너 버그 백로그 쌓이는 부분은 4분기에 좀 더 신경 쓰겠습니다. 일단 이번 주 금요일까지 마이너 버그 백로그 정리해서 우선순위 다시 매겨볼게요.",
+     "kept": true
+    }
+   ]
+  },
+  {
+   "meeting": "8.txt",
+   "id": "utt_8_20",
+   "said": "아, 그럼 다음 이벤트는 마이그레이션 같은 큰 변경이랑 안 겹치게 일정을 짜야겠네요. 이번 분기 지표 리포트는 오늘 중으로 정리해서 팀 채널에 공유할게요.",
+   "written": "아프, 그럼 다음 이벤트는 마이그레이션 같은 큰 변경이랑 안 겹치게 일정을 짜야겠네요. 이번 분기 지표 리포트는 오늘 중으로 정리해서 팀 채널에 공유할게요.",
+   "cited": 1,
+   "answers": [
+    {
+     "model": "gemini-3.5-flash-lite",
+     "why": "ok",
+     "wrote": "아프, 그럼 다음 이벤트는 마이그레이션 같은 큰 변경이랑 안 겹치게 일정을 짜야겠네요. 이번 분기 지표 리포트는 오늘 중으로 정리해서 팀 채널에 공유할게요.",
+     "kept": true
+    }
+   ]
+  },
+  {
+   "meeting": "8.txt",
+   "id": "utt_8_29",
+   "said": "로딩 문구는 제가 시안 만들어서 드릴 수 있어요. 간단한 거니까.",
+   "written": "로딩 문구 시안은 제가 시안 만들어서 드릴 수 있어요. 간단한 거니까.",
+   "cited": 0,
+   "answers": [
+    {
+     "model": "gemini-3.5-flash-lite",
+     "why": "ok",
+     "wrote": "로딩 문구 시안은 제가 시안 만들어서 드릴 수 있어요. 간단한 거니까.",
+     "kept": true
+    }
+   ]
+  },
+  {
+   "meeting": "8.txt",
+   "id": "utt_8_34",
+   "said": "네, 내일 중으로 작성해서 공유하겠습니다.",
+   "written": "네, 내일 중으로 포스트모템 보고서 작성해서 공유하겠습니다.",
+   "cited": 1,
+   "answers": [
+    {
+     "model": "gemini-3.5-flash-lite",
+     "why": "ok",
+     "wrote": "네, 내일 중으로 포스트모템 보고서 작성해서 공유하겠습니다.",
+     "kept": true
+    }
+   ]
+  },
+  {
+   "meeting": "8.txt",
+   "id": "utt_8_35",
+   "said": "저는 이번 장애 케이스를 회귀 테스트에 추가해둘게요. 타임아웃 관련 시나리오가 지금까지 테스트 케이스에 없었더라고요. 다음 주 화요일까지 추가하겠습니다.",
+   "written": null,
+   "cited": 0,
+   "answers": [
+    {
+     "model": "gemini-3.5-flash-lite",
+     "why": "unchanged",
+     "wrote": "저는 이번 장애 케이스를 회귀 테스트에 추가해둘게요. 타임아웃 관련 시나리오가 지금까지 테스트 케이스에 없었더라고요. 다음 주 화요일까지 추가하겠습니다.",
+     "kept": false
+    }
+   ]
+  },
+  {
+   "meeting": "8.txt",
+   "id": "utt_8_37",
+   "said": "그건 간단해서 내일 오전 중에 드릴 수 있어요.",
+   "written": "로딩 문구 시안은 간단해서 내일 오전 중에 드릴 수 있어요.",
+   "cited": 1,
+   "answers": [
+    {
+     "model": "gemini-3.5-flash-lite",
+     "why": "ok",
+     "wrote": "로딩 문구 시안은 간단해서 내일 오전 중에 드릴 수 있어요.",
+     "kept": true
+    }
+   ]
+  },
+  {
+   "meeting": "8.txt",
+   "id": "utt_8_45",
+   "said": "네, 오늘 중으로 확인해서 알려드릴게요.",
+   "written": "네, 오늘 중으로 배포 버전 확인해서 알려드릴게요.",
+   "cited": 2,
+   "answers": [
+    {
+     "model": "gemini-3.5-flash-lite",
+     "why": "ok",
+     "wrote": "네, 오늘 중으로 배포 버전 확인해서 알려드릴게요.",
+     "kept": true
+    }
+   ]
+  },
+  {
+   "meeting": "8.txt",
+   "id": "utt_8_46",
+   "said": "알림 설정 문구는 \"즉시 알림\"이랑 \"요약 알림\"이라는 단어가 뭘 뜻하는지 헷갈린다는 의견이 많았어요. 캡처랑 같이 정리해서 문서로 만들어둘게요.",
+   "written": null,
+   "cited": 0,
+   "answers": [
+    {
+     "model": "gemini-3.5-flash-lite",
+     "why": "unchanged",
+     "wrote": "알림 설정 문구는 \"즉시 알림\"이랑 \"요약 알림\"이라는 단어가 뭘 뜻하는지 헷갈린다는 의견이 많았어요. 캡처랑 같이 정리해서 문서로 만들어둘게요.",
+     "kept": false
+    }
+   ]
+  },
+  {
+   "meeting": "8.txt",
+   "id": "utt_8_48",
+   "said": "네, 이번 주 금요일까지 top5 문의 유형 정리해서 공유드릴게요. 알림 문구 캡처도 같이 넣을게요.",
+   "written": null,
+   "cited": 0,
+   "answers": [
+    {
+     "model": "gemini-3.5-flash-lite",
+     "why": "unchanged",
+     "wrote": "네, 이번 주 금요일까지 top5 문의 유형 정리해서 공유드릴게요. 알림 문구 캡처도 같이 넣을게요.",
+     "kept": false
+    }
+   ]
+  },
+  {
+   "meeting": "8.txt",
+   "id": "utt_8_49",
+   "said": "감사합니다. 그거 받으면 다음 주 초에 문구 개선안 작업 시작할게요.",
+   "written": "감사해, top5 문의 유형 정리 문서를 받으면 다음 주 초에 문구 개선안 작업 시작할게요.",
+   "cited": 1,
+   "answers": [
+    {
+     "model": "gemini-3.5-flash-lite",
+     "why": "ok",
+     "wrote": "감사해, top5 문의 유형 정리 문서를 받으면 다음 주 초에 문구 개선안 작업 시작할게요.",
+     "kept": true
+    }
+   ]
+  }
+ ],
+ "decisions": [
+  {
+   "id": "utt_m_4",
+   "asked_today": false,
+   "said": "네 그럼 타임아웃은 5초로 늘리고 재시도 한 번 넣는 걸로 하겠습니다.",
+   "today": "타임아웃은 5초로 늘리고 재시도 한 번 넣는 걸로 결정",
+   "written": "타임아웃은 5초로 늘리고 재시도 한 번 넣기로 했습니다",
+   "cited": 2,
+   "answers": [
+    {
+     "model": "gemini-3.5-flash-lite",
+     "why": "ok",
+     "wrote": "타임아웃은 5초로 늘리고 재시도 한 번 넣기로 했습니다",
+     "kept": true
+    }
+   ]
+  },
+  {
+   "id": "utt_m_8",
+   "asked_today": false,
+   "said": "공지는 오늘 오후 3시에 올리는 걸로 하죠.",
+   "today": "공지는 오늘 오후 3시에 올리는 걸로 결정 (기한 2026-10-08)",
+   "written": "공지는 오늘 오후 3시에 올리기로 했습니다",
+   "cited": 0,
+   "answers": [
+    {
+     "model": "gemini-3.5-flash-lite",
+     "why": "ok",
+     "wrote": "공지는 오늘 오후 3시에 올리기로 했습니다",
+     "kept": true
+    }
+   ]
+  },
+  {
+   "id": "utt_m_13",
+   "asked_today": true,
+   "said": "그럼 이번에는 약관 동의만 마지막으로 옮기고 단계 수는 그대로 두기로 합시다.",
+   "today": "이번에는 약관 동의만 마지막으로 옮기고 단계 수는 그대로 두기로 함",
+   "written": "이번에는 약관 동의만 마지막으로 옮기고 단계 수는 그대로 두기로 했습니다",
+   "cited": 2,
+   "answers": [
+    {
+     "model": "gemini-3.5-flash-lite",
+     "why": "ok",
+     "wrote": "이번에는 약관 동의만 마지막으로 옮기고 단계 수는 그대로 두기로 했습니다",
+     "kept": true
+    }
+   ]
+  },
+  {
+   "id": "utt_m_19",
+   "asked_today": true,
+   "said": "그렇게 갑시다.",
+   "today": "그렇게 갑시다.",
+   "written": "다음 주 화요일에 출시하기로 했습니다",
+   "cited": 3,
+   "answers": [
+    {
+     "model": "gemini-3.5-flash-lite",
+     "why": "ok",
+     "wrote": "다음 주 화요일에 출시하기로 했습니다",
+     "kept": true
+    }
+   ]
+  },
+  {
+   "id": "utt_m_24",
+   "asked_today": false,
+   "said": "네 메일은 출시 다음 날인 수요일 오전에 보내는 걸로 결정하겠습니다.",
+   "today": "메일은 출시 다음 날인 수요일 오전에 보내는 걸로 결정 예정 (기한 2026-10-14)",
+   "written": "마케팅 메일은 출시 다음 날인 수요일 오전에 보내기로 했습니다",
+   "cited": 2,
+   "answers": [
+    {
+     "model": "gemini-3.5-flash-lite",
+     "why": "ok",
+     "wrote": "마케팅 메일은 출시 다음 날인 수요일 오전에 보내기로 했습니다",
+     "kept": true
+    }
+   ]
+  },
+  {
+   "id": "utt_m_28",
+   "asked_today": true,
+   "said": "그건 법무 검토가 끝난 뒤에 하기로 하고 이번 출시에는 넣지 않겠습니다.",
+   "today": "그건 법무 검토가 끝난 뒤에 하기로 하고 이번 출시에는 넣지 않겠습니다.",
+   "written": "환불 정책 안내 문구 변경은 법무 검토가 끝난 뒤에 하기로 하고 이번 출시에는 넣지 않기로 했습니다",
+   "cited": 2,
+   "answers": [
+    {
+     "model": "gemini-3.5-flash-lite",
+     "why": "ok",
+     "wrote": "환불 정책 안내 문구 변경은 법무 검토가 끝난 뒤에 하기로 하고 이번 출시에는 넣지 않기로 했습니다",
+     "kept": true
+    }
+   ]
+  },
+  {
+   "id": "utt_m_32",
+   "asked_today": false,
+   "said": "다크 모드는 이번 출시에서 빼고 다음 분기로 미룹니다.",
+   "today": "다크 모드는 이번 출시에서 빼고 다음 분기로 미룹니다.",
+   "written": "다크 모드는 이번 출시에서 빼고 다음 분기로 미루기로 했습니다",
+   "cited": 0,
+   "answers": [
+    {
+     "model": "gemini-3.5-flash-lite",
+     "why": "ok",
+     "wrote": "다크 모드는 이번 출시에서 빼고 다음 분기로 미루기로 했습니다",
+     "kept": true
+    }
+   ]
+  },
+  {
+   "id": "utt_m_36",
+   "asked_today": false,
+   "said": "그 정도면 괜찮으니 90일로 늘립시다.",
+   "today": "그 정도면 괜찮으니 90일로 늘립시다.",
+   "written": "로그 보관 기간은 90일로 늘리기로 했습니다",
+   "cited": 3,
+   "answers": [
+    {
+     "model": "gemini-3.5-flash-lite",
+     "why": "ok",
+     "wrote": "로그 보관 기간은 90일로 늘리기로 했습니다",
+     "kept": true
+    }
+   ]
+  },
+  {
+   "id": "utt_m_40",
+   "asked_today": false,
+   "said": "200명한테 보내고 응답이 50개 넘으면 마감하는 걸로 하죠.",
+   "today": "200명한테 보내고 응답이 50개 넘으면 마감하는 걸로 결정",
+   "written": "베타 사용자 설문은 200명한테 보내고 응답이 50개 넘으면 마감하는 걸로 정했습니다",
+   "cited": 2,
+   "answers": [
+    {
+     "model": "gemini-3.5-flash-lite",
+     "why": "ok",
+     "wrote": "베타 사용자 설문은 200명한테 보내고 응답이 50개 넘으면 마감하는 걸로 정했습니다",
+     "kept": true
+    }
+   ]
+  },
+  {
+   "id": "utt_m_44",
+   "asked_today": true,
+   "said": "좋아요 그렇게 하시죠.",
+   "today": "좋아요 그렇게 하시죠.",
+   "written": "고객센터 운영 시간은 출시 주에만 밤 10시까지로 늘리기로 했습니다",
+   "cited": 2,
+   "answers": [
+    {
+     "model": "gemini-3.5-flash-lite",
+     "why": "ok",
+     "wrote": "고객센터 운영 시간은 출시 주에만 밤 10시까지로 늘리기로 했습니다",
+     "kept": true
+    }
+   ]
+  },
+  {
+   "id": "utt_m_48",
+   "asked_today": true,
+   "said": "그럼 아이콘은 B안으로 확정합니다.",
+   "today": "아이콘은 B안으로 확정함",
+   "written": "앱 아이콘은 B안으로 확정하기로 했습니다",
+   "cited": 2,
+   "answers": [
+    {
+     "model": "gemini-3.5-flash-lite",
+     "why": "ok",
+     "wrote": "앱 아이콘은 B안으로 확정하기로 했습니다",
+     "kept": true
+    }
+   ]
+  },
+  {
+   "id": "utt_m_52",
+   "asked_today": false,
+   "said": "다음 회의는 출시 전날인 월요일 오후 2시에 하겠습니다.",
+   "today": "다음 회의는 출시 전날인 월요일 오후 2시에 할 예정 (기한 2026-10-12)",
+   "written": "다음 회의는 출시 전날인 월요일 오후 2시에 하기로 했습니다",
+   "cited": 1,
+   "answers": [
+    {
+     "model": "gemini-3.5-flash-lite",
+     "why": "ok",
+     "wrote": "다음 회의는 출시 전날인 월요일 오후 2시에 하기로 했습니다",
+     "kept": true
+    }
+   ]
+  }
+ ]
+}

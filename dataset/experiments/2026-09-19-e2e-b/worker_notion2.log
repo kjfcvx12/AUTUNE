@@ -1,0 +1,91 @@
+ 
+ -------------- celery@DESKTOP-0LP7MNC v5.6.3 (recovery)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2026-09-19 11:05:53
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         autune:0x1c77cc344a0
+- ** ---------- .> transport:   redis://localhost:56379/0
+- ** ---------- .> results:     redis://localhost:56379/0
+- *** --- * --- .> concurrency: 6 (solo)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> cpu_heavy        exchange=cpu_heavy(direct) key=cpu_heavy
+                .> default          exchange=default(direct) key=default
+
+[tasks]
+  . autune.audio.process_recording
+  . autune.context.on_extraction_completed
+  . autune.context.on_transcript_ready
+  . autune.context.publish_if_ready
+  . autune.extraction.on_transcript_ready
+  . autune.extraction.sync_action_item
+  . autune.gap.on_transcript_ready
+  . autune.intelligence.aggregate
+  . autune.intelligence.generate_weekly_report
+  . autune.intelligence.on_context_completed
+  . autune.intelligence.on_extraction_completed
+  . autune.intelligence.on_gap_completed
+  . autune.intelligence.send_personal_feedback
+
+[2026-09-19 11:05:53,673: INFO/MainProcess] Connected to redis://localhost:56379/0
+[2026-09-19 11:05:53,679: INFO/MainProcess] mingle: searching for neighbors
+[2026-09-19 11:05:54,706: INFO/MainProcess] mingle: all alone
+[2026-09-19 11:05:54,734: INFO/MainProcess] celery@DESKTOP-0LP7MNC ready.
+[2026-09-19 11:05:59,421: INFO/MainProcess] Task autune.context.on_transcript_ready[74bb15cd-ddc7-4de6-8b25-d996cf32e0a7] received
+[2026-09-19 11:05:59,423: WARNING/MainProcess] [2m2026-09-19T02:05:59.423976Z[0m [[32m[1minfo     [0m] [1mcontext_received_transcript   [0m [36mmeeting_id[0m=[35mmtg_41b7c194caeb4b7b84817aea8b3ecfbe[0m [36mutterances[0m=[35m307[0m
+[2026-09-19 11:06:02,663: WARNING/MainProcess] [2m2026-09-19T02:06:02.663672Z[0m [[32m[1minfo     [0m] [1mcontext_topics_extracted      [0m [36mmeeting_id[0m=[35mmtg_41b7c194caeb4b7b84817aea8b3ecfbe[0m [36mtopics[0m=[35m72[0m
+[2026-09-19 11:06:02,946: WARNING/MainProcess] [2m2026-09-19T02:06:02.946768Z[0m [[32m[1minfo     [0m] [1mcontext_topic_linking_done    [0m [36mlinks[0m=[35m0[0m [36mmeeting_id[0m=[35mmtg_41b7c194caeb4b7b84817aea8b3ecfbe[0m
+[2026-09-19 11:06:02,997: INFO/MainProcess] Task autune.context.on_transcript_ready[74bb15cd-ddc7-4de6-8b25-d996cf32e0a7] succeeded in 3.5780000000959262s: None
+[2026-09-19 11:06:03,001: INFO/MainProcess] Task autune.extraction.on_transcript_ready[4895f45f-4a21-4d33-b17f-26fadc773d4c] received
+[2026-09-19 11:06:03,005: WARNING/MainProcess] [2m2026-09-19T02:06:03.004770Z[0m [[32m[1minfo     [0m] [1mextraction_received_transcript[0m [36mmeeting_id[0m=[35mmtg_41b7c194caeb4b7b84817aea8b3ecfbe[0m [36mutterances[0m=[35m307[0m
+[2026-09-19 11:06:42,329: WARNING/MainProcess] C:\Users\hi\AppData\Local\Temp\claude\F--0final-AUTUNE\2a5d0628-8d00-4e25-82ef-4e9204cd7909\scratchpad\wt247\.venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+
+[2026-09-19 11:06:42,653: WARNING/MainProcess] Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]
+[2026-09-19 11:06:42,690: WARNING/MainProcess] Loading weights: 100%|##########| 202/202 [00:00<00:00, 5517.56it/s]
+[2026-09-19 11:06:42,714: WARNING/MainProcess] [2m2026-09-19T02:06:42.714232Z[0m [[32m[1minfo     [0m] [1mextraction_classifier_loaded  [0m [36mcheckpoint[0m=[35mF:/0final/AUTUNE/dataset/experiments/2026-09-15-korean-v1/run_syn_none_probe[0m [36mdevice[0m=[35mcpu[0m
+[2026-09-19 11:06:49,518: WARNING/MainProcess] [2m2026-09-19T02:06:49.518372Z[0m [[32m[1minfo     [0m] [1mextraction_decisions_built    [0m [36mcount[0m=[35m10[0m [36mmeeting_id[0m=[35mmtg_41b7c194caeb4b7b84817aea8b3ecfbe[0m
+[2026-09-19 11:06:49,607: WARNING/MainProcess] [2m2026-09-19T02:06:49.607952Z[0m [[32m[1minfo     [0m] [1mextraction_classified         [0m [36maction_items[0m=[35m35[0m [36mambiguous[0m=[35m25[0m [36mclassified[0m=[35m138[0m [36mdecisions[0m=[35m10[0m [36mexcluded[0m=[35m0[0m [36mmeeting_id[0m=[35mmtg_41b7c194caeb4b7b84817aea8b3ecfbe[0m [36mmodel_version[0m=[35mF:/0final/AUTUNE/dataset/experiments/2026-09-15-korean-v1/run_syn_none_probe[0m [36mutterances[0m=[35m307[0m
+[2026-09-19 11:06:49,696: WARNING/MainProcess] [2m2026-09-19T02:06:49.696466Z[0m [[32m[1minfo     [0m] [1mevent_published               [0m [36mevent_name[0m=[35mautune.extraction.completed[0m [36msubscribers[0m=[35m2[0m
+[2026-09-19 11:06:49,698: INFO/MainProcess] Task autune.extraction.on_transcript_ready[4895f45f-4a21-4d33-b17f-26fadc773d4c] succeeded in 46.70299999997951s: None
+[2026-09-19 11:06:49,703: INFO/MainProcess] Task autune.intelligence.on_extraction_completed[10c2abdd-f281-462c-8060-7b26be75fe11] received
+[2026-09-19 11:06:49,785: WARNING/MainProcess] [2m2026-09-19T02:06:49.785260Z[0m [[32m[1minfo     [0m] [1mintelligence_completion_recorded[0m [36malready_aggregated[0m=[35mFalse[0m [36mfirst[0m=[35mTrue[0m [36mmeeting_id[0m=[35mmtg_41b7c194caeb4b7b84817aea8b3ecfbe[0m [36mready[0m=[35mFalse[0m [36msource[0m=[35mextraction[0m
+[2026-09-19 11:06:49,797: INFO/MainProcess] Task autune.intelligence.on_extraction_completed[10c2abdd-f281-462c-8060-7b26be75fe11] succeeded in 0.09399999992456287s: None
+[2026-09-19 11:06:49,817: INFO/MainProcess] Task autune.gap.on_transcript_ready[17feba30-2c28-4121-b939-296ab5dc015f] received
+[2026-09-19 11:06:49,826: WARNING/MainProcess] [2m2026-09-19T02:06:49.825874Z[0m [[32m[1minfo     [0m] [1mgap_received_transcript       [0m [36mmeeting_id[0m=[35mmtg_41b7c194caeb4b7b84817aea8b3ecfbe[0m [36mutterances[0m=[35m307[0m
+[2026-09-19 11:06:50,030: WARNING/MainProcess] [2m2026-09-19T02:06:50.030881Z[0m [[32m[1minfo     [0m] [1mgap_topic_graph_built         [0m [36medges[0m=[35m10[0m [36mexcluded[0m=[35m0[0m [36mextractor[0m=[35mfake[0m [36mmeeting_id[0m=[35mmtg_41b7c194caeb4b7b84817aea8b3ecfbe[0m [36mtopics[0m=[35m10[0m [36mutterances[0m=[35m307[0m
+[2026-09-19 11:06:50,100: WARNING/MainProcess] [2m2026-09-19T02:06:50.100902Z[0m [[32m[1minfo     [0m] [1mevent_published               [0m [36mevent_name[0m=[35mautune.gap.completed[0m [36msubscribers[0m=[35m1[0m
+[2026-09-19 11:06:50,100: WARNING/MainProcess] [2m2026-09-19T02:06:50.100902Z[0m [[32m[1minfo     [0m] [1mgap_report_published          [0m [36mgaps[0m=[35m0[0m [36mmeeting_id[0m=[35mmtg_41b7c194caeb4b7b84817aea8b3ecfbe[0m [36mtopics[0m=[35m10[0m
+[2026-09-19 11:06:50,102: INFO/MainProcess] Task autune.gap.on_transcript_ready[17feba30-2c28-4121-b939-296ab5dc015f] succeeded in 0.28200000000651926s: None
+[2026-09-19 11:06:50,106: INFO/MainProcess] Task autune.intelligence.on_gap_completed[bd435e61-e6e4-400e-9900-898b077000b5] received
+[2026-09-19 11:06:50,159: WARNING/MainProcess] [2m2026-09-19T02:06:50.159721Z[0m [[32m[1minfo     [0m] [1mintelligence_completion_recorded[0m [36malready_aggregated[0m=[35mFalse[0m [36mfirst[0m=[35mFalse[0m [36mmeeting_id[0m=[35mmtg_41b7c194caeb4b7b84817aea8b3ecfbe[0m [36mready[0m=[35mFalse[0m [36msource[0m=[35mgap[0m
+[2026-09-19 11:06:50,162: INFO/MainProcess] Task autune.intelligence.on_gap_completed[bd435e61-e6e4-400e-9900-898b077000b5] succeeded in 0.0470000000204891s: None
+[2026-09-19 11:06:50,165: INFO/MainProcess] Task autune.context.publish_if_ready[f627bd9a-bef7-43c9-8f1b-e9690768ceab] received
+[2026-09-19 11:06:50,169: WARNING/MainProcess] [2m2026-09-19T02:06:50.168721Z[0m [[32m[1minfo     [0m] [1mcontext_publish_checked       [0m [36mmeeting_id[0m=[35mmtg_41b7c194caeb4b7b84817aea8b3ecfbe[0m [36mpublished[0m=[35mFalse[0m
+[2026-09-19 11:06:50,170: INFO/MainProcess] Task autune.context.publish_if_ready[f627bd9a-bef7-43c9-8f1b-e9690768ceab] succeeded in 0.015999999945051968s: None
+[2026-09-19 11:06:50,172: INFO/MainProcess] Task autune.context.publish_if_ready[8ef957de-c85f-4e95-88de-e5fd81883441] received
+[2026-09-19 11:06:50,175: INFO/MainProcess] Task autune.context.on_extraction_completed[80a8664f-192a-46e3-866e-745ad4fdc71c] received
+[2026-09-19 11:06:50,176: WARNING/MainProcess] [2m2026-09-19T02:06:50.176721Z[0m [[32m[1minfo     [0m] [1mcontext_received_extraction   [0m [36mdecisions[0m=[35m10[0m [36mmeeting_id[0m=[35mmtg_41b7c194caeb4b7b84817aea8b3ecfbe[0m
+[2026-09-19 11:06:50,263: WARNING/MainProcess] [2m2026-09-19T02:06:50.263889Z[0m [[32m[1minfo     [0m] [1mcontext_decision_lineage_done [0m [36mdecisions[0m=[35m10[0m [36mlabels_swept[0m=[35m0[0m [36mmatched[0m=[35m0[0m [36mmeeting_id[0m=[35mmtg_41b7c194caeb4b7b84817aea8b3ecfbe[0m [36mnew_threads[0m=[35m10[0m [36mstatements_swept[0m=[35m0[0m [36mthreads_swept[0m=[35m0[0m
+[2026-09-19 11:06:50,271: INFO/MainProcess] Task autune.context.on_extraction_completed[80a8664f-192a-46e3-866e-745ad4fdc71c] succeeded in 0.0940000000409782s: None
+[2026-09-19 11:06:50,274: INFO/MainProcess] Task autune.intelligence.aggregate[16320084-fc6d-4045-aa33-60f3ae9071b8] received
+[2026-09-19 11:06:50,276: INFO/MainProcess] Task autune.context.publish_if_ready[a5645614-cb96-4bd7-8e28-fd45863b7e70] received
+[2026-09-19 11:06:50,329: WARNING/MainProcess] [2m2026-09-19T02:06:50.328445Z[0m [[32m[1minfo     [0m] [1mcontext_published             [0m [36mmeeting_id[0m=[35mmtg_41b7c194caeb4b7b84817aea8b3ecfbe[0m [36mmissing_sources[0m=[35m[][0m [36mtopic_links[0m=[35m0[0m
+[2026-09-19 11:06:50,336: WARNING/MainProcess] [2m2026-09-19T02:06:50.336399Z[0m [[32m[1minfo     [0m] [1mcontext_publish_checked       [0m [36mmeeting_id[0m=[35mmtg_41b7c194caeb4b7b84817aea8b3ecfbe[0m [36mpublished[0m=[35mTrue[0m
+[2026-09-19 11:06:50,338: INFO/MainProcess] Task autune.context.publish_if_ready[a5645614-cb96-4bd7-8e28-fd45863b7e70] succeeded in 0.0470000000204891s: None
+[2026-09-19 11:06:50,341: INFO/MainProcess] Task autune.intelligence.on_context_completed[1975e425-a942-4665-aace-4cb57b0b95c6] received
+[2026-09-19 11:06:50,392: WARNING/MainProcess] [2m2026-09-19T02:06:50.392760Z[0m [[32m[1minfo     [0m] [1mintelligence_completion_recorded[0m [36malready_aggregated[0m=[35mFalse[0m [36mfirst[0m=[35mFalse[0m [36mmeeting_id[0m=[35mmtg_41b7c194caeb4b7b84817aea8b3ecfbe[0m [36mready[0m=[35mTrue[0m [36msource[0m=[35mcontext[0m
+[2026-09-19 11:06:50,395: INFO/MainProcess] Task autune.intelligence.on_context_completed[1975e425-a942-4665-aace-4cb57b0b95c6] succeeded in 0.0470000000204891s: None
+[2026-09-19 11:06:50,397: INFO/MainProcess] Task autune.intelligence.aggregate[4374852e-464e-41f6-bad1-78c0ff5f42cb] received
+[2026-09-19 11:06:50,416: WARNING/MainProcess] [2m2026-09-19T02:06:50.416759Z[0m [[33m[1mwarning  [0m] [1mevent_no_subscribers          [0m [36mevent_name[0m=[35mautune.intelligence.completed[0m
+[2026-09-19 11:06:50,416: WARNING/MainProcess] [2m2026-09-19T02:06:50.416759Z[0m [[32m[1minfo     [0m] [1mintelligence_aggregate_published[0m [36mgrade[0m=[35mC[0m [36mmeeting_id[0m=[35mmtg_41b7c194caeb4b7b84817aea8b3ecfbe[0m [36mmissing_sources[0m=[35m[][0m
+[2026-09-19 11:06:50,419: INFO/MainProcess] Task autune.intelligence.aggregate[4374852e-464e-41f6-bad1-78c0ff5f42cb] succeeded in 0.030999999959021807s: None
+[2026-09-19 11:06:50,421: INFO/MainProcess] Task autune.intelligence.send_personal_feedback[770c2ba1-5f59-4934-91f5-660ce82dbd23] received
+[2026-09-19 11:06:50,426: WARNING/MainProcess] [2m2026-09-19T02:06:50.426802Z[0m [[32m[1minfo     [0m] [1mintelligence_personal_feedback_no_slack[0m [36mmeeting_id[0m=[35mmtg_41b7c194caeb4b7b84817aea8b3ecfbe[0m [36mteam_id[0m=[35mteam_5762f4e72d7a4d87989b11346fafe13f[0m
+[2026-09-19 11:06:50,429: INFO/MainProcess] Task autune.intelligence.send_personal_feedback[770c2ba1-5f59-4934-91f5-660ce82dbd23] succeeded in 0.0s: None
+[2026-09-19 11:08:03,001: WARNING/MainProcess] [2m2026-09-19T02:08:03.001420Z[0m [[32m[1minfo     [0m] [1mcontext_publish_checked       [0m [36mmeeting_id[0m=[35mmtg_41b7c194caeb4b7b84817aea8b3ecfbe[0m [36mpublished[0m=[35mFalse[0m
+[2026-09-19 11:08:03,048: INFO/MainProcess] Task autune.context.publish_if_ready[8ef957de-c85f-4e95-88de-e5fd81883441] succeeded in 0.06299999996554106s: None
+[2026-09-19 11:08:49,796: WARNING/MainProcess] [2m2026-09-19T02:08:49.796666Z[0m [[32m[1minfo     [0m] [1mintelligence_aggregate_skipped[0m [36mmeeting_id[0m=[35mmtg_41b7c194caeb4b7b84817aea8b3ecfbe[0m
+[2026-09-19 11:08:49,798: INFO/MainProcess] Task autune.intelligence.aggregate[16320084-fc6d-4045-aa33-60f3ae9071b8] succeeded in 0.015999999945051968s: None

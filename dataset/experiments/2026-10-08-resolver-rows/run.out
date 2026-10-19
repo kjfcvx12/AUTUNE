@@ -1,0 +1,28 @@
+key lines in .env: 1; the one read (last): c41ba374
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-10-08T07:38:10.857071Z [info     ] integration_call               method=POST path=/models/gemini-3.5-flash-lite:generateContent service=extraction-llm-classifier
+2026-10-08T07:38:10.866120Z [info     ] extraction_resolver_batch      items=6 resolved=6
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-10-08T07:38:14.252859Z [info     ] integration_call               method=POST path=/models/gemini-3.5-flash-lite:generateContent service=extraction-llm-classifier
+2026-10-08T07:38:14.254861Z [info     ] extraction_resolver_batch      items=6 resolved=6
+decisions: rows 12 (asked today 5, new with W2 7), requests 2
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-10-08T07:38:17.973110Z [info     ] integration_call               method=POST path=/models/gemini-3.5-flash-lite:generateContent service=extraction-llm-classifier
+2026-10-08T07:38:17.975135Z [info     ] extraction_resolver_batch      items=6 resolved=6
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-10-08T07:38:21.128144Z [info     ] integration_call               method=POST path=/models/gemini-3.5-flash-lite:generateContent service=extraction-llm-classifier
+2026-10-08T07:38:21.129143Z [info     ] extraction_resolver_batch      items=4 resolved=4
+items invented: rows 10, requests 2
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-10-08T07:38:24.291381Z [info     ] integration_call               method=POST path=/models/gemini-3.5-flash-lite:generateContent service=extraction-llm-classifier
+2026-10-08T07:38:24.292381Z [info     ] extraction_resolver_batch      items=2 resolved=2
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-10-08T07:38:27.656474Z [info     ] integration_call               method=POST path=/models/gemini-3.5-flash-lite:generateContent service=extraction-llm-classifier
+2026-10-08T07:38:27.657085Z [info     ] extraction_resolver_batch      items=4 resolved=4
+HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-10-08T07:38:30.972540Z [info     ] integration_call               method=POST path=/models/gemini-3.5-flash-lite:generateContent service=extraction-llm-classifier
+2026-10-08T07:38:30.977541Z [info     ] extraction_resolver_batch      items=4 resolved=4
+items 8.txt: rows 10, requests 3
+items: 20 rows, written 12, no answer for 0
+decisions: 12 rows, written 12, no answer for 0
+requests sent: 7 (cap 16)

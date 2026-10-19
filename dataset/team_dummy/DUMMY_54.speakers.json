@@ -1,0 +1,79 @@
+{
+  "meeting": "DUMMY_54",
+  "title": "법무법인 도담새 송무2팀 영업비밀 가처분 사건 준비 회의 (대표변호사 참석)",
+  "type": "with-senior",
+  "position_order": [
+    "사무원",
+    "패러리걸",
+    "어소시에이트",
+    "시니어 어소시에이트",
+    "파트너",
+    "대표변호사"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "남기윤",
+      "team": "송무2팀",
+      "job": "Lawyer",
+      "position": "파트너",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "황보진",
+      "team": "경영진",
+      "job": "Lawyer",
+      "position": "대표변호사",
+      "title": "대표"
+    },
+    {
+      "speaker": "SPK03",
+      "name": "차유림",
+      "team": "송무2팀",
+      "job": "Lawyer",
+      "position": "시니어 어소시에이트",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "도건우",
+      "team": "송무2팀",
+      "job": "Lawyer",
+      "position": "어소시에이트",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "채나연",
+      "team": "송무2팀",
+      "job": "Lawyer",
+      "position": "어소시에이트",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "봉세진",
+      "team": "송무2팀",
+      "job": "Paralegal",
+      "position": "패러리걸",
+      "title": ""
+    },
+    {
+      "speaker": "SPK07",
+      "name": "진하람",
+      "team": "송무지원실",
+      "job": "Admin",
+      "position": "사무원",
+      "title": ""
+    },
+    {
+      "speaker": "SPK08",
+      "name": "위소담",
+      "team": "지식재산팀",
+      "job": "Patent",
+      "position": "시니어 어소시에이트",
+      "title": ""
+    }
+  ]
+}

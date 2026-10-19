@@ -1,0 +1,77 @@
+{
+  "meeting": "DUMMY_98",
+  "title": "모아크레딧 개인신용대출 심사·리스크모델 합동 점검 회의",
+  "type": "cross-team",
+  "position_order": [
+    "매니저",
+    "시니어",
+    "리드",
+    "헤드"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "한도윤",
+      "team": "여신심사팀",
+      "job": "Underwriting",
+      "position": "리드",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "오세린",
+      "team": "여신심사팀",
+      "job": "Underwriting",
+      "position": "시니어",
+      "title": "파트장"
+    },
+    {
+      "speaker": "SPK03",
+      "name": "표준기",
+      "team": "여신심사팀",
+      "job": "Underwriting",
+      "position": "매니저",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "설아름",
+      "team": "리스크모델링팀",
+      "job": "Data",
+      "position": "리드",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK05",
+      "name": "인재욱",
+      "team": "리스크모델링팀",
+      "job": "Data",
+      "position": "매니저",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "맹소희",
+      "team": "컴플라이언스팀",
+      "job": "Legal",
+      "position": "시니어",
+      "title": ""
+    },
+    {
+      "speaker": "SPK07",
+      "name": "봉현수",
+      "team": "대출프로덕트팀",
+      "job": "PM",
+      "position": "시니어",
+      "title": ""
+    },
+    {
+      "speaker": "SPK08",
+      "name": "육지훈",
+      "team": "리스크관리실",
+      "job": "Risk",
+      "position": "헤드",
+      "title": "실장"
+    }
+  ]
+}

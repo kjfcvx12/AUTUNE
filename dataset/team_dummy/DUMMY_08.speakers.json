@@ -1,0 +1,57 @@
+{
+  "meeting": "DUMMY_08",
+  "title": "9월 월간 리텐션 리포트 점검 (실무자 회의, 팀장 불참)",
+  "type": "peers",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "한지수",
+      "team": "데이터분석팀",
+      "job": "Data",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK02",
+      "name": "오태민",
+      "team": "데이터분석팀",
+      "job": "Data",
+      "position": "주임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "윤서진",
+      "team": "데이터분석팀",
+      "job": "Data",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "정도현",
+      "team": "데이터분석팀",
+      "job": "ML",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "배수아",
+      "team": "데이터분석팀",
+      "job": "PM",
+      "position": "주임",
+      "title": ""
+    }
+  ]
+}

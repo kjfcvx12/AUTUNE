@@ -1,0 +1,65 @@
+{
+  "meeting": "DUMMY_06",
+  "title": "금요일 저녁 주문 장애 회고",
+  "type": "cross-team",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "정태호",
+      "team": "인프라팀",
+      "job": "Ops",
+      "position": "과장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "윤서진",
+      "team": "인프라팀",
+      "job": "Ops",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "한상욱",
+      "team": "백엔드팀",
+      "job": "Dev",
+      "position": "차장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK04",
+      "name": "김도현",
+      "team": "백엔드팀",
+      "job": "Dev",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "이지은",
+      "team": "CS팀",
+      "job": "CS",
+      "position": "주임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "박준영",
+      "team": "인프라팀",
+      "job": "Ops",
+      "position": "사원",
+      "title": ""
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "meeting": "DUMMY_71",
+  "title": "솔담시큐리티 보안관제팀 교대 인수인계 및 탐지룰 튜닝 회의",
+  "type": "team",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "오태석",
+      "team": "보안관제팀",
+      "job": "SecOps",
+      "position": "차장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "한지우",
+      "team": "보안관제팀",
+      "job": "SecOps",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "민채원",
+      "team": "보안관제팀",
+      "job": "SecOps",
+      "position": "주임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "윤세라",
+      "team": "보안관제팀",
+      "job": "Dev",
+      "position": "과장",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "강도현",
+      "team": "보안관제팀",
+      "job": "SecOps",
+      "position": "사원",
+      "title": ""
+    }
+  ]
+}

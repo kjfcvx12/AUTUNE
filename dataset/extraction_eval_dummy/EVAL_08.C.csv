@@ -1,0 +1,268 @@
+﻿row,utterance_id,start,speaker,role,text,kind,decision_id,settles,responds_to,note
+1,EVAL_08-0001,3.20,SPK03,Research,선생님 프로젝터 선이 또 빠져 있는데요.,none,,,,
+2,EVAL_08-0002,12.54,SPK01,Research,아 그거 뒤쪽에 꽂으면 돼요.,none,,,,
+3,EVAL_08-0003,19.73,SPK03,Research,어 됐다.,none,,,,
+4,EVAL_08-0004,22.96,SPK02,Research,은하 씨는요?,none,,,,
+5,EVAL_08-0005,26.91,SPK04,Research,저 여기 있습니다.,none,,,,
+6,EVAL_08-0006,31.94,SPK02,Research,아 뒤에 있었네.,none,,,,
+7,EVAL_08-0007,36.61,SPK03,Research,은하 씨 앞으로 와서 앉아요.,none,,,,
+8,EVAL_08-0008,43.80,SPK04,Research,네.,none,,,,
+9,EVAL_08-0009,45.96,SPK01,Research,다 왔죠?,none,,,,
+10,EVAL_08-0010,49.19,SPK02,Research,네.,none,,,,
+11,EVAL_08-0011,51.35,SPK01,Research,"아 시작하기 전에요,",none,,,,
+12,EVAL_08-0012,56.74,SPK01,Research,학과 안전교육 이수 다들 했어요?,open_question,,,,안전교육 이수 여부를 물음
+13,EVAL_08-0013,64.65,SPK03,Research,저는 지난주에 들었어요.,none,,,,
+14,EVAL_08-0014,70.76,SPK02,Research,저도요.,none,,,,
+15,EVAL_08-0015,73.64,SPK04,Research,저는 아직이요...,none,,,,
+16,EVAL_08-0016,78.67,SPK01,Research,은하 씨는 이번 주 안에 꼭 들어야 돼요.,open_question,,,,기한을 두고 교육 이수를 요청
+17,EVAL_08-0017,88.37,SPK04,Research,네 오늘 저녁에 듣겠습니다.,commitment,,,16,"요청 수락, 오늘 저녁으로 시점을 명시"
+18,EVAL_08-0018,95.20,SPK01,Research,온라인으로 두 시간이면 끝나요.,none,,,,
+19,EVAL_08-0019,102.75,SPK04,Research,네.,none,,,,
+20,EVAL_08-0020,104.91,SPK01,Research,그거 안 들으면 장비실 출입이 안 돼요.,none,,,,
+21,EVAL_08-0021,114.25,SPK04,Research,아 그렇구나.,none,,,,
+22,EVAL_08-0022,118.20,SPK02,Research,저 지난주에 들을 때 링크가 계속 끊겼어요.,none,,,,
+23,EVAL_08-0023,128.26,SPK03,Research,그거 크롬으로 하면 괜찮아요.,none,,,,
+24,EVAL_08-0024,135.45,SPK02,Research,아 저는 그냥 참고 들었네.,none,,,,
+25,EVAL_08-0025,142.28,SPK04,Research,감사합니다 참고할게요.,none,,,,
+26,EVAL_08-0026,148.03,SPK01,Research,자 그럼 지난주 거부터 봅시다.,none,,,,
+27,EVAL_08-0027,155.58,SPK01,Research,성빈 씨 엑스알디 결과 먼저 보죠.,none,D1,,,
+28,EVAL_08-0028,163.85,SPK03,Research,네 화면 띄울게요.,none,D1,,,
+29,EVAL_08-0029,168.88,SPK03,Research,"잠시만요, 이게 왜 이렇게 늦게 뜨지.",none,D1,,,
+30,EVAL_08-0030,177.86,SPK03,Research,아 됐어요.,none,D1,,,
+31,EVAL_08-0031,181.45,SPK03,Research,"지난주에 말씀드린 대로 팔백 도에서 네 시간 소성한 거고요,",none,D1,,,
+32,EVAL_08-0032,194.75,SPK03,Research,승온은 분당 십 도로 했습니다.,none,D1,,,
+33,EVAL_08-0033,202.30,SPK03,Research,그리고 이게 세 번 돌린 걸 겹쳐 놓은 거예요.,none,D1,,,
+34,EVAL_08-0034,213.08,SPK03,Research,그런데 보시면 여기 이십팔 도 부근에 피크가 하나 더 있어요.,none,D1,,,
+35,EVAL_08-0035,226.74,SPK02,Research,그거 이차상이죠?,open_question,D1,,,추가 피크의 정체를 물음
+36,EVAL_08-0036,231.41,SPK03,Research,"네 아마 산화물 쪽인 것 같은데요,",none,D1,,,
+37,EVAL_08-0037,239.68,SPK03,Research,정확히 뭔지는 아직 못 잡았어요.,none,D1,,,
+38,EVAL_08-0038,247.59,SPK01,Research,세 번 다 나왔어요?,open_question,D1,,,재현 여부를 물음
+39,EVAL_08-0039,252.98,SPK03,Research,두 번은 나왔고 한 번은 안 나왔어요.,none,D1,,,
+40,EVAL_08-0040,261.96,SPK01,Research,음.,none,D1,,,
+41,EVAL_08-0041,264.12,SPK02,Research,그게 제일 문제네요.,none,D1,,,
+42,EVAL_08-0042,269.51,SPK02,Research,나오다 안 나오다 하면 소성 조건 문제가 아닐 수도 있어요.,concern,D1,,39,재현 불일치를 들어 조건 탓이라는 전제에 이의
+43,EVAL_08-0043,282.81,SPK03,Research,"저도 그 생각을 했는데요,",none,D1,,,
+44,EVAL_08-0044,289.28,SPK03,Research,원료는 같은 배치로 썼어요.,none,D1,,,
+45,EVAL_08-0045,296.11,SPK03,Research,심지어 같은 병에서 덜었어요.,none,D1,,,
+46,EVAL_08-0046,303.30,SPK02,Research,칭량은 누가 했어요?,open_question,D1,,,칭량 담당자를 물음
+47,EVAL_08-0047,308.69,SPK03,Research,세 번 다 제가 했어요.,none,D1,,,
+48,EVAL_08-0048,314.80,SPK04,Research,저... 세 번째 거는 제가 옆에서 같이 했어요.,none,D1,,,
+49,EVAL_08-0049,325.94,SPK03,Research,아 맞다 그랬죠.,none,D1,,,
+50,EVAL_08-0050,330.61,SPK02,Research,세 번째가 이차상 안 나온 거예요?,open_question,D1,,,예외 배치를 특정해 물음
+51,EVAL_08-0051,338.88,SPK03,Research,네.,none,D1,,,
+52,EVAL_08-0052,341.04,SPK02,Research,...음.,none,D1,,,
+53,EVAL_08-0053,344.27,SPK04,Research,제가 뭘 잘못한 걸까요?,none,D1,,,
+54,EVAL_08-0054,350.38,SPK01,Research,그런 얘기 아니에요.,none,D1,,,
+55,EVAL_08-0055,355.77,SPK01,Research,오히려 차이가 있으면 그게 단서예요.,none,D1,,,
+56,EVAL_08-0056,364.40,SPK01,Research,실험은 다른 게 나오는 게 정보예요.,none,D1,,,
+57,EVAL_08-0057,373.03,SPK04,Research,아 네.,none,D1,,,
+58,EVAL_08-0058,375.91,SPK02,Research,분쇄 시간이 달랐을 수도 있어요.,none,D1,,,
+59,EVAL_08-0059,383.82,SPK03,Research,그건 다 삼십 분으로 맞췄는데요.,none,D1,,,
+60,EVAL_08-0060,391.73,SPK04,Research,저는 사십 분 돌렸어요.,none,D1,,,
+61,EVAL_08-0061,397.84,SPK03,Research,어?,none,D1,,,
+62,EVAL_08-0062,400.00,SPK04,Research,타이머가 사십 분으로 맞춰져 있어서 그냥 그대로 했어요.,none,D1,,,
+63,EVAL_08-0063,412.58,SPK02,Research,아...,none,D1,,,
+64,EVAL_08-0064,415.46,SPK03,Research,그걸 제가 확인을 안 했네요.,none,D1,,,
+65,EVAL_08-0065,422.65,SPK01,Research,그럼 분쇄 시간이 변수일 수 있겠네요.,none,D1,,,
+66,EVAL_08-0066,431.63,SPK02,Research,입도가 달라지면 반응성이 달라지니까요.,none,D1,,,
+67,EVAL_08-0067,440.61,SPK03,Research,그럼 다음에는 삼십 분이랑 사십 분을 같이 봐야겠네요.,none,D1,,,
+68,EVAL_08-0068,452.83,SPK01,Research,승온 속도도 같이 봐야 돼요.,none,D1,,,
+69,EVAL_08-0069,460.02,SPK01,Research,분당 십 도는 좀 빨라요.,none,D1,,,
+70,EVAL_08-0070,466.49,SPK02,Research,저도 오 도가 나을 것 같아요.,none,D1,,,
+71,EVAL_08-0071,474.04,SPK03,Research,오 도로 하면 시간이 거의 두 배로 걸려요.,concern,D1,,69,승온 속도 절반 안에 소요 시간 증가를 지적
+72,EVAL_08-0072,484.10,SPK02,Research,하룻밤 돌리면 되죠.,none,D1,,,
+73,EVAL_08-0073,489.49,SPK03,Research,장비를 밤에 돌려도 돼요?,open_question,D1,,,야간 가동 가능 여부를 물음
+74,EVAL_08-0074,495.96,SPK01,Research,관상로는 야간 가동 신청하면 돼요.,none,D1,,,
+75,EVAL_08-0075,504.23,SPK04,Research,그 신청 제가 해 볼까요?,open_question,D1,,,본인이 신청을 맡을지 의향을 물음
+76,EVAL_08-0076,510.70,SPK01,Research,은하 씨는 아직 장비 등록이 안 돼 있을 거예요.,none,D1,,,
+77,EVAL_08-0077,521.84,SPK04,Research,아 네...,none,D1,,,
+78,EVAL_08-0078,525.43,SPK03,Research,그건 제가 할게요.,commitment,D1,,,기한 없이 본인이 야간 가동 신청을 맡음
+79,EVAL_08-0079,530.46,SPK01,Research,"그럼 조건은 팔백 도 네 시간, 승온 분당 오 도로 한 세트 더.",decision,D1,1,,"논의를 랩장이 요약해 조건을 확정, 이견 없음"
+80,EVAL_08-0080,544.84,SPK02,Research,분쇄는요?,open_question,D1,,,분쇄 조건을 물음
+81,EVAL_08-0081,548.07,SPK01,Research,삼십 분이랑 사십 분 둘 다요.,none,D1,,,
+82,EVAL_08-0082,555.62,SPK03,Research,그럼 두 세트네요.,none,D1,,,
+83,EVAL_08-0083,560.65,SPK01,Research,네.,none,D1,,,
+84,EVAL_08-0084,562.81,SPK02,Research,그러면 비교가 되겠네요.,none,D1,,,
+85,EVAL_08-0085,568.92,SPK01,Research,그거 누가 언제 돌릴 거예요?,open_question,D2,,,담당자와 일정을 물음
+86,EVAL_08-0086,576.11,SPK03,Research,제가 해야죠.,none,D2,,,
+87,EVAL_08-0087,580.06,SPK02,Research,성빈 씨 이번 주에 조교 들어가잖아요.,concern,D2,,86,담당 자원에 조교 일정 부담을 지적
+88,EVAL_08-0088,589.04,SPK03,Research,화요일 목요일 오후만요.,none,D2,,,
+89,EVAL_08-0089,595.15,SPK02,Research,그래도 소성 걸어 놓고 자리 비우면 안 되잖아요.,none,D2,,,
+90,EVAL_08-0090,606.29,SPK03,Research,그건 그렇죠.,none,D2,,,
+91,EVAL_08-0091,610.24,SPK01,Research,은하 씨가 같이 붙으면 되죠.,none,D2,,,
+92,EVAL_08-0092,617.43,SPK04,Research,저 아직 관상로는 안 배웠어요.,none,D2,,,
+93,EVAL_08-0093,624.98,SPK03,Research,"배우면 돼요, 어렵지 않아요.",none,D2,,,
+94,EVAL_08-0094,632.17,SPK03,Research,가스 라인 여는 것만 조심하면 돼요.,none,D2,,,
+95,EVAL_08-0095,640.80,SPK01,Research,"소성은 성빈 씨가 목요일까지 두 세트 돌리고, 은하 씨가 옆에서 같이.",decision,D2,1,,담당자와 기한을 함께 정함
+96,EVAL_08-0096,655.80,SPK04,Research,네 알겠습니다.,none,D2,,,
+97,EVAL_08-0097,660.11,SPK03,Research,은하 씨 수요일 오전에 시간 돼요?,open_question,D2,,,교육 가능 시간을 물음
+98,EVAL_08-0098,668.38,SPK04,Research,네 괜찮습니다.,none,D2,,,
+99,EVAL_08-0099,672.69,SPK03,Research,그럼 그때 장비 먼저 보여 줄게요.,commitment,D2,,,본인이 장비 교육을 맡음
+100,EVAL_08-0100,680.96,SPK04,Research,네 감사합니다.,none,D2,,,
+101,EVAL_08-0101,685.27,SPK02,Research,시료는 한 번에 몇 그램씩 하죠?,open_question,D2,,,시료량을 물음
+102,EVAL_08-0102,693.18,SPK03,Research,이 그램씩이요.,none,D2,,,
+103,EVAL_08-0103,697.49,SPK02,Research,네.,none,D2,,,
+104,EVAL_08-0104,699.65,SPK04,Research,노트에 적어 둘게요.,none,D2,,,
+105,EVAL_08-0105,705.04,SPK03,Research,"아 관상로 얘기가 나와서 말인데요,",none,D3,,,
+106,EVAL_08-0106,713.31,SPK03,Research,열전대가 좀 이상한 것 같아요.,none,D3,,,
+107,EVAL_08-0107,720.86,SPK01,Research,어떻게 이상해요?,open_question,D3,,,증상을 물음
+108,EVAL_08-0108,725.53,SPK03,Research,설정은 팔백인데 실제로 재 보면 칠백팔십 정도 나와요.,none,D3,,,
+109,EVAL_08-0109,737.75,SPK02,Research,이십 도 차이면 큰데요.,none,D3,,,
+110,EVAL_08-0110,743.86,SPK03,Research,가운데는 맞고 끝 쪽이 떨어져요.,none,D3,,,
+111,EVAL_08-0111,751.77,SPK03,Research,"튜브 양 끝은 원래 좀 낮긴 한데,",none,D3,,,
+112,EVAL_08-0112,760.04,SPK03,Research,이 정도는 아니었어요.,none,D3,,,
+113,EVAL_08-0113,765.79,SPK01,Research,그거 언제부터 그랬어요?,open_question,D3,,,발생 시점을 물음
+114,EVAL_08-0114,771.90,SPK03,Research,여름에 한 번 이상했는데 그때는 그냥 넘어갔어요.,none,D3,,,
+115,EVAL_08-0115,783.04,SPK02,Research,그때 업체 부르기로 했었잖아요.,commitment,D3,,,"상기, 여름에 정한 업체 점검을 다시 언급"
+116,EVAL_08-0116,790.59,SPK03,Research,아 맞다.,none,D3,,,
+117,EVAL_08-0117,793.82,SPK01,Research,그게 왜 안 됐죠?,open_question,D3,,,미이행 사유를 물음
+118,EVAL_08-0118,798.85,SPK02,Research,견적이 좀 비쌌어요.,none,D3,,,
+119,EVAL_08-0119,804.24,SPK02,Research,출장비까지 하면 한 백이십 정도 나온다고 했어요.,none,D3,,,
+120,EVAL_08-0120,815.38,SPK01,Research,음.,none,D3,,,
+121,EVAL_08-0121,817.54,SPK02,Research,지금이라도 부르는 게 낫지 않아요?,open_question,D3,,,지금 점검을 부를지 의견을 물음
+122,EVAL_08-0122,825.81,SPK03,Research,부르면 며칠은 세워야 돼요.,concern,D3,,121,즉시 점검에 장비 정지 기간 문제를 제기
+123,EVAL_08-0123,832.64,SPK03,Research,지금 세우면 초록에 들어갈 데이터가 없어요.,none,D3,,,
+124,EVAL_08-0124,842.70,SPK02,Research,아 그러네.,none,D3,,,
+125,EVAL_08-0125,846.29,SPK01,Research,그럼 이 달은 어떻게 버텨요.,none,D3,,,
+126,EVAL_08-0126,853.48,SPK03,Research,끝 쪽은 안 쓰고 가운데만 쓰면 돼요.,none,D3,,,
+127,EVAL_08-0127,862.46,SPK04,Research,시료를 가운데만 놓는 거예요?,open_question,D3,,,임시 운용 방법을 물음
+128,EVAL_08-0128,869.65,SPK03,Research,네 한 번에 두 개씩만요.,none,D3,,,
+129,EVAL_08-0129,876.12,SPK02,Research,그러면 세 세트 돌리려면 시간이 또 늘어나죠.,none,D3,,,
+130,EVAL_08-0130,886.54,SPK03,Research,그건 어쩔 수 없어요.,none,D3,,,
+131,EVAL_08-0131,892.29,SPK01,Research,장비 업체 부르는 건 학회 끝나고.,decision,D3,1,,업체 점검을 학회 이후로 미룸
+132,EVAL_08-0132,900.56,SPK03,Research,네.,none,D3,,,
+133,EVAL_08-0133,902.72,SPK01,Research,대신 위치별 온도는 매번 기록해 두세요.,open_question,D3,,,온도 기록을 요청
+134,EVAL_08-0134,912.06,SPK03,Research,네 매번 재서 엑셀에 남겨 둘게요.,commitment,D3,,133,"요청 수락, 본인이 온도 기록을 맡음"
+135,EVAL_08-0135,920.33,SPK02,Research,그거 양식은 제가 만들어 둘게요.,commitment,D3,,,기한 없이 본인이 기록 양식 작성을 맡음
+136,EVAL_08-0136,928.24,SPK01,Research,좋아요.,none,D3,,,
+137,EVAL_08-0137,931.12,SPK04,Research,저도 볼 수 있어요?,none,D3,,,
+138,EVAL_08-0138,936.51,SPK02,Research,드라이브에 올려 둘게요.,none,D3,,,
+139,EVAL_08-0139,942.62,SPK03,Research,근데 온도를 재려면 열전대를 따로 하나 넣어야 되는데요.,none,D3,,,
+140,EVAL_08-0140,955.20,SPK02,Research,작년에 쓰던 휴대용 있잖아요.,none,D3,,,
+141,EVAL_08-0141,962.39,SPK03,Research,아 그게 어디 있는지 모르겠어요.,none,D3,,,
+142,EVAL_08-0142,970.30,SPK02,Research,서랍 맨 아래 칸에 있어요.,none,D3,,,
+143,EVAL_08-0143,977.13,SPK03,Research,아 네 찾아볼게요.,none,D3,,,
+144,EVAL_08-0144,982.16,SPK04,Research,저도 같이 찾아볼게요.,none,D3,,,
+145,EVAL_08-0145,987.91,SPK01,Research,"자 학회 얘기로 넘어가서요,",none,D4,,,
+146,EVAL_08-0146,994.74,SPK01,Research,추계 학술대회 초록 마감이 언제죠?,open_question,D4,,,초록 마감일을 물음
+147,EVAL_08-0147,1003.01,SPK02,Research,시월 이일 금요일이요.,none,D4,,,
+148,EVAL_08-0148,1008.76,SPK03,Research,이 주 남았네요.,none,D4,,,
+149,EVAL_08-0149,1013.43,SPK02,Research,정확히는 열이틀이요.,none,D4,,,
+150,EVAL_08-0150,1018.82,SPK01,Research,등록은 초록하고 따로죠?,open_question,D4,,,등록 절차를 물음
+151,EVAL_08-0151,1024.93,SPK02,Research,네 초록 승인 나고 해도 돼요.,none,D4,,,
+152,EVAL_08-0152,1032.48,SPK01,Research,이번 초록은 지원 선생이 일 저자로 내고.,decision,D4,1,,"상급자, 랩장 제안 후 아무도 답하지 않음"
+153,EVAL_08-0153,1042.18,SPK01,Research,성빈 씨 데이터도 같이 들어가고요.,none,D4,,,
+154,EVAL_08-0154,1050.45,SPK01,Research,제목은 한번 생각해 봐야 되는데.,none,D4,,,
+155,EVAL_08-0155,1058.36,SPK02,Research,제가 초안은 잡아 놨어요.,none,D4,,,
+156,EVAL_08-0156,1064.83,SPK02,Research,나트륨 이온 전도체 소결 조건 최적화 뭐 이런 식으로요.,none,D4,,,
+157,EVAL_08-0157,1077.41,SPK01,Research,음 조금 좁히는 게 좋겠어요.,none,D4,,,
+158,EVAL_08-0158,1084.60,SPK01,Research,최적화라고 하면 심사에서 물어봐요.,none,D4,,,
+159,EVAL_08-0159,1092.87,SPK02,Research,네 다시 한번 볼게요.,ambiguous,D4,,157,구체적 방향 없이 약하게 수용
+160,EVAL_08-0160,1098.62,SPK03,Research,초록에 들어갈 그림은 몇 개예요?,open_question,,,,초록 그림 수를 물음
+161,EVAL_08-0161,1106.53,SPK02,Research,보통 하나요.,none,,,,
+162,EVAL_08-0162,1110.48,SPK03,Research,그럼 엑스알디 하나 넣으면 끝이네요.,none,,,,
+163,EVAL_08-0163,1119.11,SPK02,Research,그게 제일 깔끔하죠.,none,,,,
+164,EVAL_08-0164,1124.50,SPK04,Research,저도 그림 만드는 거 배우고 싶어요.,none,,,,
+165,EVAL_08-0165,1133.13,SPK02,Research,그거 나중에 알려 줄게요.,commitment,,,,기한 없이 그림 작성 교육을 맡음
+166,EVAL_08-0166,1139.60,SPK01,Research,구두로 낼까요 포스터로 낼까요?,open_question,D5,,,발표 형식에 대한 의견을 물음
+167,EVAL_08-0167,1147.15,SPK02,Research,구두는 데이터가 좀 더 있어야 돼요.,concern,D5,,166,구두 발표안에 데이터 부족을 지적
+168,EVAL_08-0168,1155.78,SPK03,Research,재현도 아직 안 됐고요.,none,D5,,,
+169,EVAL_08-0169,1161.89,SPK01,Research,그렇죠.,none,D5,,,
+170,EVAL_08-0170,1164.77,SPK02,Research,저는 포스터가 나을 것 같아요.,none,D5,,,
+171,EVAL_08-0171,1172.32,SPK03,Research,포스터가 오히려 얘기를 더 많이 해요.,none,D5,,,
+172,EVAL_08-0172,1181.30,SPK01,Research,이번엔 포스터로 넣고.,decision,D5,1,,"발표 형식을 정함, 이견 없음"
+173,EVAL_08-0173,1187.05,SPK01,Research,봄에 구두로 가요.,none,D5,,,
+174,EVAL_08-0174,1192.08,SPK02,Research,네.,none,D5,,,
+175,EVAL_08-0175,1194.24,SPK03,Research,포스터면 은하 씨도 같이 가면 좋겠는데요.,none,,,,
+176,EVAL_08-0176,1203.94,SPK01,Research,은하 씨는 학회가 처음이죠.,none,,,,
+177,EVAL_08-0177,1210.77,SPK04,Research,네 처음이에요.,none,,,,
+178,EVAL_08-0178,1215.08,SPK01,Research,한 번 가 보면 감이 와요.,none,,,,
+179,EVAL_08-0179,1221.91,SPK04,Research,가고 싶어요.,none,,,,
+180,EVAL_08-0180,1225.86,SPK03,Research,포스터 서 있는 것만 해도 배우는 게 많아요.,none,,,,
+181,EVAL_08-0181,1236.28,SPK02,Research,출장비 신청은 제가 한꺼번에 올릴게요.,commitment,,,,기한 없이 출장비 신청을 맡음
+182,EVAL_08-0182,1245.26,SPK04,Research,감사합니다.,none,,,,
+183,EVAL_08-0183,1248.85,SPK01,Research,초록에 재현 데이터 넣을 거예요?,open_question,D6,,,초록에 넣을 데이터 범위를 물음
+184,EVAL_08-0184,1256.76,SPK02,Research,넣으면 훨씬 좋죠.,none,D6,,,
+185,EVAL_08-0185,1261.79,SPK03,Research,근데 목요일까지 두 세트 돌려도 엑스알디는 다음 주예요.,concern,D6,,183,재현 데이터 반영안에 분석 일정 부족을 지적
+186,EVAL_08-0186,1274.37,SPK02,Research,분석 신청이 얼마나 밀렸어요?,open_question,D6,,,분석 대기 기간을 물음
+187,EVAL_08-0187,1281.56,SPK03,Research,공동기기원은 요즘 사흘 정도 걸려요.,none,D6,,,
+188,EVAL_08-0188,1290.19,SPK02,Research,사흘이면 아슬아슬하네요.,none,D6,,,
+189,EVAL_08-0189,1296.30,SPK01,Research,음.,none,D6,,,
+190,EVAL_08-0190,1298.46,SPK03,Research,기기원 선생님이 급한 건은 끼워 주신다고 하셨어요.,ambiguous,D6,,,"전달, 공동기기원이 할 일을 전함"
+191,EVAL_08-0191,1309.96,SPK02,Research,아 그래요?,none,D6,,,
+192,EVAL_08-0192,1313.55,SPK03,Research,지난번에도 하루 만에 해 주셨어요.,none,D6,,,
+193,EVAL_08-0193,1321.82,SPK02,Research,그래도 그건 매번 되는 건 아니에요.,none,D6,,,
+194,EVAL_08-0194,1330.45,SPK01,Research,"그럼 이렇게 해요,",none,D6,,,
+195,EVAL_08-0195,1335.48,SPK01,Research,재현 데이터가 이번 주에 안 나오면 초록은 기존 데이터로 쓰고.,decision,D6,1,,"조건부 결정, 일정 미달 시 기존 데이터 사용"
+196,EVAL_08-0196,1349.50,SPK02,Research,네.,none,D6,,,
+197,EVAL_08-0197,1351.66,SPK02,Research,그럼 저는 기존 데이터로 먼저 써 놓을게요.,commitment,D6,,,본인이 초록 초안 작성을 먼저 맡음
+198,EVAL_08-0198,1361.72,SPK01,Research,그게 맞아요.,none,D6,,,
+199,EVAL_08-0199,1365.67,SPK03,Research,나오면 갈아 끼우면 되니까요.,none,D6,,,
+200,EVAL_08-0200,1372.86,SPK04,Research,초록도 나중에 수정이 돼요?,open_question,D6,,,초록 수정 가능 여부를 물음
+201,EVAL_08-0201,1379.69,SPK02,Research,마감 전까지는 몇 번이든 돼요.,none,D6,,,
+202,EVAL_08-0202,1387.24,SPK04,Research,아 그렇구나.,none,D6,,,
+203,EVAL_08-0203,1391.19,SPK01,Research,초안 언제까지 돌릴 수 있어요?,open_question,,,,초안 공유 시점을 물음
+204,EVAL_08-0204,1398.74,SPK02,Research,다음 주 월요일까지 해 볼게요.,commitment,,,203,"요청 수락, 월요일로 기한을 명시"
+205,EVAL_08-0205,1406.29,SPK01,Research,그럼 제가 화요일에 보고 수요일에 코멘트 줄게요.,commitment,,,,본인 일정으로 검토와 회신을 맡음
+206,EVAL_08-0206,1417.43,SPK02,Research,네.,none,,,,
+207,EVAL_08-0207,1419.59,SPK03,Research,저도 같이 봐도 되죠?,open_question,,,,초안 검토 참여 가능 여부를 물음
+208,EVAL_08-0208,1425.34,SPK02,Research,네 같이 보면 좋죠.,none,,,,
+209,EVAL_08-0209,1430.73,SPK03,Research,제가 데이터 쪽은 확인할게요.,commitment,,,,기한 없이 데이터 확인을 맡음
+210,EVAL_08-0210,1437.92,SPK04,Research,저는 뭘 하면 될까요?,open_question,,,,본인이 할 일을 물음
+211,EVAL_08-0211,1443.67,SPK01,Research,은하 씨는 실험 노트부터 제대로 쓰는 연습을 해요.,none,,,,
+212,EVAL_08-0212,1455.17,SPK04,Research,네.,none,,,,
+213,EVAL_08-0213,1457.33,SPK01,Research,노트가 제일 중요해요.,none,,,,
+214,EVAL_08-0214,1463.08,SPK01,Research,나중에 논문 쓸 때 다 거기서 나와요.,none,,,,
+215,EVAL_08-0215,1472.06,SPK03,Research,저도 처음에 그거 혼났어요.,none,,,,
+216,EVAL_08-0216,1478.89,SPK02,Research,저도요.,none,,,,
+217,EVAL_08-0217,1481.77,SPK04,Research,노트 양식이 따로 있어요?,open_question,,,,노트 양식 유무를 물음
+218,EVAL_08-0218,1488.24,SPK03,Research,제 거 하나 복사해 줄게요.,commitment,,,217,"요청 수락, 본인 노트 양식 제공을 맡음"
+219,EVAL_08-0219,1495.07,SPK04,Research,감사합니다.,none,,,,
+220,EVAL_08-0220,1498.66,SPK02,Research,아 그리고 전구체 재고가 얼마 안 남았어요.,none,,,,
+221,EVAL_08-0221,1508.72,SPK03,Research,얼마나요?,open_question,,,,잔여 재고량을 물음
+222,EVAL_08-0222,1511.95,SPK02,Research,한 오십 그램이요.,none,,,,
+223,EVAL_08-0223,1516.98,SPK03,Research,그럼 두 번이면 끝이네요.,none,,,,
+224,EVAL_08-0224,1523.45,SPK01,Research,그거 발주 올려야겠네요.,none,,,,
+225,EVAL_08-0225,1529.56,SPK02,Research,제가 오늘 올릴게요.,commitment,,,,본인이 오늘 발주를 맡음
+226,EVAL_08-0226,1534.95,SPK03,Research,그거 들어오는 데 얼마나 걸려요?,open_question,,,,입고 소요 기간을 물음
+227,EVAL_08-0227,1542.86,SPK02,Research,지난번에 이 주 걸렸어요.,none,,,,
+228,EVAL_08-0228,1549.33,SPK03,Research,이 주요?,none,,,,
+229,EVAL_08-0229,1552.56,SPK02,Research,수입이라서요.,none,,,,
+230,EVAL_08-0230,1556.51,SPK03,Research,저는 그 전까지는 옆 방 거 좀 빌려 쓰면 될 것 같은데요.,none,,,,
+231,EVAL_08-0231,1569.81,SPK01,Research,그리고 다음 주에 학과 세미나 있는 거 알죠?,none,,,,
+232,EVAL_08-0232,1580.23,SPK02,Research,목요일 네 시요.,none,,,,
+233,EVAL_08-0233,1584.90,SPK01,Research,그거 랩 전체 참석이에요.,none,,,,
+234,EVAL_08-0234,1591.37,SPK04,Research,저도요?,none,,,,
+235,EVAL_08-0235,1594.24,SPK01,Research,네 은하 씨도요.,none,,,,
+236,EVAL_08-0236,1598.91,SPK04,Research,네.,none,,,,
+237,EVAL_08-0237,1601.07,SPK03,Research,연사가 누구예요?,open_question,,,,세미나 연사를 물음
+238,EVAL_08-0238,1605.74,SPK02,Research,저도 메일만 보고 자세히는 안 봤어요.,none,,,,
+239,EVAL_08-0239,1614.72,SPK02,Research,제가 이따 확인해 보겠습니다.,ambiguous,,,237,구체적 내용 없이 확인만 하겠다고 함
+240,EVAL_08-0240,1621.91,SPK04,Research,저 세미나는 뭐 준비해 가야 돼요?,none,,,,
+241,EVAL_08-0241,1630.18,SPK01,Research,그냥 들으면 돼요.,none,,,,
+242,EVAL_08-0242,1635.21,SPK03,Research,질문 하나만 생각해 가면 좋아요.,none,,,,
+243,EVAL_08-0243,1643.12,SPK04,Research,아 네.,none,,,,
+244,EVAL_08-0244,1645.99,SPK01,Research,그러면 다음 주 목요일 두 시는 좀 빠듯하겠네요.,none,D7,,,
+245,EVAL_08-0245,1657.13,SPK02,Research,다음 주 미팅 말씀이시죠?,none,D7,,,
+246,EVAL_08-0246,1663.60,SPK01,Research,네.,none,D7,,,
+247,EVAL_08-0247,1665.76,SPK03,Research,수요일로 당기면 어때요?,open_question,D7,,,미팅 일정 변경안에 대한 의견을 물음
+248,EVAL_08-0248,1671.87,SPK02,Research,수요일은 제가 서울 올라가요.,concern,D7,,247,수요일 변경안에 본인 일정 충돌을 알림
+249,EVAL_08-0249,1679.06,SPK03,Research,아 그렇구나.,none,D7,,,
+250,EVAL_08-0250,1683.01,SPK01,Research,그럼 다음 주 미팅은 목요일 열 시로 하죠.,decision,D7,1,,"다음 미팅 시점을 정함, 이견 없음"
+251,EVAL_08-0251,1693.07,SPK02,Research,네 그때는 괜찮아요.,none,D7,,,
+252,EVAL_08-0252,1698.46,SPK03,Research,네.,none,D7,,,
+253,EVAL_08-0253,1700.62,SPK04,Research,네.,none,D7,,,
+254,EVAL_08-0254,1702.78,SPK01,Research,빠진 거 있나요?,open_question,,,,누락 사항을 물음
+255,EVAL_08-0255,1707.45,SPK03,Research,야간 가동 신청이요.,none,,,,
+256,EVAL_08-0256,1712.84,SPK03,Research,그건 오늘 올릴게요.,commitment,,,,본인이 오늘 신청서 제출을 맡음
+257,EVAL_08-0257,1718.23,SPK02,Research,저는 발주랑 초록이요.,none,,,,
+258,EVAL_08-0258,1723.98,SPK01,Research,네 그럼 오늘은 여기까지 할게요.,none,,,,
+259,EVAL_08-0259,1731.89,SPK04,Research,감사합니다.,none,,,,
+260,EVAL_08-0260,1735.48,SPK03,Research,은하 씨 수요일 아침에 장비실 앞에서 봐요.,none,,,,
+261,EVAL_08-0261,1745.54,SPK04,Research,네 몇 시에 갈까요?,none,,,,
+262,EVAL_08-0262,1750.93,SPK03,Research,아홉 시 반이요.,none,,,,
+263,EVAL_08-0263,1755.60,SPK04,Research,네.,none,,,,
+264,EVAL_08-0264,1757.76,SPK02,Research,선생님 커피 한 잔 하실래요?,none,,,,
+265,EVAL_08-0265,1764.95,SPK01,Research,아 좋죠.,none,,,,
+266,EVAL_08-0266,1768.18,SPK03,Research,저는 조교 들어가야 돼서요.,none,,,,
+267,EVAL_08-0267,1775.01,SPK02,Research,아 벌써 시간이 그렇게 됐네.,none,,,,

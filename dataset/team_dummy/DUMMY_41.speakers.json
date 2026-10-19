@@ -1,0 +1,73 @@
+{
+  "meeting": "DUMMY_41",
+  "title": "누리온텔레콤 남부권 데이터 장애 대응 회의",
+  "type": "cross-team",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "윤태식",
+      "team": "남부망운영센터",
+      "job": "Ops",
+      "position": "부장",
+      "title": "센터장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "서하늘",
+      "team": "남부망운영센터",
+      "job": "Ops",
+      "position": "과장",
+      "title": "파트장"
+    },
+    {
+      "speaker": "SPK03",
+      "name": "남궁현",
+      "team": "코어망팀",
+      "job": "Network",
+      "position": "차장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK04",
+      "name": "도재웅",
+      "team": "코어망팀",
+      "job": "Network",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "임소라",
+      "team": "고객센터운영팀",
+      "job": "CS",
+      "position": "과장",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "변지후",
+      "team": "남부망운영센터",
+      "job": "Ops",
+      "position": "사원",
+      "title": ""
+    },
+    {
+      "speaker": "SPK07",
+      "name": "공예린",
+      "team": "대외협력팀",
+      "job": "PR",
+      "position": "대리",
+      "title": ""
+    }
+  ]
+}

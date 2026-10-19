@@ -1,0 +1,46 @@
+{
+  "meeting": "EVAL_08",
+  "title": "가온대학교 에너지소재연구실 주간 랩미팅",
+  "type": "with-senior",
+  "position_order": [
+    "학부연구생",
+    "인턴",
+    "연구원",
+    "선임연구원",
+    "책임연구원"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "윤태경",
+      "team": "에너지소재연구실",
+      "job": "Research",
+      "position": "책임연구원",
+      "title": "랩장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "하지원",
+      "team": "에너지소재연구실",
+      "job": "Research",
+      "position": "선임연구원",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "문성빈",
+      "team": "에너지소재연구실",
+      "job": "Research",
+      "position": "연구원",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "조은하",
+      "team": "에너지소재연구실",
+      "job": "Research",
+      "position": "인턴",
+      "title": ""
+    }
+  ]
+}

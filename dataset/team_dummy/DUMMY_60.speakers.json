@@ -1,0 +1,76 @@
+{
+  "meeting": "DUMMY_60",
+  "title": "이상거래탐지팀 주간 룰·모델 점검 회의",
+  "type": "team",
+  "position_order": [
+    "매니저",
+    "시니어매니저",
+    "디렉터"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "원세빈",
+      "team": "이상거래탐지팀",
+      "job": "Risk",
+      "position": "디렉터",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "반지후",
+      "team": "이상거래탐지팀",
+      "job": "Risk",
+      "position": "시니어매니저",
+      "title": "파트장"
+    },
+    {
+      "speaker": "SPK03",
+      "name": "국하람",
+      "team": "이상거래탐지팀",
+      "job": "Data",
+      "position": "매니저",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "설태오",
+      "team": "이상거래탐지팀",
+      "job": "ML",
+      "position": "매니저",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "봉수아",
+      "team": "이상거래탐지팀",
+      "job": "Ops",
+      "position": "매니저",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "연도경",
+      "team": "이상거래탐지팀",
+      "job": "ML",
+      "position": "시니어매니저",
+      "title": "파트장"
+    },
+    {
+      "speaker": "SPK07",
+      "name": "차윤슬",
+      "team": "이상거래탐지팀",
+      "job": "Risk",
+      "position": "매니저",
+      "title": ""
+    },
+    {
+      "speaker": "SPK08",
+      "name": "명재하",
+      "team": "이상거래탐지팀",
+      "job": "Dev",
+      "position": "매니저",
+      "title": ""
+    }
+  ]
+}

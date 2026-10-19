@@ -1,0 +1,65 @@
+{
+  "meeting": "DUMMY_05",
+  "title": "영업1팀 3분기 실적 점검 (영업본부장 참석)",
+  "type": "with-senior",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "최영준",
+      "team": "영업본부",
+      "job": "Sales",
+      "position": "이사",
+      "title": "본부장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "한동석",
+      "team": "영업1팀",
+      "job": "Sales",
+      "position": "부장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK03",
+      "name": "윤지혜",
+      "team": "영업1팀",
+      "job": "Sales",
+      "position": "과장",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "정태민",
+      "team": "영업1팀",
+      "job": "Sales",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "오수빈",
+      "team": "영업1팀",
+      "job": "Sales",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "김하늘",
+      "team": "영업1팀",
+      "job": "Sales",
+      "position": "사원",
+      "title": ""
+    }
+  ]
+}

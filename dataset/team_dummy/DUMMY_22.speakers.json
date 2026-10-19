@@ -1,0 +1,53 @@
+{
+  "meeting": "DUMMY_22",
+  "title": "누리AI랩 음성연구파트 논문·데모 실험 계획 회의",
+  "type": "with-senior",
+  "position_order": [
+    "연구원",
+    "선임연구원",
+    "책임연구원",
+    "수석연구원"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "한도윤",
+      "team": "음성연구파트",
+      "job": "Research",
+      "position": "책임연구원",
+      "title": "리드"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "서지안",
+      "team": "음성연구파트",
+      "job": "Research",
+      "position": "선임연구원",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "권태오",
+      "team": "음성연구파트",
+      "job": "Research",
+      "position": "연구원",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "문하린",
+      "team": "음성연구파트",
+      "job": "Data",
+      "position": "연구원",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "표승재",
+      "team": "하루비서 제품개발팀",
+      "job": "Dev",
+      "position": "선임연구원",
+      "title": ""
+    }
+  ]
+}

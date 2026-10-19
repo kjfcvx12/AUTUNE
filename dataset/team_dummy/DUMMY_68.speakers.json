@@ -1,0 +1,78 @@
+{
+  "meeting": "DUMMY_68",
+  "title": "온새일보 사회부 오후 데스크 회의 (내일자 지면·온라인 출고)",
+  "type": "team",
+  "position_order": [
+    "수습기자",
+    "기자",
+    "차장",
+    "부장",
+    "국장"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "석윤호",
+      "team": "사회부",
+      "job": "Editor",
+      "position": "부장",
+      "title": "사회부장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "국하영",
+      "team": "사회부",
+      "job": "Editor",
+      "position": "차장",
+      "title": "데스크"
+    },
+    {
+      "speaker": "SPK03",
+      "name": "편도윤",
+      "team": "사회부",
+      "job": "Reporter",
+      "position": "차장",
+      "title": "경찰팀 캡"
+    },
+    {
+      "speaker": "SPK04",
+      "name": "임소율",
+      "team": "사회부",
+      "job": "Reporter",
+      "position": "기자",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "기승현",
+      "team": "사회부",
+      "job": "Reporter",
+      "position": "기자",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "허다온",
+      "team": "사회부",
+      "job": "Reporter",
+      "position": "기자",
+      "title": ""
+    },
+    {
+      "speaker": "SPK07",
+      "name": "진우람",
+      "team": "사회부",
+      "job": "Reporter",
+      "position": "기자",
+      "title": ""
+    },
+    {
+      "speaker": "SPK08",
+      "name": "변채린",
+      "team": "사회부",
+      "job": "Reporter",
+      "position": "수습기자",
+      "title": ""
+    }
+  ]
+}

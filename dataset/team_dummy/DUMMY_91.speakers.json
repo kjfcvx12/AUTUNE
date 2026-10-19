@@ -1,0 +1,65 @@
+{
+  "meeting": "DUMMY_91",
+  "title": "트래블핀 고객경험팀 태풍 결항 대응 주간 회의",
+  "type": "team",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "윤재석",
+      "team": "고객경험팀",
+      "job": "CX",
+      "position": "차장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "서하린",
+      "team": "고객경험팀",
+      "job": "CX",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "남궁태오",
+      "team": "고객경험팀",
+      "job": "CX",
+      "position": "주임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "오유나",
+      "team": "고객경험팀",
+      "job": "CX",
+      "position": "사원",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "곽도현",
+      "team": "고객경험팀",
+      "job": "Data",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "임세라",
+      "team": "고객경험팀",
+      "job": "QA",
+      "position": "주임",
+      "title": ""
+    }
+  ]
+}

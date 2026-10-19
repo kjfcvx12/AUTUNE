@@ -1,0 +1,57 @@
+{
+  "meeting": "DUMMY_138",
+  "title": "북메일 독서 구독 박스 운영팀 격주 점검 회의",
+  "type": "team",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "표유안",
+      "team": "북메일 운영팀",
+      "job": "PM",
+      "position": "과장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "나건희",
+      "team": "북메일 운영팀",
+      "job": "Curation",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "온서준",
+      "team": "북메일 운영팀",
+      "job": "CS",
+      "position": "주임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "제하율",
+      "team": "북메일 운영팀",
+      "job": "Ops",
+      "position": "사원",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "화지민",
+      "team": "북메일 운영팀",
+      "job": "Marketing",
+      "position": "대리",
+      "title": ""
+    }
+  ]
+}

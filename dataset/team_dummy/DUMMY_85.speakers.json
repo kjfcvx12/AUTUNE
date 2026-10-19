@@ -1,0 +1,51 @@
+{
+  "meeting": "DUMMY_85",
+  "title": "오픈소스 작업 스케줄러 '누비' 메인테이너 월간 콜",
+  "type": "peers",
+  "position_order": [
+    "컨트리뷰터",
+    "메인테이너"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "권태오",
+      "team": "누비 메인테이너 (누리클라우드 소속)",
+      "job": "Dev",
+      "position": "메인테이너",
+      "title": ""
+    },
+    {
+      "speaker": "SPK02",
+      "name": "임가람",
+      "team": "누비 메인테이너 (개인)",
+      "job": "Dev",
+      "position": "메인테이너",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "석지안",
+      "team": "누비 메인테이너 (누리클라우드 소속)",
+      "job": "Docs",
+      "position": "메인테이너",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "오준",
+      "team": "누비 메인테이너 (개인)",
+      "job": "Dev",
+      "position": "메인테이너",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "차미르",
+      "team": "누비 메인테이너 (개인)",
+      "job": "Ops",
+      "position": "메인테이너",
+      "title": ""
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+ "meeting": "EVALH_01",
+ "title": "글결미디어 로컬라이제이션2팀 주간 회의 (〈모래의 계절〉 시즌2 납품)",
+ "type": "team",
+ "position_order": [
+  "사원",
+  "주임",
+  "대리",
+  "과장",
+  "차장",
+  "부장",
+  "이사",
+  "대표"
+ ],
+ "speakers": [
+  {
+   "speaker": "SPK01",
+   "name": "차은섭",
+   "team": "로컬라이제이션2팀",
+   "job": "Ops",
+   "position": "차장",
+   "title": "팀장"
+  },
+  {
+   "speaker": "SPK02",
+   "name": "표지혜",
+   "team": "로컬라이제이션2팀",
+   "job": "Localization",
+   "position": "과장",
+   "title": ""
+  },
+  {
+   "speaker": "SPK03",
+   "name": "남기훈",
+   "team": "로컬라이제이션2팀",
+   "job": "QA",
+   "position": "대리",
+   "title": ""
+  },
+  {
+   "speaker": "SPK04",
+   "name": "오세라",
+   "team": "로컬라이제이션2팀",
+   "job": "PM",
+   "position": "대리",
+   "title": ""
+  },
+  {
+   "speaker": "SPK05",
+   "name": "진유리",
+   "team": "로컬라이제이션2팀",
+   "job": "Dev",
+   "position": "주임",
+   "title": ""
+  }
+ ]
+}

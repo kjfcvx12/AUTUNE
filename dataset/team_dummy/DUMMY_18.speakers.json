@@ -1,0 +1,72 @@
+{
+  "meeting": "DUMMY_18",
+  "title": "생활안전예약포털 고도화 사업 2단계 마일스톤 점검 및 과업 변경 협의 (생활안전데이터진흥원 × 온결시스템즈)",
+  "type": "cross-team",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "주무관",
+    "사무관"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "차상민",
+      "team": "생활안전데이터진흥원 정보화지원팀",
+      "job": "Planning",
+      "position": "사무관",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "여다솜",
+      "team": "생활안전데이터진흥원 정보화지원팀",
+      "job": "Planning",
+      "position": "주무관",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "맹준수",
+      "team": "온결시스템즈 공공사업부",
+      "job": "PM",
+      "position": "차장",
+      "title": "PM"
+    },
+    {
+      "speaker": "SPK04",
+      "name": "도지훈",
+      "team": "온결시스템즈 공공사업부",
+      "job": "Dev",
+      "position": "과장",
+      "title": "리드"
+    },
+    {
+      "speaker": "SPK05",
+      "name": "봉가희",
+      "team": "온결시스템즈 공공사업부",
+      "job": "Dev",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "육민호",
+      "team": "온결시스템즈 공공사업부",
+      "job": "QA",
+      "position": "주임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK07",
+      "name": "현보람",
+      "team": "생활안전데이터진흥원 민원서비스팀",
+      "job": "Ops",
+      "position": "주무관",
+      "title": ""
+    }
+  ]
+}

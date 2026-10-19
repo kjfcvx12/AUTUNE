@@ -1,0 +1,303 @@
+﻿row,utterance_id,start,speaker,role,text,kind,decision_id,settles,responds_to,note
+1,EVAL_05-0001,3.10,SPK01,Support,"아 에어컨 좀 줄일까요, 여기 춥지 않아요?",disagreement,,,,
+2,EVAL_05-0002,7.73,SPK04,Ops,저는 딱 좋은데요.,none,,,,
+3,EVAL_05-0003,12.28,SPK02,Support,저도 좀 추워요.,none,,,,
+4,EVAL_05-0004,17.61,SPK02,Support,아까부터 발이 시려워서.,none,,,,
+5,EVAL_05-0005,22.79,SPK01,Support,리모컨이 어디 갔지.,none,,,,
+6,EVAL_05-0006,29.10,SPK03,Support,저기 화이트보드 밑에 있던데요.,none,,,,
+7,EVAL_05-0007,33.48,SPK01,Support,아 찾았다.,none,,,,
+8,EVAL_05-0008,40.31,SPK02,Support,팀장님 오늘부터 휴가 들어가셨더라고요.,none,,,,
+9,EVAL_05-0009,45.17,SPK03,Support,언제까지예요?,open_question,,,,팀장 휴가 기간을 물음
+10,EVAL_05-0010,50.16,SPK02,Support,다음 주 화요일까지요.,none,,,,
+11,EVAL_05-0011,56.33,SPK04,Ops,그럼 이번 주는 우리끼리네요.,none,,,,
+12,EVAL_05-0012,62.76,SPK01,Support,뭐 늘 하던 대로 하면 되죠.,none,,,,
+13,EVAL_05-0013,71.10,SPK03,Support,근데 팀장님 없을 때가 제일 바빠요 이상하게.,none,,,,
+14,EVAL_05-0014,77.49,SPK04,Ops,그거 진짜 법칙 같아요.,none,,,,
+15,EVAL_05-0015,84.36,SPK02,Support,어제만 해도 새벽에 전화 왔잖아요.,none,,,,
+16,EVAL_05-0016,89.93,SPK01,Support,아 세움물류 건이요?,disagreement,,,,
+17,EVAL_05-0017,93.91,SPK02,Support,네 그거요.,none,,,,
+18,EVAL_05-0018,99.68,SPK01,Support,그것도 오늘 얘기해야 되는데.,none,,,,
+19,EVAL_05-0019,105.48,SPK01,Support,일단 백로그부터 보고요.,none,,,,
+20,EVAL_05-0020,111.29,SPK01,Support,지금 미처리가 몇 건이죠?,open_question,,,,백로그 건수를 물음
+21,EVAL_05-0021,116.11,SPK04,Ops,아침에 뽑았을 때,none,,,,
+22,EVAL_05-0022,121.02,SPK04,Ops,이백열두 건이었어요.,none,,,,
+23,EVAL_05-0023,124.16,SPK02,Support,헐.,none,,,,
+24,EVAL_05-0024,129.03,SPK03,Support,지난주에 백사십이었는데.,none,,,,
+25,EVAL_05-0025,135.69,SPK01,Support,일주일 만에 칠십 건이 쌓였네요.,none,,,,
+26,EVAL_05-0026,142.47,SPK04,Ops,연휴 끝나고 몰린 것도 있고요.,none,,,,
+27,EVAL_05-0027,150.03,SPK03,Support,이대로 가면 다음 주엔 삼백 건 돼요.,concern,,,,unprompted: 누적 속도 위험을 스스로 제기
+28,EVAL_05-0028,156.79,SPK02,Support,그중에 절반은 같은 문의예요.,none,,,,
+29,EVAL_05-0029,162.59,SPK01,Support,아 로그인 풀린다는 거.,none,,,,
+30,EVAL_05-0030,170.10,SPK02,Support,"네 그거랑, 엑셀 내려받기 깨진다는 거.",none,,,,
+31,EVAL_05-0031,178.20,SPK03,Support,엑셀은 저번 달에 고쳐진 거 아니었어요?,open_question,,,,이전 수정 반영 여부를 물음
+32,EVAL_05-0032,182.70,SPK02,Support,일부만요.,none,,,,
+33,EVAL_05-0033,189.46,SPK02,Support,구버전 쓰는 고객사는 아직 그대로예요.,none,,,,
+34,EVAL_05-0034,193.68,SPK03,Support,아...,none,,,,
+35,EVAL_05-0035,199.53,SPK01,Support,그럼 지금 SLA 넘긴 건은요?,open_question,,,,SLA 초과 건수를 물음
+36,EVAL_05-0036,203.91,SPK04,Ops,스물세 건.,none,,,,
+37,EVAL_05-0037,209.89,SPK04,Ops,그중 네 건은 일주일 넘었고요.,none,,,,
+38,EVAL_05-0038,214.27,SPK02,Support,일주일이요?,none,,,,
+39,EVAL_05-0039,220.25,SPK03,Support,그거 제 큐에 있는 것 같은데.,none,,,,
+40,EVAL_05-0040,227.60,SPK03,Support,제가 휴가 갔다 온 사이에 밀렸어요.,none,,,,
+41,EVAL_05-0041,233.24,SPK01,Support,아무도 안 봐줬구나.,none,,,,
+42,EVAL_05-0042,237.65,SPK04,Ops,그게 문제예요.,disagreement,,,,
+43,EVAL_05-0043,245.25,SPK04,Ops,담당자가 자리 비우면 큐가 그냥 서 있어요.,concern,,,40,담당자 부재 시 대기열이 멈추는 구조를 문제 제기
+44,EVAL_05-0044,252.21,SPK02,Support,맞아요 백업 담당이 없으니까.,none,,,,
+45,EVAL_05-0045,260.34,SPK01,Support,그건 팀장님 오시면 한번 얘기해 봐야겠어요.,disagreement,,,,
+46,EVAL_05-0046,264.34,SPK04,Ops,네.,none,,,,
+47,EVAL_05-0047,271.33,SPK01,Support,일단 이 이백열두 건을 어떻게 털지부터요.,none,D1,,,
+48,EVAL_05-0048,279.07,SPK02,Support,날짜로 자르는 게 제일 편하긴 해요.,none,D1,,,
+49,EVAL_05-0049,284.92,SPK03,Support,8월 건이 몇 건이죠?,open_question,D1,,,8월 접수 건수를 물음
+50,EVAL_05-0050,289.39,SPK04,Ops,팔십일 건이요.,none,D1,,,
+51,EVAL_05-0051,293.81,SPK04,Ops,9월이 백삼십일.,none,D1,,,
+52,EVAL_05-0052,299.57,SPK01,Support,8월 건은 답은 다 나갔죠?,open_question,D1,,,8월 건 1차 응대 여부를 확인
+53,EVAL_05-0053,307.42,SPK02,Support,"1차는 나갔고, 재문의가 안 닫힌 거예요.",none,D1,,,
+54,EVAL_05-0054,314.74,SPK01,Support,그럼 8월 건은 닫는 작업이네요.,none,D1,,,
+55,EVAL_05-0055,320.46,SPK03,Support,닫는 건 제가 할게요.,commitment,D1,,,본인이 8월 건 마감 작업을 맡음
+56,EVAL_05-0056,326.42,SPK03,Support,어차피 대부분 제 건이에요.,none,D1,,,
+57,EVAL_05-0057,333.85,SPK01,Support,9월 건은 둘이 나눠야 될 것 같은데.,none,D1,,,
+58,EVAL_05-0058,340.61,SPK02,Support,저 오늘 오후에 교육 있어요.,none,D1,,,
+59,EVAL_05-0059,346.20,SPK02,Support,두 시부터 네 시까지.,none,D1,,,
+60,EVAL_05-0060,350.04,SPK01,Support,아 맞다.,none,D1,,,
+61,EVAL_05-0061,355.32,SPK04,Ops,제가 9월 앞부분 볼까요?,open_question,D1,,,본인이 맡을지 의견을 물음
+62,EVAL_05-0062,360.35,SPK01,Support,그래 주시면 좋죠.,none,D1,,,
+63,EVAL_05-0063,367.45,SPK04,Ops,그럼 1일부터 15일까지 제가 볼게요.,commitment,D1,,62,수락 후 본인이 범위를 정해 맡음
+64,EVAL_05-0064,373.37,SPK01,Support,나머지는 제가 하고요.,commitment,D1,,,본인이 남은 9월 건을 맡음
+65,EVAL_05-0065,381.66,SPK02,Support,저는 교육 끝나고 밀린 것부터 보는 걸로 하죠.,commitment,D1,,,본인 일정 이후의 처리 계획을 밝힘
+66,EVAL_05-0066,391.93,SPK01,Support,"그럼 8월 건 승규 씨, 9월 앞은 유진 씨, 뒤는 저.",disagreement,,,,
+67,EVAL_05-0067,399.99,SPK01,Support,목요일까지 1차 응대만이라도 털고.,decision,D1,1,,담당과 기한을 요약해 확정
+68,EVAL_05-0068,403.66,SPK03,Support,네.,none,D1,,,
+69,EVAL_05-0069,408.53,SPK04,Ops,목요일이면 좀 빠듯한데.,concern,D1,,67,배정된 기한이 촉박하다는 문제 제기
+70,EVAL_05-0070,413.49,SPK04,Ops,그래도 해 볼게요.,commitment,D1,,67,기한을 받아들이고 맡음
+71,EVAL_05-0071,419.74,SPK02,Support,안 되면 금요일 오전까지 하고.,disagreement,,,,
+72,EVAL_05-0072,424.97,SPK01,Support,네 뭐 그 정도는.,none,,,,
+73,EVAL_05-0073,430.79,SPK01,Support,그럼 세움물류 건 얘기해요.,none,,,,
+74,EVAL_05-0074,436.95,SPK02,Support,어제 새벽에 전화 온 거요.,none,,,,
+75,EVAL_05-0075,442.05,SPK01,Support,무슨 내용이었어요?,open_question,,,,민원 내용을 물음
+76,EVAL_05-0076,449.36,SPK02,Support,야간 작업하는데 계속 로그인이 풀린대요.,none,,,,
+77,EVAL_05-0077,455.34,SPK02,Support,한 시간에 두세 번씩.,none,,,,
+78,EVAL_05-0078,462.57,SPK03,Support,그거 세션 만료 30분 설정 아니에요?,open_question,,,,원인으로 의심되는 설정값을 물음
+79,EVAL_05-0079,468.70,SPK04,Ops,기본값은 두 시간인데요.,none,,,,
+80,EVAL_05-0080,475.15,SPK04,Ops,고객사에서 바꿨을 수도 있고요.,none,,,,
+81,EVAL_05-0081,481.86,SPK02,Support,그쪽 관리자는 바꾼 적 없대요.,none,,,,
+82,EVAL_05-0082,485.39,SPK01,Support,음.,none,,,,
+83,EVAL_05-0083,491.32,SPK03,Support,근데 이 문의 처음이 아니잖아요.,disagreement,,,,
+84,EVAL_05-0084,497.67,SPK03,Support,지난달에도 두 건 있었어요.,none,,,,
+85,EVAL_05-0085,504.67,SPK02,Support,미르에프앤비도 같은 얘기 했었고요.,none,,,,
+86,EVAL_05-0086,512.36,SPK01,Support,그럼 고객사 문제가 아닐 수도 있네요.,none,,,,
+87,EVAL_05-0087,518.70,SPK04,Ops,저도 그게 계속 걸렸어요.,none,,,,
+88,EVAL_05-0088,525.64,SPK04,Ops,공통점이 있는지 한번 뽑아 볼게요.,commitment,,,,기한 없이 본인이 공통점 분석을 맡음
+89,EVAL_05-0089,530.15,SPK01,Support,아 좋아요.,none,,,,
+90,EVAL_05-0090,535.07,SPK02,Support,개발팀에는 얘기했었죠?,open_question,,,,개발팀 공유 여부를 확인
+91,EVAL_05-0091,541.24,SPK03,Support,제가 지난달에 티켓 올렸어요.,none,,,,
+92,EVAL_05-0092,548.31,SPK03,Support,근데 재현이 안 된다고 반려됐어요.,none,,,,
+93,EVAL_05-0093,555.79,SPK02,Support,재현이 안 되면 그냥 닫히는 거예요?,open_question,,,,반려 처리 절차를 물음
+94,EVAL_05-0094,561.01,SPK03,Support,네 그냥 닫혀요.,none,,,,
+95,EVAL_05-0095,565.50,SPK01,Support,그게 좀 그래요.,disagreement,,,,
+96,EVAL_05-0096,572.32,SPK01,Support,우리 쪽에서 재현 환경을 못 만드는데,none,,,,
+97,EVAL_05-0097,579.02,SPK01,Support,재현해 오라는 건 좀 아니죠.,concern,,,92,재현 책임이 지원팀에 전가되는 구조에 반대
+98,EVAL_05-0098,583.55,SPK04,Ops,그건 맞아요.,none,,,,
+99,EVAL_05-0099,591.51,SPK02,Support,그래서 저는 저번엔 그냥 설정 안내로 닫았어요.,none,,,,
+100,EVAL_05-0100,596.06,SPK03,Support,저도요.,none,,,,
+101,EVAL_05-0101,600.85,SPK01,Support,그러면 계속 돌아오죠.,concern,,,99,임시 안내로 닫으면 민원이 재발한다는 지적
+102,EVAL_05-0102,608.08,SPK02,Support,네 그래서 이번엔 좀 제대로 보려고요.,commitment,D2,,,본인 계획을 밝힘
+103,EVAL_05-0103,614.84,SPK01,Support,재현은 어떻게 해 볼 거예요?,open_question,D2,,,재현 방법을 물음
+104,EVAL_05-0104,623.18,SPK02,Support,세움물류 담당자한테 시간대랑 브라우저를 받아서,none,D2,,,
+105,EVAL_05-0105,631.48,SPK02,Support,제 계정으로 야간에 한번 띄워 두려고요.,disagreement,,,,
+106,EVAL_05-0106,639.16,SPK03,Support,브라우저가 엣지라고 했던 것 같은데.,none,D2,,,
+107,EVAL_05-0107,644.16,SPK02,Support,아 맞다 엣지.,none,D2,,,
+108,EVAL_05-0108,650.91,SPK04,Ops,엣지에서만 나는 거면 얘기가 다르죠.,none,D2,,,
+109,EVAL_05-0109,655.07,SPK01,Support,그러네.,none,D2,,,
+110,EVAL_05-0110,664.95,SPK03,Support,개발팀은 다음 스프린트에 브라우저 이슈 몰아서 본다고 하더라고요.,ambiguous,D2,,,전달: 개발팀의 계획을 옮김
+111,EVAL_05-0111,672.71,SPK01,Support,다음 스프린트가 언제부터예요?,open_question,D2,,,타팀 일정 시작일을 물음
+112,EVAL_05-0112,678.30,SPK03,Support,다음 주 월요일부터요.,none,D2,,,
+113,EVAL_05-0113,686.59,SPK01,Support,그럼 그 전에 재현되면 같이 올릴 수 있겠네요.,none,D2,,,
+114,EVAL_05-0114,690.72,SPK02,Support,네.,none,D2,,,
+115,EVAL_05-0115,694.96,SPK01,Support,그럼 이렇게 해요.,none,D2,,,
+116,EVAL_05-0116,701.84,SPK01,Support,"민서 씨가 이번 주에 재현 시도하고,",none,D2,,,
+117,EVAL_05-0117,711.93,SPK01,Support,되면 버그로 올리고 안 되면 일단 설정 안내로 닫는 걸로.,decision,D2,1,,조건부로 처리 방침을 확정
+118,EVAL_05-0118,716.46,SPK02,Support,네.,none,D2,,,
+119,EVAL_05-0119,723.45,SPK04,Ops,안내문은 지금 쓰는 거 그대로 쓰면 되죠?,open_question,,,,기존 안내문을 그대로 쓸지 확인
+120,EVAL_05-0120,729.92,SPK02,Support,그거 문구가 좀 이상해요.,concern,,,119,기존 안내문 문구에 문제 제기
+121,EVAL_05-0121,737.70,SPK02,Support,브라우저 설정을 확인해 달라고만 써 있는데,none,,,,
+122,EVAL_05-0122,746.08,SPK02,Support,고객 입장에선 뭘 확인하라는 건지 모르죠.,disagreement,,,,
+123,EVAL_05-0123,752.34,SPK04,Ops,아 그건 제가 손볼게요.,commitment,,,120,지적을 받아 문구 수정을 맡음
+124,EVAL_05-0124,756.46,SPK01,Support,고맙습니다.,none,,,,
+125,EVAL_05-0125,765.62,SPK03,Support,저번에 팀장님이 안내문은 다 같이 한번 보자고 하셨잖아요.,commitment,,,,상기: 팀장이 제안했던 안건을 환기
+126,EVAL_05-0126,770.99,SPK01,Support,아 그랬죠.,none,,,,
+127,EVAL_05-0127,776.13,SPK02,Support,그것도 팀장님 오시면요.,disagreement,,,,
+128,EVAL_05-0128,779.40,SPK01,Support,네.,none,,,,
+129,EVAL_05-0129,786.39,SPK04,Ops,아 그리고 상태값 얘기 좀 하고 싶은데요.,none,,,,
+130,EVAL_05-0130,792.86,SPK01,Support,대기랑 보류 말하는 거죠?,open_question,,,,어떤 상태값인지 확인
+131,EVAL_05-0131,796.20,SPK04,Ops,네.,none,,,,
+132,EVAL_05-0132,800.86,SPK04,Ops,사람마다 다르게 써요.,disagreement,,,,
+133,EVAL_05-0133,808.51,SPK04,Ops,저는 고객 답변 기다릴 때만 보류로 두는데,none,,,,
+134,EVAL_05-0134,816.25,SPK03,Support,저는 개발팀 붙은 건도 보류로 둬요.,none,,,,
+135,EVAL_05-0135,820.41,SPK02,Support,저도요.,none,,,,
+136,EVAL_05-0136,826.68,SPK04,Ops,그러면 보류 건수가 계속 올라가요.,disagreement,,,,
+137,EVAL_05-0137,836.70,SPK04,Ops,지금 보류가 사십 건인데 실제로는 열 건도 안 될 거예요.,none,,,,
+138,EVAL_05-0138,844.19,SPK01,Support,리포트에 그대로 나가죠 그게.,disagreement,,,,
+139,EVAL_05-0139,851.26,SPK04,Ops,네 팀장님 보고에 그대로 올라가요.,none,,,,
+140,EVAL_05-0140,854.93,SPK02,Support,음.,none,,,,
+141,EVAL_05-0141,860.01,SPK01,Support,그럼 기준을 하나로 잡죠.,disagreement,,,,
+142,EVAL_05-0142,863.98,SPK03,Support,어떻게요?,open_question,D3,,,기준을 어떻게 정할지 물음
+143,EVAL_05-0143,870.96,SPK04,Ops,보류는 우리가 아무것도 못 하는 상태만.,none,D3,,,
+144,EVAL_05-0144,876.73,SPK02,Support,개발팀 붙은 건은요?,open_question,D3,,,개발 이관 건의 분류를 물음
+145,EVAL_05-0145,883.26,SPK04,Ops,그것도 우리가 못 하는 건 맞죠.,none,D3,,,
+146,EVAL_05-0146,891.10,SPK01,Support,근데 그건 따로 보이는 게 낫지 않아요?,concern,D3,,145,개발 이관 건은 구분해야 한다는 반론
+147,EVAL_05-0147,897.72,SPK03,Support,맞아요 그건 성격이 달라요.,none,D3,,,
+148,EVAL_05-0148,905.57,SPK04,Ops,그럼 이관이라는 값을 하나 만들어야 되는데,none,D3,,,
+149,EVAL_05-0149,914.58,SPK04,Ops,그건 제가 시스템에서 되는지 확인해 보겠습니다.,disagreement,,,,
+150,EVAL_05-0150,919.56,SPK01,Support,안 되면요?,open_question,D3,,,불가 시 대안을 물음
+151,EVAL_05-0151,926.18,SPK04,Ops,그러면 태그로 붙이는 수밖에 없어요.,none,D3,,,
+152,EVAL_05-0152,933.30,SPK02,Support,태그는 검색이 안 돼서 불편한데.,concern,D3,,151,태그 방식의 불편을 지적
+153,EVAL_05-0153,937.54,SPK04,Ops,그러네요.,none,D3,,,
+154,EVAL_05-0154,944.73,SPK01,Support,일단 이번 주는 보류는 고객 답변 대기만.,disagreement,,,,
+155,EVAL_05-0155,954.80,SPK01,Support,개발 이관 건은 대기로 두고 제목 앞에 디이브이 붙여요.,decision,D3,1,,임시 분류 기준을 정함
+156,EVAL_05-0156,960.96,SPK03,Support,아 그게 편하겠다.,none,D3,,,
+157,EVAL_05-0157,965.51,SPK02,Support,네 그렇게 하죠.,none,D3,,,
+158,EVAL_05-0158,971.90,SPK04,Ops,그럼 기존 건은 제가 정리할까요?,open_question,D3,,,기존 건 정리 담당을 물음
+159,EVAL_05-0159,977.83,SPK01,Support,사십 건이면 금방 하죠.,none,D3,,,
+160,EVAL_05-0160,983.85,SPK04,Ops,네 오늘 중에 바꿔 둘게요.,commitment,D3,,159,수락 후 당일까지 처리를 맡음
+161,EVAL_05-0161,988.10,SPK03,Support,감사합니다.,none,D3,,,
+162,EVAL_05-0162,994.30,SPK02,Support,매크로 얘기도 해야 되지 않아요?,open_question,,,,매크로 안건을 다룰지 물음
+163,EVAL_05-0163,998.54,SPK01,Support,아 그거.,none,,,,
+164,EVAL_05-0164,1003.61,SPK03,Support,지금 매크로가 몇 개죠?,open_question,,,,매크로 개수를 물음
+165,EVAL_05-0165,1009.84,SPK04,Ops,한 육십 개 정도 될 거예요.,none,,,,
+166,EVAL_05-0166,1016.49,SPK04,Ops,그중에 반은 안 쓰는 것 같고.,none,,,,
+167,EVAL_05-0167,1022.78,SPK02,Support,저는 솔직히 세 개만 써요.,none,,,,
+168,EVAL_05-0168,1027.45,SPK03,Support,저도 비슷해요.,none,,,,
+169,EVAL_05-0169,1032.93,SPK01,Support,찾는 게 더 오래 걸려요.,disagreement,,,,
+170,EVAL_05-0170,1039.02,SPK02,Support,이름이 다 비슷해서 그래요.,none,,,,
+171,EVAL_05-0171,1047.08,SPK04,Ops,"결제 오류 1, 결제 오류 최종 이런 거요.",none,,,,
+172,EVAL_05-0172,1053.83,SPK01,Support,아 그거 누가 만든 거예요.,disagreement,,,,
+173,EVAL_05-0173,1059.35,SPK03,Support,...제가 만들었어요.,none,,,,
+174,EVAL_05-0174,1062.77,SPK02,Support,하하.,none,,,,
+175,EVAL_05-0175,1065.59,SPK01,Support,죄송.,none,,,,
+176,EVAL_05-0176,1071.37,SPK04,Ops,정리 한번 싹 하면 좋긴 한데.,none,D4,,,
+177,EVAL_05-0177,1078.08,SPK02,Support,지금 할 일은 아닌 것 같아요.,concern,D4,,176,시기상 적절하지 않다는 의견
+178,EVAL_05-0178,1082.89,SPK03,Support,백로그 먼저죠.,none,D4,,,
+179,EVAL_05-0179,1089.64,SPK01,Support,그러면 매크로는 팀장님 오신 다음에.,disagreement,,,,
+180,EVAL_05-0180,1097.40,SPK01,Support,다음 주 수요일 회의 때 다시 꺼내요.,decision,D4,1,,논의를 다음 회의로 미루는 보류
+181,EVAL_05-0181,1101.20,SPK04,Ops,네.,none,D4,,,
+182,EVAL_05-0182,1108.40,SPK03,Support,그때까지 안 쓰는 것만 제가 표시해 둘게요.,commitment,D4,,180,다음 회의 전까지 본인이 준비를 맡음
+183,EVAL_05-0183,1113.24,SPK01,Support,오 좋아요.,none,D4,,,
+184,EVAL_05-0184,1119.44,SPK02,Support,근데 표시만 하고 지우진 말고요.,disagreement,,,,
+185,EVAL_05-0185,1124.52,SPK03,Support,네 안 지울게요.,disagreement,,,,
+186,EVAL_05-0186,1130.91,SPK01,Support,미르에프앤비 건은 어떻게 됐어요?,open_question,,,,고객사 진행 상황을 물음
+187,EVAL_05-0187,1138.32,SPK02,Support,계약 갱신 앞두고 불만이 좀 있어요.,disagreement,,,,
+188,EVAL_05-0188,1143.54,SPK02,Support,응답이 느리다고.,none,,,,
+189,EVAL_05-0189,1149.09,SPK04,Ops,실제로 지난달엔 느렸어요.,none,,,,
+190,EVAL_05-0190,1156.45,SPK03,Support,그 회사만 문의가 유난히 많기도 해요.,none,,,,
+191,EVAL_05-0191,1162.79,SPK01,Support,한 달에 몇 건이나 와요?,open_question,,,,고객사 문의량을 물음
+192,EVAL_05-0192,1168.03,SPK03,Support,지난달에 마흔두 건.,none,,,,
+193,EVAL_05-0193,1174.56,SPK02,Support,다른 고객사 평균이 여덟 건인데.,none,,,,
+194,EVAL_05-0194,1179.22,SPK04,Ops,많긴 많네요.,none,,,,
+195,EVAL_05-0195,1187.18,SPK02,Support,담당자가 자주 바뀌어서 같은 걸 계속 물어봐요.,none,,,,
+196,EVAL_05-0196,1195.55,SPK01,Support,그럼 교육을 한번 해 드리는 건 어때요?,open_question,D5,,,고객사 교육 제안에 대한 의견을 물음
+197,EVAL_05-0197,1203.86,SPK03,Support,온라인으로 삼십 분 정도면 될 것 같은데.,none,D5,,,
+198,EVAL_05-0198,1211.18,SPK02,Support,영업팀이 좋아하긴 할 것 같아요.,none,D5,,,
+199,EVAL_05-0199,1217.32,SPK04,Ops,근데 그거 누가 진행해요?,disagreement,,,,
+200,EVAL_05-0200,1221.29,SPK01,Support,그러게요.,none,D5,,,
+201,EVAL_05-0201,1226.78,SPK02,Support,우리 다 백로그 중이잖아요.,concern,D5,,196,교육을 맡을 여력이 없다는 반론
+202,EVAL_05-0202,1231.45,SPK01,Support,그것도 맞네요.,none,D5,,,
+203,EVAL_05-0203,1239.68,SPK04,Ops,녹화본 하나 만들어 두면 계속 쓸 수 있긴 해요.,none,D5,,,
+204,EVAL_05-0204,1246.21,SPK03,Support,아 근데 갱신이 언제죠?,open_question,D5,,,계약 갱신 시점을 물음
+205,EVAL_05-0205,1250.75,SPK02,Support,11월 말이요.,none,D5,,,
+206,EVAL_05-0206,1256.02,SPK01,Support,그럼 시간은 좀 있네요.,none,D5,,,
+207,EVAL_05-0207,1261.41,SPK01,Support,"교육은 일단 안 하고,",none,D5,,,
+208,EVAL_05-0208,1272.87,SPK01,Support,대신 이번 주에 그동안 온 문의 정리해서 그쪽 담당자한테 한 번에 보내요.,decision,D5,1,,교육 대신 문의 정리 발송으로 방향을 정함
+209,EVAL_05-0209,1279.26,SPK02,Support,제가 보낼게요.,commitment,D5,,208,결정된 작업을 본인이 맡음
+210,EVAL_05-0210,1284.74,SPK01,Support,민서 씨 교육 있다면서요.,none,D5,,,
+211,EVAL_05-0211,1290.41,SPK02,Support,내일 오전에 하면 돼요.,disagreement,,,,
+212,EVAL_05-0212,1295.37,SPK03,Support,제가 도와드릴게요.,commitment,D5,,209,동료 작업을 돕겠다고 맡음
+213,EVAL_05-0213,1302.04,SPK02,Support,네 그럼 문의 목록만 뽑아 주세요.,open_question,D5,,,구체 작업을 요청
+214,EVAL_05-0214,1305.71,SPK03,Support,네.,none,D5,,,
+215,EVAL_05-0215,1311.64,SPK04,Ops,영업팀에도 공유해야 되지 않아요?,open_question,D5,,,영업팀 공유 필요성을 물음
+216,EVAL_05-0216,1316.30,SPK01,Support,아 그렇네요.,none,D5,,,
+217,EVAL_05-0217,1321.29,SPK02,Support,메일에 참조 넣을게요.,commitment,D5,,215,요청을 수락해 참조 발송을 맡음
+218,EVAL_05-0218,1329.79,SPK04,Ops,영업팀은 이번 주에 갱신 미팅 잡는다고 하던데요.,ambiguous,D5,,,전달: 영업팀 일정을 옮김
+219,EVAL_05-0219,1336.95,SPK01,Support,그 전에 보내는 게 낫겠네요.,none,D5,,,
+220,EVAL_05-0220,1342.75,SPK03,Support,아 그리고 주말 문의요.,none,,,,
+221,EVAL_05-0221,1346.66,SPK01,Support,네 그거.,none,,,,
+222,EVAL_05-0222,1355.12,SPK03,Support,토요일에 온 건 월요일에 보면 이미 화가 나 있어요.,disagreement,,,,
+223,EVAL_05-0223,1359.87,SPK02,Support,그렇죠.,none,,,,
+224,EVAL_05-0224,1365.30,SPK04,Ops,자동 응답이 나가긴 하는데.,none,,,,
+225,EVAL_05-0225,1373.57,SPK04,Ops,문구가 영업일 기준 24시간 내라고 돼 있어서,none,,,,
+226,EVAL_05-0226,1381.45,SPK04,Ops,토요일에 보면 월요일 얘긴지 모르죠.,concern,,,222,자동 응답 문구가 오해를 준다는 문제 제기
+227,EVAL_05-0227,1388.15,SPK02,Support,저도 그런 생각이 들더라고요.,none,,,,
+228,EVAL_05-0228,1395.01,SPK01,Support,문구만 바꾸면 되는 거 아니에요?,open_question,D6,,,해결 방법을 물음
+229,EVAL_05-0229,1400.94,SPK04,Ops,권한이 우리한테 없어요.,disagreement,,,,
+230,EVAL_05-0230,1408.02,SPK04,Ops,그거 운영팀 계정으로 들어가야 돼요.,none,D6,,,
+231,EVAL_05-0231,1411.75,SPK01,Support,아.,none,D6,,,
+232,EVAL_05-0232,1416.41,SPK03,Support,요청하면 며칠 걸려요?,open_question,D6,,,처리 기간을 물음
+233,EVAL_05-0233,1420.88,SPK04,Ops,보통 사흘이요.,none,D6,,,
+234,EVAL_05-0234,1426.36,SPK01,Support,그 정도면 해 볼 만한데.,none,D6,,,
+235,EVAL_05-0235,1431.60,SPK04,Ops,제가 요청해 볼게요.,commitment,D6,,,기한 없이 본인이 요청을 맡음
+236,EVAL_05-0236,1436.86,SPK01,Support,문구는 뭐라고 할까요?,open_question,D6,,,대체 문구 의견을 물음
+237,EVAL_05-0237,1443.24,SPK02,Support,다음 영업일에 답변드린다 정도면,none,D6,,,
+238,EVAL_05-0238,1447.83,SPK03,Support,그게 낫네요.,none,D6,,,
+239,EVAL_05-0239,1454.51,SPK04,Ops,토요일에 봐도 월요일인 거 알겠네요.,none,D6,,,
+240,EVAL_05-0240,1464.60,SPK01,Support,그럼 자동 응답은 다음 영업일에 답변드린다는 문구로 교체.,decision,D6,1,,문구 교체를 명사형으로 확정
+241,EVAL_05-0241,1469.13,SPK04,Ops,네.,none,D6,,,
+242,EVAL_05-0242,1474.64,SPK02,Support,주말 당직은 계속 없는 거죠?,open_question,,,,주말 당직 운영 여부를 확인
+243,EVAL_05-0243,1478.96,SPK01,Support,네 없어요.,none,,,,
+244,EVAL_05-0244,1482.40,SPK03,Support,다행이다.,none,,,,
+245,EVAL_05-0245,1488.11,SPK04,Ops,언젠간 하자고 할 것 같은데.,none,,,,
+246,EVAL_05-0246,1493.70,SPK02,Support,그런 말 하지 마세요.,none,,,,
+247,EVAL_05-0247,1497.12,SPK01,Support,하하.,none,,,,
+248,EVAL_05-0248,1501.21,SPK04,Ops,아 하나만 더요.,none,,,,
+249,EVAL_05-0249,1507.39,SPK04,Ops,카카오 채널로 문의 받는 거요.,none,D7,,,
+250,EVAL_05-0250,1513.04,SPK02,Support,그거 파일럿 끝났어요?,open_question,D7,,,파일럿 종료 시점을 물음
+251,EVAL_05-0251,1517.73,SPK04,Ops,이번 주까지예요.,none,D7,,,
+252,EVAL_05-0252,1522.85,SPK03,Support,저는 솔직히 반대예요.,concern,D7,,249,채널 확대에 반대
+253,EVAL_05-0253,1529.44,SPK03,Support,채널만 늘고 사람은 그대로잖아요.,disagreement,,,,
+254,EVAL_05-0254,1536.01,SPK02,Support,메일이랑 중복 문의도 많고요.,disagreement,,,,
+255,EVAL_05-0255,1543.50,SPK04,Ops,숫자로는 응답 시간이 짧아지긴 했어요.,none,D7,,,
+256,EVAL_05-0256,1547.93,SPK01,Support,얼마나요?,open_question,D7,,,개선 폭을 물음
+257,EVAL_05-0257,1554.27,SPK04,Ops,평균 네 시간에서 한 시간 반으로.,none,D7,,,
+258,EVAL_05-0258,1561.96,SPK02,Support,그건 짧은 것만 카톡으로 와서 그래요.,concern,D7,,257,지표 해석에 이견
+259,EVAL_05-0259,1568.09,SPK04,Ops,아 그럴 수도 있겠네요.,none,D7,,,
+260,EVAL_05-0260,1574.54,SPK01,Support,이건 우리가 정할 게 아니네요.,none,D7,,,
+261,EVAL_05-0261,1584.43,SPK01,Support,"파일럿 결과만 정리해서 팀장님께 올리고, 결정은 팀장님이.",decision,D7,1,,결정 권한을 팀장에게 넘기는 보류
+262,EVAL_05-0262,1593.41,SPK04,Ops,정리는 제가 해요 어차피 제가 돌린 거라.,commitment,D7,,,본인 담당이라 정리를 맡음
+263,EVAL_05-0263,1597.34,SPK03,Support,네.,none,D7,,,
+264,EVAL_05-0264,1602.85,SPK02,Support,반대 의견도 같이 써 주세요.,open_question,D7,,,정리에 반대 의견 포함을 요청
+265,EVAL_05-0265,1608.01,SPK04,Ops,네 그렇게 할게요.,commitment,D7,,264,요청을 수락
+266,EVAL_05-0266,1611.50,SPK01,Support,좋아요.,none,D7,,,
+267,EVAL_05-0267,1617.14,SPK01,Support,"그럼 오늘 나온 거 정리하면,",none,,,,
+268,EVAL_05-0268,1623.15,SPK01,Support,백로그는 목요일까지 1차.,disagreement,,,,
+269,EVAL_05-0269,1626.49,SPK03,Support,네.,none,,,,
+270,EVAL_05-0270,1631.79,SPK01,Support,세션 건은 민서 씨가 재현.,disagreement,,,,
+271,EVAL_05-0271,1635.19,SPK02,Support,네.,none,,,,
+272,EVAL_05-0272,1640.27,SPK01,Support,상태값은 오늘부터 바뀌고.,disagreement,,,,
+273,EVAL_05-0273,1645.72,SPK04,Ops,네 제가 바꿔 둘게요.,commitment,,,160,상기: 앞서 맡은 작업을 다시 확인
+274,EVAL_05-0274,1650.62,SPK01,Support,매크로는 다음 주.,disagreement,,,,
+275,EVAL_05-0275,1653.69,SPK03,Support,네.,none,,,,
+276,EVAL_05-0276,1658.77,SPK02,Support,미르에프앤비 메일은 내일.,disagreement,,,,
+277,EVAL_05-0277,1662.11,SPK01,Support,네.,none,,,,
+278,EVAL_05-0278,1665.92,SPK04,Ops,빠진 거 없죠?,open_question,,,,누락 여부를 물음
+279,EVAL_05-0279,1670.34,SPK03,Support,자동 응답 문구.,disagreement,,,,
+280,EVAL_05-0280,1673.98,SPK04,Ops,아 맞다.,none,,,,
+281,EVAL_05-0281,1679.90,SPK01,Support,그것도 유진 씨가 하기로 했고.,disagreement,,,,
+282,EVAL_05-0282,1683.43,SPK04,Ops,네.,none,,,,
+283,EVAL_05-0283,1688.73,SPK02,Support,금요일에 한 번 더 볼까요?,open_question,D8,,,추가 회의 개최 여부를 물음
+284,EVAL_05-0284,1693.19,SPK03,Support,짧게면 좋죠.,none,D8,,,
+285,EVAL_05-0285,1699.66,SPK01,Support,"금요일 오전 열한 시, 십오 분만.",decision,D8,1,,추가 회의 시각을 확정
+286,EVAL_05-0286,1704.17,SPK03,Support,회의실은요?,open_question,D8,,,회의 장소를 물음
+287,EVAL_05-0287,1709.31,SPK02,Support,여기 비어 있을 거예요.,none,D8,,,
+288,EVAL_05-0288,1714.27,SPK04,Ops,제가 잡아 둘게요.,commitment,D8,,286,요청을 수락해 회의실 예약을 맡음
+289,EVAL_05-0289,1719.04,SPK01,Support,네 고생하셨습니다.,none,,,,
+290,EVAL_05-0290,1723.59,SPK03,Support,아 그리고 점심.,none,,,,
+291,EVAL_05-0291,1728.08,SPK02,Support,오늘 뭐 먹어요?,disagreement,,,,
+292,EVAL_05-0292,1733.63,SPK04,Ops,저는 밖에 나가기 싫어요.,none,,,,
+293,EVAL_05-0293,1738.66,SPK03,Support,오후에 비 온대요.,none,,,,
+294,EVAL_05-0294,1743.21,SPK02,Support,그럼 시켜 먹죠.,none,,,,
+295,EVAL_05-0295,1749.39,SPK01,Support,저는 약속 있어서 먼저 나가요.,none,,,,
+296,EVAL_05-0296,1753.35,SPK04,Ops,아 네.,none,,,,
+297,EVAL_05-0297,1757.08,SPK03,Support,그럼 셋이서.,none,,,,
+298,EVAL_05-0298,1760.59,SPK02,Support,뭐 먹지.,none,,,,
+299,EVAL_05-0299,1764.18,SPK04,Ops,아무거나요.,none,,,,
+300,EVAL_05-0300,1769.53,SPK03,Support,아무거나가 제일 어려워요.,none,,,,
+301,EVAL_05-0301,1775.41,SPK01,Support,그럼 저 먼저 일어날게요.,none,,,,
+302,EVAL_05-0302,1780.02,SPK02,Support,네 들어가세요.,none,,,,

@@ -1,0 +1,268 @@
+﻿row,utterance_id,start,speaker,role,text,kind,decision_id,settles,responds_to,note
+1,DUMMY_68-0001,3.92,SPK02,Editor,소율 씨 전화 끝났어요?,none,,,,
+2,DUMMY_68-0002,10.58,SPK04,Reporter,"네 네, 방금 끊었어요.",none,,,,
+3,DUMMY_68-0003,16.51,SPK05,Reporter,부장님 국장실에서 아직 안 나오셨어요?,none,,,,
+4,DUMMY_68-0004,23.01,SPK02,Editor,"곧 오신대요, 먼저 라인업부터 훑고 있자.",none,,,,
+5,DUMMY_68-0005,30.55,SPK07,Reporter,오늘 점심 김치찌개 집 문 닫았던데요.,none,,,,
+6,DUMMY_68-0006,37.98,SPK06,Reporter,"거기 사장님 허리 수술하셨대요, 이 주 쉰다고 붙어 있었어요.",none,,,,
+7,DUMMY_68-0007,46.51,SPK07,Reporter,아 그래서.,none,,,,
+8,DUMMY_68-0008,49.96,SPK08,Reporter,저 경찰서 앞 분식집 갔는데 거기도 괜찮았어요.,none,,,,
+9,DUMMY_68-0009,56.71,SPK03,Reporter,채린 씨는 벌써 맛집 지도 다 그렸네.,none,,,,
+10,DUMMY_68-0010,63.55,SPK08,Reporter,"하하, 새벽에 할 게 없어서요.",none,,,,
+11,DUMMY_68-0011,70.76,SPK02,Editor,"새벽에 할 게 없으면 다행이지, 지난주엔 화재 두 건이었잖아.",none,,,,
+12,DUMMY_68-0012,80.34,SPK08,Reporter,그날 진짜 한숨도 못 잤어요.,none,,,,
+13,DUMMY_68-0013,86.45,SPK06,Reporter,수습 때는 원래 다 그래.,none,,,,
+14,DUMMY_68-0014,93.11,SPK01,Editor,"미안, 국장이 또 선거 기획 얘기를 해서.",none,,,,
+15,DUMMY_68-0015,99.85,SPK01,Editor,"자 시작하자, 내일 거 뭐 있어?",none,,,,
+16,DUMMY_68-0016,105.95,SPK02,Editor,일단 1면 후보가 두 개예요.,none,,,,
+17,DUMMY_68-0017,111.57,SPK02,Editor,"소율 씨 요양병원 스프링클러 건이랑, 승현 씨 급식 업체 담합 건.",none,,,,
+18,DUMMY_68-0018,121.07,SPK01,Editor,"소율이 거 먼저, 어디까지 됐어?",open_question,,,,취재 진행 상황 질문
+19,DUMMY_68-0019,127.74,SPK04,Reporter,시립 요양병원 열한 곳 중에 네 곳이 스프링클러 설치 유예 기간이 끝났는데도,none,,,,
+20,DUMMY_68-0020,136.49,SPK04,Reporter,아직 설치를 안 했어요.,none,,,,
+21,DUMMY_68-0021,141.51,SPK04,Reporter,그중 두 곳은 소방 점검에서 두 번 지적받았고요.,none,,,,
+22,DUMMY_68-0022,149.81,SPK03,Reporter,유예가 언제 끝났는데?,open_question,,,,사실 확인 질문
+23,DUMMY_68-0023,155.88,SPK04,Reporter,작년 팔월이요.,none,,,,
+24,DUMMY_68-0024,159.48,SPK04,Reporter,일 년 넘게 그냥 운영한 거죠.,none,,,,
+25,DUMMY_68-0025,166.14,SPK01,Editor,입원 환자는?,none,,,,
+26,DUMMY_68-0026,170.78,SPK04,Reporter,네 곳 합쳐서 한 육백 명 정도예요.,none,,,,
+27,DUMMY_68-0027,175.70,SPK04,Reporter,거의 다 와상 환자고요.,none,,,,
+28,DUMMY_68-0028,181.08,SPK06,Reporter,불 나면 끝이네.,none,,,,
+29,DUMMY_68-0029,185.11,SPK02,Editor,문서는 확보했어요?,none,,,,
+30,DUMMY_68-0030,190.89,SPK04,Reporter,"소방 점검 결과표 두 곳 거는 있고,",none,,,,
+31,DUMMY_68-0031,196.19,SPK04,Reporter,나머지 두 곳은 시의원실 통해서 받기로 했는데 아직이에요.,none,,,,
+32,DUMMY_68-0032,205.87,SPK01,Editor,시의원실은 언제 준대?,open_question,,,,자료 입수 시점 질문
+33,DUMMY_68-0033,211.34,SPK04,Reporter,보좌관이 오늘 저녁까지는 준다고 했어요.,none,,,,
+34,DUMMY_68-0034,218.03,SPK04,Reporter,근데 그 보좌관이 지난번에도 하루 늦었어요.,none,,,,
+35,DUMMY_68-0035,224.32,SPK02,Editor,두 곳 거 없어도 기사는 돼요?,open_question,,,,기사 성립 여부 질문
+36,DUMMY_68-0036,229.95,SPK04,Reporter,두 곳은 소방서 관계자 확인이 있어서 쓸 수는 있어요.,none,,,,
+37,DUMMY_68-0037,238.92,SPK05,Reporter,급식 건도 말씀드려도 돼요?,none,,,,
+38,DUMMY_68-0038,244.96,SPK01,Editor,해 봐.,none,,,,
+39,DUMMY_68-0039,250.23,SPK05,Reporter,교육청 입찰에서 세 업체가 돌아가면서 낙찰받은 정황이에요.,none,,,,
+40,DUMMY_68-0040,258.53,SPK05,Reporter,최근 삼 년 치 입찰 서른여섯 건 중에 서른한 건을 그 세 곳이 가져갔어요.,none,,,,
+41,DUMMY_68-0041,267.64,SPK05,Reporter,투찰 금액 끝자리가 계속 비슷하게 나오고요.,none,,,,
+42,DUMMY_68-0042,273.73,SPK07,Reporter,세 업체 대표가 서로 아는 사이라는 건 확인됐어?,open_question,,,,추가 사실 확인 질문
+43,DUMMY_68-0043,282.01,SPK05,Reporter,"두 곳은 사촌이고, 한 곳은 아직 연결고리를 못 찾았어요.",none,,,,
+44,DUMMY_68-0044,290.11,SPK03,Reporter,그럼 담합이라고 쓰기엔 아직 약한데.,concern,,,,"unprompted, 근거 부족 지적"
+45,DUMMY_68-0045,297.16,SPK05,Reporter,그래서 의혹으로 쓰려고 했죠.,none,,,,
+46,DUMMY_68-0046,304.40,SPK01,Editor,음.,none,,,,
+47,DUMMY_68-0047,306.57,SPK01,Editor,1면은 요양병원으로 가.,decision,D1,1,,"상급자 제안, 이후 반대 없음"
+48,DUMMY_68-0048,312.42,SPK02,Editor,소율 씨 기사 분량이 지금 몇 매예요?,none,,,,
+49,DUMMY_68-0049,319.15,SPK04,Reporter,원고지로 한 십팔 매요.,none,,,,
+50,DUMMY_68-0050,324.79,SPK02,Editor,1면 들어가면 열두 매로 줄이고 나머지는 삼 면으로 넘기면 돼요.,none,,,,
+51,DUMMY_68-0051,333.95,SPK01,Editor,열두 매면 그래픽 들어갈 자리 있어?,none,,,,
+52,DUMMY_68-0052,339.72,SPK02,Editor,그래픽은 편집부에서 병원 위치 지도 하나 해 준대요.,none,,,,
+53,DUMMY_68-0053,348.50,SPK04,Reporter,설치율 막대그래프도 하나 있으면 좋겠는데요.,none,,,,
+54,DUMMY_68-0054,355.83,SPK02,Editor,그건 소율 씨가 숫자 정리해서 편집부에 넘겨요.,none,,,,
+55,DUMMY_68-0055,363.60,SPK04,Reporter,네.,none,,,,
+56,DUMMY_68-0056,367.25,SPK04,Reporter,그럼 1면용이랑 삼 면 해설용 나눠서 다시 쓸게요.,commitment,,,,본인이 원고 분리 작업 맡음
+57,DUMMY_68-0057,376.01,SPK02,Editor,"반론은 받았어요, 병원 쪽?",open_question,D2,,,반론 취재 여부 질문
+58,DUMMY_68-0058,382.70,SPK04,Reporter,"시 복지정책과는 받았고, 병원 두 곳은 문자랑 메일 보냈는데 답이 없어요.",none,,,,
+59,DUMMY_68-0059,392.23,SPK04,Reporter,한 곳은 원장이 해외 학회 가 있대요.,none,,,,
+60,DUMMY_68-0060,398.61,SPK01,Editor,반론 없이 병원 이름 나가면 내일 아침에 소송 얘기 나와.,concern,D2,,58,반론 없이 실명 보도 시 법적 위험
+61,DUMMY_68-0061,406.95,SPK07,Reporter,작년 그 산후조리원 건처럼요.,none,,,,
+62,DUMMY_68-0062,411.53,SPK01,Editor,"그래, 그때 삼 개월 끌려다녔잖아.",none,,,,
+63,DUMMY_68-0063,417.60,SPK02,Editor,병원 이름을 이니셜로 가는 건 어때요?,open_question,D2,,,대안 의견 요청
+64,DUMMY_68-0064,423.99,SPK04,Reporter,"이니셜로 하면 환자 가족들이 어느 병원인지 모르잖아요, 그게 기사 핵심인데.",concern,D2,,63,익명 처리 시 공익성 약화 우려
+65,DUMMY_68-0065,435.50,SPK03,Reporter,소율이 말도 맞아.,none,,,,
+66,DUMMY_68-0066,441.18,SPK02,Editor,시간을 좀 주면 답이 올 수도 있고.,none,,,,
+67,DUMMY_68-0067,448.01,SPK01,Editor,"음, 그럼",none,,,,
+68,DUMMY_68-0068,451.40,SPK01,Editor,밤 아홉 시까지 병원 답 없으면 답하지 않았다고 쓰고 실명으로 가기로 하죠.,decision,D2,1,,"조건부 결정, 기한 내 무응답 시 실명"
+69,DUMMY_68-0069,462.76,SPK04,Reporter,아홉 시 전에 병원 두 곳에 한 번씩 더 전화 넣을게요.,commitment,,,,본인이 기한 전 추가 확인 맡음
+70,DUMMY_68-0070,472.15,SPK02,Editor,통화 녹음은 꼭 해 둬요.,none,,,,
+71,DUMMY_68-0071,478.92,SPK04,Reporter,네.,none,,,,
+72,DUMMY_68-0072,487.82,SPK06,Reporter,아홉 시 넘어서 답 오면요?,open_question,,,,예외 상황 질문
+73,DUMMY_68-0073,493.65,SPK02,Editor,"열 시 강판 전이면 넣고, 그 뒤면 온라인에만 추가.",none,,,,
+74,DUMMY_68-0074,501.55,SPK04,Reporter,네.,none,,,,
+75,DUMMY_68-0075,505.32,SPK01,Editor,법무 검토는?,open_question,,,,법무 검토 여부 질문
+76,DUMMY_68-0076,510.43,SPK02,Editor,법무팀에서는 오늘 여덟 시 전에 초고 받으면 바로 봐 준다고 했어요.,ambiguous,,,,"전달, 법무팀 일정 전달"
+77,DUMMY_68-0077,519.49,SPK04,Reporter,"여덟 시요, 빠듯하네.",none,,,,
+78,DUMMY_68-0078,524.59,SPK02,Editor,반론 칸만 비워 두고 먼저 보내요.,none,,,,
+79,DUMMY_68-0079,531.33,SPK04,Reporter,"네, 초고는 일곱 시 반까지 넘길게요.",commitment,,,78,"데스크 지시 수락, 시점 명시"
+80,DUMMY_68-0080,537.90,SPK05,Reporter,"그럼 급식 건은 어떻게 돼요, 내일 삼 면으로라도 들어가요?",none,,,,
+81,DUMMY_68-0081,546.73,SPK02,Editor,"삼 면은 요양병원 해설이 먹으니까,",none,,,,
+82,DUMMY_68-0082,551.28,SPK02,Editor,들어가면 팔 면 정도?,none,,,,
+83,DUMMY_68-0083,557.72,SPK05,Reporter,팔 면이면 너무 묻히는데요.,none,,,,
+84,DUMMY_68-0084,562.99,SPK02,Editor,팔 면도 요즘 온라인으로 다 보니까 괜찮아.,none,,,,
+85,DUMMY_68-0085,571.19,SPK05,Reporter,그래도 지면 위치가 기사 무게잖아요.,none,,,,
+86,DUMMY_68-0086,576.79,SPK01,Editor,승현이 네 판단엔 지금 이대로 나가도 돼?,open_question,D3,,,기자 판단 질문
+87,DUMMY_68-0087,583.97,SPK05,Reporter,"음, 솔직히 한 곳 연결고리가 없는 게 좀 걸려요.",none,,,,
+88,DUMMY_68-0088,590.32,SPK05,Reporter,"공정위에 신고된 건 있는지 확인 중인데, 하루 이틀만 더 주실 수 있어요?",open_question,D3,,,추가 취재 시간 요청
+89,DUMMY_68-0089,600.06,SPK03,Reporter,"공정위 대변인실에 내가 아는 사람 있어, 연결해 줄게.",commitment,,,88,"요청에 도움 제공 약속, 기한 없음"
+90,DUMMY_68-0090,608.48,SPK05,Reporter,오 감사합니다.,none,,,,
+91,DUMMY_68-0091,613.05,SPK06,Reporter,교육청은 알고 있었대요?,open_question,D3,,,교육청 인지 여부 질문
+92,DUMMY_68-0092,618.49,SPK05,Reporter,감사관실에서 작년에 민원이 한 번 들어왔는데 종결 처리했대요.,none,,,,
+93,DUMMY_68-0093,627.05,SPK06,Reporter,그게 더 기사네.,none,,,,
+94,DUMMY_68-0094,633.09,SPK02,Editor,그건 또 따로 갈 수 있겠다.,none,,,,
+95,DUMMY_68-0095,638.65,SPK01,Editor,그래.,none,,,,
+96,DUMMY_68-0096,641.40,SPK01,Editor,"급식은 공정위 확인될 때까지 묶어 두고, 다음 주 월요일자 목표로.",decision,D3,1,,"추가 확인 전까지 보류, 목표일 제시"
+97,DUMMY_68-0097,651.17,SPK05,Reporter,"네, 금요일 오후까지는 공정위 쪽 확인 결과 들고 올게요.",commitment,,,,본인이 기한 명시하고 맡음
+98,DUMMY_68-0098,660.79,SPK02,Editor,교육청 감사관실 종결 건은 우람 씨가 좀 봐 줄 수 있어요?,open_question,,,,추가 취재 요청
+99,DUMMY_68-0099,669.35,SPK07,Reporter,그거 제가 교육청 출입이라 그런 거죠?,open_question,,,,역할 확인 질문
+100,DUMMY_68-0100,675.28,SPK02,Editor,응.,none,,,,
+101,DUMMY_68-0101,677.83,SPK07,Reporter,"그럼 그건 제가 받을게요, 감사관실 과장이랑 이번 주 안에 통화해 볼게요.",commitment,,,98,"데스크 요청 수락, 기한 명시"
+102,DUMMY_68-0102,688.58,SPK01,Editor,다음.,none,,,,
+103,DUMMY_68-0103,692.86,SPK02,Editor,경찰 쪽 보자.,none,,,,
+104,DUMMY_68-0104,696.57,SPK03,Reporter,경찰은 어젯밤 역삼동 스쿨존 사고요.,none,,,,
+105,DUMMY_68-0105,702.10,SPK03,Reporter,"초등학생 한 명 중상, 운전자는 음주 아니고",none,,,,
+106,DUMMY_68-0106,708.73,SPK03,Reporter,신호 대기하다가 출발하면서 우회전하다가 친 거예요.,none,,,,
+107,DUMMY_68-0107,716.88,SPK06,Reporter,우회전 일시정지 위반이에요?,open_question,,,,사실 확인 질문
+108,DUMMY_68-0108,726.30,SPK03,Reporter,블랙박스 보면 정지 안 하고 그냥 돌았어요.,none,,,,
+109,DUMMY_68-0109,732.44,SPK03,Reporter,경찰은 내일 오전에 입건 여부 발표한대요.,none,,,,
+110,DUMMY_68-0110,740.41,SPK01,Editor,이건 단신이야 박스야?,none,,,,
+111,DUMMY_68-0111,746.19,SPK03,Reporter,박스는 좀 과하고 단신 두 매 정도요.,none,,,,
+112,DUMMY_68-0112,752.89,SPK06,Reporter,근데 그 사거리가 올해만 세 번째 사고예요.,none,,,,
+113,DUMMY_68-0113,760.27,SPK06,Reporter,작년에 구청이 옐로카펫 깐다고 했다가 예산 없다고 미뤘고요.,none,,,,
+114,DUMMY_68-0114,768.22,SPK02,Editor,"오, 그럼 얘기가 다르지.",none,,,,
+115,DUMMY_68-0115,774.34,SPK01,Editor,다온이 그거 구청 쪽 확인돼?,open_question,,,,추가 확인 요청
+116,DUMMY_68-0116,780.76,SPK06,Reporter,구청 교통과에 전화해 보고 결과 나오는 대로 말씀드릴게요.,commitment,,,115,"요청 수락, 기한 없음"
+117,DUMMY_68-0117,789.09,SPK03,Reporter,다온 씨 거 붙으면 박스 가도 되겠다.,none,,,,
+118,DUMMY_68-0118,797.16,SPK01,Editor,그건 다온이 확인하고 보자.,none,,,,
+119,DUMMY_68-0119,802.96,SPK03,Reporter,그리고 오늘 새벽에 서초서에서 보이스피싱 수거책 검거 건도 있었어요.,none,,,,
+120,DUMMY_68-0120,816.10,SPK03,Reporter,스무 살 대학생인데 알바 공고 보고 들어갔대요.,none,,,,
+121,DUMMY_68-0121,822.91,SPK05,Reporter,요즘 그런 거 너무 많아요.,none,,,,
+122,DUMMY_68-0122,828.45,SPK01,Editor,그건 매번 쓰는 거라.,none,,,,
+123,DUMMY_68-0123,833.21,SPK03,Reporter,이번엔 공고가 대학 커뮤니티에 올라온 거라 좀 달라요.,none,,,,
+124,DUMMY_68-0124,843.46,SPK02,Editor,커뮤니티 운영자 쪽 얘기도 들었어요?,open_question,,,,추가 취재 여부 질문
+125,DUMMY_68-0125,849.61,SPK03,Reporter,아직이요.,none,,,,
+126,DUMMY_68-0126,852.66,SPK03,Reporter,"그쪽은 한번 연락은 해 볼게요, 답을 줄지는 모르겠지만.",ambiguous,,,124,결과 불확실한 약한 수락
+127,DUMMY_68-0127,860.47,SPK03,Reporter,다음은 채린 씨 야간 라인 얘기인데요.,none,,,,
+128,DUMMY_68-0128,866.64,SPK03,Reporter,다음 주부터 수습 채린 씨가 강남서 라인 혼자 서게 돼요.,none,,,,
+129,DUMMY_68-0129,874.96,SPK08,Reporter,네.,none,,,,
+130,DUMMY_68-0130,878.86,SPK03,Reporter,지금까지는 제가 같이 붙었는데 다음 주부터 제가 선거팀 지원 가거든요.,none,,,,
+131,DUMMY_68-0131,887.84,SPK02,Editor,그럼 채린 씨 뒤는 누가 봐 줘요?,open_question,D4,,,백업 담당 질문
+132,DUMMY_68-0132,894.53,SPK07,Reporter,저는 교육청 때문에 낮에 계속 나가 있어서요.,none,,,,
+133,DUMMY_68-0133,901.75,SPK06,Reporter,"저 다음 주는 괜찮아요, 그다음 주는 휴가고.",none,,,,
+134,DUMMY_68-0134,909.69,SPK02,Editor,다온 씨 휴가 끝나고는요?,open_question,D4,,,후속 담당 질문
+135,DUMMY_68-0135,915.79,SPK03,Reporter,그때는 제가 선거팀에서 돌아와요.,none,,,,
+136,DUMMY_68-0136,922.32,SPK08,Reporter,저 혼자 새벽 두 시 넘어서 사건 터지면 어떻게 해야 되는지 아직 잘 모르겠어요.,concern,D4,,,"unprompted, 단독 야간 근무 불안"
+137,DUMMY_68-0137,933.21,SPK01,Editor,모르는 게 당연하지.,none,,,,
+138,DUMMY_68-0138,938.03,SPK01,Editor,새벽에는 무조건 전화해.,none,,,,
+139,DUMMY_68-0139,943.61,SPK03,Reporter,나 선거팀 가 있어도 전화는 받아.,none,,,,
+140,DUMMY_68-0140,949.36,SPK02,Editor,"그럼 다음 주는 다온 씨가 채린 씨 뒤, 그다음 주부터는 도윤 선배가 다시.",decision,D4,1,,담당자와 기간 지정
+141,DUMMY_68-0141,959.49,SPK06,Reporter,네.,none,,,,
+142,DUMMY_68-0142,964.41,SPK08,Reporter,감사합니다.,none,,,,
+143,DUMMY_68-0143,969.93,SPK03,Reporter,채린 씨한테 새벽 보고 순서 한 장짜리로 정리해 주려고요.,commitment,,,,본인 계획
+144,DUMMY_68-0144,979.68,SPK08,Reporter,아 그거 진짜 필요해요.,none,,,,
+145,DUMMY_68-0145,984.40,SPK01,Editor,채린이 요즘 경찰서에서 형사들이랑은 좀 친해졌어?,open_question,,,,적응 상황 질문
+146,DUMMY_68-0146,992.36,SPK08,Reporter,강력팀 반장님이 이제 커피는 주세요.,none,,,,
+147,DUMMY_68-0147,998.72,SPK08,Reporter,사건 얘기는 아직 안 해 주시고요.,none,,,,
+148,DUMMY_68-0148,1005.76,SPK03,Reporter,커피 주기 시작하면 한 달 안에 얘기해 줘.,none,,,,
+149,DUMMY_68-0149,1012.05,SPK07,Reporter,저는 석 달 걸렸어요.,none,,,,
+150,DUMMY_68-0150,1018.24,SPK05,Reporter,우람이는 얼굴이 무서워서 그래.,none,,,,
+151,DUMMY_68-0151,1029.34,SPK07,Reporter,아 선배.,none,,,,
+152,DUMMY_68-0152,1034.51,SPK01,Editor,됐고.,none,,,,
+153,DUMMY_68-0153,1037.22,SPK01,Editor,"자 다음, 온라인 얘기.",none,,,,
+154,DUMMY_68-0154,1043.68,SPK02,Editor,디지털뉴스팀에서 요양병원 건 온라인 선출고를 요청했어요.,none,,,,
+155,DUMMY_68-0155,1051.28,SPK02,Editor,오늘 밤 열한 시에 먼저 내보내자고요.,none,,,,
+156,DUMMY_68-0156,1057.64,SPK04,Reporter,반론 기다리는 중인데 열한 시면 너무 이르지 않아요?,concern,D5,,,"unprompted, 선출고 시점 우려"
+157,DUMMY_68-0157,1065.18,SPK02,Editor,아홉 시에 반론 마감이니까 시간상으론 돼요.,none,,,,
+158,DUMMY_68-0158,1073.35,SPK03,Reporter,밤 열한 시에 올라가면 다른 데서 아침 신문에 받아쓰기 해요.,none,,,,
+159,DUMMY_68-0159,1081.25,SPK03,Reporter,우리 지면이 오히려 늦는 거지.,none,,,,
+160,DUMMY_68-0160,1091.79,SPK05,Reporter,그래도 온라인 조회수는 밤이 제일 잘 나와요.,none,,,,
+161,DUMMY_68-0161,1100.13,SPK01,Editor,디지털팀은 왜 굳이 밤이래?,open_question,D5,,,요청 이유 질문
+162,DUMMY_68-0162,1105.62,SPK02,Editor,포털 메인 편집이 새벽 여섯 시에 한 번 바뀌는데,none,,,,
+163,DUMMY_68-0163,1112.01,SPK02,Editor,그 전에 반응이 쌓여 있어야 올라간다고요.,none,,,,
+164,DUMMY_68-0164,1119.50,SPK06,Reporter,새벽 다섯 시 반에 올리면 되잖아요.,none,,,,
+165,DUMMY_68-0165,1124.32,SPK06,Reporter,그럼 조간 다른 데서 따라잡을 시간이 없고.,none,,,,
+166,DUMMY_68-0166,1132.21,SPK02,Editor,다섯 시 반이면 누가 올려요? 당직이?,open_question,D5,,,실무 담당 질문
+167,DUMMY_68-0167,1144.02,SPK07,Reporter,당직 데스크가 다섯 시에 나오니까 돼요.,none,,,,
+168,DUMMY_68-0168,1151.11,SPK02,Editor,그렇네.,none,,,,
+169,DUMMY_68-0169,1156.51,SPK01,Editor,"그럼 정리하면,",none,,,,
+170,DUMMY_68-0170,1161.15,SPK01,Editor,"온라인은 새벽 다섯 시 반, 지면 나가는 시간이랑 맞춰서. 디지털팀엔 그렇게 답해 줘.",decision,D5,1,,논의 후 부장 요약
+171,DUMMY_68-0171,1172.41,SPK02,Editor,"네, 디지털팀장한테 회의 끝나고 바로 말할게요.",commitment,,,,부장 요청 수락
+172,DUMMY_68-0172,1179.09,SPK02,Editor,"아 그리고 제목 몇 개 뽑아서 달래요, 포털용으로.",none,,,,
+173,DUMMY_68-0173,1187.85,SPK04,Reporter,포털용 제목은 제가 세 개쯤 뽑아 둘게요.,commitment,,,,본인이 맡음
+174,DUMMY_68-0174,1195.81,SPK02,Editor,"그렇게 하죠, 그중에 하나는 제가 고를게요.",none,,,,
+175,DUMMY_68-0175,1201.59,SPK02,Editor,"근데 스프링클러, 이런 단어는 제목 앞에 꼭 넣어요.",none,,,,
+176,DUMMY_68-0176,1209.94,SPK02,Editor,검색으로 들어오는 게 절반이래요.,none,,,,
+177,DUMMY_68-0177,1217.94,SPK07,Reporter,포털 제목에 병원 이름도 넣어요?,open_question,,,,제목 표기 질문
+178,DUMMY_68-0178,1225.23,SPK02,Editor,그건 아홉 시 반론 보고 정하자.,none,,,,
+179,DUMMY_68-0179,1232.78,SPK01,Editor,"다음, 사진.",none,,,,
+180,DUMMY_68-0180,1235.72,SPK01,Editor,요양병원 건 사진은 뭐 있어?,none,,,,
+181,DUMMY_68-0181,1240.28,SPK04,Reporter,"사진부에서 병원 외경 네 곳 다 찍었고요,",none,,,,
+182,DUMMY_68-0182,1247.67,SPK04,Reporter,한 곳은 복도 사진도 있는데 환자 얼굴이 보여요.,none,,,,
+183,DUMMY_68-0183,1255.38,SPK04,Reporter,제보해 주신 간병인분이 찍은 내부 영상도 있어요.,none,,,,
+184,DUMMY_68-0184,1263.01,SPK02,Editor,영상에 제보자 목소리 들어가요?,open_question,D6,,,제보자 노출 여부 질문
+185,DUMMY_68-0185,1268.46,SPK04,Reporter,"들어가요, 설명하시는 목소리가.",none,,,,
+186,DUMMY_68-0186,1275.10,SPK03,Reporter,목소리 그대로 나가면 병원에서 누군지 바로 알아요.,concern,D6,,183,제보자 신원 노출 위험
+187,DUMMY_68-0187,1283.53,SPK05,Reporter,간병인이 그 병원에 몇 명 안 되잖아요.,none,,,,
+188,DUMMY_68-0188,1289.59,SPK04,Reporter,"네, 그분도 그걸 제일 걱정하셨어요.",none,,,,
+189,DUMMY_68-0189,1296.98,SPK01,Editor,그럼 볼 것도 없어.,none,,,,
+190,DUMMY_68-0190,1301.30,SPK01,Editor,"복도 사진은 빼고 외경만, 영상은 목소리 변조하고 얼굴 전부 모자이크해서 가.",decision,D6,1,,"부장 단독 결론, 이견 없음"
+191,DUMMY_68-0191,1312.24,SPK04,Reporter,영상은 영상팀에 모자이크 요청 넣고 제가 최종본 확인할게요.,commitment,,,,본인이 맡음
+192,DUMMY_68-0192,1321.02,SPK06,Reporter,"변조한 목소리도 가끔 알아듣는다던데, 자막만 쓰면 안 돼요?",open_question,,,,대안 질문
+193,DUMMY_68-0193,1329.95,SPK02,Editor,자막만 쓰면 영상이 너무 밋밋해져요.,none,,,,
+194,DUMMY_68-0194,1336.69,SPK06,Reporter,그렇긴 한데.,none,,,,
+195,DUMMY_68-0195,1340.76,SPK05,Reporter,"그냥 변조로 가도 될 것 같은데요, 세게 하면.",none,,,,
+196,DUMMY_68-0196,1348.24,SPK01,Editor,지난달 약국 건 기억 안 나?,concern,,,195,"변조만으로 부족하다는 반대, 이전 사례 근거"
+197,DUMMY_68-0197,1354.28,SPK01,Editor,그때도 변조했는데 동네 사람들이 다 알아봤어.,none,,,,
+198,DUMMY_68-0198,1361.22,SPK02,Editor,아 그랬죠.,none,,,,
+199,DUMMY_68-0199,1369.62,SPK02,Editor,그럼 영상은 목소리 빼고 자막으로 해요?,open_question,,,,방식 재확인 질문
+200,DUMMY_68-0200,1377.06,SPK04,Reporter,영상팀이랑 한번 얘기는 해 볼게요.,ambiguous,,,199,구체적 결론 없는 약한 수락
+201,DUMMY_68-0201,1384.26,SPK01,Editor,음.,none,,,,
+202,DUMMY_68-0202,1387.09,SPK01,Editor,"다음, 기획.",none,,,,
+203,DUMMY_68-0203,1392.39,SPK02,Editor,다음 달 기획 청년 고독사 시리즈요.,none,,,,
+204,DUMMY_68-0204,1397.92,SPK02,Editor,지금 세 명 붙어 있는데 진도가 좀 늦어요.,none,,,,
+205,DUMMY_68-0205,1406.40,SPK06,Reporter,"저 사례 취재는 여덟 건 했고요,",none,,,,
+206,DUMMY_68-0206,1411.56,SPK06,Reporter,유족 인터뷰 허락받은 게 세 건이에요.,none,,,,
+207,DUMMY_68-0207,1417.80,SPK05,Reporter,세 건이면 적은 건 아니네.,none,,,,
+208,DUMMY_68-0208,1423.25,SPK06,Reporter,근데 한 분은 실명은 절대 안 된다고 하셔서요.,none,,,,
+209,DUMMY_68-0209,1429.55,SPK02,Editor,그건 당연히 익명이지.,none,,,,
+210,DUMMY_68-0210,1435.70,SPK07,Reporter,통계는 어디서 받아요?,open_question,,,,자료 출처 질문
+211,DUMMY_68-0211,1440.68,SPK06,Reporter,복지부 자료가 연령별로 안 나눠져 있어서,none,,,,
+212,DUMMY_68-0212,1447.59,SPK06,Reporter,대학 연구소 한 곳이랑 같이 분석하기로 했어요.,none,,,,
+213,DUMMY_68-0213,1453.36,SPK06,Reporter,결과가 이 주 뒤에 나와요.,none,,,,
+214,DUMMY_68-0214,1460.02,SPK02,Editor,그럼 시리즈 시작을 좀 미뤄야 되는 거 아니에요?,open_question,,,,일정 조정 의견 요청
+215,DUMMY_68-0215,1468.65,SPK03,Reporter,통계 없이 사례로만 시작하면 첫 회가 약해요.,none,,,,
+216,DUMMY_68-0216,1475.73,SPK01,Editor,"음, 그건 다온이랑 따로 얘기하자.",none,,,,
+217,DUMMY_68-0217,1481.81,SPK07,Reporter,"아, 저 하나 제안해도 돼요?",none,,,,
+218,DUMMY_68-0218,1486.43,SPK07,Reporter,시리즈 첫 회를 유족 편지로 열면 어떨까 싶어서요.,none,,,,
+219,DUMMY_68-0219,1494.61,SPK07,Reporter,통계 없어도 첫 회로 힘이 있을 것 같아서.,none,,,,
+220,DUMMY_68-0220,1502.76,SPK05,Reporter,편지를 써 주실까.,none,,,,
+221,DUMMY_68-0221,1513.40,SPK06,Reporter,한 분은 쓰실 수도 있어요.,none,,,,
+222,DUMMY_68-0222,1517.86,SPK02,Editor,그건 나중에 보고.,none,,,,
+223,DUMMY_68-0223,1522.94,SPK01,Editor,"다온아, 연구소 결과 좀 당겨 줄 수 있는지 물어봐 줄래?",open_question,,,,일정 단축 확인 요청
+224,DUMMY_68-0224,1530.55,SPK06,Reporter,"네, 연구소 쪽이랑 일정은 다시 검토해 보겠습니다.",ambiguous,,,223,구체 일정 없는 약한 수락
+225,DUMMY_68-0225,1537.56,SPK06,Reporter,그 전에 유족 인터뷰는 먼저 다 해 두려고요.,commitment,,,,본인 계획
+226,DUMMY_68-0226,1543.83,SPK01,Editor,"좋아, 마지막으로 사회면 단신들.",none,,,,
+227,DUMMY_68-0227,1550.34,SPK02,Editor,단신은 지금 여덟 개 있고 두 개는 빼야 돼요.,none,,,,
+228,DUMMY_68-0228,1556.13,SPK02,Editor,뭐 뺄지 의견 있어요?,open_question,D7,,,단신 선정 의견 요청
+229,DUMMY_68-0229,1560.59,SPK03,Reporter,지하철 스크린도어 고장 건은 어제 다른 데 다 났어요.,none,,,,
+230,DUMMY_68-0230,1569.44,SPK05,Reporter,공원 흉기 소동도 부상자 없어서 약하고요.,none,,,,
+231,DUMMY_68-0231,1577.00,SPK07,Reporter,흉기 소동은 동네 주민 반응이 커서 온라인은 괜찮을 것 같아요.,none,,,,
+232,DUMMY_68-0232,1586.89,SPK02,Editor,그럼 그건 온라인만.,none,,,,
+233,DUMMY_68-0233,1595.63,SPK02,Editor,"지면에선 스크린도어랑 흉기 소동 빼고, 흉기 소동은 온라인으로.",decision,D7,1,,논의 후 데스크 요약
+234,DUMMY_68-0234,1608.78,SPK01,Editor,그래.,none,,,,
+235,DUMMY_68-0235,1612.90,SPK08,Reporter,"선배, 그럼 제가 쓴 공원 흉기 소동은 온라인 분량으로 다시 줄여야 돼요?",open_question,,,,작업 범위 질문
+236,DUMMY_68-0236,1624.09,SPK02,Editor,"온라인은 분량 상관없어, 대신 주민 인터뷰 한 줄 넣어요.",none,,,,
+237,DUMMY_68-0237,1632.87,SPK08,Reporter,"네, 주민분 한 분 더 통화해서 넣겠습니다.",commitment,,,,데스크 지시 수락
+238,DUMMY_68-0238,1640.52,SPK01,Editor,다른 거 뭐 없어?,open_question,,,,추가 안건 확인
+239,DUMMY_68-0239,1645.77,SPK03,Reporter,"아 부장님, 지난번 회의 때 제가 경찰청 통계 오류 건 정정 요청하기로 했잖아요.",none,,,,
+240,DUMMY_68-0240,1655.12,SPK03,Reporter,그거 공문으로 내일 오전에 보낼게요.,commitment,,,,"이전 약속 상기, 시점 명시"
+241,DUMMY_68-0241,1662.23,SPK01,Editor,"응, 그거 저쪽에서 또 뭉개면 우리가 기사로 써.",none,,,,
+242,DUMMY_68-0242,1670.49,SPK03,Reporter,네.,none,,,,
+243,DUMMY_68-0243,1674.47,SPK01,Editor,통계 틀린 거 벌써 두 번째야.,none,,,,
+244,DUMMY_68-0244,1680.19,SPK03,Reporter,작년 가을에도 한 번 있었어요.,none,,,,
+245,DUMMY_68-0245,1685.97,SPK05,Reporter,"부장님, 저 금요일 오후 반차 써도 돼요?",none,,,,
+246,DUMMY_68-0246,1693.69,SPK01,Editor,공정위 건은?,none,,,,
+247,DUMMY_68-0247,1696.78,SPK05,Reporter,오전에 끝낼게요.,none,,,,
+248,DUMMY_68-0248,1701.17,SPK01,Editor,그럼 써.,none,,,,
+249,DUMMY_68-0249,1704.65,SPK05,Reporter,감사합니다.,none,,,,
+250,DUMMY_68-0250,1709.79,SPK02,Editor,"우람 씨, 내일 아침 교육청 브리핑 몇 시예요?",open_question,,,,일정 확인
+251,DUMMY_68-0251,1716.83,SPK07,Reporter,"열 시요, 급식 관련 질의도 몇 개 넣어 볼까요?",open_question,,,,의견 요청
+252,DUMMY_68-0252,1725.76,SPK05,Reporter,"아니 아직 건드리지 마, 눈치채면 자료 닫아.",concern,,,251,취재 노출 위험으로 반대
+253,DUMMY_68-0253,1734.73,SPK07,Reporter,아 네.,none,,,,
+254,DUMMY_68-0254,1737.98,SPK02,Editor,소율 씨 여덟 시 법무 잊지 말고.,none,,,,
+255,DUMMY_68-0255,1743.67,SPK04,Reporter,알람 맞췄어요.,none,,,,
+256,DUMMY_68-0256,1747.71,SPK02,Editor,채린 씨는 오늘 몇 시에 들어가요?,none,,,,
+257,DUMMY_68-0257,1754.77,SPK08,Reporter,밤 열 시에 강남서 들어가요.,none,,,,
+258,DUMMY_68-0258,1761.99,SPK03,Reporter,들어가기 전에 나랑 오 분만 얘기하자.,none,,,,
+259,DUMMY_68-0259,1768.95,SPK08,Reporter,네.,none,,,,
+260,DUMMY_68-0260,1772.54,SPK01,Editor,오늘 요양병원 건 잘 챙기고.,none,,,,
+261,DUMMY_68-0261,1777.60,SPK01,Editor,반론 들어오면 바로 나한테 전화해.,none,,,,
+262,DUMMY_68-0262,1784.59,SPK04,Reporter,"네, 바로 드릴게요.",none,,,,
+263,DUMMY_68-0263,1790.59,SPK01,Editor,수고들 했어.,none,,,,
+264,DUMMY_68-0264,1794.59,SPK06,Reporter,수고하셨습니다.,none,,,,
+265,DUMMY_68-0265,1800.01,SPK07,Reporter,저 교육청 갔다 올게요.,none,,,,
+266,DUMMY_68-0266,1805.85,SPK05,Reporter,우람아 커피 사 와.,none,,,,
+267,DUMMY_68-0267,1811.00,SPK07,Reporter,선배가 사셔야죠.,none,,,,

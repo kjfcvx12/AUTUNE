@@ -1,0 +1,57 @@
+{
+  "meeting": "DUMMY_12",
+  "title": "외래 예약 흐름 개편 협의 (원무팀·의료정보팀)",
+  "type": "cross-team",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "도경란",
+      "team": "원무팀",
+      "job": "Ops",
+      "position": "차장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "주성택",
+      "team": "의료정보팀",
+      "job": "IT",
+      "position": "차장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK03",
+      "name": "현다온",
+      "team": "원무팀",
+      "job": "Ops",
+      "position": "주임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "은재석",
+      "team": "의료정보팀",
+      "job": "IT",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "채소희",
+      "team": "원무팀",
+      "job": "Ops",
+      "position": "사원",
+      "title": ""
+    }
+  ]
+}

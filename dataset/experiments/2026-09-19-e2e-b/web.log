@@ -1,0 +1,55 @@
+﻿   ▲ Next.js 15.5.4
+   - Local:        http://localhost:3000
+   - Network:      http://172.29.192.1:3000
+
+ ✓ Starting...
+ ✓ Ready in 10.5s
+ ○ Compiling /meetings/[meetingId]/actions ...
+ ✓ Compiled /meetings/[meetingId]/actions in 10.1s (591 modules)
+ GET /meetings/mtg_2f3ca8ebf395484abb5e46a18f2e1ae7/actions 200 in 11787ms
+ GET /meetings/mtg_2f3ca8ebf395484abb5e46a18f2e1ae7/actions 200 in 109ms
+ GET /meetings/mtg_nope/actions 200 in 73ms
+ ✓ Compiled in 244ms (226 modules)
+ ✓ Compiled /_not-found in 363ms (537 modules)
+ GET /login 404 in 667ms
+ GET /login 404 in 39ms
+ GET /login 404 in 36ms
+ GET /login 404 in 38ms
+ GET /login 404 in 41ms
+ GET /login 404 in 62ms
+ GET /login 404 in 51ms
+ GET /login 404 in 45ms
+ GET /login 404 in 45ms
+ GET /login 404 in 43ms
+ GET /login 404 in 43ms
+ GET /login 404 in 44ms
+ GET /login 404 in 43ms
+ GET /login 404 in 39ms
+ GET /login 404 in 39ms
+ GET /login 404 in 37ms
+ GET /login 404 in 38ms
+ GET /login 404 in 40ms
+ GET /login 404 in 38ms
+ GET /login 404 in 41ms
+ GET /login 404 in 39ms
+ GET /login 404 in 36ms
+ GET /login 404 in 37ms
+ GET /login 404 in 40ms
+ GET /login 404 in 35ms
+ GET /login 404 in 37ms
+ GET /login 404 in 38ms
+ GET /login 404 in 36ms
+ GET /login 404 in 36ms
+ GET /login 404 in 42ms
+ GET /login 404 in 39ms
+ GET /login 404 in 35ms
+ GET /login 404 in 34ms
+ GET /login 404 in 37ms
+ GET /login 404 in 50ms
+ GET /login 404 in 35ms
+ GET /login 404 in 36ms
+ GET /login 404 in 45ms
+ GET /login 404 in 37ms
+ GET /login 404 in 35ms
+ GET /auth/demo?as=student 404 in 53ms
+ GET /library?book=0000b135-0000-4000-8000-000000000135&chapter=1 404 in 100ms

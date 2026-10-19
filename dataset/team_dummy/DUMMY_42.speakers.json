@@ -1,0 +1,57 @@
+{
+  "meeting": "DUMMY_42",
+  "title": "파란돛투어 상품기획2팀 겨울 시즌 패키지 기획 회의",
+  "type": "team",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "채민석",
+      "team": "상품기획2팀",
+      "job": "PM",
+      "position": "차장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "오세영",
+      "team": "상품기획2팀",
+      "job": "PM",
+      "position": "과장",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "김한결",
+      "team": "상품기획2팀",
+      "job": "PM",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "봉지수",
+      "team": "상품기획2팀",
+      "job": "Ops",
+      "position": "주임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "탁은비",
+      "team": "상품기획2팀",
+      "job": "Marketing",
+      "position": "사원",
+      "title": ""
+    }
+  ]
+}

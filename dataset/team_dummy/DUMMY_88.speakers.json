@@ -1,0 +1,53 @@
+{
+  "meeting": "DUMMY_88",
+  "title": "온기부엌 사업운영팀 월간 운영 회의",
+  "type": "team",
+  "position_order": [
+    "매니저",
+    "선임매니저",
+    "책임매니저",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "하윤정",
+      "team": "사업운영팀",
+      "job": "Ops",
+      "position": "책임매니저",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "도경수",
+      "team": "사업운영팀",
+      "job": "Ops",
+      "position": "선임매니저",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "채수아",
+      "team": "사업운영팀",
+      "job": "Sales",
+      "position": "매니저",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "길민호",
+      "team": "사업운영팀",
+      "job": "HR",
+      "position": "매니저",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "심예린",
+      "team": "사업운영팀",
+      "job": "Impact",
+      "position": "매니저",
+      "title": ""
+    }
+  ]
+}

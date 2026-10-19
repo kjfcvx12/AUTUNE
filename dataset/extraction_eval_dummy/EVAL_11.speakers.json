@@ -1,0 +1,55 @@
+{
+  "meeting": "EVAL_11",
+  "title": "가온시청 민원지원과 민원1팀 주간 회의",
+  "type": "team",
+  "position_order": [
+    "9급",
+    "8급",
+    "7급",
+    "6급",
+    "5급",
+    "4급"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "정영선",
+      "team": "민원1팀",
+      "job": "Ops",
+      "position": "6급",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "배상호",
+      "team": "민원1팀",
+      "job": "Ops",
+      "position": "7급",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "윤소라",
+      "team": "민원1팀",
+      "job": "Ops",
+      "position": "8급",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "고재웅",
+      "team": "민원1팀",
+      "job": "Ops",
+      "position": "9급",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "임하늘",
+      "team": "민원1팀",
+      "job": "Data",
+      "position": "7급",
+      "title": ""
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "meeting": "DUMMY_48",
+  "title": "고소한날제과 식빵·파운드 라인 생산-품질-구매 협의",
+  "type": "cross-team",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "여상철",
+      "team": "생산팀",
+      "job": "Ops",
+      "position": "차장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "편지우",
+      "team": "품질관리팀",
+      "job": "QA",
+      "position": "과장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK03",
+      "name": "도진혁",
+      "team": "생산팀",
+      "job": "Ops",
+      "position": "대리",
+      "title": "리드"
+    },
+    {
+      "speaker": "SPK04",
+      "name": "설미래",
+      "team": "구매팀",
+      "job": "Purchasing",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "황보은",
+      "team": "생산팀",
+      "job": "Ops",
+      "position": "사원",
+      "title": ""
+    }
+  ]
+}

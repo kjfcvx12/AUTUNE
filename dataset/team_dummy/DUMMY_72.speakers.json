@@ -1,0 +1,73 @@
+{
+  "meeting": "DUMMY_72",
+  "title": "다온식품 귀리 크림수프 알레르기 표시 누락 회수 대응 회의",
+  "type": "with-senior",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "서정민",
+      "team": "품질경영본부",
+      "job": "QA",
+      "position": "이사",
+      "title": "본부장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "김혜린",
+      "team": "품질보증팀",
+      "job": "QA",
+      "position": "부장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK03",
+      "name": "박상우",
+      "team": "품질보증팀",
+      "job": "QA",
+      "position": "과장",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "정유나",
+      "team": "품질보증팀",
+      "job": "CS",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "최민혁",
+      "team": "품질보증팀",
+      "job": "Lab",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "조은솔",
+      "team": "품질보증팀",
+      "job": "Ops",
+      "position": "주임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK07",
+      "name": "황보현",
+      "team": "품질보증팀",
+      "job": "QA",
+      "position": "사원",
+      "title": ""
+    }
+  ]
+}

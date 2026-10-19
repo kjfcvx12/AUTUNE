@@ -1,0 +1,73 @@
+{
+  "meeting": "DUMMY_81",
+  "title": "해담호텔 서울 식음료팀 주간 회의 (총괄 이사 참석)",
+  "type": "with-senior",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "윤태성",
+      "team": "식음료팀",
+      "job": "Ops",
+      "position": "과장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "서하린",
+      "team": "식음료팀",
+      "job": "Sales",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "조민혁",
+      "team": "식음료팀",
+      "job": "Ops",
+      "position": "주임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "배은채",
+      "team": "식음료팀",
+      "job": "Ops",
+      "position": "사원",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "권도윤",
+      "team": "조리팀",
+      "job": "Chef",
+      "position": "차장",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "남궁선",
+      "team": "식음료본부",
+      "job": "Management",
+      "position": "이사",
+      "title": "본부장"
+    },
+    {
+      "speaker": "SPK07",
+      "name": "하예지",
+      "team": "구매팀",
+      "job": "Purchasing",
+      "position": "대리",
+      "title": ""
+    }
+  ]
+}

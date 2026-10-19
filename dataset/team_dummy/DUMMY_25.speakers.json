@@ -1,0 +1,73 @@
+{
+  "meeting": "DUMMY_25",
+  "title": "한결몰 등대 프로젝트 웨어하우스 이전 cut-over 일정 협의",
+  "type": "cross-team",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "윤태석",
+      "team": "플랫폼데이터팀",
+      "job": "Data",
+      "position": "차장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "오현우",
+      "team": "플랫폼데이터팀",
+      "job": "Data",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "백소연",
+      "team": "플랫폼데이터팀",
+      "job": "Data",
+      "position": "주임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "장민혁",
+      "team": "추천개발팀",
+      "job": "Dev",
+      "position": "과장",
+      "title": "파트장"
+    },
+    {
+      "speaker": "SPK05",
+      "name": "임나래",
+      "team": "추천개발팀",
+      "job": "Dev",
+      "position": "사원",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "송기범",
+      "team": "재무분석팀",
+      "job": "Finance",
+      "position": "과장",
+      "title": "리드"
+    },
+    {
+      "speaker": "SPK07",
+      "name": "유하린",
+      "team": "재무분석팀",
+      "job": "Finance",
+      "position": "대리",
+      "title": ""
+    }
+  ]
+}

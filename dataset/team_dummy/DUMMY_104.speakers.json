@@ -1,0 +1,57 @@
+{
+  "meeting": "DUMMY_104",
+  "title": "모도워크 거점운영팀 10월 갱신 시즌 대비 주간 회의",
+  "type": "team",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "문세아",
+      "team": "거점운영팀",
+      "job": "Ops",
+      "position": "차장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "배한결",
+      "team": "거점운영팀",
+      "job": "Ops",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "조은별",
+      "team": "거점운영팀",
+      "job": "CS",
+      "position": "주임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "신도겸",
+      "team": "거점운영팀",
+      "job": "Sales",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "류하람",
+      "team": "거점운영팀",
+      "job": "Data",
+      "position": "사원",
+      "title": ""
+    }
+  ]
+}

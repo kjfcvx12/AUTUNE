@@ -1,0 +1,57 @@
+{
+  "meeting": "DUMMY_121",
+  "title": "씽씽모빌리티 운영팀·파워스테이션 11월 배터리 운영 회의",
+  "type": "cross-team",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "이도현",
+      "team": "씽씽모빌리티 운영팀",
+      "job": "PM",
+      "position": "과장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "박서연",
+      "team": "씽씽모빌리티 운영팀",
+      "job": "Ops",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "김태우",
+      "team": "씽씽모빌리티 운영팀",
+      "job": "Data",
+      "position": "주임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "최은지",
+      "team": "파워스테이션(배터리 협력사)",
+      "job": "Ops",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "정하늘",
+      "team": "씽씽모빌리티 운영팀",
+      "job": "CS",
+      "position": "사원",
+      "title": ""
+    }
+  ]
+}

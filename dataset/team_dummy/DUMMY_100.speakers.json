@@ -1,0 +1,62 @@
+{
+  "meeting": "DUMMY_100",
+  "title": "휘담컨설팅 도원식품 물류 혁신 제안서 작성 회의",
+  "type": "with-senior",
+  "position_order": [
+    "애널리스트",
+    "컨설턴트",
+    "매니저",
+    "시니어매니저",
+    "파트너"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "선우경민",
+      "team": "운영전략본부",
+      "job": "Consulting",
+      "position": "시니어매니저",
+      "title": "제안 리드"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "은하진",
+      "team": "운영전략본부",
+      "job": "Consulting",
+      "position": "매니저",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "모태웅",
+      "team": "운영전략본부",
+      "job": "Consulting",
+      "position": "컨설턴트",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "채소율",
+      "team": "운영전략본부",
+      "job": "Consulting",
+      "position": "애널리스트",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "남기백",
+      "team": "디지털솔루션본부",
+      "job": "Data",
+      "position": "컨설턴트",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "구정환",
+      "team": "운영전략본부",
+      "job": "Management",
+      "position": "파트너",
+      "title": "담당 파트너"
+    }
+  ]
+}

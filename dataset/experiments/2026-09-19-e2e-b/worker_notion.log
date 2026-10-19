@@ -1,0 +1,151 @@
+C:\Users\hi\AppData\Local\Temp\claude\F--0final-AUTUNE\2a5d0628-8d00-4e25-82ef-4e9204cd7909\scratchpad\wt247\modules\audio\src\autune_audio\persistence.py:14: SyntaxWarning: invalid escape sequence '\w'
+  its patterns still end in `\b`, and a Hangul syllable is `\w`, so
+ 
+ -------------- celery@DESKTOP-0LP7MNC v5.6.3 (recovery)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2026-09-19 10:55:12
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         autune:0x1c942785af0
+- ** ---------- .> transport:   redis://localhost:56379/0
+- ** ---------- .> results:     redis://localhost:56379/0
+- *** --- * --- .> concurrency: 6 (solo)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> cpu_heavy        exchange=cpu_heavy(direct) key=cpu_heavy
+                .> default          exchange=default(direct) key=default
+
+[tasks]
+  . autune.audio.process_recording
+  . autune.context.on_extraction_completed
+  . autune.context.on_transcript_ready
+  . autune.context.publish_if_ready
+  . autune.extraction.on_transcript_ready
+  . autune.extraction.sync_action_item
+  . autune.gap.on_transcript_ready
+  . autune.intelligence.aggregate
+  . autune.intelligence.generate_weekly_report
+  . autune.intelligence.on_context_completed
+  . autune.intelligence.on_extraction_completed
+  . autune.intelligence.on_gap_completed
+  . autune.intelligence.send_personal_feedback
+
+[2026-09-19 10:55:12,858: INFO/MainProcess] Connected to redis://localhost:56379/0
+[2026-09-19 10:55:12,868: INFO/MainProcess] mingle: searching for neighbors
+[2026-09-19 10:55:13,902: INFO/MainProcess] mingle: all alone
+[2026-09-19 10:55:13,935: INFO/MainProcess] celery@DESKTOP-0LP7MNC ready.
+[2026-09-19 10:55:23,195: INFO/MainProcess] Task autune.context.on_transcript_ready[17d44f58-82e6-4439-9437-7952ff670f93] received
+[2026-09-19 10:55:23,197: WARNING/MainProcess] [2m2026-09-19T01:55:23.197257Z[0m [[32m[1minfo     [0m] [1mcontext_received_transcript   [0m [36mmeeting_id[0m=[35mmtg_52d25f8f1fa4440eb3ea05e3cc47c0f9[0m [36mutterances[0m=[35m307[0m
+[2026-09-19 10:55:26,174: WARNING/MainProcess] [2m2026-09-19T01:55:26.174135Z[0m [[32m[1minfo     [0m] [1mcontext_topics_extracted      [0m [36mmeeting_id[0m=[35mmtg_52d25f8f1fa4440eb3ea05e3cc47c0f9[0m [36mtopics[0m=[35m72[0m
+[2026-09-19 10:55:26,456: WARNING/MainProcess] [2m2026-09-19T01:55:26.456998Z[0m [[32m[1minfo     [0m] [1mcontext_topic_linking_done    [0m [36mlinks[0m=[35m0[0m [36mmeeting_id[0m=[35mmtg_52d25f8f1fa4440eb3ea05e3cc47c0f9[0m
+[2026-09-19 10:55:26,488: INFO/MainProcess] Task autune.context.on_transcript_ready[17d44f58-82e6-4439-9437-7952ff670f93] succeeded in 3.297000000020489s: None
+[2026-09-19 10:55:26,493: INFO/MainProcess] Task autune.extraction.on_transcript_ready[ceb4757b-43fc-4770-ae1a-888d53deb3c7] received
+[2026-09-19 10:55:26,495: WARNING/MainProcess] [2m2026-09-19T01:55:26.495145Z[0m [[32m[1minfo     [0m] [1mextraction_received_transcript[0m [36mmeeting_id[0m=[35mmtg_52d25f8f1fa4440eb3ea05e3cc47c0f9[0m [36mutterances[0m=[35m307[0m
+[2026-09-19 10:56:23,130: ERROR/MainProcess] Task autune.extraction.on_transcript_ready[ceb4757b-43fc-4770-ae1a-888d53deb3c7] raised unexpected: OSError("Repo id must be in the form 'repo_name' or 'namespace/repo_name': 'F:/0final/AUTUNE/dataset/experiments/2026-09-15-korean-v1/run_syn_none_probe,F:/0final/AUTUNE/dataset/experiments/2026-09-15-korean-v1/run_syn_none_probe_s20260916,F:/0final/AUTUNE/dataset/experiments/2026-09-15-korean-v1/run_syn_none_probe_s20260917'. Use `repo_type` argument if needed.")
+Traceback (most recent call last):
+  File "C:\Users\hi\AppData\Local\uv\cache\archive-v0\GOB1n5S_lI4Iz9a0\Lib\site-packages\transformers\utils\hub.py", line 438, in cached_files
+    hf_hub_download(
+  File "C:\Users\hi\AppData\Local\uv\cache\archive-v0\GOB1n5S_lI4Iz9a0\Lib\site-packages\huggingface_hub\utils\_validators.py", line 84, in _inner_fn
+    validate_repo_id(arg_value)
+  File "C:\Users\hi\AppData\Local\uv\cache\archive-v0\GOB1n5S_lI4Iz9a0\Lib\site-packages\huggingface_hub\utils\_validators.py", line 132, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': 'F:/0final/AUTUNE/dataset/experiments/2026-09-15-korean-v1/run_syn_none_probe,F:/0final/AUTUNE/dataset/experiments/2026-09-15-korean-v1/run_syn_none_probe_s20260916,F:/0final/AUTUNE/dataset/experiments/2026-09-15-korean-v1/run_syn_none_probe_s20260917'. Use `repo_type` argument if needed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hi\AppData\Local\uv\cache\archive-v0\GOB1n5S_lI4Iz9a0\Lib\site-packages\transformers\models\auto\tokenization_auto.py", line 773, in from_pretrained
+    config = AutoConfig.from_pretrained(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hi\AppData\Local\uv\cache\archive-v0\GOB1n5S_lI4Iz9a0\Lib\site-packages\transformers\models\auto\configuration_auto.py", line 388, in from_pretrained
+    config_dict, unused_kwargs = PreTrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hi\AppData\Local\uv\cache\archive-v0\GOB1n5S_lI4Iz9a0\Lib\site-packages\transformers\configuration_utils.py", line 747, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hi\AppData\Local\uv\cache\archive-v0\GOB1n5S_lI4Iz9a0\Lib\site-packages\transformers\configuration_utils.py", line 802, in _get_config_dict
+    resolved_config_file = cached_file(
+                           ^^^^^^^^^^^^
+  File "C:\Users\hi\AppData\Local\uv\cache\archive-v0\GOB1n5S_lI4Iz9a0\Lib\site-packages\transformers\utils\hub.py", line 294, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hi\AppData\Local\uv\cache\archive-v0\GOB1n5S_lI4Iz9a0\Lib\site-packages\transformers\utils\hub.py", line 496, in cached_files
+    raise OSError(f"{e}") from e
+OSError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': 'F:/0final/AUTUNE/dataset/experiments/2026-09-15-korean-v1/run_syn_none_probe,F:/0final/AUTUNE/dataset/experiments/2026-09-15-korean-v1/run_syn_none_probe_s20260916,F:/0final/AUTUNE/dataset/experiments/2026-09-15-korean-v1/run_syn_none_probe_s20260917'. Use `repo_type` argument if needed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hi\AppData\Local\uv\cache\archive-v0\GOB1n5S_lI4Iz9a0\Lib\site-packages\transformers\utils\hub.py", line 438, in cached_files
+    hf_hub_download(
+  File "C:\Users\hi\AppData\Local\uv\cache\archive-v0\GOB1n5S_lI4Iz9a0\Lib\site-packages\huggingface_hub\utils\_validators.py", line 84, in _inner_fn
+    validate_repo_id(arg_value)
+  File "C:\Users\hi\AppData\Local\uv\cache\archive-v0\GOB1n5S_lI4Iz9a0\Lib\site-packages\huggingface_hub\utils\_validators.py", line 132, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': 'F:/0final/AUTUNE/dataset/experiments/2026-09-15-korean-v1/run_syn_none_probe,F:/0final/AUTUNE/dataset/experiments/2026-09-15-korean-v1/run_syn_none_probe_s20260916,F:/0final/AUTUNE/dataset/experiments/2026-09-15-korean-v1/run_syn_none_probe_s20260917'. Use `repo_type` argument if needed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hi\AppData\Local\Temp\claude\F--0final-AUTUNE\2a5d0628-8d00-4e25-82ef-4e9204cd7909\scratchpad\wt247\.venv\Lib\site-packages\celery\app\trace.py", line 585, in trace_task
+    R = retval = fun(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hi\AppData\Local\Temp\claude\F--0final-AUTUNE\2a5d0628-8d00-4e25-82ef-4e9204cd7909\scratchpad\wt247\.venv\Lib\site-packages\celery\app\trace.py", line 858, in __protected_call__
+    return self.run(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hi\AppData\Local\Temp\claude\F--0final-AUTUNE\2a5d0628-8d00-4e25-82ef-4e9204cd7909\scratchpad\wt247\modules\extraction\src\autune_extraction\tasks.py", line 77, in on_transcript_ready
+    classified = service.classify_utterances(classifier, transcript.utterances, consented=consented)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hi\AppData\Local\Temp\claude\F--0final-AUTUNE\2a5d0628-8d00-4e25-82ef-4e9204cd7909\scratchpad\wt247\modules\extraction\src\autune_extraction\service.py", line 739, in classify_utterances
+    predictions = classifier.classify([utterance.text for utterance in analysed])
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hi\AppData\Local\Temp\claude\F--0final-AUTUNE\2a5d0628-8d00-4e25-82ef-4e9204cd7909\scratchpad\wt247\modules\extraction\src\autune_extraction\pipeline\classifier.py", line 222, in classify
+    self._load()
+  File "C:\Users\hi\AppData\Local\Temp\claude\F--0final-AUTUNE\2a5d0628-8d00-4e25-82ef-4e9204cd7909\scratchpad\wt247\modules\extraction\src\autune_extraction\pipeline\classifier.py", line 208, in _load
+    self._tokenizer = AutoTokenizer.from_pretrained(self._checkpoint)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hi\AppData\Local\uv\cache\archive-v0\GOB1n5S_lI4Iz9a0\Lib\site-packages\transformers\models\auto\tokenization_auto.py", line 777, in from_pretrained
+    config = PreTrainedConfig.from_pretrained(pretrained_model_name_or_path, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hi\AppData\Local\uv\cache\archive-v0\GOB1n5S_lI4Iz9a0\Lib\site-packages\transformers\configuration_utils.py", line 706, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hi\AppData\Local\uv\cache\archive-v0\GOB1n5S_lI4Iz9a0\Lib\site-packages\transformers\configuration_utils.py", line 747, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hi\AppData\Local\uv\cache\archive-v0\GOB1n5S_lI4Iz9a0\Lib\site-packages\transformers\configuration_utils.py", line 802, in _get_config_dict
+    resolved_config_file = cached_file(
+                           ^^^^^^^^^^^^
+  File "C:\Users\hi\AppData\Local\uv\cache\archive-v0\GOB1n5S_lI4Iz9a0\Lib\site-packages\transformers\utils\hub.py", line 294, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hi\AppData\Local\uv\cache\archive-v0\GOB1n5S_lI4Iz9a0\Lib\site-packages\transformers\utils\hub.py", line 496, in cached_files
+    raise OSError(f"{e}") from e
+OSError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': 'F:/0final/AUTUNE/dataset/experiments/2026-09-15-korean-v1/run_syn_none_probe,F:/0final/AUTUNE/dataset/experiments/2026-09-15-korean-v1/run_syn_none_probe_s20260916,F:/0final/AUTUNE/dataset/experiments/2026-09-15-korean-v1/run_syn_none_probe_s20260917'. Use `repo_type` argument if needed.
+[2026-09-19 10:56:23,140: INFO/MainProcess] Task autune.gap.on_transcript_ready[4d208890-54c5-438e-92bc-f2912f3206ad] received
+[2026-09-19 10:56:23,142: WARNING/MainProcess] [2m2026-09-19T01:56:23.142200Z[0m [[32m[1minfo     [0m] [1mgap_received_transcript       [0m [36mmeeting_id[0m=[35mmtg_52d25f8f1fa4440eb3ea05e3cc47c0f9[0m [36mutterances[0m=[35m307[0m
+[2026-09-19 10:56:23,277: WARNING/MainProcess] [2m2026-09-19T01:56:23.277178Z[0m [[32m[1minfo     [0m] [1mgap_topic_graph_built         [0m [36medges[0m=[35m10[0m [36mexcluded[0m=[35m0[0m [36mextractor[0m=[35mfake[0m [36mmeeting_id[0m=[35mmtg_52d25f8f1fa4440eb3ea05e3cc47c0f9[0m [36mtopics[0m=[35m10[0m [36mutterances[0m=[35m307[0m
+[2026-09-19 10:56:23,359: WARNING/MainProcess] [2m2026-09-19T01:56:23.359676Z[0m [[32m[1minfo     [0m] [1mevent_published               [0m [36mevent_name[0m=[35mautune.gap.completed[0m [36msubscribers[0m=[35m1[0m
+[2026-09-19 10:56:23,359: WARNING/MainProcess] [2m2026-09-19T01:56:23.359676Z[0m [[32m[1minfo     [0m] [1mgap_report_published          [0m [36mgaps[0m=[35m0[0m [36mmeeting_id[0m=[35mmtg_52d25f8f1fa4440eb3ea05e3cc47c0f9[0m [36mtopics[0m=[35m10[0m
+[2026-09-19 10:56:23,360: INFO/MainProcess] Task autune.gap.on_transcript_ready[4d208890-54c5-438e-92bc-f2912f3206ad] succeeded in 0.21799999999348074s: None
+[2026-09-19 10:56:23,363: INFO/MainProcess] Task autune.intelligence.on_gap_completed[90463b7a-efc0-4363-b95d-c7c2ffd0196e] received
+[2026-09-19 10:56:23,419: WARNING/MainProcess] [2m2026-09-19T01:56:23.419902Z[0m [[32m[1minfo     [0m] [1mintelligence_completion_recorded[0m [36malready_aggregated[0m=[35mFalse[0m [36mfirst[0m=[35mTrue[0m [36mmeeting_id[0m=[35mmtg_52d25f8f1fa4440eb3ea05e3cc47c0f9[0m [36mready[0m=[35mFalse[0m [36msource[0m=[35mgap[0m
+[2026-09-19 10:56:23,422: INFO/MainProcess] Task autune.intelligence.on_gap_completed[90463b7a-efc0-4363-b95d-c7c2ffd0196e] succeeded in 0.06299999996554106s: None
+[2026-09-19 10:56:23,425: INFO/MainProcess] Task autune.context.publish_if_ready[5db1a6c1-2ca5-4286-bbaf-fe61a973f79d] received
+[2026-09-19 10:56:23,428: WARNING/MainProcess] [2m2026-09-19T01:56:23.428893Z[0m [[32m[1minfo     [0m] [1mcontext_publish_checked       [0m [36mmeeting_id[0m=[35mmtg_52d25f8f1fa4440eb3ea05e3cc47c0f9[0m [36mpublished[0m=[35mFalse[0m
+[2026-09-19 10:56:23,430: INFO/MainProcess] Task autune.context.publish_if_ready[5db1a6c1-2ca5-4286-bbaf-fe61a973f79d] succeeded in 0.0s: None
+[2026-09-19 10:56:23,433: INFO/MainProcess] Task autune.context.publish_if_ready[2671bb39-2a9a-47e3-9424-591b734aa320] received
+[2026-09-19 10:56:23,435: INFO/MainProcess] Task autune.intelligence.aggregate[aadf9a3c-7cce-4df3-8609-9fda5ad2ee6f] received
+[2026-09-19 10:57:26,535: WARNING/MainProcess] [2m2026-09-19T01:57:26.535840Z[0m [[32m[1minfo     [0m] [1mcontext_published             [0m [36mmeeting_id[0m=[35mmtg_52d25f8f1fa4440eb3ea05e3cc47c0f9[0m [36mmissing_sources[0m=[35m['extraction'][0m [36mtopic_links[0m=[35m0[0m
+[2026-09-19 10:57:26,538: INFO/MainProcess] Task autune.intelligence.on_context_completed[e8d146f2-b120-4135-8a5e-89877c77d2e7] received
+[2026-09-19 10:57:26,542: WARNING/MainProcess] [2m2026-09-19T01:57:26.542865Z[0m [[32m[1minfo     [0m] [1mcontext_publish_checked       [0m [36mmeeting_id[0m=[35mmtg_52d25f8f1fa4440eb3ea05e3cc47c0f9[0m [36mpublished[0m=[35mTrue[0m
+[2026-09-19 10:57:26,562: INFO/MainProcess] Task autune.context.publish_if_ready[2671bb39-2a9a-47e3-9424-591b734aa320] succeeded in 0.0779999999795109s: None
+[2026-09-19 10:57:26,581: WARNING/MainProcess] [2m2026-09-19T01:57:26.580842Z[0m [[32m[1minfo     [0m] [1mintelligence_completion_recorded[0m [36malready_aggregated[0m=[35mFalse[0m [36mfirst[0m=[35mFalse[0m [36mmeeting_id[0m=[35mmtg_52d25f8f1fa4440eb3ea05e3cc47c0f9[0m [36mready[0m=[35mFalse[0m [36msource[0m=[35mcontext[0m
+[2026-09-19 10:57:26,586: INFO/MainProcess] Task autune.intelligence.on_context_completed[e8d146f2-b120-4135-8a5e-89877c77d2e7] succeeded in 0.0470000000204891s: None
+[2026-09-19 10:58:23,436: WARNING/MainProcess] [2m2026-09-19T01:58:23.436252Z[0m [[33m[1mwarning  [0m] [1mevent_no_subscribers          [0m [36mevent_name[0m=[35mautune.intelligence.completed[0m
+[2026-09-19 10:58:23,436: WARNING/MainProcess] [2m2026-09-19T01:58:23.436252Z[0m [[32m[1minfo     [0m] [1mintelligence_aggregate_published[0m [36mgrade[0m=[35mB[0m [36mmeeting_id[0m=[35mmtg_52d25f8f1fa4440eb3ea05e3cc47c0f9[0m [36mmissing_sources[0m=[35m['extraction'][0m
+[2026-09-19 10:58:23,439: INFO/MainProcess] Task autune.intelligence.send_personal_feedback[828f1976-5291-49f0-ae99-99ae95cfd142] received
+[2026-09-19 10:58:23,439: INFO/MainProcess] Task autune.intelligence.aggregate[aadf9a3c-7cce-4df3-8609-9fda5ad2ee6f] succeeded in 0.015000000013969839s: None
+[2026-09-19 10:58:23,444: WARNING/MainProcess] [2m2026-09-19T01:58:23.443759Z[0m [[32m[1minfo     [0m] [1mintelligence_personal_feedback_no_slack[0m [36mmeeting_id[0m=[35mmtg_52d25f8f1fa4440eb3ea05e3cc47c0f9[0m [36mteam_id[0m=[35mteam_8a25050d978c47e1b57a58d506f2ebc8[0m
+[2026-09-19 10:58:23,445: INFO/MainProcess] Task autune.intelligence.send_personal_feedback[828f1976-5291-49f0-ae99-99ae95cfd142] succeeded in 0.0s: None

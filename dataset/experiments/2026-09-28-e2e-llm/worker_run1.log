@@ -1,0 +1,102 @@
+F:\0final\AUTUNE\modules\audio\src\autune_audio\persistence.py:14: SyntaxWarning: invalid escape sequence '\w'
+  its patterns still end in `\b`, and a Hangul syllable is `\w`, so
+ 
+ -------------- celery@DESKTOP-0LP7MNC v5.6.3 (recovery)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2026-09-28 14:36:12
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         autune:0x28f71aa76e0
+- ** ---------- .> transport:   redis://localhost:56379/0
+- ** ---------- .> results:     redis://localhost:56379/0
+- *** --- * --- .> concurrency: 6 (solo)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> cpu_heavy        exchange=cpu_heavy(direct) key=cpu_heavy
+                .> default          exchange=default(direct) key=default
+
+[tasks]
+  . autune.audio.process_recording
+  . autune.context.notify_context_events
+  . autune.context.notify_late_drift
+  . autune.context.on_extraction_completed
+  . autune.context.on_transcript_ready
+  . autune.context.publish_if_ready
+  . autune.extraction.on_transcript_ready
+  . autune.extraction.sync_action_item
+  . autune.extraction.sync_decision
+  . autune.gap.on_transcript_ready
+  . autune.intelligence.aggregate
+  . autune.intelligence.generate_weekly_report
+  . autune.intelligence.on_context_completed
+  . autune.intelligence.on_extraction_completed
+  . autune.intelligence.on_gap_completed
+  . autune.intelligence.send_personal_feedback
+
+[2026-09-28 14:36:12,248: INFO/MainProcess] Connected to redis://localhost:56379/0
+[2026-09-28 14:36:12,253: INFO/MainProcess] mingle: searching for neighbors
+[2026-09-28 14:36:13,284: INFO/MainProcess] mingle: all alone
+[2026-09-28 14:36:13,353: INFO/MainProcess] celery@DESKTOP-0LP7MNC ready.
+[2026-09-28 14:36:21,080: INFO/MainProcess] Task autune.context.on_transcript_ready[45ac2d67-2799-4e12-856c-4d82805948cc] received
+[2026-09-28 14:36:21,081: WARNING/MainProcess] [2m2026-09-28T05:36:21.081118Z[0m [[32m[1minfo     [0m] [1mcontext_received_transcript   [0m [36mmeeting_id[0m=[35mmtg_44312a372d3e4e5081e790289a9f45a7[0m [36mutterances[0m=[35m24[0m
+[2026-09-28 14:36:25,437: WARNING/MainProcess] [2m2026-09-28T05:36:25.437202Z[0m [[32m[1minfo     [0m] [1mcontext_topics_extracted      [0m [36mmeeting_id[0m=[35mmtg_44312a372d3e4e5081e790289a9f45a7[0m [36mtopics[0m=[35m6[0m
+[2026-09-28 14:36:25,514: WARNING/MainProcess] [2m2026-09-28T05:36:25.514076Z[0m [[32m[1minfo     [0m] [1mcontext_topic_linking_done    [0m [36mlinks[0m=[35m0[0m [36mmeeting_id[0m=[35mmtg_44312a372d3e4e5081e790289a9f45a7[0m
+[2026-09-28 14:36:25,542: INFO/MainProcess] Task autune.context.on_transcript_ready[45ac2d67-2799-4e12-856c-4d82805948cc] succeeded in 4.4689999998081475s: None
+[2026-09-28 14:36:25,546: INFO/MainProcess] Task autune.extraction.on_transcript_ready[c08fca89-079e-4587-a181-5eeb62dfbcaa] received
+[2026-09-28 14:36:25,546: WARNING/MainProcess] [2m2026-09-28T05:36:25.546226Z[0m [[32m[1minfo     [0m] [1mextraction_received_transcript[0m [36mmeeting_id[0m=[35mmtg_44312a372d3e4e5081e790289a9f45a7[0m [36mutterances[0m=[35m24[0m
+[2026-09-28 14:36:29,419: INFO/MainProcess] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 200 OK"
+[2026-09-28 14:36:29,421: WARNING/MainProcess] [2m2026-09-28T05:36:29.421368Z[0m [[32m[1minfo     [0m] [1mintegration_call              [0m [36mmethod[0m=[35mPOST[0m [36mpath[0m=[35m/models/gemini-3.8-flash:generateContent[0m [36mservice[0m=[35mextraction-llm-classifier[0m
+[2026-09-28 14:36:29,421: WARNING/MainProcess] [2m2026-09-28T05:36:29.421368Z[0m [[32m[1minfo     [0m] [1mextraction_llm_classified     [0m [36mlabelled[0m=[35m12[0m [36mutterances[0m=[35m24[0m
+[2026-09-28 14:36:29,443: WARNING/MainProcess] [2m2026-09-28T05:36:29.442921Z[0m [[32m[1minfo     [0m] [1mextraction_decisions_built    [0m [36mcount[0m=[35m2[0m [36mmeeting_id[0m=[35mmtg_44312a372d3e4e5081e790289a9f45a7[0m
+[2026-09-28 14:36:29,487: WARNING/MainProcess] [2m2026-09-28T05:36:29.487437Z[0m [[32m[1minfo     [0m] [1mextraction_classified         [0m [36maction_items[0m=[35m3[0m [36mambiguous[0m=[35m1[0m [36mclassified[0m=[35m12[0m [36mdecisions[0m=[35m2[0m [36mexcluded[0m=[35m0[0m [36mmeeting_id[0m=[35mmtg_44312a372d3e4e5081e790289a9f45a7[0m [36mmodel_version[0m=[35mllm:gemini-3.8-flash+gemini-3.5-flash-lite[0m [36mutterances[0m=[35m24[0m
+[2026-09-28 14:36:29,574: WARNING/MainProcess] [2m2026-09-28T05:36:29.573394Z[0m [[32m[1minfo     [0m] [1mevent_published               [0m [36mevent_name[0m=[35mautune.extraction.completed[0m [36msubscribers[0m=[35m2[0m
+[2026-09-28 14:36:29,575: INFO/MainProcess] Task autune.extraction.on_transcript_ready[c08fca89-079e-4587-a181-5eeb62dfbcaa] succeeded in 4.0310000001918525s: None
+[2026-09-28 14:36:29,578: INFO/MainProcess] Task autune.intelligence.on_extraction_completed[80af7460-0ca1-49b3-88f8-3f2039ddd6dc] received
+[2026-09-28 14:36:29,590: WARNING/MainProcess] [2m2026-09-28T05:36:29.590914Z[0m [[32m[1minfo     [0m] [1mintelligence_completion_recorded[0m [36malready_aggregated[0m=[35mFalse[0m [36mfirst[0m=[35mTrue[0m [36mmeeting_id[0m=[35mmtg_44312a372d3e4e5081e790289a9f45a7[0m [36mready[0m=[35mFalse[0m [36msource[0m=[35mextraction[0m
+[2026-09-28 14:36:29,593: INFO/MainProcess] Task autune.intelligence.on_extraction_completed[80af7460-0ca1-49b3-88f8-3f2039ddd6dc] succeeded in 0.015999999828636646s: None
+[2026-09-28 14:36:29,596: INFO/MainProcess] Task autune.gap.on_transcript_ready[6989ed6a-20db-42cd-89fd-d7b2b09338f2] received
+[2026-09-28 14:36:29,597: WARNING/MainProcess] [2m2026-09-28T05:36:29.597942Z[0m [[32m[1minfo     [0m] [1mgap_received_transcript       [0m [36mmeeting_id[0m=[35mmtg_44312a372d3e4e5081e790289a9f45a7[0m [36mutterances[0m=[35m24[0m
+[2026-09-28 14:36:29,629: ERROR/MainProcess] Task autune.gap.on_transcript_ready[6989ed6a-20db-42cd-89fd-d7b2b09338f2] raised unexpected: ValueError("unknown AUTUNE_GAP_RELATION_IMPL='fake'; known: ['rule']")
+Traceback (most recent call last):
+  File "F:\0final\AUTUNE\.venv\Lib\site-packages\celery\app\trace.py", line 585, in trace_task
+    R = retval = fun(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "F:\0final\AUTUNE\.venv\Lib\site-packages\celery\app\trace.py", line 858, in __protected_call__
+    return self.run(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\0final\AUTUNE\modules\gap\src\autune_gap\tasks.py", line 36, in on_transcript_ready
+    service.build_topic_graph(transcript)
+  File "F:\0final\AUTUNE\modules\gap\src\autune_gap\service.py", line 181, in build_topic_graph
+    relation_extractor = get_relation_extractor()
+                         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\0final\AUTUNE\modules\gap\src\autune_gap\pipeline\registry.py", line 68, in get_relation_extractor
+    raise ValueError(
+ValueError: unknown AUTUNE_GAP_RELATION_IMPL='fake'; known: ['rule']
+[2026-09-28 14:36:29,632: INFO/MainProcess] Task autune.context.publish_if_ready[f12e8b5e-cee2-47e4-b286-805f8d5b2158] received
+[2026-09-28 14:36:29,640: WARNING/MainProcess] [2m2026-09-28T05:36:29.640512Z[0m [[32m[1minfo     [0m] [1mcontext_publish_checked       [0m [36mforce[0m=[35mFalse[0m [36mmeeting_id[0m=[35mmtg_44312a372d3e4e5081e790289a9f45a7[0m [36mpublished[0m=[35mFalse[0m
+[2026-09-28 14:36:29,642: INFO/MainProcess] Task autune.context.publish_if_ready[f12e8b5e-cee2-47e4-b286-805f8d5b2158] succeeded in 0.015999999828636646s: None
+[2026-09-28 14:36:29,645: INFO/MainProcess] Task autune.context.publish_if_ready[fc7c349f-055e-43a9-ac7c-1fcc90799927] received
+[2026-09-28 14:36:29,647: INFO/MainProcess] Task autune.context.on_extraction_completed[c9d0c4ae-aaee-4c74-9704-d5c13cabde99] received
+[2026-09-28 14:36:29,647: WARNING/MainProcess] [2m2026-09-28T05:36:29.647485Z[0m [[32m[1minfo     [0m] [1mcontext_received_extraction   [0m [36mdecisions[0m=[35m2[0m [36mmeeting_id[0m=[35mmtg_44312a372d3e4e5081e790289a9f45a7[0m
+[2026-09-28 14:36:29,692: WARNING/MainProcess] [2m2026-09-28T05:36:29.692151Z[0m [[32m[1minfo     [0m] [1mcontext_decision_lineage_done [0m [36mdecisions[0m=[35m2[0m [36mlabels_swept[0m=[35m0[0m [36mmatched[0m=[35m0[0m [36mmeeting_id[0m=[35mmtg_44312a372d3e4e5081e790289a9f45a7[0m [36mnew_threads[0m=[35m2[0m [36mstatements_swept[0m=[35m0[0m [36mthreads_swept[0m=[35m0[0m
+[2026-09-28 14:36:29,699: INFO/MainProcess] Task autune.context.on_extraction_completed[c9d0c4ae-aaee-4c74-9704-d5c13cabde99] succeeded in 0.06200000015087426s: None
+[2026-09-28 14:36:29,702: INFO/MainProcess] Task autune.intelligence.aggregate[3ff416f1-ba38-437a-ae5c-b18865a452c3] received
+[2026-09-28 14:36:29,704: INFO/MainProcess] Task autune.context.publish_if_ready[6f02d7a5-0418-46b7-b34f-ae20756bd62e] received
+[2026-09-28 14:36:29,712: WARNING/MainProcess] [2m2026-09-28T05:36:29.712151Z[0m [[32m[1minfo     [0m] [1mcontext_published             [0m [36mmeeting_id[0m=[35mmtg_44312a372d3e4e5081e790289a9f45a7[0m [36mmissing_sources[0m=[35m[][0m [36mtopic_links[0m=[35m0[0m
+[2026-09-28 14:36:29,719: WARNING/MainProcess] [2m2026-09-28T05:36:29.719178Z[0m [[32m[1minfo     [0m] [1mcontext_publish_checked       [0m [36mforce[0m=[35mFalse[0m [36mmeeting_id[0m=[35mmtg_44312a372d3e4e5081e790289a9f45a7[0m [36mpublished[0m=[35mTrue[0m
+[2026-09-28 14:36:29,722: INFO/MainProcess] Task autune.context.publish_if_ready[6f02d7a5-0418-46b7-b34f-ae20756bd62e] succeeded in 0.015999999828636646s: None
+[2026-09-28 14:36:29,724: INFO/MainProcess] Task autune.intelligence.on_context_completed[fbbdf5d9-7b39-4a43-a614-8b82ecb594f6] received
+[2026-09-28 14:36:29,734: WARNING/MainProcess] [2m2026-09-28T05:36:29.734150Z[0m [[32m[1minfo     [0m] [1mintelligence_completion_recorded[0m [36malready_aggregated[0m=[35mFalse[0m [36mfirst[0m=[35mFalse[0m [36mmeeting_id[0m=[35mmtg_44312a372d3e4e5081e790289a9f45a7[0m [36mready[0m=[35mFalse[0m [36msource[0m=[35mcontext[0m
+[2026-09-28 14:36:29,735: INFO/MainProcess] Task autune.intelligence.on_context_completed[fbbdf5d9-7b39-4a43-a614-8b82ecb594f6] succeeded in 0.01600000006146729s: None
+[2026-09-28 14:36:29,738: INFO/MainProcess] Task autune.context.notify_context_events[84c7af0d-7dc5-40f6-b75b-23f1523b11d8] received
+[2026-09-28 14:36:29,744: WARNING/MainProcess] [2m2026-09-28T05:36:29.744177Z[0m [[32m[1minfo     [0m] [1mcontext_notify_no_slack       [0m [36mmeeting_id[0m=[35mmtg_44312a372d3e4e5081e790289a9f45a7[0m [36mteam_id[0m=[35mteam_d926bb8dbdfe43dab258b6660bb6ee50[0m
+[2026-09-28 14:36:29,750: INFO/MainProcess] Task autune.context.notify_context_events[84c7af0d-7dc5-40f6-b75b-23f1523b11d8] succeeded in 0.01500000013038516s: None
+[2026-09-28 14:36:45,536: WARNING/MainProcess] [2m2026-09-28T05:36:45.536595Z[0m [[32m[1minfo     [0m] [1mcontext_publish_checked       [0m [36mforce[0m=[35mFalse[0m [36mmeeting_id[0m=[35mmtg_44312a372d3e4e5081e790289a9f45a7[0m [36mpublished[0m=[35mFalse[0m
+[2026-09-28 14:36:45,583: INFO/MainProcess] Task autune.context.publish_if_ready[fc7c349f-055e-43a9-ac7c-1fcc90799927] succeeded in 0.04600000008940697s: None
+[2026-09-28 14:36:49,641: WARNING/MainProcess] [2m2026-09-28T05:36:49.641701Z[0m [[32m[1minfo     [0m] [1mevent_terminal                [0m [36mevent_name[0m=[35mautune.intelligence.completed[0m
+[2026-09-28 14:36:49,642: WARNING/MainProcess] [2m2026-09-28T05:36:49.642707Z[0m [[32m[1minfo     [0m] [1mintelligence_aggregate_published[0m [36mgrade[0m=[35mD[0m [36mmeeting_id[0m=[35mmtg_44312a372d3e4e5081e790289a9f45a7[0m [36mmissing_sources[0m=[35m['gap'][0m
+[2026-09-28 14:36:49,649: INFO/MainProcess] Task autune.intelligence.send_personal_feedback[a50d3186-297d-4079-afa5-b265307bfacd] received
+[2026-09-28 14:36:49,651: INFO/MainProcess] Task autune.intelligence.aggregate[3ff416f1-ba38-437a-ae5c-b18865a452c3] succeeded in 0.06300000008195639s: None
+[2026-09-28 14:36:49,656: WARNING/MainProcess] [2m2026-09-28T05:36:49.656700Z[0m [[32m[1minfo     [0m] [1mintelligence_personal_feedback_no_slack[0m [36mmeeting_id[0m=[35mmtg_44312a372d3e4e5081e790289a9f45a7[0m [36mteam_id[0m=[35mteam_d926bb8dbdfe43dab258b6660bb6ee50[0m
+[2026-09-28 14:36:49,659: INFO/MainProcess] Task autune.intelligence.send_personal_feedback[a50d3186-297d-4079-afa5-b265307bfacd] succeeded in 0.0s: None

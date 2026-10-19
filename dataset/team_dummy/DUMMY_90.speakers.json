@@ -1,0 +1,81 @@
+{
+  "meeting": "DUMMY_90",
+  "title": "동백해양중공업 공정계획팀 S2417호선 탑재 일정 점검",
+  "type": "with-senior",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "강태오",
+      "team": "공정계획팀",
+      "job": "Planning",
+      "position": "차장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "염동진",
+      "team": "공정계획팀",
+      "job": "Planning",
+      "position": "과장",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "소혜령",
+      "team": "공정계획팀",
+      "job": "Planning",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "마준영",
+      "team": "공정계획팀",
+      "job": "Data",
+      "position": "사원",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "권석진",
+      "team": "생산본부",
+      "job": "Management",
+      "position": "이사",
+      "title": "본부장"
+    },
+    {
+      "speaker": "SPK06",
+      "name": "탁영호",
+      "team": "도장팀",
+      "job": "Production",
+      "position": "과장",
+      "title": ""
+    },
+    {
+      "speaker": "SPK07",
+      "name": "봉수경",
+      "team": "선체설계팀",
+      "job": "Design",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK08",
+      "name": "제민석",
+      "team": "안전환경팀",
+      "job": "Safety",
+      "position": "대리",
+      "title": ""
+    }
+  ]
+}

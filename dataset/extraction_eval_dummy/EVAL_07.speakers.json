@@ -1,0 +1,65 @@
+{
+  "meeting": "EVAL_07",
+  "title": "세림건자재 KB-70 로트 클레임 대응 회의",
+  "type": "cross-team",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "나정훈",
+      "team": "품질관리팀",
+      "job": "QA",
+      "position": "차장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "서유리",
+      "team": "품질관리팀",
+      "job": "QA",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "오세중",
+      "team": "품질관리팀",
+      "job": "QA",
+      "position": "사원",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "백승도",
+      "team": "영업2팀",
+      "job": "Sales",
+      "position": "과장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK05",
+      "name": "임하늘",
+      "team": "영업2팀",
+      "job": "Sales",
+      "position": "주임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "구본재",
+      "team": "생산1팀",
+      "job": "Ops",
+      "position": "대리",
+      "title": ""
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+ 
+ -------------- celery@DESKTOP-0LP7MNC v5.6.3 (recovery)
+--- ***** ----- 
+-- ******* ---- Windows-10-10.0.19045-SP0 2026-09-28 18:55:22
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         autune:0x189c5511190
+- ** ---------- .> transport:   redis://localhost:56379/0
+- ** ---------- .> results:     redis://localhost:56379/0
+- *** --- * --- .> concurrency: 6 (solo)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> cpu_heavy        exchange=cpu_heavy(direct) key=cpu_heavy
+                .> default          exchange=default(direct) key=default
+
+[tasks]
+  . autune.audio.periodic.sweep_orphans
+  . autune.audio.process_recording
+  . autune.context.notify_context_events
+  . autune.context.notify_late_drift
+  . autune.context.on_extraction_completed
+  . autune.context.on_transcript_ready
+  . autune.context.publish_if_ready
+  . autune.context.republish
+  . autune.extraction.on_transcript_ready
+  . autune.extraction.sync_action_item
+  . autune.extraction.sync_decision
+  . autune.gap.on_transcript_ready
+  . autune.intelligence.aggregate
+  . autune.intelligence.generate_weekly_report
+  . autune.intelligence.on_context_completed
+  . autune.intelligence.on_extraction_completed
+  . autune.intelligence.on_gap_completed
+  . autune.intelligence.send_personal_feedback
+
+[2026-09-28 18:55:22,186: INFO/MainProcess] Connected to redis://localhost:56379/0
+[2026-09-28 18:55:22,191: INFO/MainProcess] mingle: searching for neighbors
+[2026-09-28 18:55:23,227: INFO/MainProcess] mingle: all alone
+[2026-09-28 18:55:23,299: INFO/MainProcess] celery@DESKTOP-0LP7MNC ready.
+[2026-09-28 18:56:09,873: INFO/MainProcess] Task autune.context.on_transcript_ready[77959d8d-b4fb-4823-a299-578937fd09b6] received
+[2026-09-28 18:56:09,874: WARNING/MainProcess] [2m2026-09-28T09:56:09.874688Z[0m [[32m[1minfo     [0m] [1mcontext_received_transcript   [0m [36mmeeting_id[0m=[35mmtg_e731dc092291404e886def516dfadee6[0m [36mutterances[0m=[35m62[0m
+[2026-09-28 18:56:28,590: WARNING/MainProcess] [2m2026-09-28T09:56:28.589986Z[0m [[32m[1minfo     [0m] [1mcontext_topics_extracted      [0m [36mmeeting_id[0m=[35mmtg_e731dc092291404e886def516dfadee6[0m [36mtopics[0m=[35m13[0m
+[2026-09-28 18:56:28,682: WARNING/MainProcess] [2m2026-09-28T09:56:28.682481Z[0m [[32m[1minfo     [0m] [1mcontext_topic_linking_done    [0m [36malready_published[0m=[35mFalse[0m [36mlinks[0m=[35m0[0m [36mmeeting_id[0m=[35mmtg_e731dc092291404e886def516dfadee6[0m
+[2026-09-28 18:56:28,696: INFO/MainProcess] Task autune.context.on_transcript_ready[77959d8d-b4fb-4823-a299-578937fd09b6] succeeded in 18.812999999849126s: None
+[2026-09-28 18:56:28,700: INFO/MainProcess] Task autune.extraction.on_transcript_ready[9dd474a9-8b34-4df0-ad16-abb24c02dd28] received
+[2026-09-28 18:56:28,700: WARNING/MainProcess] [2m2026-09-28T09:56:28.700784Z[0m [[32m[1minfo     [0m] [1mextraction_received_transcript[0m [36mmeeting_id[0m=[35mmtg_e731dc092291404e886def516dfadee6[0m [36mutterances[0m=[35m62[0m
+[2026-09-28 18:56:47,299: INFO/MainProcess] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 200 OK"
+[2026-09-28 18:56:47,300: WARNING/MainProcess] [2m2026-09-28T09:56:47.300608Z[0m [[32m[1minfo     [0m] [1mintegration_call              [0m [36mmethod[0m=[35mPOST[0m [36mpath[0m=[35m/models/gemini-3.8-flash:generateContent[0m [36mservice[0m=[35mextraction-llm-classifier[0m
+[2026-09-28 18:56:57,505: INFO/MainProcess] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+[2026-09-28 18:56:57,506: WARNING/MainProcess] [2m2026-09-28T09:56:57.506219Z[0m [[32m[1minfo     [0m] [1mextraction_llm_retry          [0m [36mattempt[0m=[35m1[0m [36mmodel[0m=[35mgemini-3.8-flash[0m [36mreason[0m=[35m'extraction-llm-classifier returned 503'[0m [36mwindow[0m=[35m1[0m
+[2026-09-28 18:57:02,470: INFO/MainProcess] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+[2026-09-28 18:57:02,472: WARNING/MainProcess] [2m2026-09-28T09:57:02.472758Z[0m [[32m[1minfo     [0m] [1mextraction_llm_retry          [0m [36mattempt[0m=[35m2[0m [36mmodel[0m=[35mgemini-3.8-flash[0m [36mreason[0m=[35m'extraction-llm-classifier returned 503'[0m [36mwindow[0m=[35m1[0m
+[2026-09-28 18:57:13,167: INFO/MainProcess] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+[2026-09-28 18:57:13,168: WARNING/MainProcess] [2m2026-09-28T09:57:13.167704Z[0m [[32m[1minfo     [0m] [1mextraction_llm_retry          [0m [36mattempt[0m=[35m3[0m [36mmodel[0m=[35mgemini-3.8-flash[0m [36mreason[0m=[35m'extraction-llm-classifier returned 503'[0m [36mwindow[0m=[35m1[0m
+[2026-09-28 18:57:27,017: INFO/MainProcess] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+[2026-09-28 18:57:27,017: WARNING/MainProcess] [2m2026-09-28T09:57:27.017994Z[0m [[33m[1mwarning  [0m] [1mextraction_llm_fallback       [0m [36mfallback[0m=[35mgemini-3.5-flash-lite[0m [36mmodel[0m=[35mgemini-3.8-flash[0m [36mwindow[0m=[35m1[0m
+[2026-09-28 18:57:28,115: INFO/MainProcess] HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+[2026-09-28 18:57:28,115: WARNING/MainProcess] [2m2026-09-28T09:57:28.115750Z[0m [[32m[1minfo     [0m] [1mintegration_call              [0m [36mmethod[0m=[35mPOST[0m [36mpath[0m=[35m/models/gemini-3.5-flash-lite:generateContent[0m [36mservice[0m=[35mextraction-llm-classifier[0m
+[2026-09-28 18:57:28,115: WARNING/MainProcess] [2m2026-09-28T09:57:28.115750Z[0m [[32m[1minfo     [0m] [1mextraction_llm_classified     [0m [36mlabelled[0m=[35m26[0m [36mutterances[0m=[35m62[0m
+[2026-09-28 18:57:28,141: WARNING/MainProcess] [2m2026-09-28T09:57:28.141724Z[0m [[32m[1minfo     [0m] [1mextraction_decisions_built    [0m [36mcount[0m=[35m2[0m [36mmeeting_id[0m=[35mmtg_e731dc092291404e886def516dfadee6[0m
+[2026-09-28 18:57:28,324: WARNING/MainProcess] [2m2026-09-28T09:57:28.323781Z[0m [[32m[1minfo     [0m] [1mextraction_classified         [0m [36maction_items[0m=[35m4[0m [36mambiguous[0m=[35m2[0m [36mclassified[0m=[35m26[0m [36mdecisions[0m=[35m2[0m [36mexcluded[0m=[35m0[0m [36mmeeting_id[0m=[35mmtg_e731dc092291404e886def516dfadee6[0m [36mmodel_version[0m=[35mllm:gemini-3.8-flash+gemini-3.5-flash-lite[0m [36mresolved_commitments[0m=[35m4[0m [36mresolver_model_version[0m=[35mfake[0m [36mutterances[0m=[35m62[0m
+[2026-09-28 18:57:28,474: WARNING/MainProcess] [2m2026-09-28T09:57:28.474124Z[0m [[32m[1minfo     [0m] [1mevent_published               [0m [36mevent_name[0m=[35mautune.extraction.completed[0m [36msubscribers[0m=[35m2[0m
+[2026-09-28 18:57:28,478: INFO/MainProcess] Task autune.extraction.on_transcript_ready[9dd474a9-8b34-4df0-ad16-abb24c02dd28] succeeded in 59.76599999982864s: None
+[2026-09-28 18:57:28,488: INFO/MainProcess] Task autune.intelligence.on_extraction_completed[c9030745-1c5e-4574-abe5-f1c0ca269627] received
+[2026-09-28 18:57:28,570: WARNING/MainProcess] [2m2026-09-28T09:57:28.569156Z[0m [[32m[1minfo     [0m] [1mintelligence_completion_recorded[0m [36malready_aggregated[0m=[35mFalse[0m [36mfirst[0m=[35mTrue[0m [36mmeeting_id[0m=[35mmtg_e731dc092291404e886def516dfadee6[0m [36mready[0m=[35mFalse[0m [36msource[0m=[35mextraction[0m
+[2026-09-28 18:57:28,573: INFO/MainProcess] Task autune.intelligence.on_extraction_completed[c9030745-1c5e-4574-abe5-f1c0ca269627] succeeded in 0.09300000010989606s: None
+[2026-09-28 18:57:28,576: INFO/MainProcess] Task autune.gap.on_transcript_ready[fe024ac4-b32e-4b2f-817e-f3dc81074dd5] received
+[2026-09-28 18:57:28,577: WARNING/MainProcess] [2m2026-09-28T09:57:28.577155Z[0m [[32m[1minfo     [0m] [1mgap_received_transcript       [0m [36mmeeting_id[0m=[35mmtg_e731dc092291404e886def516dfadee6[0m [36mutterances[0m=[35m62[0m
+[2026-09-28 18:57:38,412: WARNING/MainProcess] [2m2026-09-28T09:57:38.412863Z[0m [[32m[1minfo     [0m] [1mgap_topic_graph_built         [0m [36medges[0m=[35m16[0m [36mexcluded[0m=[35m0[0m [36mextractor[0m=[35mfake[0m [36mmeeting_id[0m=[35mmtg_e731dc092291404e886def516dfadee6[0m [36mrelation_extractor[0m=[35mrules-2[0m [36mrelations[0m=[35m0[0m [36mtopics[0m=[35m16[0m [36mutterances[0m=[35m62[0m
+[2026-09-28 18:57:38,549: WARNING/MainProcess] [2m2026-09-28T09:57:38.549681Z[0m [[32m[1minfo     [0m] [1mgap_detection_complete        [0m [36mgaps[0m=[35m5[0m [36mhigh[0m=[35m0[0m [36mmeeting_id[0m=[35mmtg_e731dc092291404e886def516dfadee6[0m [36mtemplate[0m=[35mgeneral[0m [36mtemplate_version[0m=[35mgeneral.1[0m [36mtopics[0m=[35m16[0m
+[2026-09-28 18:57:38,605: WARNING/MainProcess] [2m2026-09-28T09:57:38.604808Z[0m [[32m[1minfo     [0m] [1mevent_published               [0m [36mevent_name[0m=[35mautune.gap.completed[0m [36msubscribers[0m=[35m1[0m
+[2026-09-28 18:57:38,605: WARNING/MainProcess] [2m2026-09-28T09:57:38.605837Z[0m [[32m[1minfo     [0m] [1mgap_report_published          [0m [36mgaps[0m=[35m5[0m [36mmeeting_id[0m=[35mmtg_e731dc092291404e886def516dfadee6[0m [36mtopics[0m=[35m16[0m
+[2026-09-28 18:57:38,607: INFO/MainProcess] Task autune.gap.on_transcript_ready[fe024ac4-b32e-4b2f-817e-f3dc81074dd5] succeeded in 10.031999999890104s: None
+[2026-09-28 18:57:38,610: INFO/MainProcess] Task autune.intelligence.on_gap_completed[6fdb4274-080f-4669-a708-885a6b3bc4aa] received
+[2026-09-28 18:57:38,665: WARNING/MainProcess] [2m2026-09-28T09:57:38.665096Z[0m [[32m[1minfo     [0m] [1mintelligence_completion_recorded[0m [36malready_aggregated[0m=[35mFalse[0m [36mfirst[0m=[35mFalse[0m [36mmeeting_id[0m=[35mmtg_e731dc092291404e886def516dfadee6[0m [36mready[0m=[35mFalse[0m [36msource[0m=[35mgap[0m
+[2026-09-28 18:57:38,667: INFO/MainProcess] Task autune.intelligence.on_gap_completed[6fdb4274-080f-4669-a708-885a6b3bc4aa] succeeded in 0.06199999991804361s: None
+[2026-09-28 18:57:38,671: INFO/MainProcess] Task autune.context.publish_if_ready[f6423a57-dc2b-470f-9b9d-7c129801d80e] received
+[2026-09-28 18:57:38,685: WARNING/MainProcess] [2m2026-09-28T09:57:38.684053Z[0m [[32m[1minfo     [0m] [1mcontext_published             [0m [36mmeeting_id[0m=[35mmtg_e731dc092291404e886def516dfadee6[0m [36mmissing_sources[0m=[35m['extraction'][0m [36mtopic_links[0m=[35m0[0m
+[2026-09-28 18:57:38,699: WARNING/MainProcess] [2m2026-09-28T09:57:38.699324Z[0m [[32m[1minfo     [0m] [1mcontext_publish_checked       [0m [36mforce[0m=[35mFalse[0m [36mmeeting_id[0m=[35mmtg_e731dc092291404e886def516dfadee6[0m [36mpublished[0m=[35mTrue[0m
+[2026-09-28 18:57:38,702: INFO/MainProcess] Task autune.context.publish_if_ready[f6423a57-dc2b-470f-9b9d-7c129801d80e] succeeded in 0.03100000019185245s: None
+[2026-09-28 18:57:38,705: INFO/MainProcess] Task autune.intelligence.on_context_completed[c2aa9d39-da4e-433b-a7aa-afb9a2fa72f7] received
+[2026-09-28 18:57:38,726: WARNING/MainProcess] [2m2026-09-28T09:57:38.726879Z[0m [[32m[1minfo     [0m] [1mintelligence_completion_recorded[0m [36malready_aggregated[0m=[35mFalse[0m [36mfirst[0m=[35mFalse[0m [36mmeeting_id[0m=[35mmtg_e731dc092291404e886def516dfadee6[0m [36mready[0m=[35mTrue[0m [36msource[0m=[35mcontext[0m
+[2026-09-28 18:57:38,729: INFO/MainProcess] Task autune.intelligence.on_context_completed[c2aa9d39-da4e-433b-a7aa-afb9a2fa72f7] succeeded in 0.031999999890103936s: None
+[2026-09-28 18:57:38,732: INFO/MainProcess] Task autune.context.publish_if_ready[5f969996-f83e-44fa-884c-6728c42b1885] received
+[2026-09-28 18:57:38,734: INFO/MainProcess] Task autune.context.notify_context_events[2780c8b4-1708-4ab6-a673-65b962148c77] received
+[2026-09-28 18:57:38,740: WARNING/MainProcess] [2m2026-09-28T09:57:38.740262Z[0m [[32m[1minfo     [0m] [1mcontext_notify_no_slack       [0m [36mmeeting_id[0m=[35mmtg_e731dc092291404e886def516dfadee6[0m [36mteam_id[0m=[35mteam_b43570b6dba841278422e7cf01133a77[0m
+[2026-09-28 18:57:38,746: INFO/MainProcess] Task autune.context.notify_context_events[2780c8b4-1708-4ab6-a673-65b962148c77] succeeded in 0.01500000013038516s: None
+[2026-09-28 18:57:38,749: INFO/MainProcess] Task autune.context.on_extraction_completed[0a9ed1c3-bafa-4ed9-8eae-587330a18aad] received
+[2026-09-28 18:57:38,750: WARNING/MainProcess] [2m2026-09-28T09:57:38.750261Z[0m [[32m[1minfo     [0m] [1mcontext_received_extraction   [0m [36mdecisions[0m=[35m2[0m [36mmeeting_id[0m=[35mmtg_e731dc092291404e886def516dfadee6[0m
+[2026-09-28 18:57:38,789: WARNING/MainProcess] [2m2026-09-28T09:57:38.789004Z[0m [[33m[1mwarning  [0m] [1mcontext_late_lineage_after_publish[0m [36mmeeting_id[0m=[35mmtg_e731dc092291404e886def516dfadee6[0m [36mpublished_at[0m=[35m2026-09-28T09:57:38.684053+00:00[0m
+[2026-09-28 18:57:38,789: WARNING/MainProcess] [2m2026-09-28T09:57:38.789004Z[0m [[32m[1minfo     [0m] [1mcontext_decision_lineage_done [0m [36mdecisions[0m=[35m2[0m [36mlabels_swept[0m=[35m0[0m [36mmatched[0m=[35m0[0m [36mmeeting_id[0m=[35mmtg_e731dc092291404e886def516dfadee6[0m [36mnew_threads[0m=[35m2[0m [36moutcome[0m=[35mlate[0m [36mstatements_swept[0m=[35m0[0m [36mthreads_swept[0m=[35m0[0m
+[2026-09-28 18:57:38,797: INFO/MainProcess] Task autune.context.on_extraction_completed[0a9ed1c3-bafa-4ed9-8eae-587330a18aad] succeeded in 0.04699999978765845s: None
+[2026-09-28 18:57:38,800: INFO/MainProcess] Task autune.intelligence.aggregate[4d2bea32-d3e7-41e2-adbf-fcab44a2946f] received
+[2026-09-28 18:57:38,801: INFO/MainProcess] Task autune.intelligence.aggregate[f90c306a-e8bc-4526-9638-51a4b4c3b377] received
+[2026-09-28 18:57:38,811: WARNING/MainProcess] [2m2026-09-28T09:57:38.811977Z[0m [[32m[1minfo     [0m] [1mintelligence_gap_pattern_distribution[0m [36mclassifier_version[0m=[35mfake[0m [36mdistribution[0m=[35m{'other': {'count': 3, 'avg_confidence': 0.0}, 'schedule': {'count': 1, 'avg_confidence': 0.75}, 'risk': {'count': 1, 'avg_confidence': 0.75}}[0m [36mmeeting_id[0m=[35mmtg_e731dc092291404e886def516dfadee6[0m
+[2026-09-28 18:57:38,828: WARNING/MainProcess] [2m2026-09-28T09:57:38.828054Z[0m [[32m[1minfo     [0m] [1mevent_terminal                [0m [36mevent_name[0m=[35mautune.intelligence.completed[0m
+[2026-09-28 18:57:38,828: WARNING/MainProcess] [2m2026-09-28T09:57:38.828054Z[0m [[32m[1minfo     [0m] [1mintelligence_aggregate_published[0m [36mgrade[0m=[35mD[0m [36mmeeting_id[0m=[35mmtg_e731dc092291404e886def516dfadee6[0m [36mmissing_sources[0m=[35m[][0m
+[2026-09-28 18:57:38,831: INFO/MainProcess] Task autune.intelligence.aggregate[f90c306a-e8bc-4526-9638-51a4b4c3b377] succeeded in 0.03100000019185245s: None
+[2026-09-28 18:57:38,833: INFO/MainProcess] Task autune.intelligence.send_personal_feedback[64af477b-e0c1-4a0a-86be-db30e1ebeaf4] received
+[2026-09-28 18:57:38,837: WARNING/MainProcess] [2m2026-09-28T09:57:38.837056Z[0m [[32m[1minfo     [0m] [1mintelligence_personal_feedback_no_slack[0m [36mmeeting_id[0m=[35mmtg_e731dc092291404e886def516dfadee6[0m [36mteam_id[0m=[35mteam_b43570b6dba841278422e7cf01133a77[0m
+[2026-09-28 18:57:38,839: INFO/MainProcess] Task autune.intelligence.send_personal_feedback[64af477b-e0c1-4a0a-86be-db30e1ebeaf4] succeeded in 0.015999999828636646s: None
+[2026-09-28 18:57:38,842: INFO/MainProcess] Task autune.context.publish_if_ready[61066a51-db41-4249-8ea5-63bdd24ce81e] received
+[2026-09-28 18:57:38,848: WARNING/MainProcess] [2m2026-09-28T09:57:38.848069Z[0m [[32m[1minfo     [0m] [1mcontext_republished           [0m [36mmeeting_id[0m=[35mmtg_e731dc092291404e886def516dfadee6[0m [36mmissing_sources[0m=[35m[][0m [36mtopic_links[0m=[35m0[0m
+[2026-09-28 18:57:38,853: WARNING/MainProcess] [2m2026-09-28T09:57:38.853131Z[0m [[32m[1minfo     [0m] [1mcontext_publish_checked       [0m [36mforce[0m=[35mTrue[0m [36mmeeting_id[0m=[35mmtg_e731dc092291404e886def516dfadee6[0m [36mpublished[0m=[35mTrue[0m
+[2026-09-28 18:57:38,855: INFO/MainProcess] Task autune.context.publish_if_ready[61066a51-db41-4249-8ea5-63bdd24ce81e] succeeded in 0.01600000006146729s: None
+[2026-09-28 18:57:38,858: INFO/MainProcess] Task autune.intelligence.on_context_completed[3f8beaa0-b562-462f-9bf6-cc1c6a5f84e4] received
+[2026-09-28 18:57:38,868: WARNING/MainProcess] [2m2026-09-28T09:57:38.868179Z[0m [[32m[1minfo     [0m] [1mintelligence_completion_recorded[0m [36malready_aggregated[0m=[35mTrue[0m [36mfirst[0m=[35mFalse[0m [36mmeeting_id[0m=[35mmtg_e731dc092291404e886def516dfadee6[0m [36mready[0m=[35mTrue[0m [36msource[0m=[35mcontext[0m
+[2026-09-28 18:57:38,868: WARNING/MainProcess] [2m2026-09-28T09:57:38.868179Z[0m [[32m[1minfo     [0m] [1mintelligence_late_completion  [0m [36mmeeting_id[0m=[35mmtg_e731dc092291404e886def516dfadee6[0m [36msource[0m=[35mcontext[0m
+[2026-09-28 18:57:38,888: INFO/MainProcess] Task autune.intelligence.on_context_completed[3f8beaa0-b562-462f-9bf6-cc1c6a5f84e4] succeeded in 0.030999999959021807s: None
+[2026-09-28 18:57:38,897: INFO/MainProcess] Task autune.intelligence.aggregate[00e46793-cf34-4446-a08a-e14e683cd05e] received
+[2026-09-28 18:57:38,913: WARNING/MainProcess] [2m2026-09-28T09:57:38.913219Z[0m [[32m[1minfo     [0m] [1mintelligence_gap_pattern_distribution[0m [36mclassifier_version[0m=[35mfake[0m [36mdistribution[0m=[35m{'other': {'count': 3, 'avg_confidence': 0.0}, 'schedule': {'count': 1, 'avg_confidence': 0.75}, 'risk': {'count': 1, 'avg_confidence': 0.75}}[0m [36mmeeting_id[0m=[35mmtg_e731dc092291404e886def516dfadee6[0m
+[2026-09-28 18:57:38,928: WARNING/MainProcess] [2m2026-09-28T09:57:38.928272Z[0m [[32m[1minfo     [0m] [1mevent_terminal                [0m [36mevent_name[0m=[35mautune.intelligence.completed[0m
+[2026-09-28 18:57:38,928: WARNING/MainProcess] [2m2026-09-28T09:57:38.928272Z[0m [[32m[1minfo     [0m] [1mintelligence_aggregate_published[0m [36mgrade[0m=[35mD[0m [36mmeeting_id[0m=[35mmtg_e731dc092291404e886def516dfadee6[0m [36mmissing_sources[0m=[35m[][0m
+[2026-09-28 18:57:38,930: INFO/MainProcess] Task autune.intelligence.aggregate[00e46793-cf34-4446-a08a-e14e683cd05e] succeeded in 0.030999999959021807s: None
+[2026-09-28 18:57:38,933: INFO/MainProcess] Task autune.context.notify_late_drift[da1ed7c1-1444-4114-8f84-99b272ddd0eb] received
+[2026-09-28 18:57:38,938: WARNING/MainProcess] [2m2026-09-28T09:57:38.937783Z[0m [[32m[1minfo     [0m] [1mcontext_late_drift_no_slack   [0m [36mmeeting_id[0m=[35mmtg_e731dc092291404e886def516dfadee6[0m [36mteam_id[0m=[35mteam_b43570b6dba841278422e7cf01133a77[0m
+[2026-09-28 18:57:38,944: INFO/MainProcess] Task autune.context.notify_late_drift[da1ed7c1-1444-4114-8f84-99b272ddd0eb] succeeded in 0.0s: None
+[2026-09-28 18:57:39,668: WARNING/MainProcess] [2m2026-09-28T09:57:39.668923Z[0m [[32m[1minfo     [0m] [1mcontext_publish_checked       [0m [36mforce[0m=[35mFalse[0m [36mmeeting_id[0m=[35mmtg_e731dc092291404e886def516dfadee6[0m [36mpublished[0m=[35mFalse[0m
+[2026-09-28 18:57:39,713: INFO/MainProcess] Task autune.context.publish_if_ready[5f969996-f83e-44fa-884c-6728c42b1885] succeeded in 0.06199999991804361s: None
+[2026-09-28 18:57:48,585: WARNING/MainProcess] [2m2026-09-28T09:57:48.585137Z[0m [[32m[1minfo     [0m] [1mintelligence_aggregate_skipped[0m [36mmeeting_id[0m=[35mmtg_e731dc092291404e886def516dfadee6[0m
+[2026-09-28 18:57:48,587: INFO/MainProcess] Task autune.intelligence.aggregate[4d2bea32-d3e7-41e2-adbf-fcab44a2946f] succeeded in 0.0s: None

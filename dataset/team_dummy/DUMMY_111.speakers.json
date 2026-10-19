@@ -1,0 +1,57 @@
+{
+  "meeting": "DUMMY_111",
+  "title": "물비늘아쿠아리움 전시생물팀 실무자 주간 회의 (팀장 협회 교육 출장)",
+  "type": "peers",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "한도윤",
+      "team": "전시생물팀",
+      "job": "Ops",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK02",
+      "name": "서지오",
+      "team": "전시생물팀",
+      "job": "Ops",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "문새벽",
+      "team": "전시생물팀",
+      "job": "Ops",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "유하람",
+      "team": "교육체험팀",
+      "job": "Education",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "정로운",
+      "team": "마케팅팀",
+      "job": "Marketing",
+      "position": "대리",
+      "title": ""
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+2026-09-18T23:51:42.775362Z [info     ] cors_enabled                   origins=['http://localhost:3000']
+2026-09-18T23:51:43.141115Z [info     ] router_registered              module=audio prefix=/api/audio
+2026-09-18T23:51:43.205207Z [info     ] router_registered              module=extraction prefix=/api/extraction
+2026-09-18T23:51:43.507689Z [info     ] router_registered              module=gap prefix=/api/gap
+2026-09-18T23:51:43.580327Z [info     ] router_registered              module=context prefix=/api/context
+2026-09-18T23:51:43.618355Z [info     ] router_registered              module=intelligence prefix=/api/intelligence
+INFO:     Started server process [9112]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:58000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:50936 - "HEAD /api/extraction/health HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:50958 - "OPTIONS /api/extraction/action-items?meeting_id=mtg_2f3ca8ebf395484abb5e46a18f2e1ae7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50958 - "GET /api/extraction/action-items?meeting_id=mtg_2f3ca8ebf395484abb5e46a18f2e1ae7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50973 - "OPTIONS /api/extraction/action-items?meeting_id=mtg_nope HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50973 - "GET /api/extraction/action-items?meeting_id=mtg_nope HTTP/1.1" 200 OK

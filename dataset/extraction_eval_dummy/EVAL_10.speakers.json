@@ -1,0 +1,66 @@
+{
+  "meeting": "EVAL_10",
+  "title": "레이어웍스 LW-3 펌웨어 이슈 대응 회의",
+  "type": "with-senior",
+  "position_order": [
+    "매니저"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "남주완",
+      "team": "경영",
+      "job": "Ops",
+      "position": "매니저",
+      "title": "대표"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "정유하",
+      "team": "펌웨어",
+      "job": "Dev",
+      "position": "매니저",
+      "title": "리드"
+    },
+    {
+      "speaker": "SPK03",
+      "name": "하람",
+      "team": "펌웨어",
+      "job": "Dev",
+      "position": "매니저",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "서지오",
+      "team": "품질",
+      "job": "QA",
+      "position": "매니저",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "문채린",
+      "team": "영업",
+      "job": "Sales",
+      "position": "매니저",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "권태오",
+      "team": "생산",
+      "job": "Ops",
+      "position": "매니저",
+      "title": ""
+    },
+    {
+      "speaker": "SPK07",
+      "name": "임소울",
+      "team": "설계",
+      "job": "Design",
+      "position": "매니저",
+      "title": ""
+    }
+  ]
+}

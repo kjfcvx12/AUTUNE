@@ -1,0 +1,189 @@
+== base-seed1
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s]Loading weights: 100%|██████████| 198/198 [00:00<00:00, 18036.49it/s]
+[transformers] [1mDebertaV2ForSequenceClassification LOAD REPORT[0m from: kakaobank/kf-deberta-base
+Key                                        | Status     | 
+-------------------------------------------+------------+-
+cls.predictions.transform.dense.bias       | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED | 
+cls.predictions.bias                       | UNEXPECTED | 
+cls.predictions.transform.dense.weight     | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED | 
+classifier.weight                          | MISSING    | 
+pooler.dense.weight                        | MISSING    | 
+pooler.dense.bias                          | MISSING    | 
+classifier.bias                            | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+  epoch 1: val macro F1 0.515  (4.8 min)
+  epoch 2: val macro F1 0.520  (10.0 min)
+  epoch 3: val macro F1 0.542  (19.0 min)
+  base-seed1: closed 0.646 | natural 0.323 | concern 0.625 | ambiguous 0.437 | decision 0.538 | false/2400 855.6
+== base-seed2
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s]Loading weights: 100%|██████████| 198/198 [00:00<00:00, 14655.31it/s]
+[transformers] [1mDebertaV2ForSequenceClassification LOAD REPORT[0m from: kakaobank/kf-deberta-base
+Key                                        | Status     | 
+-------------------------------------------+------------+-
+cls.predictions.transform.dense.bias       | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED | 
+cls.predictions.bias                       | UNEXPECTED | 
+cls.predictions.transform.dense.weight     | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED | 
+classifier.weight                          | MISSING    | 
+pooler.dense.weight                        | MISSING    | 
+pooler.dense.bias                          | MISSING    | 
+classifier.bias                            | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+  epoch 1: val macro F1 0.509  (27.6 min)
+  epoch 2: val macro F1 0.533  (32.4 min)
+  epoch 3: val macro F1 0.541  (37.1 min)
+  base-seed2: closed 0.641 | natural 0.327 | concern 0.613 | ambiguous 0.435 | decision 0.510 | false/2400 838.6
+== far-seed20260910
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s]Loading weights: 100%|██████████| 198/198 [00:00<00:00, 14658.67it/s]
+[transformers] [1mDebertaV2ForSequenceClassification LOAD REPORT[0m from: kakaobank/kf-deberta-base
+Key                                        | Status     | 
+-------------------------------------------+------------+-
+cls.predictions.transform.dense.bias       | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED | 
+cls.predictions.bias                       | UNEXPECTED | 
+cls.predictions.transform.dense.weight     | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED | 
+classifier.weight                          | MISSING    | 
+pooler.dense.weight                        | MISSING    | 
+pooler.dense.bias                          | MISSING    | 
+classifier.bias                            | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+  epoch 1: val macro F1 0.505  (6.0 min)
+  epoch 2: val macro F1 0.529  (12.1 min)
+  epoch 3: val macro F1 0.533  (18.1 min)
+  far-seed20260910: closed 0.633 | natural 0.312 | concern 0.624 | ambiguous 0.440 | decision 0.483 | false/2400 838.2
+== far-seed1
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s]Loading weights: 100%|██████████| 198/198 [00:00<00:00, 15198.70it/s]
+[transformers] [1mDebertaV2ForSequenceClassification LOAD REPORT[0m from: kakaobank/kf-deberta-base
+Key                                        | Status     | 
+-------------------------------------------+------------+-
+cls.predictions.transform.dense.bias       | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED | 
+cls.predictions.bias                       | UNEXPECTED | 
+cls.predictions.transform.dense.weight     | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED | 
+classifier.weight                          | MISSING    | 
+pooler.dense.weight                        | MISSING    | 
+pooler.dense.bias                          | MISSING    | 
+classifier.bias                            | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+  epoch 1: val macro F1 0.508  (6.1 min)
+  epoch 2: val macro F1 0.515  (12.2 min)
+  epoch 3: val macro F1 0.533  (18.4 min)
+  far-seed1: closed 0.627 | natural 0.314 | concern 0.613 | ambiguous 0.444 | decision 0.460 | false/2400 830.9
+== far-seed2
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s]Loading weights: 100%|██████████| 198/198 [00:00<00:00, 16122.86it/s]
+[transformers] [1mDebertaV2ForSequenceClassification LOAD REPORT[0m from: kakaobank/kf-deberta-base
+Key                                        | Status     | 
+-------------------------------------------+------------+-
+cls.predictions.transform.dense.bias       | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED | 
+cls.predictions.bias                       | UNEXPECTED | 
+cls.predictions.transform.dense.weight     | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED | 
+classifier.weight                          | MISSING    | 
+pooler.dense.weight                        | MISSING    | 
+pooler.dense.bias                          | MISSING    | 
+classifier.bias                            | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+  epoch 1: val macro F1 0.502  (6.2 min)
+  epoch 2: val macro F1 0.521  (12.2 min)
+  epoch 3: val macro F1 0.539  (18.3 min)
+  far-seed2: closed 0.642 | natural 0.320 | concern 0.616 | ambiguous 0.451 | decision 0.501 | false/2400 800.6
+== oracle-seed20260910
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s]Loading weights: 100%|██████████| 198/198 [00:00<00:00, 16499.88it/s]
+[transformers] [1mDebertaV2ForSequenceClassification LOAD REPORT[0m from: kakaobank/kf-deberta-base
+Key                                        | Status     | 
+-------------------------------------------+------------+-
+cls.predictions.transform.dense.bias       | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED | 
+cls.predictions.bias                       | UNEXPECTED | 
+cls.predictions.transform.dense.weight     | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED | 
+classifier.weight                          | MISSING    | 
+pooler.dense.weight                        | MISSING    | 
+pooler.dense.bias                          | MISSING    | 
+classifier.bias                            | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+  epoch 1: val macro F1 0.505  (6.1 min)
+  epoch 2: val macro F1 0.526  (12.1 min)
+  epoch 3: val macro F1 0.529  (18.2 min)
+  oracle-seed20260910: closed 0.632 | natural 0.315 | concern 0.605 | ambiguous 0.448 | decision 0.498 | false/2400 829.0
+== oracle-seed1
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s]Loading weights: 100%|██████████| 198/198 [00:00<00:00, 15231.59it/s]
+[transformers] [1mDebertaV2ForSequenceClassification LOAD REPORT[0m from: kakaobank/kf-deberta-base
+Key                                        | Status     | 
+-------------------------------------------+------------+-
+cls.predictions.transform.dense.bias       | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED | 
+cls.predictions.bias                       | UNEXPECTED | 
+cls.predictions.transform.dense.weight     | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED | 
+classifier.weight                          | MISSING    | 
+pooler.dense.weight                        | MISSING    | 
+pooler.dense.bias                          | MISSING    | 
+classifier.bias                            | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+  epoch 1: val macro F1 0.520  (6.1 min)
+  epoch 2: val macro F1 0.509  (12.1 min)
+  epoch 3: val macro F1 0.540  (18.1 min)
+  oracle-seed1: closed 0.627 | natural 0.312 | concern 0.617 | ambiguous 0.422 | decision 0.478 | false/2400 814.4
+== oracle-seed2
+Loading weights:   0%|          | 0/198 [00:00<?, ?it/s]Loading weights: 100%|██████████| 198/198 [00:00<00:00, 15230.48it/s]
+[transformers] [1mDebertaV2ForSequenceClassification LOAD REPORT[0m from: kakaobank/kf-deberta-base
+Key                                        | Status     | 
+-------------------------------------------+------------+-
+cls.predictions.transform.dense.bias       | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.weight | UNEXPECTED | 
+cls.predictions.bias                       | UNEXPECTED | 
+cls.predictions.transform.dense.weight     | UNEXPECTED | 
+cls.predictions.transform.LayerNorm.bias   | UNEXPECTED | 
+classifier.weight                          | MISSING    | 
+pooler.dense.weight                        | MISSING    | 
+pooler.dense.bias                          | MISSING    | 
+classifier.bias                            | MISSING    | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
+  epoch 1: val macro F1 0.505  (6.0 min)
+  epoch 2: val macro F1 0.532  (12.0 min)
+  epoch 3: val macro F1 0.539  (18.0 min)
+  oracle-seed2: closed 0.619 | natural 0.311 | concern 0.596 | ambiguous 0.431 | decision 0.454 | false/2400 785.9
+
+mean ± sd over 3 seeds                base               far            oracle
+closed_macro_f1               0.640 ±0.006      0.634 ±0.008      0.626 ±0.007
+natural_macro_f1              0.319 ±0.011      0.315 ±0.004      0.313 ±0.002
+closed_concern                0.619 ±0.006      0.618 ±0.006      0.606 ±0.010
+closed_ambiguous              0.434 ±0.003      0.445 ±0.006      0.434 ±0.013
+closed_decision               0.523 ±0.014      0.481 ±0.021      0.477 ±0.022
+closed_commitment             0.755 ±0.022      0.753 ±0.012      0.743 ±0.003
+closed_open_question          0.871 ±0.002      0.873 ±0.006      0.871 ±0.002
+natural_concern               0.223 ±0.001      0.213 ±0.008      0.206 ±0.018
+natural_ambiguous             0.140 ±0.009      0.142 ±0.015      0.141 ±0.012
+false_kinds_per_2400        862.300 ±27.665    823.233 ±19.938    809.767 ±21.920
+exit=0

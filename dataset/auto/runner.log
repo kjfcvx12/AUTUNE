@@ -1,0 +1,270 @@
+﻿2026-09-21 21:07:00 START pid=11524 dayOff=False eligible=17 run=1
+2026-09-21 21:08:51 END   pid=11524 exit=
+2026-09-21 21:37:00 START pid=16096 dayOff=False eligible=16 run=2
+2026-09-21 21:56:22 END   pid=16096 exit=
+2026-09-21 22:07:00 START pid=13108 dayOff=False eligible=15 run=3
+2026-09-21 22:21:29 END   pid=13108 exit=
+2026-09-21 22:37:00 START pid=8568 dayOff=False eligible=14 run=4
+2026-09-21 22:55:31 END   pid=8568 exit=
+2026-09-21 23:07:00 START pid=9276 dayOff=False eligible=13 run=5
+2026-09-21 23:19:48 END   pid=9276 exit=
+2026-09-21 23:37:00 START pid=20532 dayOff=False eligible=12 run=6
+2026-09-21 23:53:59 END   pid=20532 exit=
+2026-09-22 00:07:00 START pid=8896 dayOff=False eligible=11 run=1
+2026-09-22 00:20:16 END   pid=8896 exit=
+2026-09-22 00:37:00 START pid=6208 dayOff=False eligible=6 run=2
+2026-09-22 00:53:06 END   pid=6208 exit=
+2026-09-22 18:07:01 START pid=18868 dayOff=False eligible=1 run=3
+2026-09-22 18:07:37 END   pid=18868 exit=
+2026-09-23 21:07:07 START pid=23412 dayOff=False eligible=1 run=1
+2026-09-23 21:07:36 END   pid=23412 exit=
+2026-09-23 21:37:01 START pid=8128 dayOff=False eligible=1 run=2
+2026-09-23 21:37:15 END   pid=8128 exit=
+2026-09-23 22:07:01 START pid=23076 dayOff=False eligible=1 run=3
+2026-09-23 22:07:18 END   pid=23076 exit=
+2026-09-23 22:37:01 START pid=6788 dayOff=False eligible=1 run=4
+2026-09-23 22:37:19 END   pid=6788 exit=
+2026-09-23 23:07:01 START pid=15508 dayOff=False eligible=1 run=5
+2026-09-23 23:07:21 END   pid=15508 exit=
+2026-09-23 23:37:05 START pid=4708 dayOff=False eligible=1 run=6
+2026-09-23 23:37:22 END   pid=4708 exit=
+2026-09-24 00:07:01 START pid=19288 dayOff=False eligible=1 run=1
+2026-09-24 00:07:18 END   pid=19288 exit=
+2026-09-24 00:37:01 START pid=15952 dayOff=False eligible=1 run=2
+2026-09-24 00:37:18 END   pid=15952 exit=
+2026-09-24 01:07:01 START pid=22428 dayOff=False eligible=1 run=3
+2026-09-24 01:07:18 END   pid=22428 exit=
+2026-09-24 01:37:01 START pid=19468 dayOff=False eligible=1 run=4
+2026-09-24 01:37:17 END   pid=19468 exit=
+2026-09-24 02:07:05 START pid=17428 dayOff=False eligible=1 run=5
+2026-09-24 02:07:23 END   pid=17428 exit=
+2026-09-24 02:37:01 START pid=18840 dayOff=False eligible=1 run=6
+2026-09-24 02:37:21 END   pid=18840 exit=
+2026-09-24 03:07:05 START pid=12524 dayOff=False eligible=1 run=7
+2026-09-24 03:07:21 END   pid=12524 exit=
+2026-09-24 03:37:01 START pid=9284 dayOff=False eligible=1 run=8
+2026-09-24 03:37:18 END   pid=9284 exit=
+2026-09-25 00:07:00 START pid=8324 dayOff=False eligible=1 run=1
+2026-09-25 00:07:22 END   pid=8324 exit=
+2026-09-25 00:37:00 START pid=16268 dayOff=False eligible=1 run=2
+2026-09-25 00:37:17 END   pid=16268 exit=
+2026-09-25 01:07:00 START pid=20120 dayOff=False eligible=1 run=3
+2026-09-25 01:07:18 END   pid=20120 exit=
+2026-09-25 01:37:04 START pid=19740 dayOff=False eligible=1 run=4
+2026-09-25 01:37:22 END   pid=19740 exit=
+2026-09-25 02:07:00 START pid=11424 dayOff=False eligible=1 run=5
+2026-09-25 02:07:18 END   pid=11424 exit=
+2026-09-25 02:37:05 START pid=6824 dayOff=False eligible=1 run=6
+2026-09-25 02:37:24 END   pid=6824 exit=
+2026-09-25 03:07:00 START pid=15272 dayOff=False eligible=1 run=7
+2026-09-25 03:07:18 END   pid=15272 exit=
+2026-09-25 03:37:00 START pid=10420 dayOff=False eligible=1 run=8
+2026-09-25 03:37:18 END   pid=10420 exit=
+2026-09-26 00:07:20 START pid=8560 dayOff=True eligible=1 run=1
+2026-09-26 00:08:41 END   pid=8560 exit=
+2026-09-26 00:37:05 START pid=12704 dayOff=True eligible=1 run=2
+2026-09-26 00:37:24 END   pid=12704 exit=
+2026-09-26 01:07:00 START pid=7840 dayOff=True eligible=1 run=3
+2026-09-26 01:07:18 END   pid=7840 exit=
+2026-09-26 01:37:05 START pid=6436 dayOff=True eligible=1 run=4
+2026-09-26 01:37:22 END   pid=6436 exit=
+2026-09-26 02:07:00 START pid=6620 dayOff=True eligible=1 run=5
+2026-09-26 02:07:21 END   pid=6620 exit=
+2026-09-26 02:37:00 START pid=22084 dayOff=True eligible=1 run=6
+2026-09-26 02:37:18 END   pid=22084 exit=
+2026-09-26 03:07:00 START pid=23404 dayOff=True eligible=1 run=7
+2026-09-26 03:07:17 END   pid=23404 exit=
+2026-09-26 03:37:00 START pid=8376 dayOff=True eligible=1 run=8
+2026-09-26 03:37:17 END   pid=8376 exit=
+2026-09-26 04:07:00 START pid=10416 dayOff=True eligible=1 run=9
+2026-09-26 04:07:17 END   pid=10416 exit=
+2026-09-26 04:37:00 START pid=17920 dayOff=True eligible=1 run=10
+2026-09-26 04:37:17 END   pid=17920 exit=
+2026-09-26 05:07:01 START pid=11312 dayOff=True eligible=1 run=11
+2026-09-26 05:07:16 END   pid=11312 exit=
+2026-09-26 05:37:00 START pid=20552 dayOff=True eligible=1 run=12
+2026-09-26 05:37:17 END   pid=20552 exit=
+2026-09-26 06:07:00 START pid=20924 dayOff=True eligible=1 run=13
+2026-09-26 06:07:16 END   pid=20924 exit=
+2026-09-26 06:37:01 START pid=11124 dayOff=True eligible=1 run=14
+2026-09-26 06:37:17 END   pid=11124 exit=
+2026-09-26 07:07:00 START pid=16428 dayOff=True eligible=1 run=15
+2026-09-26 07:07:16 END   pid=16428 exit=
+2026-09-26 07:37:00 START pid=20984 dayOff=True eligible=1 run=16
+2026-09-26 07:37:18 END   pid=20984 exit=
+2026-09-26 08:07:00 START pid=9792 dayOff=True eligible=1 run=17
+2026-09-26 08:07:16 END   pid=9792 exit=
+2026-09-26 08:37:00 START pid=19360 dayOff=True eligible=1 run=18
+2026-09-26 08:37:18 END   pid=19360 exit=
+2026-09-26 09:07:01 START pid=700 dayOff=True eligible=1 run=19
+2026-09-26 09:07:16 END   pid=700 exit=
+2026-09-26 09:37:01 START pid=12052 dayOff=True eligible=1 run=20
+2026-09-26 09:37:17 END   pid=12052 exit=
+2026-09-26 10:07:00 START pid=20804 dayOff=True eligible=1 run=21
+2026-09-26 10:07:18 END   pid=20804 exit=
+2026-09-26 10:37:01 START pid=2128 dayOff=True eligible=1 run=22
+2026-09-26 10:37:17 END   pid=2128 exit=
+2026-09-26 11:07:01 START pid=14096 dayOff=True eligible=1 run=23
+2026-09-26 11:07:17 END   pid=14096 exit=
+2026-09-26 11:37:01 START pid=11540 dayOff=True eligible=1 run=24
+2026-09-26 11:37:17 END   pid=11540 exit=
+2026-09-26 12:07:01 START pid=11328 dayOff=True eligible=1 run=25
+2026-09-26 12:07:18 END   pid=11328 exit=
+2026-09-26 12:37:07 START pid=9276 dayOff=True eligible=1 run=26
+2026-09-26 12:37:39 END   pid=9276 exit=
+2026-09-26 13:07:01 START pid=13600 dayOff=True eligible=1 run=27
+2026-09-26 13:07:22 END   pid=13600 exit=
+2026-09-26 13:37:01 START pid=12916 dayOff=True eligible=1 run=28
+2026-09-26 13:37:18 END   pid=12916 exit=
+2026-09-26 14:07:03 START pid=22964 dayOff=True eligible=1 run=29
+2026-09-26 14:07:24 END   pid=22964 exit=
+2026-09-26 14:37:07 START pid=14584 dayOff=True eligible=1 run=30
+2026-09-26 14:37:40 END   pid=14584 exit=
+2026-09-26 15:07:01 START pid=2996 dayOff=True eligible=1 run=31
+2026-09-26 15:07:20 END   pid=2996 exit=
+2026-09-26 15:37:06 START pid=20936 dayOff=True eligible=1 run=32
+2026-09-26 15:38:19 END   pid=20936 exit=
+2026-09-26 16:07:07 START pid=18036 dayOff=True eligible=1 run=33
+2026-09-26 16:07:37 END   pid=18036 exit=
+2026-09-26 16:37:01 START pid=17896 dayOff=True eligible=1 run=34
+2026-09-26 16:37:22 END   pid=17896 exit=
+2026-09-26 17:07:01 START pid=1616 dayOff=True eligible=1 run=35
+2026-09-26 17:07:22 END   pid=1616 exit=
+2026-09-26 17:38:29 START pid=21436 dayOff=True eligible=1 run=36
+2026-09-26 17:38:49 END   pid=21436 exit=
+2026-09-26 18:07:03 START pid=6824 dayOff=True eligible=1 run=37
+2026-09-26 18:07:23 END   pid=6824 exit=
+2026-09-26 18:37:01 START pid=17640 dayOff=True eligible=1 run=38
+2026-09-26 18:37:19 END   pid=17640 exit=
+2026-09-26 19:07:05 START pid=10812 dayOff=True eligible=1 run=39
+2026-09-26 19:07:21 END   pid=10812 exit=
+2026-09-26 19:37:03 START pid=12360 dayOff=True eligible=1 run=40
+2026-09-26 19:37:22 END   pid=12360 exit=
+2026-09-26 20:07:03 START pid=17068 dayOff=True eligible=1 run=41
+2026-09-26 20:07:24 END   pid=17068 exit=
+2026-09-26 20:37:01 START pid=7928 dayOff=True eligible=1 run=42
+2026-09-26 20:37:20 END   pid=7928 exit=
+2026-09-26 21:07:01 START pid=4052 dayOff=True eligible=1 run=43
+2026-09-26 21:07:19 END   pid=4052 exit=
+2026-09-26 21:37:01 START pid=8136 dayOff=True eligible=1 run=44
+2026-09-26 21:37:20 END   pid=8136 exit=
+2026-09-26 22:07:01 START pid=2996 dayOff=True eligible=1 run=45
+2026-09-26 22:07:23 END   pid=2996 exit=
+2026-09-26 22:37:01 START pid=20476 dayOff=True eligible=1 run=46
+2026-09-26 22:37:22 END   pid=20476 exit=
+2026-09-26 23:07:01 START pid=5516 dayOff=True eligible=1 run=47
+2026-09-26 23:07:17 END   pid=5516 exit=
+2026-09-26 23:37:08 START pid=11068 dayOff=True eligible=1 run=48
+2026-09-26 23:38:48 END   pid=11068 exit=
+2026-09-27 00:07:01 START pid=19852 dayOff=True eligible=1 run=1
+2026-09-27 00:07:23 END   pid=19852 exit=
+2026-09-27 00:37:01 START pid=16016 dayOff=True eligible=1 run=2
+2026-09-27 00:37:23 END   pid=16016 exit=
+2026-09-27 01:07:06 START pid=13980 dayOff=True eligible=1 run=3
+2026-09-27 01:07:27 END   pid=13980 exit=
+2026-09-27 01:37:14 START pid=14104 dayOff=True eligible=1 run=4
+2026-09-27 01:39:14 END   pid=14104 exit=
+2026-09-27 02:07:01 START pid=2160 dayOff=True eligible=1 run=5
+2026-09-27 02:07:22 END   pid=2160 exit=
+2026-09-27 02:37:01 START pid=17412 dayOff=True eligible=1 run=6
+2026-09-27 02:37:17 END   pid=17412 exit=
+2026-09-27 03:07:05 START pid=10292 dayOff=True eligible=1 run=7
+2026-09-27 03:07:22 END   pid=10292 exit=
+2026-09-27 03:37:01 START pid=9068 dayOff=True eligible=1 run=8
+2026-09-27 03:37:23 END   pid=9068 exit=
+2026-09-27 04:07:01 START pid=21744 dayOff=True eligible=1 run=9
+2026-09-27 04:07:17 END   pid=21744 exit=
+2026-09-27 04:37:01 START pid=18992 dayOff=True eligible=1 run=10
+2026-09-27 04:37:17 END   pid=18992 exit=
+2026-09-27 05:07:01 START pid=12212 dayOff=True eligible=1 run=11
+2026-09-27 05:07:16 END   pid=12212 exit=
+2026-09-27 05:37:05 START pid=11248 dayOff=True eligible=1 run=12
+2026-09-27 05:37:21 END   pid=11248 exit=
+2026-09-27 06:07:00 START pid=2020 dayOff=True eligible=1 run=13
+2026-09-27 06:07:20 END   pid=2020 exit=
+2026-09-27 06:37:04 START pid=3128 dayOff=True eligible=1 run=14
+2026-09-27 06:37:23 END   pid=3128 exit=
+2026-09-27 07:07:00 START pid=16132 dayOff=True eligible=1 run=15
+2026-09-27 07:07:15 END   pid=16132 exit=
+2026-09-27 07:37:04 START pid=14108 dayOff=True eligible=1 run=16
+2026-09-27 07:37:20 END   pid=14108 exit=
+2026-09-27 08:07:04 START pid=11316 dayOff=True eligible=1 run=17
+2026-09-27 08:07:22 END   pid=11316 exit=
+2026-09-27 08:37:04 START pid=22072 dayOff=True eligible=1 run=18
+2026-09-27 08:37:23 END   pid=22072 exit=
+2026-09-27 09:07:04 START pid=19488 dayOff=True eligible=1 run=19
+2026-09-27 09:07:21 END   pid=19488 exit=
+2026-09-27 09:37:00 START pid=3768 dayOff=True eligible=1 run=20
+2026-09-27 09:37:19 END   pid=3768 exit=
+2026-09-27 10:07:04 START pid=5844 dayOff=True eligible=1 run=21
+2026-09-27 10:07:21 END   pid=5844 exit=
+2026-09-27 10:37:00 START pid=13344 dayOff=True eligible=1 run=22
+2026-09-27 10:37:21 END   pid=13344 exit=
+2026-09-27 11:07:04 START pid=5064 dayOff=True eligible=1 run=23
+2026-09-27 11:07:20 END   pid=5064 exit=
+2026-09-27 11:37:00 START pid=15788 dayOff=True eligible=1 run=24
+2026-09-27 11:37:17 END   pid=15788 exit=
+2026-09-27 12:07:04 START pid=14712 dayOff=True eligible=1 run=25
+2026-09-27 12:07:21 END   pid=14712 exit=
+2026-09-27 12:37:00 START pid=18264 dayOff=True eligible=1 run=26
+2026-09-27 12:37:17 END   pid=18264 exit=
+2026-09-27 13:07:00 START pid=10184 dayOff=True eligible=1 run=27
+2026-09-27 13:07:21 END   pid=10184 exit=
+2026-09-27 13:37:05 START pid=3956 dayOff=True eligible=1 run=28
+2026-09-27 13:37:21 END   pid=3956 exit=
+2026-09-27 14:07:00 START pid=4928 dayOff=True eligible=1 run=29
+2026-09-27 14:07:19 END   pid=4928 exit=
+2026-09-27 14:37:00 START pid=16436 dayOff=True eligible=1 run=30
+2026-09-27 14:37:18 END   pid=16436 exit=
+2026-09-27 15:07:00 START pid=1896 dayOff=True eligible=1 run=31
+2026-09-27 15:07:15 END   pid=1896 exit=
+2026-09-27 15:37:00 START pid=592 dayOff=True eligible=1 run=32
+2026-09-27 15:37:16 END   pid=592 exit=
+2026-09-27 16:07:00 START pid=1864 dayOff=True eligible=1 run=33
+2026-09-27 16:07:16 END   pid=1864 exit=
+2026-09-27 16:37:00 START pid=19676 dayOff=True eligible=1 run=34
+2026-09-27 16:37:18 END   pid=19676 exit=
+2026-09-27 17:07:00 START pid=15248 dayOff=True eligible=1 run=35
+2026-09-27 17:07:17 END   pid=15248 exit=
+2026-09-27 17:37:00 START pid=20012 dayOff=True eligible=1 run=36
+2026-09-27 17:37:20 END   pid=20012 exit=
+2026-09-27 18:07:00 START pid=21784 dayOff=True eligible=1 run=37
+2026-09-27 18:07:16 END   pid=21784 exit=
+2026-09-27 18:37:00 START pid=10164 dayOff=True eligible=1 run=38
+2026-09-27 18:37:20 END   pid=10164 exit=
+2026-09-27 19:07:00 START pid=15216 dayOff=True eligible=1 run=39
+2026-09-27 19:07:19 END   pid=15216 exit=
+2026-09-27 19:37:00 START pid=8988 dayOff=True eligible=1 run=40
+2026-09-27 19:37:22 END   pid=8988 exit=
+2026-09-27 20:07:00 START pid=18868 dayOff=True eligible=1 run=41
+2026-09-27 20:07:18 END   pid=18868 exit=
+2026-09-27 20:37:00 START pid=8056 dayOff=True eligible=1 run=42
+2026-09-27 20:37:23 END   pid=8056 exit=
+2026-09-27 21:07:00 START pid=22752 dayOff=True eligible=1 run=43
+2026-09-27 21:07:20 END   pid=22752 exit=
+2026-09-27 21:37:00 START pid=14808 dayOff=True eligible=1 run=44
+2026-09-27 21:37:22 END   pid=14808 exit=
+2026-09-27 22:07:00 START pid=10136 dayOff=True eligible=1 run=45
+2026-09-27 22:07:21 END   pid=10136 exit=
+2026-09-27 22:37:00 START pid=6952 dayOff=True eligible=1 run=46
+2026-09-27 22:37:19 END   pid=6952 exit=
+2026-09-27 23:07:00 START pid=1552 dayOff=True eligible=1 run=47
+2026-09-27 23:07:20 END   pid=1552 exit=
+2026-09-27 23:37:00 START pid=21308 dayOff=True eligible=1 run=48
+2026-09-27 23:37:20 END   pid=21308 exit=
+2026-09-28 00:07:00 START pid=18472 dayOff=False eligible=1 run=1
+2026-09-28 00:07:20 END   pid=18472 exit=
+2026-09-28 00:37:10 START pid=19508 dayOff=False eligible=1 run=2
+2026-09-28 00:37:52 END   pid=19508 exit=
+2026-09-28 01:07:00 START pid=16052 dayOff=False eligible=1 run=3
+2026-09-28 01:07:17 END   pid=16052 exit=
+2026-09-28 01:37:00 START pid=11644 dayOff=False eligible=16 run=4
+2026-09-28 01:49:31 END   pid=11644 exit=
+2026-09-28 02:07:00 START pid=14628 dayOff=False eligible=15 run=5
+2026-09-28 02:18:28 END   pid=14628 exit=
+2026-09-28 02:37:00 START pid=13368 dayOff=False eligible=14 run=6
+2026-09-28 02:49:30 END   pid=13368 exit=
+2026-09-28 03:07:00 START pid=13480 dayOff=False eligible=13 run=7
+2026-09-28 03:18:26 END   pid=13480 exit=
+2026-09-28 03:37:00 START pid=11016 dayOff=False eligible=12 run=8
+2026-09-28 03:47:51 END   pid=11016 exit=

@@ -1,0 +1,66 @@
+{
+  "meeting": "DUMMY_30",
+  "title": "오르빗웍스 통신 모듈 입고 지연 대응 회의",
+  "type": "with-senior",
+  "position_order": [
+    "매니저"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "한도경",
+      "team": "경영",
+      "job": "Exec",
+      "position": "매니저",
+      "title": "대표"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "류세진",
+      "team": "하드웨어팀",
+      "job": "HW",
+      "position": "매니저",
+      "title": "리드"
+    },
+    {
+      "speaker": "SPK03",
+      "name": "정수아",
+      "team": "구매·SCM",
+      "job": "SCM",
+      "position": "매니저",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "오태민",
+      "team": "생산",
+      "job": "Ops",
+      "position": "매니저",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "임가을",
+      "team": "영업",
+      "job": "Sales",
+      "position": "매니저",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "문재혁",
+      "team": "품질",
+      "job": "QA",
+      "position": "매니저",
+      "title": ""
+    },
+    {
+      "speaker": "SPK07",
+      "name": "탁현우",
+      "team": "펌웨어팀",
+      "job": "Dev",
+      "position": "매니저",
+      "title": ""
+    }
+  ]
+}

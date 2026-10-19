@@ -1,0 +1,31 @@
+2026-09-28T09:55:06.243072Z [info     ] cors_enabled                   origins=['http://localhost:3000']
+2026-09-28T09:55:13.269625Z [info     ] router_registered              module=audio prefix=/api/audio
+2026-09-28T09:55:13.584571Z [info     ] router_registered              module=extraction prefix=/api/extraction
+2026-09-28T09:55:19.170022Z [info     ] router_registered              module=gap prefix=/api/gap
+2026-09-28T09:55:19.483655Z [info     ] router_registered              module=context prefix=/api/context
+2026-09-28T09:55:19.810244Z [info     ] router_registered              module=intelligence prefix=/api/intelligence
+INFO:     Started server process [2740]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:64346 - "GET /health HTTP/1.1" 200 OK
+2026-09-28T09:55:29.578954Z [info     ] dev_token_issued               team_id=team_b43570b6dba841278422e7cf01133a77 user_id=user_bfb1c5e598444a04adcaf6ee2bb6038e
+INFO:     127.0.0.1:64348 - "POST /api/audio/dev/token HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64371 - "GET /api/extraction/action-items?meeting_id=mtg_e731dc092291404e886def516dfadee6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64373 - "GET /api/extraction/reviews/mtg_e731dc092291404e886def516dfadee6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64379 - "GET /api/extraction/action-items/act_9876555819b940ccb729c0aa220a1fbc HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64384 - "GET /api/extraction/action-items?meeting_id=mtg_e731dc092291404e886def516dfadee6 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64428 - "PATCH /api/extraction/action-items/act_60ffaff25e7947cbbaa48d754734c8e7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64430 - "PATCH /api/extraction/decisions/dec_a2c073a168d1abae37b00acee1f1f4bd HTTP/1.1" 200 OK
+HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2026-09-28T09:58:48.617783Z [info     ] integration_call               method=POST path=/pages service=notion
+2026-09-28T09:58:48.619782Z [info     ] extraction_notion_synced       action_item_id=act_60ffaff25e7947cbbaa48d754734c8e7 meeting_id=mtg_e731dc092291404e886def516dfadee6
+HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2026-09-28T09:58:50.321339Z [info     ] integration_call               method=POST path=/pages service=notion
+2026-09-28T09:58:50.323368Z [info     ] extraction_notion_decision_synced decision_id=dec_a2c073a168d1abae37b00acee1f1f4bd meeting_id=mtg_e731dc092291404e886def516dfadee6
+INFO:     127.0.0.1:64436 - "GET /api/extraction/action-items/act_60ffaff25e7947cbbaa48d754734c8e7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64440 - "PATCH /api/extraction/action-items/act_60ffaff25e7947cbbaa48d754734c8e7 HTTP/1.1" 200 OK
+HTTP Request: PATCH https://api.notion.com/v1/pages/3e91da48-e00c-8156-ae44-c9c3795e4213 "HTTP/1.1 200 OK"
+2026-09-28T09:59:03.026628Z [info     ] integration_call               method=PATCH path=/pages/3e91da48-e00c-8156-ae44-c9c3795e4213 service=notion
+2026-09-28T09:59:03.026628Z [info     ] extraction_notion_updated      action_item_id=act_60ffaff25e7947cbbaa48d754734c8e7 meeting_id=mtg_e731dc092291404e886def516dfadee6 page=updated
+INFO:     127.0.0.1:50606 - "GET / HTTP/1.1" 404 Not Found

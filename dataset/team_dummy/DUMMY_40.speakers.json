@@ -1,0 +1,52 @@
+{
+  "meeting": "DUMMY_40",
+  "title": "오르빗몰 여성의류 MD팀 FW 기획전 점검 회의 (본부장 참석)",
+  "type": "with-senior",
+  "position_order": [
+    "매니저",
+    "디렉터",
+    "본부장"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "차윤희",
+      "team": "여성의류MD팀",
+      "job": "MD",
+      "position": "매니저",
+      "title": "리드"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "정다온",
+      "team": "여성의류MD팀",
+      "job": "MD",
+      "position": "매니저",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "홍재민",
+      "team": "여성의류MD팀",
+      "job": "MD",
+      "position": "매니저",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "류세빈",
+      "team": "여성의류MD팀",
+      "job": "Content",
+      "position": "매니저",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "오승준",
+      "team": "패션사업본부",
+      "job": "Management",
+      "position": "본부장",
+      "title": "본부장"
+    }
+  ]
+}

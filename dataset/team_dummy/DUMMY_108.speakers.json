@@ -1,0 +1,65 @@
+{
+  "meeting": "DUMMY_108",
+  "title": "단비세무법인 기장3팀 10월 부가세 예정신고 대비 주간 회의",
+  "type": "team",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "정하람",
+      "team": "기장3팀",
+      "job": "Tax",
+      "position": "차장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "오세윤",
+      "team": "기장3팀",
+      "job": "Tax",
+      "position": "과장",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "구태오",
+      "team": "기장3팀",
+      "job": "Tax",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "문서진",
+      "team": "기장3팀",
+      "job": "Tax",
+      "position": "주임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "백나린",
+      "team": "기장3팀",
+      "job": "Tax",
+      "position": "사원",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "한유겸",
+      "team": "기장3팀",
+      "job": "Ops",
+      "position": "대리",
+      "title": ""
+    }
+  ]
+}

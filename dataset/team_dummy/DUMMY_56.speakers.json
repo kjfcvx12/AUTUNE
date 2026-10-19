@@ -1,0 +1,65 @@
+{
+  "meeting": "DUMMY_56",
+  "title": "물결톤 선세럼 신제품 개발-마케팅 협의",
+  "type": "cross-team",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "윤재석",
+      "team": "제품개발팀",
+      "job": "R&D",
+      "position": "차장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "오하린",
+      "team": "제품개발팀",
+      "job": "R&D",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "남궁별",
+      "team": "제품개발팀",
+      "job": "R&D",
+      "position": "사원",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "서도윤",
+      "team": "브랜드마케팅팀",
+      "job": "Marketing",
+      "position": "과장",
+      "title": "파트장"
+    },
+    {
+      "speaker": "SPK05",
+      "name": "임채아",
+      "team": "브랜드마케팅팀",
+      "job": "Marketing",
+      "position": "주임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "권태민",
+      "team": "품질보증팀",
+      "job": "QA",
+      "position": "대리",
+      "title": ""
+    }
+  ]
+}

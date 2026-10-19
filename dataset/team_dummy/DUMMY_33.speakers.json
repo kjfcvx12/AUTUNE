@@ -1,0 +1,81 @@
+{
+  "meeting": "DUMMY_33",
+  "title": "교양제작2팀 주간 회의 (본부장 참석) — 추석 특집 2부작 편성과 방송 준비",
+  "type": "with-senior",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "석진혁",
+      "team": "제작본부",
+      "job": "Production",
+      "position": "이사",
+      "title": "본부장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "방혜원",
+      "team": "교양제작2팀",
+      "job": "Production",
+      "position": "부장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK03",
+      "name": "우태경",
+      "team": "교양제작2팀",
+      "job": "Production",
+      "position": "차장",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "인서진",
+      "team": "교양제작2팀",
+      "job": "Production",
+      "position": "과장",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "류다솜",
+      "team": "교양제작2팀",
+      "job": "Production",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "봉지호",
+      "team": "교양제작2팀",
+      "job": "Writer",
+      "position": "주임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK07",
+      "name": "금채윤",
+      "team": "편성팀",
+      "job": "Scheduling",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK08",
+      "name": "표준우",
+      "team": "교양제작2팀",
+      "job": "Production",
+      "position": "사원",
+      "title": ""
+    }
+  ]
+}

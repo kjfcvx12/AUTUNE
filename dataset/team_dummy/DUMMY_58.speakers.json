@@ -1,0 +1,73 @@
+{
+  "meeting": "DUMMY_58",
+  "title": "프레스 2라인 설비 안전 점검 회의 (공장장 참석)",
+  "type": "with-senior",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "방규철",
+      "team": "제2공장",
+      "job": "Ops",
+      "position": "이사",
+      "title": "공장장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "탁성우",
+      "team": "생산기술팀",
+      "job": "Eng",
+      "position": "과장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK03",
+      "name": "노지현",
+      "team": "생산기술팀",
+      "job": "Eng",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "여상민",
+      "team": "안전환경팀",
+      "job": "Safety",
+      "position": "차장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK05",
+      "name": "심보람",
+      "team": "안전환경팀",
+      "job": "Safety",
+      "position": "주임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "구도현",
+      "team": "생산2팀",
+      "job": "Ops",
+      "position": "대리",
+      "title": "반장"
+    },
+    {
+      "speaker": "SPK07",
+      "name": "표은서",
+      "team": "생산2팀",
+      "job": "Ops",
+      "position": "사원",
+      "title": ""
+    }
+  ]
+}

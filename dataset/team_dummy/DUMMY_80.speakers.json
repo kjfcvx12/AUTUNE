@@ -1,0 +1,77 @@
+{
+  "meeting": "DUMMY_80",
+  "title": "다온솔루션즈 성과평가 제도 개편 검토 회의 (HR본부장 참석)",
+  "type": "with-senior",
+  "position_order": [
+    "프로",
+    "책임",
+    "수석",
+    "상무"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "명재훈",
+      "team": "HR본부",
+      "job": "HR",
+      "position": "상무",
+      "title": "본부장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "표은서",
+      "team": "인사제도팀",
+      "job": "HR",
+      "position": "수석",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK03",
+      "name": "봉지환",
+      "team": "인사제도팀",
+      "job": "HR",
+      "position": "책임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "추다인",
+      "team": "인사제도팀",
+      "job": "HR",
+      "position": "프로",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "국승민",
+      "team": "피플애널리틱스팀",
+      "job": "Data",
+      "position": "책임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "연하늘",
+      "team": "인사제도팀",
+      "job": "HR",
+      "position": "프로",
+      "title": ""
+    },
+    {
+      "speaker": "SPK07",
+      "name": "소재형",
+      "team": "개발본부",
+      "job": "Dev",
+      "position": "수석",
+      "title": "리드"
+    },
+    {
+      "speaker": "SPK08",
+      "name": "천보미",
+      "team": "노사협력팀",
+      "job": "Labor",
+      "position": "책임",
+      "title": ""
+    }
+  ]
+}

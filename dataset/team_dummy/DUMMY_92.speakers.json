@@ -1,0 +1,73 @@
+{
+  "meeting": "DUMMY_92",
+  "title": "모아리면세 해오름공항점 연휴 대비 운영 회의(영업본부장 참석)",
+  "type": "with-senior",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "한석진",
+      "team": "영업본부",
+      "job": "Sales",
+      "position": "이사",
+      "title": "본부장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "배수영",
+      "team": "해오름공항점 운영팀",
+      "job": "Ops",
+      "position": "차장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK03",
+      "name": "진서우",
+      "team": "해오름공항점 운영팀",
+      "job": "Ops",
+      "position": "과장",
+      "title": "파트장"
+    },
+    {
+      "speaker": "SPK04",
+      "name": "홍지유",
+      "team": "해오름공항점 운영팀",
+      "job": "SCM",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "마경태",
+      "team": "해오름공항점 운영팀",
+      "job": "Marketing",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "소민정",
+      "team": "해오름공항점 운영팀",
+      "job": "HR",
+      "position": "주임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK07",
+      "name": "연하람",
+      "team": "해오름공항점 운영팀",
+      "job": "CS",
+      "position": "사원",
+      "title": ""
+    }
+  ]
+}

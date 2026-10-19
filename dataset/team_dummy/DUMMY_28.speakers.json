@@ -1,0 +1,57 @@
+{
+  "meeting": "DUMMY_28",
+  "title": "걸음노트 4.2 출시 고/노고 점검",
+  "type": "cross-team",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "이채원",
+      "team": "프로덕트팀",
+      "job": "PM",
+      "position": "과장",
+      "title": "리드"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "백승민",
+      "team": "QA파트",
+      "job": "QA",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "조하람",
+      "team": "앱개발팀",
+      "job": "Dev",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "탁민혁",
+      "team": "앱개발팀",
+      "job": "Dev",
+      "position": "주임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "염소라",
+      "team": "고객지원팀",
+      "job": "CS",
+      "position": "대리",
+      "title": ""
+    }
+  ]
+}

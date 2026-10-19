@@ -1,0 +1,12 @@
+2026-09-18T23:55:12.225047Z [info     ] cors_enabled                   origins=['http://localhost:3000']
+2026-09-18T23:55:12.556713Z [info     ] router_registered              module=audio prefix=/api/audio
+2026-09-18T23:55:12.628082Z [info     ] router_registered              module=extraction prefix=/api/extraction
+2026-09-18T23:55:12.993826Z [info     ] router_registered              module=gap prefix=/api/gap
+2026-09-18T23:55:13.068434Z [info     ] router_registered              module=context prefix=/api/context
+2026-09-18T23:55:13.107961Z [info     ] router_registered              module=intelligence prefix=/api/intelligence
+INFO:     Started server process [3492]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:58000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:51068 - "POST /api/extraction/action-items HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:51071 - "POST /api/extraction/action-items HTTP/1.1" 422 Unprocessable Entity

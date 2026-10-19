@@ -1,0 +1,70 @@
+{
+  "meeting": "DUMMY_61",
+  "title": "해솔군 은빛억새축제 부서 합동 준비회의",
+  "type": "cross-team",
+  "position_order": [
+    "서기",
+    "주사보",
+    "주사",
+    "사무관",
+    "서기관"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "윤태식",
+      "team": "문화관광과",
+      "job": "Admin",
+      "position": "사무관",
+      "title": "과장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "한서진",
+      "team": "문화관광과 축제팀",
+      "job": "PM",
+      "position": "주사",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK03",
+      "name": "오민규",
+      "team": "문화관광과 축제팀",
+      "job": "Ops",
+      "position": "주사보",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "김나래",
+      "team": "문화관광과 축제팀",
+      "job": "Ops",
+      "position": "서기",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "배정훈",
+      "team": "안전총괄과",
+      "job": "Safety",
+      "position": "주사",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "서유라",
+      "team": "기획홍보실",
+      "job": "PR",
+      "position": "주사보",
+      "title": ""
+    },
+    {
+      "speaker": "SPK07",
+      "name": "장동철",
+      "team": "교통행정과",
+      "job": "Traffic",
+      "position": "주사",
+      "title": ""
+    }
+  ]
+}

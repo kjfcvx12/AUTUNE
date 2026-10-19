@@ -1,0 +1,57 @@
+{
+  "meeting": "DUMMY_03",
+  "title": "마케팅팀 하반기 캠페인 기획 회의",
+  "type": "team",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "한정우",
+      "team": "마케팅팀",
+      "job": "Marketing",
+      "position": "부장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "오세진",
+      "team": "마케팅팀",
+      "job": "Marketing",
+      "position": "과장",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "이다은",
+      "team": "마케팅팀",
+      "job": "Marketing",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "박준호",
+      "team": "마케팅팀",
+      "job": "Marketing",
+      "position": "사원",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "최유나",
+      "team": "마케팅팀",
+      "job": "Marketing",
+      "position": "사원",
+      "title": ""
+    }
+  ]
+}

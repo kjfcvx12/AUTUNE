@@ -1,0 +1,13 @@
+2026-09-19T01:55:05.678650Z [info     ] router_registered              module=audio prefix=/api/audio
+2026-09-19T01:55:05.873466Z [info     ] router_registered              module=extraction prefix=/api/extraction
+2026-09-19T01:55:05.878439Z [info     ] router_registered              module=gap prefix=/api/gap
+2026-09-19T01:55:05.958949Z [info     ] router_registered              module=context prefix=/api/context
+2026-09-19T01:55:06.021492Z [info     ] router_registered              module=intelligence prefix=/api/intelligence
+INFO:     Started server process [23252]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:58000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:53247 - "GET /api/extraction/action-items?meeting_id=mtg_41b7c194caeb4b7b84817aea8b3ecfbe HTTP/1.1" 200 OK
+No hostname was supplied. Reverting to default 'localhost'
+2026-09-19T02:07:29.045018Z [warning  ] extraction_notion_sync_not_queued action_item_id=act_131ab792c4b848589e24296bfb6bcb84
+INFO:     127.0.0.1:53251 - "PATCH /api/extraction/action-items/act_131ab792c4b848589e24296bfb6bcb84 HTTP/1.1" 200 OK

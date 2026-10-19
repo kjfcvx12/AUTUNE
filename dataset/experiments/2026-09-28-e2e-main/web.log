@@ -1,0 +1,16 @@
+   ▲ Next.js 15.5.4
+   - Local:        http://localhost:3000
+   - Network:      http://172.29.192.1:3000
+
+ ✓ Starting...
+ ✓ Ready in 52.6s
+ ○ Compiling / ...
+ ✓ Compiled / in 4.2s (526 modules)
+ GET / 200 in 7598ms
+ GET / 200 in 111ms
+ ○ Compiling /meetings/[meetingId] ...
+ ✓ Compiled /meetings/[meetingId] in 15.4s (658 modules)
+ GET /meetings/mtg_e731dc092291404e886def516dfadee6 200 in 17200ms
+ ✓ Compiled /meetings/[meetingId]/actions in 491ms (691 modules)
+ GET /meetings/mtg_e731dc092291404e886def516dfadee6/actions 200 in 1384ms
+ GET / 200 in 539ms

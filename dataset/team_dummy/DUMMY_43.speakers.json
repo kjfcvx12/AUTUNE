@@ -1,0 +1,64 @@
+{
+  "meeting": "DUMMY_43",
+  "title": "도담대학교 학사지원팀 학기 운영 점검 회의 (교무처장 참석)",
+  "type": "with-senior",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "교수"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "성기훈",
+      "team": "교무처",
+      "job": "Faculty",
+      "position": "교수",
+      "title": "교무처장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "권미령",
+      "team": "학사지원팀",
+      "job": "Academic",
+      "position": "부장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK03",
+      "name": "여동하",
+      "team": "학사지원팀",
+      "job": "Academic",
+      "position": "과장",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "주은솔",
+      "team": "학사지원팀",
+      "job": "Academic",
+      "position": "주임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "반태오",
+      "team": "정보전산팀",
+      "job": "IT",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "설하윤",
+      "team": "학사지원팀",
+      "job": "Academic",
+      "position": "사원",
+      "title": ""
+    }
+  ]
+}

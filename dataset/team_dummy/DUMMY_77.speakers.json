@@ -1,0 +1,73 @@
+{
+  "meeting": "DUMMY_77",
+  "title": "청하시설공단 시설운영팀 하반기 시설 점검 회의 (시설처장 참석)",
+  "type": "with-senior",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "배상철",
+      "team": "시설처",
+      "job": "Ops",
+      "position": "부장",
+      "title": "처장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "곽민서",
+      "team": "시설운영팀",
+      "job": "Ops",
+      "position": "차장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK03",
+      "name": "염태준",
+      "team": "시설운영팀",
+      "job": "Ops",
+      "position": "과장",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "노수아",
+      "team": "시설운영팀",
+      "job": "Ops",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "변정우",
+      "team": "시설운영팀",
+      "job": "Safety",
+      "position": "주임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "허다솜",
+      "team": "시설운영팀",
+      "job": "CS",
+      "position": "사원",
+      "title": ""
+    },
+    {
+      "speaker": "SPK07",
+      "name": "지형석",
+      "team": "경영지원팀",
+      "job": "Finance",
+      "position": "과장",
+      "title": ""
+    }
+  ]
+}

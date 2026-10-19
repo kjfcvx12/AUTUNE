@@ -1,0 +1,57 @@
+{
+  "meeting": "DUMMY_04",
+  "title": "리브랜딩 시안 리뷰 및 외주 일정 점검",
+  "type": "team",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "한지윤",
+      "team": "브랜드디자인팀",
+      "job": "Design",
+      "position": "차장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "오세린",
+      "team": "브랜드디자인팀",
+      "job": "Design",
+      "position": "과장",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "김도현",
+      "team": "브랜드디자인팀",
+      "job": "Design",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "이하람",
+      "team": "브랜드디자인팀",
+      "job": "Design",
+      "position": "사원",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "박준서",
+      "team": "브랜드디자인팀",
+      "job": "Ops",
+      "position": "주임",
+      "title": ""
+    }
+  ]
+}

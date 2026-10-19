@@ -1,0 +1,57 @@
+{
+  "meeting": "DUMMY_116",
+  "title": "너울컴퍼니 울림 프로덕트 실무자 주간 회의",
+  "type": "peers",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "한도윤",
+      "team": "프로덕트팀",
+      "job": "PM",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK02",
+      "name": "서가온",
+      "team": "프로덕트팀",
+      "job": "Dev",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "임보라",
+      "team": "프로덕트팀",
+      "job": "Design",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "진세하",
+      "team": "데이터파트",
+      "job": "Data",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "오유민",
+      "team": "운영파트",
+      "job": "CS",
+      "position": "대리",
+      "title": ""
+    }
+  ]
+}

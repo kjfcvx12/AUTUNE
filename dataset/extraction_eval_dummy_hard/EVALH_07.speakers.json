@@ -1,0 +1,57 @@
+{
+  "meeting": "EVALH_07",
+  "title": "노을게임즈 라이브운영팀 별바람 원정대 시즌5 밸런스 패치 회의",
+  "type": "team",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "한도윤",
+      "team": "라이브운영팀",
+      "job": "PM",
+      "position": "과장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "표승우",
+      "team": "라이브운영팀",
+      "job": "Dev",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "진가온",
+      "team": "라이브운영팀",
+      "job": "Data",
+      "position": "주임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "오세린",
+      "team": "라이브운영팀",
+      "job": "Marketing",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "남주하",
+      "team": "라이브운영팀",
+      "job": "QA",
+      "position": "사원",
+      "title": ""
+    }
+  ]
+}

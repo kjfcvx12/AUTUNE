@@ -1,0 +1,60 @@
+{
+  "meeting": "DUMMY_09",
+  "title": "무지개랩 9월 전체 리드 회의",
+  "type": "with-senior",
+  "position_order": [
+    "매니저",
+    "리드",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "한지호",
+      "team": "경영",
+      "job": "CEO",
+      "position": "매니저",
+      "title": "대표"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "오세윤",
+      "team": "개발",
+      "job": "Dev",
+      "position": "매니저",
+      "title": "개발 리드"
+    },
+    {
+      "speaker": "SPK03",
+      "name": "서다은",
+      "team": "제품",
+      "job": "PM",
+      "position": "매니저",
+      "title": "제품 리드"
+    },
+    {
+      "speaker": "SPK04",
+      "name": "백준호",
+      "team": "세일즈",
+      "job": "Sales",
+      "position": "매니저",
+      "title": "세일즈 리드"
+    },
+    {
+      "speaker": "SPK05",
+      "name": "류하린",
+      "team": "경영지원",
+      "job": "Ops",
+      "position": "매니저",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "진서우",
+      "team": "피플",
+      "job": "HR",
+      "position": "매니저",
+      "title": ""
+    }
+  ]
+}

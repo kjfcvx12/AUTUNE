@@ -1,0 +1,73 @@
+{
+  "meeting": "DUMMY_102",
+  "title": "반품 접수 개편 중간 점검 (고객운영팀·플랫폼개발팀)",
+  "type": "cross-team",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "유재선",
+      "team": "고객지원실",
+      "job": "Ops",
+      "position": "부장",
+      "title": "실장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "조민석",
+      "team": "고객운영팀",
+      "job": "Ops",
+      "position": "차장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK03",
+      "name": "배수아",
+      "team": "고객운영팀",
+      "job": "Ops",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "권도윤",
+      "team": "플랫폼개발팀",
+      "job": "Dev",
+      "position": "과장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK05",
+      "name": "신아름",
+      "team": "플랫폼개발팀",
+      "job": "Dev",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "하태경",
+      "team": "플랫폼개발팀",
+      "job": "Dev",
+      "position": "주임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK07",
+      "name": "문세진",
+      "team": "플랫폼개발팀",
+      "job": "QA",
+      "position": "주임",
+      "title": ""
+    }
+  ]
+}

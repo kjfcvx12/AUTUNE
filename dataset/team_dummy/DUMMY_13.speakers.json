@@ -1,0 +1,73 @@
+{
+  "meeting": "DUMMY_13",
+  "title": "세움로지텍 이천2센터 주간 운영 회의",
+  "type": "with-senior",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "오태석",
+      "team": "운영팀",
+      "job": "Ops",
+      "position": "과장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "윤가람",
+      "team": "운영팀 입고파트",
+      "job": "Ops",
+      "position": "대리",
+      "title": "파트장"
+    },
+    {
+      "speaker": "SPK03",
+      "name": "서동희",
+      "team": "운영팀 출고파트",
+      "job": "Ops",
+      "position": "대리",
+      "title": "파트장"
+    },
+    {
+      "speaker": "SPK04",
+      "name": "남궁하율",
+      "team": "운영팀 야간조",
+      "job": "Ops",
+      "position": "주임",
+      "title": "리드"
+    },
+    {
+      "speaker": "SPK05",
+      "name": "편세준",
+      "team": "운영팀 입고파트",
+      "job": "Ops",
+      "position": "사원",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "진소라",
+      "team": "IT운영팀",
+      "job": "Dev",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK07",
+      "name": "구명환",
+      "team": "이천2센터",
+      "job": "Ops",
+      "position": "부장",
+      "title": "센터장"
+    }
+  ]
+}

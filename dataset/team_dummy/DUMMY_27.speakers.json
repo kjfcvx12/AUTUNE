@@ -1,0 +1,75 @@
+{
+  "meeting": "DUMMY_27",
+  "title": "도담식품 2027년 예산 편성 부서장 회의",
+  "type": "with-senior",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "상무",
+    "전무",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "장서윤",
+      "team": "재무팀",
+      "job": "Finance",
+      "position": "차장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "오태경",
+      "team": "재무팀",
+      "job": "Finance",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "남궁현",
+      "team": "마케팅팀",
+      "job": "Marketing",
+      "position": "과장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK04",
+      "name": "서지우",
+      "team": "생산관리팀",
+      "job": "Ops",
+      "position": "차장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK05",
+      "name": "표은비",
+      "team": "IT운영팀",
+      "job": "IT",
+      "position": "과장",
+      "title": "파트장"
+    },
+    {
+      "speaker": "SPK06",
+      "name": "문경호",
+      "team": "인사팀",
+      "job": "HR",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK07",
+      "name": "권도영",
+      "team": "경영지원본부",
+      "job": "Finance",
+      "position": "상무",
+      "title": "본부장"
+    }
+  ]
+}

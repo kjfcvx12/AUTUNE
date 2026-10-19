@@ -1,0 +1,49 @@
+{
+  "meeting": "DUMMY_79",
+  "title": "볼트웨이 충전사업 실무자 협의 (대리급)",
+  "type": "peers",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "은하준",
+      "team": "충전인프라팀",
+      "job": "Ops",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK02",
+      "name": "석유나",
+      "team": "사업개발팀",
+      "job": "Sales",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "도현우",
+      "team": "플랫폼팀",
+      "job": "Dev",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "맹소희",
+      "team": "고객운영팀",
+      "job": "CS",
+      "position": "대리",
+      "title": ""
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+﻿row,utterance_id,start,speaker,role,text,kind,decision_id,settles,responds_to,note
+1,DUMMY_39-0001,2.48,SPK03,Maintenance,아 방진복 벗고 오느라 늦었습니다.,none,,,,
+2,DUMMY_39-0002,8.75,SPK05,Maintenance,대리님 야간 끝나고 바로 오신 거예요?,none,,,,
+3,DUMMY_39-0003,14.47,SPK03,Maintenance,"응, 아침 일곱 시에 인계하고 샤워만 하고 왔어.",none,,,,
+4,DUMMY_39-0004,22.44,SPK06,Maintenance,저 에어샤워에서 한 번 더 걸렸어요. 센서가 제 팔을 못 읽나 봐요.,none,,,,
+5,DUMMY_39-0005,32.11,SPK04,Maintenance,그거 요즘 자주 그러더라. 이따 시설팀에 다 같이 한 번 얘기하죠.,none,,,,"동료 제안, 이후 아무도 받지 않음"
+6,DUMMY_39-0006,40.54,SPK08,Procurement,저 오늘 점심 구내식당 말고 밖에서 먹을 사람?,none,,,,
+7,DUMMY_39-0007,48.59,SPK02,Maintenance,무슨 날이에요?,none,,,,
+8,DUMMY_39-0008,52.54,SPK08,Procurement,"아니 그냥, 오늘 메뉴가 또 카레라서.",none,,,,
+9,DUMMY_39-0009,58.91,SPK05,Maintenance,저요 저요.,none,,,,
+10,DUMMY_39-0010,62.41,SPK06,Maintenance,저도 갈래요.,none,,,,
+11,DUMMY_39-0011,66.50,SPK08,Procurement,그럼 넷이네. 차 한 대로 되겠다.,none,,,,
+12,DUMMY_39-0012,73.22,SPK02,Maintenance,아 나도 갈까.,none,,,,
+13,DUMMY_39-0013,77.94,SPK01,Maintenance,자 다 왔으면 시작하자. 재훈 대리 피곤할 테니까 빨리 끝내고.,none,,,,
+14,DUMMY_39-0014,87.55,SPK03,Maintenance,감사합니다 파트장님.,none,,,,
+15,DUMMY_39-0015,93.03,SPK01,Maintenance,지난주 E-07 파티클 건부터. 보연 과장이 정리했지?,none,,,,
+16,DUMMY_39-0016,100.57,SPK02,Maintenance,"네. 지난주 화요일에 E-07 챔버에서 파티클 카운트가 기준 두 배 넘게 떴고요,",none,,,,
+17,DUMMY_39-0017,110.54,SPK02,Maintenance,그 때문에 웨이퍼 한 로트가 재작업으로 빠졌습니다.,none,,,,
+18,DUMMY_39-0018,117.96,SPK07,Data,한 로트면 스물다섯 장이요.,none,,,,
+19,DUMMY_39-0019,122.86,SPK02,Maintenance,원인은 쿼츠 링 쪽으로 보고 있어요. 열어 보니까 링 안쪽에 코팅이 벗겨진 자국이 있었어요.,none,,,,
+20,DUMMY_39-0020,134.99,SPK01,Maintenance,링 교체한 지 얼마나 됐었어?,open_question,D1,,,교체 이력을 물음
+21,DUMMY_39-0021,140.82,SPK02,Maintenance,RF 누적으로 삼백팔십 시간이요.,none,D1,,,
+22,DUMMY_39-0022,145.84,SPK04,Maintenance,교체 주기가 사백 시간이니까 거의 다 쓴 거네요.,none,D1,,,
+23,DUMMY_39-0023,153.34,SPK07,Data,제가 지난 여섯 달 로그 봤는데,none,D1,,,
+24,DUMMY_39-0024,158.44,SPK07,Data,파티클 튄 게 세 번이고 세 번 다 링이 삼백오십 시간 넘은 다음이었어요.,none,D1,,,
+25,DUMMY_39-0025,168.19,SPK01,Maintenance,음.,none,D1,,,
+26,DUMMY_39-0026,170.95,SPK05,Maintenance,그럼 주기를 삼백오십으로 당기면 되는 거 아니에요?,open_question,D1,,,주기 단축 의견을 물음
+27,DUMMY_39-0027,178.79,SPK08,Procurement,링 하나가 칠백만 원 정도인데,none,D1,,,
+28,DUMMY_39-0028,183.71,SPK08,Procurement,주기를 오십 시간 당기면 일 년에 링이 한 두 개는 더 나가요.,concern,D1,,24,주기 단축 시 부품비 증가 우려
+29,DUMMY_39-0029,191.52,SPK02,Maintenance,세 번 가지고 결론 내기엔 좀 적긴 하죠.,concern,D1,,24,표본이 적다는 문제 제기
+30,DUMMY_39-0030,197.72,SPK07,Data,네 그건 맞아요. 챔버 여섯 대 중에 E-07만 본 거라.,none,D1,,,
+31,DUMMY_39-0031,205.36,SPK01,Maintenance,다른 챔버 로그도 봐야겠네. 동현 주임이 나머지 다섯 대 같은 기준으로 볼 수 있어?,open_question,D1,,,추가 분석을 요청
+32,DUMMY_39-0032,216.32,SPK07,Data,네 그건 제가 이번 주 금요일까지 뽑아 볼게요.,commitment,D1,,31,요청을 받아 기한 명시
+33,DUMMY_39-0033,223.50,SPK01,Maintenance,"그 전까지는, 파티클이 한 번이라도 더 기준 넘으면 그 챔버는 삼백오십 시간 주기로 바로 바꾸고.",decision,D1,1,,재발 시 주기를 바꾸는 조건부 결정
+34,DUMMY_39-0034,237.01,SPK02,Maintenance,네.,none,,,,
+35,DUMMY_39-0035,239.38,SPK06,Maintenance,"저 근데 링 벗겨진 자국이요, 사진 찍어 둔 거 있는데 벤더에 보낼까요?",open_question,,,,벤더 공유 여부를 물음
+36,DUMMY_39-0036,249.13,SPK02,Maintenance,그거 좋다. 세아 씨가 보내 줘. FSE 담당한테.,open_question,,,,사진 발송을 요청
+37,DUMMY_39-0037,255.92,SPK06,Maintenance,네 오늘 오후에 보낼게요.,commitment,,,36,요청을 받아 당일 발송을 맡음
+38,DUMMY_39-0038,259.88,SPK04,Maintenance,벤더에서 링 재질 바뀐 거 아닌가 몰라요. 작년 말부터 로트가 달라졌다고 했거든요.,none,,,,
+39,DUMMY_39-0039,270.76,SPK01,Maintenance,그것도 같이 물어봐.,none,,,,
+40,DUMMY_39-0040,274.65,SPK06,Maintenance,네.,none,,,,
+41,DUMMY_39-0041,277.55,SPK02,Maintenance,링 바꾸고 나서 시즈닝은 몇 장 돌렸어?,none,,,,
+42,DUMMY_39-0042,283.96,SPK05,Maintenance,더미 웨이퍼 쉰 장이요.,none,,,,
+43,DUMMY_39-0043,288.65,SPK02,Maintenance,쉰 장이면 기준대로 했네.,none,,,,
+44,DUMMY_39-0044,293.93,SPK05,Maintenance,"네, 근데 시즈닝 끝나고 첫 로트에서 또 살짝 튀었어요.",none,,,,
+45,DUMMY_39-0045,302.85,SPK04,Maintenance,그건 챔버 벽 쪽 부산물일 수도 있어요.,none,,,,
+46,DUMMY_39-0046,309.82,SPK02,Maintenance,"음, 그러면 링만의 문제는 아닐 수도 있고.",none,,,,
+47,DUMMY_39-0047,316.97,SPK07,Data,그 로트 데이터도 제가 같이 붙여 볼게요.,none,,,,
+48,DUMMY_39-0048,323.34,SPK01,Maintenance,그래.,none,,,,
+49,DUMMY_39-0049,326.33,SPK01,Maintenance,다음. PM 일정.,none,,,,
+50,DUMMY_39-0050,331.42,SPK01,Maintenance,공정기술팀에서 이번 달 물량이 늘었다고 PM 좀 미뤄 달라고 연락 왔어.,none,,,,
+51,DUMMY_39-0051,340.22,SPK04,Maintenance,얼마나 미뤄 달래요?,open_question,,,,연기 기간을 물음
+52,DUMMY_39-0052,344.23,SPK01,Maintenance,E-03이랑 E-05 두 대를 한 주씩.,none,,,,
+53,DUMMY_39-0053,351.87,SPK03,Maintenance,E-03은 지난번에도 한 번 밀었잖아요.,none,,,,
+54,DUMMY_39-0054,357.77,SPK03,Maintenance,이번에 또 밀면 헬륨 리크 체크를 두 달 동안 못 하는 거예요.,concern,,,52,재연기 시 점검 공백 우려
+55,DUMMY_39-0055,366.09,SPK02,Maintenance,E-03은 지난달 말에 헬륨 쪽 압력이 살짝 오르는 게 보였어요.,none,,,,
+56,DUMMY_39-0056,374.38,SPK07,Data,"네, 그래프로 보면 영 점 영일 토르 정도 올라갔어요.",none,,,,
+57,DUMMY_39-0057,383.38,SPK05,Maintenance,그 정도면 아직 스펙 안이긴 한데.,none,,,,
+58,DUMMY_39-0058,389.74,SPK03,Maintenance,스펙 안인데 올라가고 있는 게 문제지.,none,,,,
+59,DUMMY_39-0059,396.53,SPK01,Maintenance,E-03 PM은 이번 주 목요일 야간으로 당겨. E-05는 공정팀 말대로 한 주 미루고.,decision,D2,1,,"파트장 지시, 이후 아무도 답하지 않음, 상급자"
+60,DUMMY_39-0060,408.69,SPK01,Maintenance,목요일 야간 인원은 누구지?,none,,,,
+61,DUMMY_39-0061,415.00,SPK03,Maintenance,목요일 야간이면 저랑 우석 주임이요.,none,,,,
+62,DUMMY_39-0062,421.88,SPK05,Maintenance,네.,none,,,,
+63,DUMMY_39-0063,424.24,SPK01,Maintenance,둘이서 PM 하고 야간 대응까지 되겠어?,open_question,,,,인원 충분 여부를 물음
+64,DUMMY_39-0064,431.05,SPK03,Maintenance,"PM만 한 여덟 시간 걸리니까, 한 명 더 있으면 좋겠어요.",none,,,,
+65,DUMMY_39-0065,439.68,SPK04,Maintenance,저 목요일 주간인데 연장해서 밤 열두 시까지 붙어 있을 수 있어요.,none,,,,
+66,DUMMY_39-0066,449.90,SPK03,Maintenance,오 그럼 살죠.,none,,,,
+67,DUMMY_39-0067,454.88,SPK04,Maintenance,목요일은 제가 자정까지 남아서 E-03 같이 들어가는 걸로 하죠.,commitment,,,,연장 근무하며 PM 참여를 맡음
+68,DUMMY_39-0068,464.51,SPK01,Maintenance,오케이.,none,,,,
+69,DUMMY_39-0069,468.41,SPK03,Maintenance,대리님 진짜 감사해요. 다음에 제가 주간 바꿔 드릴게요.,none,,,,
+70,DUMMY_39-0070,477.17,SPK04,Maintenance,에이 됐어. 대신 야식 사.,none,,,,
+71,DUMMY_39-0071,482.50,SPK03,Maintenance,하하 콜.,none,,,,
+72,DUMMY_39-0072,484.77,SPK08,Procurement,E-03 PM 들어가면 O링 세트 필요하죠? 그거 재고 두 세트 있어요.,none,,,,
+73,DUMMY_39-0073,494.26,SPK03,Maintenance,두 세트면 충분해요.,none,,,,
+74,DUMMY_39-0074,498.89,SPK05,Maintenance,E-03 PM 체크리스트는 지난번 거 그대로 쓰면 되죠?,none,,,,
+75,DUMMY_39-0075,506.65,SPK03,Maintenance,"아니, 지난번에 헬륨 라인 체크가 빠져 있었어. 그거 추가된 버전 써야 돼.",none,,,,
+76,DUMMY_39-0076,517.22,SPK05,Maintenance,아 그 버전 어디 있어요?,none,,,,
+77,DUMMY_39-0077,522.72,SPK03,Maintenance,공유 폴더에 이번 달 날짜로 올라가 있어.,none,,,,
+78,DUMMY_39-0078,528.82,SPK05,Maintenance,네 확인할게요.,none,,,,
+79,DUMMY_39-0079,532.72,SPK04,Maintenance,E-03 들어갈 때 챔버 리드 여는 거 크레인 예약해야 하지 않아요?,none,,,,
+80,DUMMY_39-0080,542.90,SPK03,Maintenance,"아 맞다, 크레인. 그거 목요일 밤 열 시로 잡아야겠다.",none,,,,
+81,DUMMY_39-0081,551.47,SPK04,Maintenance,그건 제가 오늘 예약 넣어 둘게요.,commitment,,,,크레인 예약을 당일로 맡음
+82,DUMMY_39-0082,556.27,SPK01,Maintenance,"자 그 다음 제일 급한 거, ESC.",none,,,,
+83,DUMMY_39-0083,561.84,SPK01,Maintenance,"은채 대리, 벤더 납기 답 왔어?",open_question,D3,,,납기 회신을 물음
+84,DUMMY_39-0084,568.11,SPK08,Procurement,"네, 정전척 새 거 주문하면 육 주 걸린대요.",none,D3,,,
+85,DUMMY_39-0085,575.06,SPK02,Maintenance,육 주요? 예전엔 삼 주였는데.,none,D3,,,
+86,DUMMY_39-0086,580.31,SPK08,Procurement,해외 공장에서 들어오는 거라 요즘 선적이 밀린대요.,none,D3,,,
+87,DUMMY_39-0087,587.42,SPK01,Maintenance,지금 재고는?,open_question,D3,,,현재 재고를 물음
+88,DUMMY_39-0088,591.64,SPK08,Procurement,창고에 하나 있어요.,none,D3,,,
+89,DUMMY_39-0089,595.21,SPK05,Maintenance,하나면 한 대 터지면 끝이네요.,concern,D3,,88,재고 부족 위험 제기
+90,DUMMY_39-0090,599.74,SPK08,Procurement,"네, 그래서 안전재고를 좀 늘리자고 말씀드리려고 했어요.",none,D3,,,
+91,DUMMY_39-0091,608.87,SPK04,Maintenance,요즘 ESC 교체가 석 달에 한 번꼴이잖아요. 여섯 대니까.,none,D3,,,
+92,DUMMY_39-0092,618.39,SPK07,Data,작년 기준으로 교체가 일곱 번이었어요.,none,D3,,,
+93,DUMMY_39-0093,623.70,SPK01,Maintenance,그럼 두 개 정도 더 들고 있어야겠네.,none,D3,,,
+94,DUMMY_39-0094,630.50,SPK02,Maintenance,두 개면 금액이 한 억 가까이 되는데 품의가 팀장님 선에서 되나요?,open_question,D3,,,결재 권한을 물음
+95,DUMMY_39-0095,640.81,SPK01,Maintenance,그건 팀장님이 이번 주 출장이라 내가 대신 올릴 수 있어.,none,D3,,,
+96,DUMMY_39-0096,648.05,SPK01,Maintenance,"ESC 추가 두 개, 은채 대리가 내일 오전까지 품의 올리고.",decision,D3,1,,"수량, 담당, 기한을 정해 확정"
+97,DUMMY_39-0097,657.61,SPK08,Procurement,네 내일 오전까지요.,none,,,,
+98,DUMMY_39-0098,661.64,SPK08,Procurement,품의에 납기 육 주라는 벤더 메일 첨부하면 되죠?,none,,,,
+99,DUMMY_39-0099,669.88,SPK01,Maintenance,"응, 그거 꼭 붙여. 안 붙이면 왜 급하냐고 물어봐.",none,,,,
+100,DUMMY_39-0100,676.72,SPK01,Maintenance,결재는 내가 받아 올게.,commitment,,,,결재 처리를 맡음
+101,DUMMY_39-0101,681.34,SPK06,Maintenance,저 ESC 교체할 때 쓰는 토크 렌치요.,none,,,,
+102,DUMMY_39-0102,688.74,SPK06,Maintenance,하나가 교정 기한 지났어요. 어제 보니까 스티커가 지난달이었어요.,concern,,,,"공구 교정 기한 경과 문제 제기, unprompted"
+103,DUMMY_39-0103,697.88,SPK02,Maintenance,아 그거 교정실에 보내야 돼.,none,,,,
+104,DUMMY_39-0104,704.16,SPK06,Maintenance,제가 보낼까요?,open_question,,,,교정 발송 여부를 물음
+105,DUMMY_39-0105,708.59,SPK02,Maintenance,"응, 보내고 교정 동안은 옆 파트 거 빌려 써.",none,,,,
+106,DUMMY_39-0106,715.83,SPK06,Maintenance,네 그건 제 쪽에서 챙길게요.,commitment,,,,기한 없이 교정 발송을 맡음
+107,DUMMY_39-0107,722.26,SPK01,Maintenance,"잠깐, 교정 기한 지난 걸로 작업한 건 없지?",none,,,,
+108,DUMMY_39-0108,728.21,SPK06,Maintenance,어제 발견해서 따로 빼 놨어요.,none,,,,
+109,DUMMY_39-0109,732.69,SPK01,Maintenance,좋아. 그건 잘했다.,none,,,,
+110,DUMMY_39-0110,737.62,SPK02,Maintenance,교정실은 요즘 한 주 걸린대요.,none,,,,
+111,DUMMY_39-0111,742.31,SPK06,Maintenance,한 주면 그 사이에 ESC 교체 있으면요?,none,,,,
+112,DUMMY_39-0112,750.04,SPK02,Maintenance,옆 파트 거 빌리면 돼. 걔네는 두 개 있어.,none,,,,
+113,DUMMY_39-0113,755.98,SPK06,Maintenance,아 네.,none,,,,
+114,DUMMY_39-0114,758.12,SPK01,Maintenance,그 다음. FDC 알람.,none,,,,
+115,DUMMY_39-0115,764.06,SPK07,Data,"네, 이건 제가 계속 말씀드렸던 건데요.",none,,,,
+116,DUMMY_39-0116,771.66,SPK07,Data,지금 FDC 알람이 설비 여섯 대에서 하루에 이백 개 넘게 울려요.,none,D4,,,
+117,DUMMY_39-0117,781.87,SPK03,Maintenance,야간에 진짜 계속 울려요. 이제 소리만 들어도 또 그거겠지 하고 넘겨요.,none,D4,,,
+118,DUMMY_39-0118,791.43,SPK07,Data,그게 문제예요. 진짜 알람도 같이 묻혀요.,none,D4,,,
+119,DUMMY_39-0119,799.11,SPK07,Data,제가 보니까 이백 개 중에 한 백칠십 개는 반사 전력 임계값이 너무 낮게 잡혀 있어서 그래요.,none,D4,,,
+120,DUMMY_39-0120,812.08,SPK05,Maintenance,그럼 임계값 올리면 되잖아요.,none,D4,,,
+121,DUMMY_39-0121,818.39,SPK02,Maintenance,근데 그 임계값은 공정팀이 레시피 바꾸면서 정한 거라 우리 맘대로 못 올려요.,concern,D4,,119,임계값 변경 권한 문제 제기
+122,DUMMY_39-0122,827.83,SPK01,Maintenance,공정팀하고는 얘기해 봤어?,open_question,D4,,,공정팀 협의 여부를 물음
+123,DUMMY_39-0123,832.77,SPK07,Data,공정팀 윤 책임님한테 물어봤는데,none,D4,,,
+124,DUMMY_39-0124,838.07,SPK07,Data,공정기술팀은 다음 달 레시피 개정 때 임계값도 같이 다시 잡는다고 했어요.,ambiguous,D4,,,"타 팀 계획을 전달, 전달"
+125,DUMMY_39-0125,848.48,SPK03,Maintenance,다음 달이면 한 달을 더 이러고 있어야 하네.,none,D4,,,
+126,DUMMY_39-0126,855.89,SPK05,Maintenance,한 달이면 알람이 육천 개예요.,none,D4,,,
+127,DUMMY_39-0127,860.47,SPK07,Data,"하하, 계산 빠르다.",none,D4,,,
+128,DUMMY_39-0128,865.61,SPK01,Maintenance,임계값은 공정팀 개정 나올 때까지 지금대로. 대신 야간에는 동현 주임이 뽑은 상위 서른 개만 따로 봐.,decision,D4,1,,타 팀 개정 전까지 보류하고 임시 운영 방식 제시
+129,DUMMY_39-0129,878.27,SPK03,Maintenance,상위 서른 개 목록은 언제 주실 수 있어요?,open_question,D4,,,목록 전달 시점을 물음
+130,DUMMY_39-0130,884.68,SPK07,Data,오늘 퇴근 전에 공유 폴더에 올려 둘게요.,commitment,D4,,129,요청에 답하며 당일 공유를 맡음
+131,DUMMY_39-0131,890.44,SPK03,Maintenance,네.,none,,,,
+132,DUMMY_39-0132,893.92,SPK05,Maintenance,"저 근데 궁금한 게, 알람 울릴 때 확인했다는 기록은 남겨야 하는 거죠?",none,,,,
+133,DUMMY_39-0133,903.94,SPK07,Data,네 그거 FDC 화면에서 체크만 하면 남아요.,none,,,,
+134,DUMMY_39-0134,910.47,SPK05,Maintenance,아 그렇구나. 저는 그냥 소리만 껐어요.,none,,,,
+135,DUMMY_39-0135,916.58,SPK03,Maintenance,하하 다들 그래.,none,,,,
+136,DUMMY_39-0136,919.88,SPK01,Maintenance,다들 그러면 안 되는 거고.,none,,,,
+137,DUMMY_39-0137,925.57,SPK03,Maintenance,네.,none,,,,
+138,DUMMY_39-0138,927.58,SPK01,Maintenance,자 잠깐 쉬고 가자. 삼 분.,none,,,,
+139,DUMMY_39-0139,933.97,SPK08,Procurement,저 전화 하나만 받고 올게요.,none,,,,
+140,DUMMY_39-0140,940.10,SPK05,Maintenance,대리님 어제 야간에 E-02 멈춘 거 원인 나왔어요?,none,,,,
+141,DUMMY_39-0141,947.50,SPK03,Maintenance,그거 진공 펌프 쪽 같아. 아직 확실하진 않고.,none,,,,
+142,DUMMY_39-0142,954.39,SPK04,Maintenance,펌프면 또 벤더 불러야 되잖아.,none,,,,
+143,DUMMY_39-0143,959.69,SPK03,Maintenance,"응, 근데 오늘 아침엔 다시 잘 돌아.",none,,,,
+144,DUMMY_39-0144,966.46,SPK05,Maintenance,그런 게 제일 무서워요.,none,,,,
+145,DUMMY_39-0145,971.69,SPK06,Maintenance,저 믹스커피 드실 분?,none,,,,
+146,DUMMY_39-0146,977.39,SPK02,Maintenance,나 하나.,none,,,,
+147,DUMMY_39-0147,979.86,SPK04,Maintenance,나도.,none,,,,
+148,DUMMY_39-0148,983.91,SPK07,Data,과장님 이번 주 토요일 당직이세요?,none,,,,
+149,DUMMY_39-0149,989.64,SPK02,Maintenance,"응, 나야. 왜?",none,,,,
+150,DUMMY_39-0150,992.77,SPK07,Data,토요일에 FDC 서버 패치가 있어서 한 시간 정도 알람이 안 떠요.,none,,,,
+151,DUMMY_39-0151,1001.10,SPK02,Maintenance,아 그거 미리 알려 줘서 다행이다. 몇 시야?,none,,,,
+152,DUMMY_39-0152,1008.46,SPK07,Data,오후 두 시부터 세 시요.,none,,,,
+153,DUMMY_39-0153,1013.92,SPK01,Maintenance,자 다시 하자.,none,,,,
+154,DUMMY_39-0154,1018.23,SPK01,Maintenance,안전 얘기 하나 하고 가야 돼.,none,,,,
+155,DUMMY_39-0155,1024.42,SPK01,Maintenance,지난주에 옆 파트에서 LOTO 안 걸고 챔버 연 사람이 있었어.,none,,,,
+156,DUMMY_39-0156,1032.85,SPK02,Maintenance,다친 사람은 없고요?,none,,,,
+157,DUMMY_39-0157,1038.47,SPK01,Maintenance,다행히 없어. 근데 본부에서 전 파트 점검 나온대.,none,,,,
+158,DUMMY_39-0158,1046.39,SPK04,Maintenance,점검이 언제예요?,open_question,,,,점검 일정을 물음
+159,DUMMY_39-0159,1051.47,SPK01,Maintenance,날짜는 아직. 이번 달 안이라고만 했어.,none,,,,
+160,DUMMY_39-0160,1056.86,SPK06,Maintenance,점검 나오면 뭘 봐요?,none,,,,
+161,DUMMY_39-0161,1060.95,SPK02,Maintenance,"LOTO 태그랑 잠금 장치, 그리고 작업 허가서 서명.",none,,,,
+162,DUMMY_39-0162,1068.61,SPK06,Maintenance,아 서명까지 보는구나.,none,,,,
+163,DUMMY_39-0163,1074.08,SPK04,Maintenance,우리 파트는 LOTO는 다 걸잖아요.,none,,,,
+164,DUMMY_39-0164,1080.38,SPK03,Maintenance,근데 솔직히 야간에 급할 때는 확인 서명을 나중에 몰아서 하는 경우가 있어요.,none,,,,
+165,DUMMY_39-0165,1089.94,SPK03,Maintenance,작업 끝나고 한꺼번에.,none,,,,
+166,DUMMY_39-0166,1094.58,SPK01,Maintenance,그게 바로 걸리는 거야.,none,,,,
+167,DUMMY_39-0167,1098.41,SPK02,Maintenance,그럼 서명을 작업 전에 받는 걸 어떻게 강제하죠?,open_question,,,,강제 방안을 물음
+168,DUMMY_39-0168,1106.33,SPK05,Maintenance,야간은 사람이 둘뿐이라 서로 서명해 주는 게 형식적이에요.,concern,,,167,야간 인원 부족으로 서명이 형식적이라는 우려
+169,DUMMY_39-0169,1114.36,SPK07,Data,태블릿으로 서명하면 시간이 찍히니까 나중에 몰아서 하는 건 바로 보여요.,none,,,,
+170,DUMMY_39-0170,1123.09,SPK01,Maintenance,태블릿 좋네.,none,,,,
+171,DUMMY_39-0171,1126.47,SPK01,Maintenance,다음 주 월요일부터 챔버 오픈 작업은 작업 전 태블릿 서명 두 명 받고 들어가겠습니다.,decision,D5,1,,파트장이 절차를 선언
+172,DUMMY_39-0172,1136.88,SPK03,Maintenance,네.,none,,,,
+173,DUMMY_39-0173,1140.67,SPK02,Maintenance,태블릿은 몇 대 필요해요?,none,,,,
+174,DUMMY_39-0174,1145.22,SPK07,Data,파트에 두 대면 돼요. 저희 데이터 쪽에 남는 거 한 대 있어요.,none,,,,
+175,DUMMY_39-0175,1155.39,SPK08,Procurement,한 대는 제가 전산 쪽에 요청해 볼게요.,commitment,,,,기한 없이 요청을 맡음
+176,DUMMY_39-0176,1162.06,SPK01,Maintenance,그리고 이건 재훈 대리가 야간 조 사람들한테 한 번 설명해 줘.,open_question,,,,야간 교육을 요청
+177,DUMMY_39-0177,1170.33,SPK03,Maintenance,"네, 이번 주 야간 시작할 때 제가 교육하겠습니다.",commitment,,,176,요청을 받아 야간 교육을 맡음
+178,DUMMY_39-0178,1177.86,SPK01,Maintenance,자 다음. 벤더 FSE 방문.,none,,,,
+179,DUMMY_39-0179,1182.59,SPK02,Maintenance,다음 주 화요일에 RF 제너레이터 점검하러 FSE가 와요.,none,,,,
+180,DUMMY_39-0180,1191.80,SPK02,Maintenance,근데 그날이 딱 E-05 PM 원래 날짜였거든요.,none,,,,
+181,DUMMY_39-0181,1199.06,SPK04,Maintenance,E-05 PM은 한 주 미뤘으니까 겹치진 않죠.,none,,,,
+182,DUMMY_39-0182,1205.53,SPK02,Maintenance,아 맞다. 그럼 됐다.,none,,,,
+183,DUMMY_39-0183,1210.57,SPK03,Maintenance,RF 제너레이터 점검이면 전원 다 내려야 하는 거죠?,none,,,,
+184,DUMMY_39-0184,1217.24,SPK02,Maintenance,"응, 두 대씩 순서대로 내리고 올려.",none,,,,
+185,DUMMY_39-0185,1223.71,SPK03,Maintenance,그럼 그날 몇 시간 동안 두 대씩 서 있는 거네요.,none,,,,
+186,DUMMY_39-0186,1230.72,SPK02,Maintenance,한 대당 세 시간 잡으면 돼.,none,,,,
+187,DUMMY_39-0187,1235.94,SPK07,Data,그 시간 동안 생산 쪽에 미리 공지해야 해요. 지난번에 말 안 하고 내렸다가 한 소리 들었잖아요.,none,,,,
+188,DUMMY_39-0188,1248.86,SPK02,Maintenance,아 그랬지. 그건 내가 공정팀에 메일 보낼게.,commitment,,,,공정팀 공지를 맡음
+189,DUMMY_39-0189,1255.07,SPK01,Maintenance,FSE 오면 누가 붙어?,open_question,D6,,,대응 인원을 물음
+190,DUMMY_39-0190,1259.28,SPK02,Maintenance,"제가 붙을 수 있는데, 오후엔 교육이 있어서요.",none,D6,,,
+191,DUMMY_39-0191,1266.54,SPK06,Maintenance,저 오후에 붙어 봐도 돼요? RF 쪽 배우고 싶어서요.,none,D6,,,
+192,DUMMY_39-0192,1273.73,SPK04,Maintenance,세아 씨 혼자서는 좀 이르지 않아요? FSE가 뭘 물어보면 답을 못 할 수도 있고.,concern,D6,,191,신입 단독 대응 우려
+193,DUMMY_39-0193,1285.61,SPK06,Maintenance,아 그렇긴 하네요.,none,D6,,,
+194,DUMMY_39-0194,1289.24,SPK02,Maintenance,"오전엔 제가 붙고, 오후에 세아 씨가 가람 대리랑 같이 붙으면 되겠네요.",none,D6,,,
+195,DUMMY_39-0195,1300.11,SPK04,Maintenance,저 화요일 오후 괜찮아요.,none,D6,,,
+196,DUMMY_39-0196,1306.09,SPK01,Maintenance,"FSE는 오전 보연 과장, 오후 가람 대리랑 세아 씨.",decision,D6,1,,논의 후 인원을 요약해 확정
+197,DUMMY_39-0197,1314.35,SPK06,Maintenance,감사합니다.,none,,,,
+198,DUMMY_39-0198,1317.73,SPK02,Maintenance,FSE 오기 전에 E-07 링 사진이랑 로그 같이 정리해 두면 좋겠다.,none,,,,
+199,DUMMY_39-0199,1327.28,SPK07,Data,그건 금요일에 제가 뽑는 거랑 합쳐서 드릴게요.,commitment,,,,자료 정리를 금요일로 맡음
+200,DUMMY_39-0200,1335.40,SPK01,Maintenance,그리고 E-02 펌프 건도 그날 물어봐.,none,,,,
+201,DUMMY_39-0201,1342.94,SPK03,Maintenance,네 펌프 로그는 제가 따로 뽑아 둘게요.,commitment,,,,펌프 로그 추출을 맡음
+202,DUMMY_39-0202,1348.50,SPK02,Maintenance,"아 파트장님, 지난주에 제가 말씀드렸던 거요.",none,,,,
+203,DUMMY_39-0203,1354.80,SPK02,Maintenance,"E-01 RF 매칭 박스 커패시터 교체, 제가 이번 주 안에 한다고 했던 거 수요일 주간에 하려고요.",commitment,,,,"지난주 약속 재언급, 상기"
+204,DUMMY_39-0204,1367.66,SPK01,Maintenance,응 그거 수요일에 해.,none,,,,
+205,DUMMY_39-0205,1372.16,SPK02,Maintenance,네.,none,,,,
+206,DUMMY_39-0206,1375.66,SPK05,Maintenance,파트장님 저 하나 여쭤볼게요.,none,,,,
+207,DUMMY_39-0207,1380.48,SPK05,Maintenance,요즘 부품 창고에 들어가려면 출입 신청을 매번 해야 되잖아요.,none,,,,
+208,DUMMY_39-0208,1388.88,SPK05,Maintenance,그거 우리 파트는 상시 출입으로 바꿔 달라고 하면 안 돼요?,open_question,,,,상시 출입 가능 여부를 물음
+209,DUMMY_39-0209,1397.10,SPK01,Maintenance,"그건 보안팀 소관이라, 음 한번 얘기는 해 볼게.",ambiguous,,,208,구체성 없는 약한 수락
+210,DUMMY_39-0210,1405.38,SPK08,Procurement,제가 작년에 한 번 물어봤는데 안 된다고 했어요.,none,,,,
+211,DUMMY_39-0211,1412.39,SPK05,Maintenance,아.,none,,,,
+212,DUMMY_39-0212,1414.31,SPK08,Procurement,대신 주간에는 제가 있으니까 필요하면 저한테 말해 줘요.,none,,,,
+213,DUMMY_39-0213,1422.57,SPK04,Maintenance,아 근데 야간이 문제죠. 야간엔 은채 대리 없잖아요.,none,,,,
+214,DUMMY_39-0214,1430.80,SPK03,Maintenance,야간에 부품 필요하면 진짜 곤란해요.,none,,,,
+215,DUMMY_39-0215,1436.29,SPK03,Maintenance,지난달에 O링 하나 때문에 두 시간 기다렸어요.,none,,,,
+216,DUMMY_39-0216,1442.89,SPK01,Maintenance,"음, 야간용 부품은 라인 옆에 작은 캐비닛을 두는 건 어때.",open_question,D7,,,야간용 캐비닛 의견을 물음
+217,DUMMY_39-0217,1451.54,SPK08,Procurement,소모품 정도는 괜찮을 것 같아요. 재고 관리만 되면.,none,D7,,,
+218,DUMMY_39-0218,1459.22,SPK02,Maintenance,캐비닛 두면 누가 뭘 꺼냈는지 기록이 안 남잖아요.,concern,D7,,216,캐비닛 재고 기록 문제 제기
+219,DUMMY_39-0219,1466.56,SPK08,Procurement,꺼낼 때 종이에 적게 하면 되죠.,none,D7,,,
+220,DUMMY_39-0220,1472.04,SPK05,Maintenance,야간에 종이 적는 거 다들 안 할 거예요.,none,D7,,,
+221,DUMMY_39-0221,1478.35,SPK04,Maintenance,하하.,none,,,,
+222,DUMMY_39-0222,1480.29,SPK07,Data,바코드 스캐너 하나 두면 되지 않아요? 저희 쪽에서 재고 시트랑 연동해 볼 수 있어요.,none,D7,,,
+223,DUMMY_39-0223,1491.87,SPK01,Maintenance,"그럼 캐비닛은 O링이랑 가스켓 같은 소모품만, 꺼낼 땐 스캐너로.",decision,D7,1,,논의 후 범위와 방식을 요약해 확정
+224,DUMMY_39-0224,1501.03,SPK08,Procurement,캐비닛은 제가 총무 쪽에 알아볼게요.,commitment,,,,캐비닛 확보를 기한 없이 맡음
+225,DUMMY_39-0225,1507.45,SPK07,Data,스캐너 연동은 그 다음 주쯤 해 보려고요.,commitment,,,,본인 계획 밝힘
+226,DUMMY_39-0226,1513.93,SPK01,Maintenance,좋아.,none,,,,
+227,DUMMY_39-0227,1516.44,SPK03,Maintenance,캐비닛 들어오면 무슨 부품 넣을지 목록은 제가 야간 쪽 의견 받아서 드릴게요.,commitment,,,,목록 작성을 맡음
+228,DUMMY_39-0228,1526.36,SPK08,Procurement,네.,none,,,,
+229,DUMMY_39-0229,1528.92,SPK06,Maintenance,"저 그런데 파트장님, 이건 좀 다른 얘긴데요.",none,,,,
+230,DUMMY_39-0230,1535.59,SPK06,Maintenance,신입 교육 자료가 너무 옛날 거예요. 지금 설비랑 화면이 달라요.,none,,,,
+231,DUMMY_39-0231,1544.36,SPK02,Maintenance,아 그거 삼 년 전 거지.,none,,,,
+232,DUMMY_39-0232,1549.06,SPK06,Maintenance,그래서 제가 교육 받으면서 바뀐 화면 캡처를 좀 모아 놨어요.,none,,,,
+233,DUMMY_39-0233,1558.36,SPK06,Maintenance,그걸로 교육 자료 새로 만들면 어떨까 싶어서요.,open_question,,,,교육자료 개편 의견을 물음
+234,DUMMY_39-0234,1565.71,SPK01,Maintenance,"음, 그건 좋은데 지금 다들 바빠서.",none,,,,
+235,DUMMY_39-0235,1571.01,SPK04,Maintenance,세아 씨가 초안 만들면 제가 검토는 할 수 있어요.,none,,,,
+236,DUMMY_39-0236,1579.40,SPK06,Maintenance,아 그럼 좋아요.,none,,,,
+237,DUMMY_39-0237,1583.98,SPK01,Maintenance,그건 한번 보자.,ambiguous,,,233,구체적 결정 없이 넘김
+238,DUMMY_39-0238,1586.95,SPK06,Maintenance,네.,none,,,,
+239,DUMMY_39-0239,1588.80,SPK01,Maintenance,그리고 다음 달 공정팀이랑 합동 회의 있는 거 알지?,none,,,,
+240,DUMMY_39-0240,1596.38,SPK02,Maintenance,네 첫째 주 목요일이요.,none,,,,
+241,DUMMY_39-0241,1601.48,SPK01,Maintenance,그때 FDC 얘기 다시 할 거니까 동현 주임이 알람 통계 한 장으로 만들어 와.,open_question,,,,자료 작성을 요청
+242,DUMMY_39-0242,1611.07,SPK07,Data,"네, 한 장으로 만들어 갈게요.",commitment,,,241,요청을 받아 자료 작성을 맡음
+243,DUMMY_39-0243,1616.95,SPK01,Maintenance,응. 공정팀은 길면 안 읽어.,none,,,,
+244,DUMMY_39-0244,1623.30,SPK07,Data,하하 알겠습니다.,none,,,,
+245,DUMMY_39-0245,1628.20,SPK01,Maintenance,그 합동 회의 때 ESC 교체 주기 얘기도 해야 하나?,open_question,D8,,,안건 포함 여부를 물음
+246,DUMMY_39-0246,1635.84,SPK02,Maintenance,ESC는 공정팀보다 우리 쪽 일이라 굳이.,none,D8,,,
+247,DUMMY_39-0247,1641.64,SPK01,Maintenance,그래 그럼 빼고.,decision,D8,1,,의견을 받아 안건 제외를 확정
+248,DUMMY_39-0248,1645.85,SPK03,Maintenance,저 이제 좀 졸려서 그런데 더 있어요?,none,,,,
+249,DUMMY_39-0249,1651.66,SPK01,Maintenance,하나만. 이번 달 다운타임 목표.,none,,,,
+250,DUMMY_39-0250,1657.36,SPK01,Maintenance,파트 전체 다운타임이 지난달에 이 점 팔 퍼센트였어.,none,,,,
+251,DUMMY_39-0251,1665.11,SPK02,Maintenance,목표가 이 점 오니까 조금 넘었네요.,none,,,,
+252,DUMMY_39-0252,1670.86,SPK07,Data,E-07 파티클 건이 영 점 이 정도 먹었어요.,none,,,,
+253,DUMMY_39-0253,1678.72,SPK01,Maintenance,이번 달은 E-03 PM 당긴 것도 있으니까 한 이 점 칠 정도 나올 거야.,none,,,,
+254,DUMMY_39-0254,1689.89,SPK04,Maintenance,그 정도면 뭐.,none,,,,
+255,DUMMY_39-0255,1694.22,SPK02,Maintenance,E-02 펌프가 또 서면 그거 하나로 영 점 오는 금방 먹어요.,concern,,,,"펌프 재정지 시 다운타임 급증 우려, unprompted"
+256,DUMMY_39-0256,1702.20,SPK03,Maintenance,그러니까요. 오늘 밤에 펌프 소리 좀 더 들어 볼게요.,none,,,,
+257,DUMMY_39-0257,1710.79,SPK01,Maintenance,이상하면 바로 전화하고.,none,,,,
+258,DUMMY_39-0258,1716.22,SPK03,Maintenance,네.,none,,,,
+259,DUMMY_39-0259,1719.30,SPK05,Maintenance,저 이번 달 다운타임에 PM 시간도 들어가요?,none,,,,
+260,DUMMY_39-0260,1725.49,SPK01,Maintenance,계획 정비는 빠져. 비계획만 들어가.,none,,,,
+261,DUMMY_39-0261,1731.92,SPK05,Maintenance,아 그렇구나.,none,,,,
+262,DUMMY_39-0262,1735.91,SPK01,Maintenance,그래. 이상.,none,,,,
+263,DUMMY_39-0263,1739.09,SPK03,Maintenance,수고하셨습니다. 저 갑니다.,none,,,,
+264,DUMMY_39-0264,1744.23,SPK05,Maintenance,대리님 푹 주무세요.,none,,,,
+265,DUMMY_39-0265,1747.62,SPK08,Procurement,점심 밖에서 드실 분 열한 시 사십 분에 로비요.,none,,,,
+266,DUMMY_39-0266,1754.57,SPK05,Maintenance,네!,none,,,,
+267,DUMMY_39-0267,1757.67,SPK02,Maintenance,나도 갈게.,none,,,,
+268,DUMMY_39-0268,1760.69,SPK06,Maintenance,저도요. 카레 말고.,none,,,,
+269,DUMMY_39-0269,1765.49,SPK04,Maintenance,저는 그냥 카레 먹을게요.,none,,,,
+270,DUMMY_39-0270,1770.15,SPK05,Maintenance,대리님 카레 진짜 좋아하시네요.,none,,,,
+271,DUMMY_39-0271,1776.55,SPK04,Maintenance,매주 나오는데 매주 맛있어.,none,,,,
+272,DUMMY_39-0272,1781.58,SPK01,Maintenance,가람 대리 크레인 예약 잊지 말고.,none,,,,
+273,DUMMY_39-0273,1788.00,SPK04,Maintenance,네 지금 바로 할게요.,none,,,,

@@ -1,0 +1,65 @@
+{
+  "meeting": "EVAL_03",
+  "title": "새빛의료원 진단검사파트 운영 회의",
+  "type": "team",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "신광호",
+      "team": "진단검사파트",
+      "job": "Ops",
+      "position": "과장",
+      "title": "파트장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "배수인",
+      "team": "진단검사파트",
+      "job": "Lab",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "윤하경",
+      "team": "진단검사파트",
+      "job": "Lab",
+      "position": "주임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "조태민",
+      "team": "진단검사파트",
+      "job": "Lab",
+      "position": "사원",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "명지원",
+      "team": "진단검사파트",
+      "job": "Lab",
+      "position": "사원",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "한소리",
+      "team": "외래간호팀",
+      "job": "Nurse",
+      "position": "주임",
+      "title": ""
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+﻿row,utterance_id,start,speaker,role,text,kind,decision_id,settles,responds_to,note
+1,DUMMY_24-0001,2.82,SPK03,Security,화면 공유 보이세요?,none,,,,
+2,DUMMY_24-0002,8.35,SPK04,Security,네 보여요.,none,,,,
+3,DUMMY_24-0003,13.02,SPK02,Security,경태 과장님은 온라인이세요?,none,,,,
+4,DUMMY_24-0004,18.17,SPK05,Ops,네 저 들어와 있어요. 소리 잘 들려요?,none,,,,
+5,DUMMY_24-0005,27.05,SPK02,Security,네 잘 들려요.,none,,,,
+6,DUMMY_24-0006,30.56,SPK05,Ops,제가 서버실이라 좀 시끄러울 수 있어요.,none,,,,
+7,DUMMY_24-0007,38.61,SPK01,Security,괜찮아요.,none,,,,
+8,DUMMY_24-0008,41.15,SPK04,Security,어제 야간 당직 누구였어요?,none,,,,
+9,DUMMY_24-0009,47.75,SPK03,Security,저요.,none,,,,
+10,DUMMY_24-0010,49.97,SPK04,Security,아 고생하셨어요.,none,,,,
+11,DUMMY_24-0011,55.01,SPK03,Security,알람 두 번 울렸는데 둘 다 오탐.,none,,,,
+12,DUMMY_24-0012,62.48,SPK02,Security,또 그 백업 서버?,none,,,,
+13,DUMMY_24-0013,67.91,SPK03,Security,네 그거. 디스크 사용률 임계치.,none,,,,
+14,DUMMY_24-0014,74.43,SPK02,Security,그거 임계치 좀 올려야 돼요 진짜.,none,,,,
+15,DUMMY_24-0015,82.26,SPK03,Security,매번 새벽 세 시에 울려요.,none,,,,
+16,DUMMY_24-0016,89.44,SPK01,Security,"자, 시작하죠.",none,,,,
+17,DUMMY_24-0017,92.33,SPK01,Security,지난주 피싱 건 후속 조치. 오늘 다 정리해야 돼요.,none,,,,
+18,DUMMY_24-0018,101.24,SPK01,Security,승민 씨가 타임라인 먼저.,open_question,,,,타임라인 공유 요청
+19,DUMMY_24-0019,108.11,SPK03,Security,네.,none,,,,
+20,DUMMY_24-0020,111.15,SPK03,Security,지난주 화요일 오전 아홉 시 사십 분쯤에,none,,,,
+21,DUMMY_24-0021,118.21,SPK03,Security,전자결재 승인 요청을 사칭한 메일이 재무팀 열두 명한테 들어왔고요.,none,,,,
+22,DUMMY_24-0022,128.48,SPK03,Security,"그중에 두 명이 링크를 눌렀고,",none,,,,
+23,DUMMY_24-0023,135.63,SPK03,Security,한 명은 비밀번호까지 입력했어요.,none,,,,
+24,DUMMY_24-0024,141.25,SPK04,Security,그 가짜 로그인 페이지요.,none,,,,
+25,DUMMY_24-0025,147.62,SPK03,Security,네. 도메인이 우리 거랑 한 글자 달라요. 엘 대신 아이.,none,,,,
+26,DUMMY_24-0026,158.49,SPK02,Security,대문자 아이.,none,,,,
+27,DUMMY_24-0027,161.67,SPK03,Security,네 대문자 아이.,none,,,,
+28,DUMMY_24-0028,165.76,SPK05,Ops,화면으로 보면 진짜 구분 안 돼요.,none,,,,
+29,DUMMY_24-0029,172.17,SPK01,Security,그다음.,none,,,,
+30,DUMMY_24-0030,175.61,SPK03,Security,"그 계정으로 그날 오후에 해외 아이피에서 로그인이 됐고,",none,,,,
+31,DUMMY_24-0031,184.62,SPK03,Security,메일함에 자동 전달 규칙이 걸렸어요. 외부 주소로.,none,,,,
+32,DUMMY_24-0032,194.65,SPK05,Ops,그게 목요일에 발견된 거죠?,open_question,,,,발견 시점 확인
+33,DUMMY_24-0033,201.68,SPK03,Security,"네 목요일 오후에, 본인이 이상한 발신 기록 보고 신고했어요.",none,,,,
+34,DUMMY_24-0034,211.69,SPK01,Security,이틀.,none,,,,
+35,DUMMY_24-0035,215.78,SPK03,Security,"네, 이틀 동안 밖으로 전달된 메일이 한 이백 통 정도예요.",none,,,,
+36,DUMMY_24-0036,224.93,SPK02,Security,그중에 첨부 있는 게 몇 통이었죠?,open_question,,,,유출 첨부 수 질문
+37,DUMMY_24-0037,230.82,SPK03,Security,서른한 통. 거래처 세금계산서가 대부분이고요.,none,,,,
+38,DUMMY_24-0038,239.57,SPK01,Security,개인정보는?,open_question,,,,개인정보 포함 여부 질문
+39,DUMMY_24-0039,244.13,SPK03,Security,직원 급여 파일은 없었어요. 그건 확인했어요.,none,,,,
+40,DUMMY_24-0040,253.27,SPK04,Security,거래처 담당자 이름이랑 전화번호는 좀 있었어요.,none,,,,
+41,DUMMY_24-0041,263.08,SPK03,Security,아 서명란에. 네 그건 있어요.,none,,,,
+42,DUMMY_24-0042,270.41,SPK01,Security,음.,none,,,,
+43,DUMMY_24-0043,272.26,SPK01,Security,신고 들어오고 나서 조치는 몇 시에 끝났어요?,open_question,,,,초동 조치 완료 시각 질문
+44,DUMMY_24-0044,281.20,SPK05,Ops,"비밀번호 초기화가 네 시 십 분이고,",none,,,,
+45,DUMMY_24-0045,288.99,SPK05,Ops,세션 강제 종료가 네 시 반쯤. 전달 규칙 삭제도 그때.,none,,,,
+46,DUMMY_24-0046,297.73,SPK02,Security,사십 분 걸렸네요.,none,,,,
+47,DUMMY_24-0047,302.48,SPK05,Ops,전달 규칙은 관리 콘솔에서 바로 안 보여서 좀 헤맸어요.,none,,,,
+48,DUMMY_24-0048,311.37,SPK02,Security,링크만 누른 한 명은요?,open_question,,,,두 번째 클릭자 조치 질문
+49,DUMMY_24-0049,315.94,SPK03,Security,그분은 페이지만 열고 바로 닫았대요.,none,,,,
+50,DUMMY_24-0050,323.03,SPK05,Ops,혹시 몰라서 그분도 비밀번호는 바꿨어요.,none,,,,
+51,DUMMY_24-0051,331.08,SPK04,Security,단말은 검사했어요?,open_question,,,,단말 점검 여부 질문
+52,DUMMY_24-0052,337.04,SPK05,Ops,네 백신 정밀 검사 돌렸는데 깨끗했어요.,none,,,,
+53,DUMMY_24-0053,343.73,SPK01,Security,음.,none,,,,
+54,DUMMY_24-0054,346.60,SPK03,Security,그리고 그 이틀 동안 다른 계정들로도 로그인 시도가 계속 있었어요.,none,,,,
+55,DUMMY_24-0055,358.62,SPK03,Security,같은 아이피 대역에서 한 사백 번 넘게.,none,,,,
+56,DUMMY_24-0056,366.90,SPK04,Security,근데 잠금이 한 번도 안 걸렸어요.,none,,,,
+57,DUMMY_24-0057,373.89,SPK01,Security,지금 잠금 기준이 몇 번이에요?,open_question,,,,현행 잠금 기준 질문
+58,DUMMY_24-0058,379.67,SPK05,Ops,열 번이요. 근데 이 분 지나면 카운트가 초기화돼요.,none,,,,
+59,DUMMY_24-0059,389.28,SPK02,Security,그러니까 천천히 두드리면 절대 안 걸리는 거죠.,none,,,,
+60,DUMMY_24-0060,397.25,SPK04,Security,공격 로그 보면 딱 일 분에 한 번씩이에요.,none,,,,
+61,DUMMY_24-0061,405.71,SPK03,Security,알고 온 거예요. 우리 정책을.,none,,,,
+62,DUMMY_24-0062,412.51,SPK04,Security,근데 SIEM에서 로그인 실패 경보는 왜 안 울렸어요?,open_question,,,,경보 미작동 원인 질문
+63,DUMMY_24-0063,421.76,SPK03,Security,임계치가 한 시간에 오십 번인데,none,,,,
+64,DUMMY_24-0064,428.51,SPK03,Security,계정별로 세거든요. 계정 하나당은 몇 번 안 되니까.,none,,,,
+65,DUMMY_24-0065,437.55,SPK02,Security,아 여러 계정에 나눠서 온 거구나.,none,,,,
+66,DUMMY_24-0066,444.38,SPK01,Security,그 경보 기준은 승민 씨가 다시 봐 줄래요?,open_question,,,,경보 기준 재검토 요청
+67,DUMMY_24-0067,453.31,SPK03,Security,"네, 아이피 대역 기준으로 바꿔서 다음 주 초까지 올릴게요.",commitment,,,66,"요청 수락, 기한 명시"
+68,DUMMY_24-0068,462.91,SPK01,Security,네. 그게 첫 번째고.,none,,,,
+69,DUMMY_24-0069,467.36,SPK02,Security,저는 다섯 번 실패하면 삼십 분 잠금으로 가면 좋겠어요.,none,D1,,,
+70,DUMMY_24-0070,476.89,SPK02,Security,카운트 초기화는 한 시간으로 늘리고.,none,D1,,,
+71,DUMMY_24-0071,483.86,SPK05,Ops,다섯 번이면 헬프데스크 전화가 엄청 늘어요.,concern,D1,,69,잠금 강화 시 헬프데스크 문의 급증 우려
+72,DUMMY_24-0072,492.48,SPK05,Ops,지금도 비밀번호 초기화 요청이 하루에 서른 건씩 와요.,none,D1,,,
+73,DUMMY_24-0073,501.37,SPK04,Security,셀프 초기화 있잖아요.,none,D1,,,
+74,DUMMY_24-0074,506.28,SPK05,Ops,셀프 초기화가 문자 인증인데 그거 안 되는 사람이 많아요.,none,D1,,,
+75,DUMMY_24-0075,514.75,SPK05,Ops,외근 나가는 영업팀은 특히.,none,D1,,,
+76,DUMMY_24-0076,520.58,SPK04,Security,셀프 초기화를 앱 인증으로도 되게 할 수 있어요?,open_question,D1,,,셀프 초기화 방식 추가 요청
+77,DUMMY_24-0077,528.91,SPK05,Ops,음 앱 인증은 저희 쪽에서 검토해 보겠습니다.,ambiguous,D1,,76,구체 계획 없이 약하게 응답
+78,DUMMY_24-0078,537.11,SPK02,Security,그거 되면 헬프데스크 부담이 확 줄 텐데.,none,D1,,,
+79,DUMMY_24-0079,545.64,SPK04,Security,아 번호 등록 안 한 사람들.,none,D1,,,
+80,DUMMY_24-0080,550.66,SPK05,Ops,"네, 전체에 한 삼분의 일은 될 거예요.",none,D1,,,
+81,DUMMY_24-0081,559.51,SPK03,Security,그리고 잠금을 너무 쉽게 걸면,none,D1,,,
+82,DUMMY_24-0082,565.81,SPK03,Security,공격자가 일부러 잠가 버릴 수도 있어요. 임원 계정 같은 거.,concern,D1,,69,잠금 강화가 계정 잠금 공격에 악용될 위험
+83,DUMMY_24-0083,577.07,SPK01,Security,그건 그래.,none,D1,,,
+84,DUMMY_24-0084,580.56,SPK01,Security,임원 계정은 그럼 어떻게 막아요?,open_question,D1,,,임원 계정 보호 방안 질문
+85,DUMMY_24-0085,587.42,SPK02,Security,임원은 로그인 허용 국가를 국내로 묶어 두면 좀 나아요.,none,D1,,,
+86,DUMMY_24-0086,596.95,SPK03,Security,해외 출장 가시면요?,none,D1,,,
+87,DUMMY_24-0087,601.69,SPK02,Security,출장 때만 풀어 드리고.,none,D1,,,
+88,DUMMY_24-0088,606.46,SPK04,Security,그거 매번 요청하실지 모르겠네요.,none,D1,,,
+89,DUMMY_24-0089,612.63,SPK02,Security,그럼 삼십 분 말고 십오 분?,open_question,D1,,,잠금 시간 조정 의견 질문
+90,DUMMY_24-0090,618.30,SPK04,Security,십오 분이면 공격 속도는 확 줄긴 해요.,none,D1,,,
+91,DUMMY_24-0091,625.08,SPK04,Security,지금 일 분에 한 번이 한 시간에 다섯 번 되는 거니까.,none,D1,,,
+92,DUMMY_24-0092,635.87,SPK05,Ops,십오 분이면 저희도 버틸 만할 것 같아요.,none,D1,,,
+93,DUMMY_24-0093,644.48,SPK01,Security,관리자 계정은?,open_question,D1,,,관리자 계정 기준 질문
+94,DUMMY_24-0094,649.12,SPK02,Security,관리자는 세 번. 대신 잠금 풀 때는 저희 쪽 승인.,none,D1,,,
+95,DUMMY_24-0095,657.19,SPK03,Security,네 그건 따로 가야 돼요.,none,D1,,,
+96,DUMMY_24-0096,662.30,SPK02,Security,"그럼 정리하면 일반은 다섯 번에 십오 분, 초기화 한 시간,",none,D1,,,
+97,DUMMY_24-0097,672.23,SPK02,Security,관리자는 세 번에 승인 해제.,decision,D1,1,,"논의 후 요약, 이후 이견 없음"
+98,DUMMY_24-0098,678.90,SPK01,Security,음.,none,D1,,,
+99,DUMMY_24-0099,681.56,SPK05,Ops,적용은 제 쪽에서 할게요.,commitment,,,,"정책 적용 맡음, 기한 없음"
+100,DUMMY_24-0100,687.60,SPK01,Security,언제 돼요?,open_question,,,,적용 시점 질문
+101,DUMMY_24-0101,692.43,SPK05,Ops,변경 작업 신청 넣으면 다음 주 화요일 야간 작업이요.,commitment,,,100,요청받은 적용 시점 명시
+102,DUMMY_24-0102,701.37,SPK01,Security,네.,none,,,,
+103,DUMMY_24-0103,703.93,SPK04,Security,헬프데스크 공지 문구는 제가 쓰는 걸로 하죠.,commitment,,,,본인이 공지 작성 맡음
+104,DUMMY_24-0104,712.92,SPK05,Ops,아 그거 좋아요. 미리 나가야 문의가 좀 줄어요.,none,,,,
+105,DUMMY_24-0105,721.27,SPK04,Security,월요일에 올릴게요.,none,,,,
+106,DUMMY_24-0106,726.59,SPK05,Ops,그렇게 하죠.,none,,,,
+107,DUMMY_24-0107,730.38,SPK01,Security,두 번째. 교육.,none,,,,
+108,DUMMY_24-0108,733.27,SPK01,Security,재무팀 열두 명 중에 작년 보안 교육 이수자가 몇 명이에요?,open_question,D2,,,교육 이수 현황 질문
+109,DUMMY_24-0109,743.41,SPK04,Security,확인해 봤는데 다섯 명이요.,none,D2,,,
+110,DUMMY_24-0110,748.27,SPK02,Security,다섯 명.,none,D2,,,
+111,DUMMY_24-0111,752.56,SPK04,Security,나머지는 온라인 교육 틀어만 놓고 안 본 걸로 보여요.,none,D2,,,
+112,DUMMY_24-0112,762.53,SPK04,Security,수료 시간이 다 사 분.,none,D2,,,
+113,DUMMY_24-0113,768.08,SPK03,Security,삼십 분짜리를요?,none,D2,,,
+114,DUMMY_24-0114,773.61,SPK04,Security,네.,none,D2,,,
+115,DUMMY_24-0115,775.75,SPK02,Security,온라인은 이제 의미가 없어요 솔직히.,concern,D2,,112,현행 온라인 교육 실효성 문제 제기
+116,DUMMY_24-0116,782.33,SPK02,Security,창 띄워 놓고 딴 거 하니까.,none,D2,,,
+117,DUMMY_24-0117,787.70,SPK05,Ops,그럼 뭐 대면으로 해요?,open_question,D2,,,대면 교육 전환 여부 질문
+118,DUMMY_24-0118,792.04,SPK02,Security,"전사는 무리고요, 이번 피해 부서만이라도.",none,D2,,,
+119,DUMMY_24-0119,800.72,SPK03,Security,교육은 몇 분짜리로 해요?,open_question,D2,,,교육 시간 질문
+120,DUMMY_24-0120,805.30,SPK02,Security,한 사십 분. 길면 집중 못 하세요.,none,D2,,,
+121,DUMMY_24-0121,813.54,SPK04,Security,퀴즈 같은 거 넣으면 좋을 것 같은데.,none,D2,,,
+122,DUMMY_24-0122,821.06,SPK02,Security,아 실제 메일 섞어 놓고 진짜 가짜 맞히기.,none,D2,,,
+123,DUMMY_24-0123,829.66,SPK03,Security,그거 재밌겠다.,none,D2,,,
+124,DUMMY_24-0124,832.39,SPK03,Security,재무팀장님이 시간 내 주실까요?,open_question,D2,,,피해 부서 협조 가능성 질문
+125,DUMMY_24-0125,839.85,SPK01,Security,그건 제가 얘기해 둘게요.,commitment,D2,,,팀장이 재무팀장 협조 요청 맡음
+126,DUMMY_24-0126,845.88,SPK01,Security,재무팀은 다음 주 화요일 오후에 대면 교육 따로 하겠습니다.,decision,D2,1,,팀장 발언으로 대면 교육 일정 확정
+127,DUMMY_24-0127,855.12,SPK02,Security,네.,none,,,,
+128,DUMMY_24-0128,856.75,SPK02,Security,자료는 제가 이번 사건 기준으로 새로 만들어 보려고요.,commitment,,,,본인 계획
+129,DUMMY_24-0129,865.37,SPK04,Security,실제 메일 캡처 넣어도 돼요?,open_question,D3,,,실제 사례 사용 가능 여부 질문
+130,DUMMY_24-0130,871.57,SPK02,Security,그게 제일 와닿긴 하죠.,none,D3,,,
+131,DUMMY_24-0131,875.99,SPK01,Security,이름이랑 주소 가리고.,decision,D3,1,,팀장이 조건 붙여 실제 캡처 사용 허용
+132,DUMMY_24-0132,881.98,SPK04,Security,네.,none,D3,,,
+133,DUMMY_24-0133,884.82,SPK05,Ops,아 그리고 인사팀에서 교육 미이수자는 인사 시스템에 표시한다고 하더라고요.,ambiguous,,,,전달; 인사팀 계획을 IT운영팀이 전해 줌
+134,DUMMY_24-0134,897.06,SPK05,Ops,평가 반영까지는 아니고 그냥 표시만.,none,,,,
+135,DUMMY_24-0135,903.58,SPK03,Security,그거라도 되면 좀 낫겠네요.,none,,,,
+136,DUMMY_24-0136,909.92,SPK04,Security,작년 모의 훈련 때 클릭률이 몇이었죠?,open_question,,,,과거 훈련 결과 질문
+137,DUMMY_24-0137,917.18,SPK02,Security,십사 퍼센트. 한 번 한 거라 의미는 별로 없지만.,none,,,,
+138,DUMMY_24-0138,926.61,SPK04,Security,그 뒤로는 안 했죠?,none,,,,
+139,DUMMY_24-0139,931.38,SPK02,Security,네 그 한 번.,none,,,,
+140,DUMMY_24-0140,936.90,SPK01,Security,모의 훈련 메일은 분기마다 한 번씩 돌리죠.,decision,D4,1,,상급자; 팀장 제안에 아무도 답하지 않고 다음 얘기로 넘어감
+141,DUMMY_24-0141,945.87,SPK04,Security,훈련 메일 템플릿 제가 몇 개 만들어 볼게요.,commitment,,,,"본인 계획, 기한 없음"
+142,DUMMY_24-0142,955.04,SPK03,Security,로그 얘기 해도 돼요?,none,,,,
+143,DUMMY_24-0143,959.45,SPK03,Security,이번에 제일 답답했던 게,none,,,,
+144,DUMMY_24-0144,963.73,SPK03,Security,로그인 기록이 구십 일밖에 안 남아 있어서,none,,,,
+145,DUMMY_24-0145,970.29,SPK03,Security,이 계정이 전에도 털렸었는지 확인을 못 했어요.,none,,,,
+146,DUMMY_24-0146,977.94,SPK01,Security,구십 일 전엔 아예 없어요?,open_question,,,,로그 보관 기간 확인
+147,DUMMY_24-0147,985.06,SPK03,Security,없어요. 자동 삭제.,none,,,,
+148,DUMMY_24-0148,989.52,SPK02,Security,메일 게이트웨이 로그는 육십 일이고요.,none,,,,
+149,DUMMY_24-0149,997.83,SPK04,Security,더 짧네.,none,,,,
+150,DUMMY_24-0150,1000.73,SPK05,Ops,VPN 로그는 삼십 일이에요.,none,,,,
+151,DUMMY_24-0151,1007.22,SPK02,Security,그건 더 짧고.,none,,,,
+152,DUMMY_24-0152,1010.87,SPK03,Security,저는 최소 일 년은 둬야 된다고 봐요.,none,D5,,,
+153,DUMMY_24-0153,1017.34,SPK03,Security,규정상으로도 권고가 일 년이고요.,none,D5,,,
+154,DUMMY_24-0154,1024.63,SPK05,Ops,일 년 보관하면 스토리지가 한 사십 테라 정도 더 필요해요.,none,D5,,,
+155,DUMMY_24-0155,1035.14,SPK01,Security,돈으로 하면?,open_question,D5,,,비용 규모 질문
+156,DUMMY_24-0156,1040.31,SPK05,Ops,정확한 건 견적 받아 봐야 알아요.,none,D5,,,
+157,DUMMY_24-0157,1046.14,SPK05,Ops,금요일까지 스토리지 견적 올려 둘게요.,commitment,D5,,,본인이 기한 명시하고 견적 맡음
+158,DUMMY_24-0158,1052.94,SPK02,Security,근데 이번 분기 예산은 이미 다 잡혀 있잖아요.,concern,D5,,152,로그 1년 보관 비용이 분기 예산 밖이라는 문제
+159,DUMMY_24-0159,1059.99,SPK02,Security,추가 예산 올리면 승인까지 한 달은 걸려요.,none,D5,,,
+160,DUMMY_24-0160,1067.36,SPK03,Security,그럼 그 사이에는요?,open_question,D5,,,승인 전 공백 기간 대응 질문
+161,DUMMY_24-0161,1073.57,SPK04,Security,압축해서 저가 스토리지로 옮기면 안 돼요?,open_question,D5,,,대안 저장 방식 질문
+162,DUMMY_24-0162,1081.59,SPK05,Ops,검색이 느려져요. 사고 나면 바로 못 봐요.,concern,D5,,161,저가 스토리지 이전 시 검색 지연 문제
+163,DUMMY_24-0163,1089.62,SPK04,Security,아.,none,D5,,,
+164,DUMMY_24-0164,1092.08,SPK02,Security,백팔십 일까지는 지금 용량으로 될 것 같은데요.,none,D5,,,
+165,DUMMY_24-0165,1101.30,SPK05,Ops,백팔십이면 돼요. 빠듯하긴 한데.,none,D5,,,
+166,DUMMY_24-0166,1108.44,SPK01,Security,"추가 예산 승인 나면 일 년, 안 나면 백팔십 일.",decision,D5,1,,조건부; 예산 승인 여부를 조건으로 보관 기간 확정
+167,DUMMY_24-0167,1116.62,SPK03,Security,네.,none,D5,,,
+168,DUMMY_24-0168,1118.33,SPK02,Security,예산 요청서는 제가 쓸게요. 경태 과장님 견적 오면.,commitment,,,,견적 수령 후 예산 요청서 작성 맡음
+169,DUMMY_24-0169,1126.80,SPK05,Ops,네.,none,,,,
+170,DUMMY_24-0170,1130.45,SPK03,Security,VPN 로그도 같이 백팔십이죠?,open_question,,,,VPN 로그 적용 범위 확인
+171,DUMMY_24-0171,1137.47,SPK02,Security,네 전부.,none,,,,
+172,DUMMY_24-0172,1140.35,SPK01,Security,세 번째. VPN.,none,,,,
+173,DUMMY_24-0173,1144.44,SPK03,Security,탈취된 계정이 VPN 권한도 있었어요.,none,,,,
+174,DUMMY_24-0174,1150.91,SPK03,Security,다행히 VPN 접속은 없었는데.,none,,,,
+175,DUMMY_24-0175,1157.79,SPK01,Security,OTP 없이 들어갈 수 있는 거예요?,open_question,,,,VPN OTP 적용 여부 질문
+176,DUMMY_24-0176,1165.56,SPK05,Ops,"네, 지금 VPN은 아이디 비번만.",none,,,,
+177,DUMMY_24-0177,1171.39,SPK05,Ops,OTP는 관리자 계정만 붙어 있어요.,none,,,,
+178,DUMMY_24-0178,1178.10,SPK02,Security,지난 분기에 관리자 계정은 전부 OTP 붙이기로 했었는데 아직 세 개 남았어요.,commitment,,,,상기; 지난 분기 합의 이행 현황 언급
+179,DUMMY_24-0179,1190.29,SPK01,Security,세 개는 뭐예요?,open_question,,,,미적용 계정 질문
+180,DUMMY_24-0180,1195.94,SPK02,Security,레거시 서버 관리 계정이요. 에이전트가 OTP를 못 받아요.,none,,,,
+181,DUMMY_24-0181,1206.30,SPK04,Security,OTP 앱은 뭐 써요?,open_question,,,,OTP 앱 질문
+182,DUMMY_24-0182,1212.65,SPK05,Ops,지금 관리자용으로 쓰는 거 그대로요. 라이선스는 인원 제한 없고.,none,,,,
+183,DUMMY_24-0183,1222.95,SPK02,Security,아 그건 다행이네.,none,,,,
+184,DUMMY_24-0184,1228.05,SPK03,Security,VPN은 그냥 전 직원 OTP 붙여야 돼요.,none,D6,,,
+185,DUMMY_24-0185,1236.31,SPK04,Security,전 직원 OTP 붙이면 또 전화 폭주하는 거 아니에요?,concern,D6,,184,전사 OTP 적용 시 문의 폭증 우려
+186,DUMMY_24-0186,1246.92,SPK05,Ops,이번에 잠금도 바뀌는데 둘이 같이 가면 좀…,concern,D6,,184,두 정책 동시 적용 부담
+187,DUMMY_24-0187,1254.68,SPK01,Security,같이 가면 안 돼요?,open_question,D6,,,동시 적용 불가 이유 질문
+188,DUMMY_24-0188,1258.99,SPK05,Ops,안 되는 건 아닌데 한 주만 띄워 주시면.,none,D6,,,
+189,DUMMY_24-0189,1267.65,SPK03,Security,OTP 앱 설치 안내를 먼저 한 주 돌리면 되잖아요.,none,D6,,,
+190,DUMMY_24-0190,1278.07,SPK05,Ops,아 그러면 괜찮아요.,none,D6,,,
+191,DUMMY_24-0191,1283.10,SPK01,Security,"VPN은 OTP 필수. 예외 없이, 잠금 바뀌고 한 주 뒤에.",decision,D6,1,,"팀장 평서문으로 적용 범위·시점 정리, 이후 바로 다음 주제로"
+192,DUMMY_24-0192,1293.15,SPK04,Security,레거시 세 개는요?,open_question,,,,레거시 계정 처리 질문
+193,DUMMY_24-0193,1296.87,SPK02,Security,그건 제가 벤더에 한번 물어볼게요.,commitment,,,,"벤더 문의 맡음, 기한 없음"
+194,DUMMY_24-0194,1303.63,SPK01,Security,네.,none,,,,
+195,DUMMY_24-0195,1307.56,SPK03,Security,"아 그리고 이건 좀 다른 얘긴데,",none,D7,,,
+196,DUMMY_24-0196,1313.44,SPK03,Security,메일 게이트웨이 룰이 지금 비슷한 글자 도메인을 못 잡아요.,concern,D7,,,unprompted; 유사 도메인 탐지 공백을 자발 제기
+197,DUMMY_24-0197,1323.13,SPK03,Security,이번 것도 대문자 아이라서 그냥 통과됐어요.,none,D7,,,
+198,DUMMY_24-0198,1331.39,SPK02,Security,그거 룰 추가하면 되지 않아요?,open_question,D7,,,탐지 룰 추가 가능 여부 질문
+199,DUMMY_24-0199,1337.15,SPK03,Security,룰은 되는데 오탐이 많아요. 거래처 도메인이 워낙 제각각이라.,none,D7,,,
+200,DUMMY_24-0200,1346.64,SPK04,Security,외부 메일 제목에 외부 말머리 붙이는 것도 같이 합시다.,none,D7,,,
+201,DUMMY_24-0201,1356.45,SPK05,Ops,유사 도메인 목록은 어디서 받아요?,open_question,D7,,,유사 도메인 목록 출처 질문
+202,DUMMY_24-0202,1364.53,SPK03,Security,오픈 피드가 몇 개 있어요.,none,D7,,,
+203,DUMMY_24-0203,1371.00,SPK03,Security,제가 이번 주에 두 개 붙여서 테스트해 보려고요.,commitment,D7,,,"본인 계획, 기한 포함"
+204,DUMMY_24-0204,1379.31,SPK01,Security,룰 적용은 오탐 얼마나 나오는지 보고 나서.,decision,D7,1,,보류; 테스트 결과 전까지 적용 미룸
+205,DUMMY_24-0205,1388.12,SPK03,Security,네.,none,D7,,,
+206,DUMMY_24-0206,1391.81,SPK01,Security,다음. EDR.,none,,,,
+207,DUMMY_24-0207,1396.31,SPK02,Security,EDR은 이번에 같이 도입 검토하자는 얘기가 있었잖아요.,none,D8,,,
+208,DUMMY_24-0208,1405.30,SPK02,Security,이번 건도 EDR 있었으면 전달 규칙 걸리는 거 바로 봤을 거고.,none,D8,,,
+209,DUMMY_24-0209,1415.48,SPK05,Ops,근데 EDR은 메일 서버 쪽은 못 봐요. 단말만 보지.,concern,D8,,208,EDR이 이번 사고 유형을 탐지하지 못한다는 반론
+210,DUMMY_24-0210,1425.52,SPK02,Security,아 그런가.,none,D8,,,
+211,DUMMY_24-0211,1429.79,SPK03,Security,단말에서 비밀번호 입력하는 것도 브라우저라서 못 잡아요.,none,D8,,,
+212,DUMMY_24-0212,1438.83,SPK04,Security,그럼 이번 사고랑은 좀 거리가 있네요.,none,D8,,,
+213,DUMMY_24-0213,1445.31,SPK03,Security,EDR 말고 브라우저 격리 같은 건요?,open_question,D8,,,대안 솔루션 질문
+214,DUMMY_24-0214,1451.72,SPK02,Security,그건 더 비싸요.,none,D8,,,
+215,DUMMY_24-0215,1457.07,SPK03,Security,아.,none,D8,,,
+216,DUMMY_24-0216,1460.90,SPK01,Security,라이선스가 얼마였죠?,open_question,D8,,,EDR 비용 질문
+217,DUMMY_24-0217,1465.94,SPK02,Security,천 대 기준으로 연 한 칠천 정도요.,none,D8,,,
+218,DUMMY_24-0218,1473.36,SPK05,Ops,헉.,none,D8,,,
+219,DUMMY_24-0219,1476.74,SPK04,Security,로그 예산이랑 같이 올리면 둘 다 안 될 것 같은데요.,none,D8,,,
+220,DUMMY_24-0220,1485.40,SPK01,Security,EDR은 내년 예산 때 다시 봅시다.,decision,D8,1,,보류; 내년 예산 논의로 미룸
+221,DUMMY_24-0221,1492.59,SPK02,Security,"네, 그럼 비교 자료만 모아 둘게요.",commitment,,,,차후 논의용 자료 준비 맡음
+222,DUMMY_24-0222,1499.60,SPK01,Security,마지막. 보고서.,none,,,,
+223,DUMMY_24-0223,1504.63,SPK01,Security,사고 보고서 경영지원본부에 언제까지 내야 돼요?,open_question,,,,보고서 제출 기한 질문
+224,DUMMY_24-0224,1512.36,SPK02,Security,다음 주 월요일이요.,none,,,,
+225,DUMMY_24-0225,1518.23,SPK01,Security,초안 누가 쓸래요?,open_question,D9,,,초안 담당 요청
+226,DUMMY_24-0226,1522.09,SPK03,Security,제가 타임라인 다 갖고 있으니까요.,none,D9,,,
+227,DUMMY_24-0227,1529.27,SPK04,Security,저도 로그 캡처 좀 있어요.,none,D9,,,
+228,DUMMY_24-0228,1536.21,SPK02,Security,양식은 작년 거 쓰면 되죠?,open_question,D9,,,보고서 양식 질문
+229,DUMMY_24-0229,1541.09,SPK03,Security,작년 거에 재발 방지 칸만 있으면 돼요.,none,D9,,,
+230,DUMMY_24-0230,1548.67,SPK01,Security,"보고서는 승민 씨가 목요일까지 초안, 보라 씨가 로그 첨부, 금요일에 제가 봅니다.",decision,D9,1,,담당자·기한 지정
+231,DUMMY_24-0231,1560.75,SPK03,Security,네.,none,D9,,,
+232,DUMMY_24-0232,1563.63,SPK04,Security,네.,none,D9,,,
+233,DUMMY_24-0233,1566.45,SPK05,Ops,저희 쪽 조치 내역도 들어가야 되죠?,open_question,,,,IT운영 조치 포함 여부 질문
+234,DUMMY_24-0234,1574.75,SPK03,Security,"네, 과장님 쪽 비밀번호 초기화 내역이랑 세션 끊은 시각.",none,,,,
+235,DUMMY_24-0235,1584.72,SPK05,Ops,수요일까지 보내 드릴게요.,commitment,,,233,"요청 수락, 기한 명시"
+236,DUMMY_24-0236,1591.46,SPK03,Security,감사합니다.,none,,,,
+237,DUMMY_24-0237,1595.85,SPK02,Security,경영지원본부에서 대외 신고 여부도 물어볼 거예요.,none,,,,
+238,DUMMY_24-0238,1605.52,SPK01,Security,대외 신고는 법무팀이 판단할 거고요.,none,,,,
+239,DUMMY_24-0239,1612.29,SPK02,Security,법무팀은 개인정보 없으면 신고 대상 아니라고 할 것 같은데.,none,,,,
+240,DUMMY_24-0240,1621.50,SPK04,Security,거래처 담당자 연락처는요? 그것도 개인정보잖아요.,concern,,,239,유출 자료에 개인정보가 없다는 전제에 반론
+241,DUMMY_24-0241,1630.66,SPK03,Security,아 그러네.,none,,,,
+242,DUMMY_24-0242,1633.49,SPK01,Security,그 부분까지 포함해서 법무 의견 서면으로 받아 둬요.,open_question,,,,법무 서면 의견 확보 요청
+243,DUMMY_24-0243,1643.09,SPK02,Security,네 그건 한번 볼게요.,ambiguous,,,242,요청에 구체 일정 없이 약하게 응답
+244,DUMMY_24-0244,1647.52,SPK01,Security,음.,none,,,,
+245,DUMMY_24-0245,1650.22,SPK01,Security,아 그 재무팀 두 분은 괜찮아요?,open_question,,,,피해 직원 상태 질문
+246,DUMMY_24-0246,1657.56,SPK04,Security,한 분이 좀 많이 위축돼 계세요.,none,,,,
+247,DUMMY_24-0247,1664.97,SPK04,Security,본인 때문에 다 털린 줄 알고.,none,,,,
+248,DUMMY_24-0248,1670.64,SPK01,Security,그건 교육 때 제가 따로 얘기할게요.,commitment,,,,팀장이 피해 직원 면담 맡음
+249,DUMMY_24-0249,1676.96,SPK02,Security,네 그게 좋겠어요. 누구 탓 하는 분위기 되면 다음엔 신고를 안 해요.,none,,,,
+250,DUMMY_24-0250,1688.43,SPK03,Security,이번에도 본인이 신고해서 잡은 거니까.,none,,,,
+251,DUMMY_24-0251,1697.00,SPK01,Security,맞아요.,none,,,,
+252,DUMMY_24-0252,1699.72,SPK05,Ops,저 서버실 좀 나가 봐야 될 것 같아요. 백업 알람이.,none,,,,
+253,DUMMY_24-0253,1709.18,SPK03,Security,또요?,none,,,,
+254,DUMMY_24-0254,1711.97,SPK05,Ops,또요.,none,,,,
+255,DUMMY_24-0255,1713.97,SPK01,Security,네 거의 끝났어요.,none,,,,
+256,DUMMY_24-0256,1718.41,SPK01,Security,빠진 거 있어요?,open_question,,,,누락 안건 확인
+257,DUMMY_24-0257,1722.44,SPK04,Security,아 비밀번호 변경 주기요.,none,,,,
+258,DUMMY_24-0258,1727.66,SPK04,Security,지금 구십 일마다 강제 변경인데 그거 없애자는 얘기도 있던데.,none,,,,
+259,DUMMY_24-0259,1738.74,SPK02,Security,그건 인사팀 규정이랑 엮여 있어서 길어요.,none,,,,
+260,DUMMY_24-0260,1747.02,SPK04,Security,아 네.,none,,,,
+261,DUMMY_24-0261,1749.71,SPK01,Security,자 수고했어요.,none,,,,
+262,DUMMY_24-0262,1754.36,SPK04,Security,아 오늘 점심 뭐 드세요?,none,,,,
+263,DUMMY_24-0263,1760.17,SPK02,Security,저는 도시락 싸 왔어요.,none,,,,
+264,DUMMY_24-0264,1766.31,SPK03,Security,저 편의점.,none,,,,
+265,DUMMY_24-0265,1768.87,SPK01,Security,"나가서 같이 먹어요, 오늘은 내가 살게.",none,,,,
+266,DUMMY_24-0266,1775.93,SPK04,Security,오 감사합니다.,none,,,,
+267,DUMMY_24-0267,1780.66,SPK03,Security,아 팀장님 그 노트북 반납 건은,none,,,,
+268,DUMMY_24-0268,1787.23,SPK01,Security,이따 자리로 와요.,none,,,,
+269,DUMMY_24-0269,1792.00,SPK03,Security,네.,none,,,,

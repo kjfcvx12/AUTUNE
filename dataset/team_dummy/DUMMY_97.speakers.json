@@ -1,0 +1,52 @@
+{
+  "meeting": "DUMMY_97",
+  "title": "들녘마루 소비자협동조합 사무국 실무자 주간 회의",
+  "type": "peers",
+  "position_order": [
+    "활동가",
+    "코디네이터",
+    "사무국장"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "방소연",
+      "team": "매장운영",
+      "job": "Ops",
+      "position": "코디네이터",
+      "title": ""
+    },
+    {
+      "speaker": "SPK02",
+      "name": "염태호",
+      "team": "물류",
+      "job": "Logistics",
+      "position": "코디네이터",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "곽지유",
+      "team": "조합원지원",
+      "job": "Member",
+      "position": "코디네이터",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "남궁선",
+      "team": "회계",
+      "job": "Finance",
+      "position": "코디네이터",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "제하람",
+      "team": "교육홍보",
+      "job": "Marketing",
+      "position": "코디네이터",
+      "title": ""
+    }
+  ]
+}

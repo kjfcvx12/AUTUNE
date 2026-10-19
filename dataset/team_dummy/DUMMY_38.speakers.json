@@ -1,0 +1,46 @@
+{
+  "meeting": "DUMMY_38",
+  "title": "푸른내시립도서관 문화프로그램 담당 사서 10월 독서의 달 기획 회의",
+  "type": "peers",
+  "position_order": [
+    "사서서기보",
+    "사서서기",
+    "사서주사보",
+    "사서주사",
+    "사서사무관"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "유하은",
+      "team": "문화프로그램팀",
+      "job": "Librarian",
+      "position": "사서주사보",
+      "title": ""
+    },
+    {
+      "speaker": "SPK02",
+      "name": "권태민",
+      "team": "문화프로그램팀",
+      "job": "Librarian",
+      "position": "사서주사보",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "설지아",
+      "team": "문화프로그램팀",
+      "job": "Education",
+      "position": "사서주사보",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "남기현",
+      "team": "문화프로그램팀",
+      "job": "PR",
+      "position": "사서주사보",
+      "title": ""
+    }
+  ]
+}

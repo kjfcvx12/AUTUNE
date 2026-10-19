@@ -1,0 +1,57 @@
+{
+  "meeting": "DUMMY_123",
+  "title": "미식이 공유주방 운영팀 입점 및 시설 정기 회의",
+  "type": "team",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "정하늘",
+      "team": "미식이 운영팀",
+      "job": "PM",
+      "position": "과장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "최다인",
+      "team": "미식이 운영팀",
+      "job": "Partner",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "유지훈",
+      "team": "미식이 운영팀",
+      "job": "Facility",
+      "position": "주임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "서은채",
+      "team": "미식이 운영팀",
+      "job": "Settlement",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "남도윤",
+      "team": "미식이 운영팀",
+      "job": "CS",
+      "position": "사원",
+      "title": ""
+    }
+  ]
+}

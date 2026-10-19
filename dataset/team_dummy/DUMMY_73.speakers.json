@@ -1,0 +1,45 @@
+{
+  "meeting": "DUMMY_73",
+  "title": "공간담 건축사사무소 생활문화센터 설계공모 스튜디오 회의",
+  "type": "peers",
+  "position_order": [
+    "디자이너",
+    "선임",
+    "책임",
+    "소장"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "한도윤",
+      "team": "설계2스튜디오",
+      "job": "Design",
+      "position": "책임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK02",
+      "name": "서가을",
+      "team": "설계2스튜디오",
+      "job": "Design",
+      "position": "책임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "문지호",
+      "team": "설계2스튜디오",
+      "job": "Design",
+      "position": "책임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "배수빈",
+      "team": "설계2스튜디오",
+      "job": "Design",
+      "position": "선임",
+      "title": ""
+    }
+  ]
+}

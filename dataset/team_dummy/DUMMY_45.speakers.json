@@ -1,0 +1,81 @@
+{
+  "meeting": "DUMMY_45",
+  "title": "온결에너지 사업개발본부 태양광 프로젝트 파이프라인 점검 (본부장 참석)",
+  "type": "with-senior",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "탁성용",
+      "team": "사업개발본부",
+      "job": "BD",
+      "position": "이사",
+      "title": "본부장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "기윤아",
+      "team": "사업개발1팀",
+      "job": "BD",
+      "position": "차장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK03",
+      "name": "마준혁",
+      "team": "사업개발1팀",
+      "job": "BD",
+      "position": "과장",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "선다올",
+      "team": "사업개발1팀",
+      "job": "BD",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "우석진",
+      "team": "설계팀",
+      "job": "Engineering",
+      "position": "과장",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "예소민",
+      "team": "인허가팀",
+      "job": "Permits",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK07",
+      "name": "제갈호",
+      "team": "재무팀",
+      "job": "Finance",
+      "position": "차장",
+      "title": ""
+    },
+    {
+      "speaker": "SPK08",
+      "name": "옥나래",
+      "team": "사업개발1팀",
+      "job": "BD",
+      "position": "사원",
+      "title": ""
+    }
+  ]
+}

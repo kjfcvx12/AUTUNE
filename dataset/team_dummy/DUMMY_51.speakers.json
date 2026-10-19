@@ -1,0 +1,65 @@
+{
+  "meeting": "DUMMY_51",
+  "title": "도서출판 물고기자리 편집1팀·마케팅팀 가을 신간 편집 회의",
+  "type": "cross-team",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "윤해리",
+      "team": "편집1팀",
+      "job": "Editor",
+      "position": "차장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "서도윤",
+      "team": "편집1팀",
+      "job": "Editor",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "남궁솔",
+      "team": "편집1팀",
+      "job": "Editor",
+      "position": "사원",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "오태민",
+      "team": "편집1팀",
+      "job": "Design",
+      "position": "과장",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "표지안",
+      "team": "마케팅팀",
+      "job": "Marketing",
+      "position": "과장",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "하경수",
+      "team": "마케팅팀",
+      "job": "Marketing",
+      "position": "대리",
+      "title": ""
+    }
+  ]
+}

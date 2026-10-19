@@ -1,0 +1,58 @@
+{
+  "meeting": "DUMMY_89",
+  "title": "모래시계게임즈 사운드팀 실무자 싱크 (별빛항로 3.2 업데이트)",
+  "type": "peers",
+  "position_order": [
+    "프로"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "오세진",
+      "team": "사운드팀",
+      "job": "Sound",
+      "position": "프로",
+      "title": ""
+    },
+    {
+      "speaker": "SPK02",
+      "name": "류나연",
+      "team": "사운드팀",
+      "job": "Composer",
+      "position": "프로",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "백한결",
+      "team": "사운드팀",
+      "job": "Sound",
+      "position": "프로",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "주다온",
+      "team": "사운드팀",
+      "job": "TechAudio",
+      "position": "프로",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "표지후",
+      "team": "사운드팀",
+      "job": "Composer",
+      "position": "프로",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "성하늘",
+      "team": "사운드팀",
+      "job": "Sound",
+      "position": "프로",
+      "title": ""
+    }
+  ]
+}

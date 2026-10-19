@@ -1,0 +1,71 @@
+{
+  "meeting": "DUMMY_52",
+  "title": "가람의료원 71병동 10월 근무표 조정 회의 (간호팀장 참석)",
+  "type": "with-senior",
+  "position_order": [
+    "간호사",
+    "주임간호사",
+    "책임간호사",
+    "수간호사",
+    "간호팀장",
+    "간호부장"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "한결",
+      "team": "71병동",
+      "job": "Nurse",
+      "position": "수간호사",
+      "title": "파트장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "정미르",
+      "team": "간호부",
+      "job": "Nursing Admin",
+      "position": "간호팀장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK03",
+      "name": "권다온",
+      "team": "71병동",
+      "job": "Nurse",
+      "position": "책임간호사",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "임세라",
+      "team": "71병동",
+      "job": "Nurse",
+      "position": "주임간호사",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "백지후",
+      "team": "71병동",
+      "job": "Nurse",
+      "position": "간호사",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "조은채",
+      "team": "71병동",
+      "job": "Nurse",
+      "position": "간호사",
+      "title": ""
+    },
+    {
+      "speaker": "SPK07",
+      "name": "문해강",
+      "team": "간호부 교육파트",
+      "job": "Education",
+      "position": "주임간호사",
+      "title": ""
+    }
+  ]
+}

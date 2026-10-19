@@ -1,0 +1,73 @@
+{
+  "meeting": "DUMMY_67",
+  "title": "하루온가전 서비스운영팀·고객상담팀·부품물류팀 성수기 방문 적체 협의",
+  "type": "cross-team",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "봉재혁",
+      "team": "서비스운영팀",
+      "job": "Ops",
+      "position": "부장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "연수빈",
+      "team": "서비스운영팀",
+      "job": "Ops",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "마동희",
+      "team": "서비스운영팀",
+      "job": "Ops",
+      "position": "주임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "추은서",
+      "team": "고객상담팀",
+      "job": "CS",
+      "position": "과장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK05",
+      "name": "방지후",
+      "team": "고객상담팀",
+      "job": "CS",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "계나래",
+      "team": "고객상담팀",
+      "job": "CS",
+      "position": "사원",
+      "title": ""
+    },
+    {
+      "speaker": "SPK07",
+      "name": "도형곤",
+      "team": "부품물류팀",
+      "job": "SCM",
+      "position": "과장",
+      "title": ""
+    }
+  ]
+}

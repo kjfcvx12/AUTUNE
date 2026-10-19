@@ -1,0 +1,65 @@
+{
+  "meeting": "DUMMY_76",
+  "title": "털뭉치마켓 상품기획팀 주간 회의",
+  "type": "team",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "오태석",
+      "team": "상품기획팀",
+      "job": "MD",
+      "position": "차장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "윤하린",
+      "team": "상품기획팀",
+      "job": "MD",
+      "position": "과장",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "서지훈",
+      "team": "상품기획팀",
+      "job": "MD",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "구예진",
+      "team": "상품기획팀",
+      "job": "Marketing",
+      "position": "주임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "민채원",
+      "team": "상품기획팀",
+      "job": "MD",
+      "position": "사원",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "탁상우",
+      "team": "상품기획팀",
+      "job": "Data",
+      "position": "대리",
+      "title": ""
+    }
+  ]
+}

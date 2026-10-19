@@ -1,0 +1,68 @@
+{
+  "meeting": "DUMMY_37",
+  "title": "달구지로지스 새벽배송 운영팀·배차개발팀·CS팀 합동 점검 회의",
+  "type": "cross-team",
+  "position_order": [
+    "매니저",
+    "시니어 매니저",
+    "디렉터"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "강유진",
+      "team": "운영팀",
+      "job": "Ops",
+      "position": "시니어 매니저",
+      "title": "리드"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "노현우",
+      "team": "운영팀",
+      "job": "Ops",
+      "position": "매니저",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "임소라",
+      "team": "운영팀",
+      "job": "Ops",
+      "position": "매니저",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "백승철",
+      "team": "배차개발팀",
+      "job": "Dev",
+      "position": "시니어 매니저",
+      "title": "리드"
+    },
+    {
+      "speaker": "SPK05",
+      "name": "윤다혜",
+      "team": "배차개발팀",
+      "job": "Data",
+      "position": "매니저",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "조한결",
+      "team": "CS팀",
+      "job": "CS",
+      "position": "매니저",
+      "title": ""
+    },
+    {
+      "speaker": "SPK07",
+      "name": "김보람",
+      "team": "운영팀",
+      "job": "Ops",
+      "position": "매니저",
+      "title": ""
+    }
+  ]
+}

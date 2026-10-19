@@ -1,0 +1,72 @@
+{
+  "meeting": "DUMMY_93",
+  "title": "새솔대 스마트제조연구실-코르벤정밀 스핀들 예지보전 산학과제 정기 회의",
+  "type": "cross-team",
+  "position_order": [
+    "석사과정",
+    "박사과정",
+    "연구원",
+    "박사후연구원",
+    "선임연구원",
+    "책임연구원",
+    "교수"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "권태희",
+      "team": "새솔대 스마트제조연구실",
+      "job": "Research",
+      "position": "교수",
+      "title": "연구책임자"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "문석진",
+      "team": "새솔대 스마트제조연구실",
+      "job": "Research",
+      "position": "박사후연구원",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "채은비",
+      "team": "새솔대 스마트제조연구실",
+      "job": "Research",
+      "position": "박사과정",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "봉지환",
+      "team": "새솔대 스마트제조연구실",
+      "job": "Research",
+      "position": "석사과정",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "탁현우",
+      "team": "코르벤정밀 생산기술팀",
+      "job": "Eng",
+      "position": "책임연구원",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK06",
+      "name": "여다솜",
+      "team": "코르벤정밀 생산기술팀",
+      "job": "Data",
+      "position": "선임연구원",
+      "title": ""
+    },
+    {
+      "speaker": "SPK07",
+      "name": "계준혁",
+      "team": "코르벤정밀 설비보전팀",
+      "job": "Ops",
+      "position": "연구원",
+      "title": ""
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "meeting": "DUMMY_17",
+  "title": "다온리빙마트 남부3지역 점장 회의 (가을 디스플레이·주말 인력, 지역장 참석)",
+  "type": "with-senior",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "염승태",
+      "team": "남부3지역 운영팀",
+      "job": "Ops",
+      "position": "부장",
+      "title": "지역장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "서미령",
+      "team": "은행나무점",
+      "job": "Ops",
+      "position": "과장",
+      "title": "점장"
+    },
+    {
+      "speaker": "SPK03",
+      "name": "권도현",
+      "team": "강변점",
+      "job": "Ops",
+      "position": "차장",
+      "title": "점장"
+    },
+    {
+      "speaker": "SPK04",
+      "name": "남유진",
+      "team": "새터점",
+      "job": "Ops",
+      "position": "대리",
+      "title": "점장"
+    },
+    {
+      "speaker": "SPK05",
+      "name": "조하늘",
+      "team": "남부3지역 운영팀",
+      "job": "VMD",
+      "position": "주임",
+      "title": ""
+    }
+  ]
+}

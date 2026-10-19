@@ -1,0 +1,263 @@
+﻿row,utterance_id,start,speaker,role,text,kind,decision_id,settles,responds_to,note
+1,DUMMY_99-0001,3.40,SPK03,Marketing,팀장님 어제 VIP 시사 끝나고 뒤풀이 가셨어요?,none,,,,
+2,DUMMY_99-0002,9.97,SPK01,Distribution,잠깐 얼굴만 비췄어.,none,,,,
+3,DUMMY_99-0003,18.86,SPK01,Distribution,감독님이 너무 긴장하셔서 술을 한 잔도 못 드시더라.,none,,,,
+4,DUMMY_99-0004,26.22,SPK02,Distribution,그 감독님 원래 술 못 하세요.,none,,,,
+5,DUMMY_99-0005,32.27,SPK03,Marketing,아 그래요? 저는 몰랐네.,none,,,,
+6,DUMMY_99-0006,35.98,SPK02,Distribution,그래서 뒤풀이 자리에서 사이다만 드셨대요.,none,,,,
+7,DUMMY_99-0007,43.53,SPK01,Distribution,사이다를 세 병 드셨어.,none,,,,
+8,DUMMY_99-0008,49.20,SPK04,Data,"저 봤어요, 테이블에 사이다 병만 쭉.",none,,,,
+9,DUMMY_99-0009,56.69,SPK03,Marketing,하하 귀엽다.,none,,,,
+10,DUMMY_99-0010,59.34,SPK01,Distribution,배우들은 늦게까지 있었고.,none,,,,
+11,DUMMY_99-0011,64.74,SPK04,Data,저는 어제 로비에서 포토월 치우느라 열한 시에 나갔어요.,none,,,,
+12,DUMMY_99-0012,72.10,SPK03,Marketing,고생했어요 진짜.,none,,,,
+13,DUMMY_99-0013,76.19,SPK04,Data,"아니에요, 재밌었어요.",none,,,,
+14,DUMMY_99-0014,80.31,SPK04,Data,저 어제 시사 반응 정리한 거 있는데 이따 보여 드릴까요?,none,,,,
+15,DUMMY_99-0015,89.57,SPK01,Distribution,응 이따가.,none,,,,
+16,DUMMY_99-0016,92.29,SPK02,Distribution,커피 식기 전에 시작하죠.,none,,,,
+17,DUMMY_99-0017,97.67,SPK01,Distribution,"그래, 개봉일부터 보자.",none,,,,
+18,DUMMY_99-0018,103.34,SPK01,Distribution,"다솜 과장, 경쟁작 일정 나온 거 있어?",open_question,,,,경쟁작 일정 질문
+19,DUMMY_99-0019,110.59,SPK02,Distribution,네. 〈철의 항로〉가 11월 20일로 확정됐대요.,none,D1,,,
+20,DUMMY_99-0020,119.33,SPK02,Distribution,극장 쪽 편성 담당한테서 어제 들었어요.,none,D1,,,
+21,DUMMY_99-0021,124.75,SPK03,Marketing,아 결국 20일이구나.,none,D1,,,
+22,DUMMY_99-0022,128.29,SPK01,Distribution,우리는 13일이랑 20일 두 개 놓고 있었잖아.,none,D1,,,
+23,DUMMY_99-0023,136.21,SPK02,Distribution,20일에 붙으면 스크린은 거의 못 받아요.,none,D1,,,
+24,DUMMY_99-0024,143.84,SPK02,Distribution,그쪽이 첫 주에 천오백 개는 가져갈 거라서.,none,D1,,,
+25,DUMMY_99-0025,150.53,SPK04,Data,작년에 비슷한 규모 영화 붙었을 때 같은 주 개봉한 중급 영화들,none,D1,,,
+26,DUMMY_99-0026,159.15,SPK04,Data,첫 주 스크린이 평균 한 190개였어요.,none,D1,,,
+27,DUMMY_99-0027,165.07,SPK01,Distribution,190이면 안 되지.,none,D1,,,
+28,DUMMY_99-0028,172.77,SPK03,Marketing,근데 13일이면 마케팅 시간이 일주일 줄어요.,concern,D1,,27,13일로 당기면 마케팅 기간이 부족하다고 우려
+29,DUMMY_99-0029,178.85,SPK03,Marketing,예고편 2차를 아직 못 풀었거든요.,none,D1,,,
+30,DUMMY_99-0030,184.82,SPK01,Distribution,2차 예고편은 언제 나와?,open_question,D1,,,2차 예고편 일정 질문
+31,DUMMY_99-0031,188.83,SPK03,Marketing,후반 작업 쪽에선 다음 주 월요일이라고 했어요.,none,D1,,,
+32,DUMMY_99-0032,194.80,SPK02,Distribution,월요일에 받으면 화요일에 풀어도 개봉까지 2주는 넘어요.,none,D1,,,
+33,DUMMY_99-0033,201.42,SPK03,Marketing,"2주면 빠듯하긴 한데, 못 할 건 아니에요.",none,D1,,,
+34,DUMMY_99-0034,207.75,SPK04,Data,13일 주에는 큰 영화가 없어요. 제일 큰 게 애니메이션 하나.,none,D1,,,
+35,DUMMY_99-0035,218.00,SPK01,Distribution,그러면 13일. 20일 주는 버티기로 보고.,decision,D1,1,,논의 후 팀장이 짧게 개봉일을 정리
+36,DUMMY_99-0036,225.99,SPK02,Distribution,네.,none,D1,,,
+37,DUMMY_99-0037,228.23,SPK03,Marketing,그럼 2차 예고편은 화요일 오전 열 시에 푸는 걸로 하죠.,commitment,,,,예고편 공개 일정을 본인 담당으로 정함
+38,DUMMY_99-0038,240.21,SPK03,Marketing,포털이랑 유튜브 동시에요.,none,,,,
+39,DUMMY_99-0039,246.25,SPK01,Distribution,응.,none,,,,
+40,DUMMY_99-0040,249.49,SPK02,Distribution,극장에는 오늘 오후에 13일로 공문 보낼게요.,commitment,,,,당일 공문 발송을 맡음
+41,DUMMY_99-0041,256.81,SPK01,Distribution,그래. 스크린 얘기 해 봐.,none,,,,
+42,DUMMY_99-0042,267.37,SPK02,Distribution,"네, 스크린은 지금 삼사한테 첫 주 사백 개 요청해 놨어요.",none,,,,
+43,DUMMY_99-0043,279.75,SPK02,Distribution,"시네마루가 백오십, 필름타운이 백사십, 스타시네가 백십.",none,,,,
+44,DUMMY_99-0044,289.17,SPK01,Distribution,반응은?,open_question,,,,극장 반응 질문
+45,DUMMY_99-0045,292.14,SPK02,Distribution,"시네마루는 백이십까지는 된다고 했고,",none,D2,,,
+46,DUMMY_99-0046,299.84,SPK02,Distribution,필름타운은 아직 답이 없어요.,none,D2,,,
+47,DUMMY_99-0047,305.63,SPK02,Distribution,스타시네는 교차상영으로 하자고 하는데.,none,D2,,,
+48,DUMMY_99-0048,311.46,SPK03,Marketing,교차면 저녁 시간대 빠지잖아요.,concern,D2,,47,교차상영 시 황금 시간대 손실 우려
+49,DUMMY_99-0049,317.51,SPK02,Distribution,"네, 낮 두 회만 준대요.",none,D2,,,
+50,DUMMY_99-0050,323.51,SPK01,Distribution,스타시네가 부율은 어떻게 나왔어?,open_question,D2,,,부율 조건 질문
+51,DUMMY_99-0051,330.25,SPK02,Distribution,"서울은 55대 45 그대로고, 지방은 50대 50이요.",none,D2,,,
+52,DUMMY_99-0052,336.96,SPK04,Data,스타시네가 저희 관객층이랑은 제일 안 맞아요.,none,D2,,,
+53,DUMMY_99-0053,344.63,SPK04,Data,지난 작품 때 스타시네 좌석판매율이 다른 데 절반이었어요.,none,D2,,,
+54,DUMMY_99-0054,351.94,SPK01,Distribution,그럼 스타시네는 교차 받는 대신 서울 핵심 관 다섯 곳만은 전일 상영으로 달라고 해 봐.,open_question,D2,,,조건 협상 요청
+55,DUMMY_99-0055,361.46,SPK02,Distribution,다섯 곳이요? 어디 어디요?,open_question,D2,,,대상 관 질문
+56,DUMMY_99-0056,365.80,SPK04,Data,좌석판매율 높았던 데 뽑아 드릴 수 있어요.,none,D2,,,
+57,DUMMY_99-0057,379.38,SPK04,Data,"홍대, 건대, 신촌, 그리고 성수, 강남.",none,D2,,,
+58,DUMMY_99-0058,386.80,SPK02,Distribution,"그 다섯 곳 전일, 나머지 교차. 그렇게 제안해 볼게요.",commitment,D2,,54,협상 요청을 받아 제안하겠다고 함
+59,DUMMY_99-0059,393.27,SPK01,Distribution,"그렇게 하고, 필름타운은?",open_question,D2,,,다른 극장 진행 질문
+60,DUMMY_99-0060,396.98,SPK02,Distribution,필름타운은 목요일에 편성 회의 한대요.,none,D2,,,
+61,DUMMY_99-0061,403.81,SPK01,Distribution,목요일까지 기다려. 거기서 백 밑으로 나오면 그때 다시 얘기하자.,decision,D2,1,,필름타운 결정은 목요일 편성 회의 이후로 보류
+62,DUMMY_99-0062,414.22,SPK02,Distribution,네.,none,D2,,,
+63,DUMMY_99-0063,418.98,SPK04,Data,저 시사 반응 지금 보여 드려도 돼요?,none,,,,
+64,DUMMY_99-0064,426.69,SPK01,Distribution,응 해.,none,,,,
+65,DUMMY_99-0065,429.09,SPK04,Data,어제 VIP 시사 끝나고 설문 받은 게 이백십 장이에요.,none,,,,
+66,DUMMY_99-0066,437.24,SPK04,Data,만족도 5점 만점에 4.3이고요.,none,,,,
+67,DUMMY_99-0067,441.84,SPK03,Marketing,오 높네.,none,,,,
+68,DUMMY_99-0068,445.13,SPK04,Data,"근데 연령대 나누면 40대 이상이 4.6, 20대가 3.8이에요.",none,,,,
+69,DUMMY_99-0069,454.73,SPK01,Distribution,20대가 좀 낮네.,none,,,,
+70,DUMMY_99-0070,458.78,SPK04,Data,"네, 주관식에 좀 느리다는 얘기가 많았어요.",none,,,,
+71,DUMMY_99-0071,471.45,SPK03,Marketing,러닝타임이 128분이라.,none,,,,
+72,DUMMY_99-0072,475.61,SPK02,Distribution,그건 이제 어쩔 수 없고.,none,,,,
+73,DUMMY_99-0073,480.66,SPK03,Marketing,그럼 마케팅 타깃을 좀 올려야 되나요? 30대 후반 이상으로.,open_question,,,,타깃 연령 조정 의견 질문
+74,DUMMY_99-0074,487.81,SPK01,Distribution,그건 우경 대리가 판단해. 숫자는 세빈 씨가 더 줄 거고.,none,,,,
+75,DUMMY_99-0075,495.15,SPK03,Marketing,네 그럼 세빈 씨 연령별로 좀 더 쪼개서 줄 수 있어요?,open_question,,,,세부 데이터 요청
+76,DUMMY_99-0076,504.27,SPK04,Data,"네, 오늘 퇴근 전에 드릴게요.",commitment,,,75,기한 명시하고 데이터 요청 수락
+77,DUMMY_99-0077,508.97,SPK03,Marketing,저는 그거 보고 SNS 광고 타깃 다시 짜 보려고요.,commitment,,,,타깃 재설정을 본인 계획으로 밝힘
+78,DUMMY_99-0078,517.36,SPK01,Distribution,좋아.,none,,,,
+79,DUMMY_99-0079,520.53,SPK03,Marketing,아 그리고 1차 예고편 반응도 잠깐 말씀드리면요.,none,,,,
+80,DUMMY_99-0080,527.26,SPK03,Marketing,조회수가 일주일에 한 사십만이에요.,none,,,,
+81,DUMMY_99-0081,532.60,SPK01,Distribution,"사십만이면 어때, 괜찮은 거야?",none,,,,
+82,DUMMY_99-0082,539.02,SPK03,Marketing,비슷한 장르 평균이 한 삼십오만이라 조금 높은 편이에요.,none,,,,
+83,DUMMY_99-0083,545.72,SPK04,Data,댓글은 음악 얘기가 제일 많아요.,none,,,,
+84,DUMMY_99-0084,550.17,SPK03,Marketing,"네, 음악감독님 이름 나온 댓글이 많더라고요.",none,,,,
+85,DUMMY_99-0085,557.65,SPK02,Distribution,그럼 OST 쪽으로 뭐 하나 해 볼 수 있겠다.,none,,,,
+86,DUMMY_99-0086,565.35,SPK03,Marketing,음원 선공개 같은 거요?,none,,,,
+87,DUMMY_99-0087,568.91,SPK02,Distribution,"네, 개봉 일주일 전에 메인 테마 하나 풀면.",none,,,,
+88,DUMMY_99-0088,578.36,SPK01,Distribution,그건 음반사가 판권 가지고 있잖아.,none,,,,
+89,DUMMY_99-0089,583.08,SPK02,Distribution,"아 맞다, 그게 우리 쪽이 아니었지.",none,,,,
+90,DUMMY_99-0090,589.03,SPK03,Marketing,음반사에는 제가 한번 물어는 볼게요.,ambiguous,,,89,기한 없는 약한 수락
+91,DUMMY_99-0091,595.47,SPK01,Distribution,언론시사는 날짜 잡혔어?,open_question,D3,,,언론시사 일정 질문
+92,DUMMY_99-0092,600.50,SPK03,Marketing,후보가 11월 4일이랑 6일이에요.,none,D3,,,
+93,DUMMY_99-0093,605.14,SPK03,Marketing,"4일은 용산 1관, 6일은 왕십리 쪽.",none,D3,,,
+94,DUMMY_99-0094,610.62,SPK02,Distribution,6일은 다른 배급사 언론시사가 두 개 있어요.,concern,D3,,93,6일은 일정 겹침 우려
+95,DUMMY_99-0095,616.54,SPK03,Marketing,아 그래요? 그럼 기자들 분산되겠네.,none,D3,,,
+96,DUMMY_99-0096,622.23,SPK01,Distribution,4일로 가. 용산 1관 대관 확정은 누가 해?,open_question,D3,,,대관 담당 질문
+97,DUMMY_99-0097,629.44,SPK03,Marketing,대관은 제가 오늘 중으로 잡을게요.,commitment,D3,,96,대관 확정을 기한 명시하고 맡음
+98,DUMMY_99-0098,635.34,SPK01,Distribution,기자 명단은?,open_question,D3,,,명단 담당 질문
+99,DUMMY_99-0099,639.54,SPK02,Distribution,명단은 홍보대행사에서 금요일까지 준다고 했어요.,ambiguous,D3,,,홍보대행사 일정을 전달
+100,DUMMY_99-0100,654.12,SPK01,Distribution,"그러면 4일 용산 1관, 대관은 우경 대리 오늘, 명단은 금요일 받고 다솜 과장이 최종 확인.",decision,D3,1,,날짜·장소와 담당·기한을 한 번에 정리
+101,DUMMY_99-0101,664.18,SPK02,Distribution,네.,none,D3,,,
+102,DUMMY_99-0102,665.98,SPK03,Marketing,아 근데 4일이면 간담회 사회자도 섭외해야 되는데.,none,,,,
+103,DUMMY_99-0103,672.93,SPK03,Marketing,작년에 했던 분 그분 다시 부를까요?,open_question,,,,사회자 섭외 의견 질문
+104,DUMMY_99-0104,680.63,SPK02,Distribution,그분 이번 달에 드라마 촬영 들어가서 안 될걸요.,none,,,,
+105,DUMMY_99-0105,687.34,SPK03,Marketing,아 그래요?,none,,,,
+106,DUMMY_99-0106,697.43,SPK03,Marketing,그럼 새로 찾아볼게요.,commitment,,,,기한 없이 사회자 섭외를 맡음
+107,DUMMY_99-0107,703.49,SPK01,Distribution,음.,none,,,,
+108,DUMMY_99-0108,706.70,SPK01,Distribution,그리고 GV 얘기.,none,,,,
+109,DUMMY_99-0109,711.76,SPK01,Distribution,"이번엔 서울만 돌지 말고 지방 세 군데 가자. 부산, 대구, 광주.",decision,D4,1,,"상급자 제안, 이후 반대 없음"
+110,DUMMY_99-0110,720.85,SPK04,Data,저 근데 예매 오픈은 언제로 해요?,open_question,,,,예매 오픈 일정 질문
+111,DUMMY_99-0111,727.75,SPK02,Distribution,보통 개봉 열흘 전이니까 3일이나 4일요.,none,,,,
+112,DUMMY_99-0112,735.56,SPK03,Marketing,언론시사랑 같은 날 여는 게 기사 나가기 좋아요.,none,,,,
+113,DUMMY_99-0113,741.58,SPK02,Distribution,그럼 4일 오후로 맞추면 되겠네요.,none,,,,
+114,DUMMY_99-0114,748.45,SPK02,Distribution,극장 삼사 예매 오픈 시간은 제가 맞춰 볼게요.,commitment,,,,예매 오픈 일정 조율을 맡음
+115,DUMMY_99-0115,757.23,SPK01,Distribution,응.,none,,,,
+116,DUMMY_99-0116,760.87,SPK02,Distribution,아 그리고 제작사 쪽에서 연락 온 게 있는데요.,none,,,,
+117,DUMMY_99-0117,768.11,SPK02,Distribution,감독님이 개봉 전 주에 유럽 쪽 영화제 초청이 있어서,none,,,,
+118,DUMMY_99-0118,776.30,SPK02,Distribution,한 일주일 해외에 가신대요.,ambiguous,,,,제작사가 알려 온 감독 일정을 전달
+119,DUMMY_99-0119,781.75,SPK01,Distribution,개봉 전 주면 언제부터 언제?,open_question,,,,해외 체류 기간 질문
+120,DUMMY_99-0120,788.13,SPK02,Distribution,5일부터 12일이요.,none,,,,
+121,DUMMY_99-0121,794.25,SPK03,Marketing,그럼 4일 언론시사는 되는데 무대인사가 문제네요.,concern,,,120,감독 부재로 개봉 주 무대인사가 어렵다고 우려
+122,DUMMY_99-0122,802.95,SPK03,Marketing,개봉 첫 주말 무대인사가 제일 효과 좋은데.,none,,,,
+123,DUMMY_99-0123,814.63,SPK01,Distribution,13일 목요일에 들어와서 주말은 되잖아.,none,,,,
+124,DUMMY_99-0124,821.92,SPK02,Distribution,비행기가 12일 밤 도착이면 되긴 해요.,none,,,,
+125,DUMMY_99-0125,827.36,SPK03,Marketing,감독님 컨디션이 문제지 뭐.,none,,,,
+126,DUMMY_99-0126,831.32,SPK01,Distribution,그건 제작사한테 한 번 더 확인해 줄래?,open_question,,,,제작사 확인 요청
+127,DUMMY_99-0127,839.51,SPK02,Distribution,"네, 제작 PD님한테 오늘 바로 물어볼게요.",commitment,,,126,확인 요청 수락
+128,DUMMY_99-0128,845.15,SPK03,Marketing,배우 무대인사는 확정이에요?,none,,,,
+129,DUMMY_99-0129,852.10,SPK02,Distribution,"주연 두 분은 확정이고, 조연 한 분은 일정 봐야 된대요.",none,,,,
+130,DUMMY_99-0130,859.49,SPK01,Distribution,조연 한 분은 누구?,none,,,,
+131,DUMMY_99-0131,865.42,SPK02,Distribution,역무원 역 하신 분이요.,none,,,,
+132,DUMMY_99-0132,871.73,SPK03,Marketing,그분 요즘 예능 나와서 반응 좋은데.,none,,,,
+133,DUMMY_99-0133,878.49,SPK01,Distribution,그분 되면 좋지.,none,,,,
+134,DUMMY_99-0134,882.47,SPK04,Data,저 근데 첫 주 스코어 목표는 어떻게 잡아요?,open_question,D5,,,첫 주 목표 질문
+135,DUMMY_99-0135,888.73,SPK01,Distribution,세빈 씨는 몇으로 봐?,open_question,D5,,,추정치 질문
+136,DUMMY_99-0136,892.54,SPK04,Data,스크린 삼백 기준으로 첫 주 한 십팔만 정도요.,none,D5,,,
+137,DUMMY_99-0137,904.64,SPK03,Marketing,십팔만이면 손익분기가 몇이었죠?,open_question,D5,,,손익분기 질문
+138,DUMMY_99-0138,910.10,SPK02,Distribution,극장 기준으로 백십만이요.,none,D5,,,
+139,DUMMY_99-0139,914.42,SPK01,Distribution,첫 주 십팔만이면 백십만은 입소문 없이는 안 된다.,none,D5,,,
+140,DUMMY_99-0140,922.33,SPK04,Data,"네, 2주차 드롭률이 40% 안쪽이어야 돼요.",none,D5,,,
+141,DUMMY_99-0141,928.82,SPK02,Distribution,2주차 스크린이 문제예요.,none,D5,,,
+142,DUMMY_99-0142,933.36,SPK02,Distribution,극장은 첫 주말 좌석판매율 보고 바로 칼질해요.,none,D5,,,
+143,DUMMY_99-0143,939.68,SPK01,Distribution,"그러면 첫 주말 좌석판매율 15% 넘으면 2주차 전일 상영 유지로 밀어붙이고, 못 넘으면 교차 받아들이는 걸로 가겠습니다.",decision,D5,1,,좌석판매율 기준 충족 여부에 따른 조건부 결정
+144,DUMMY_99-0144,953.82,SPK02,Distribution,네.,none,D5,,,
+145,DUMMY_99-0145,958.76,SPK02,Distribution,15%면 작년 그 영화가 13%였으니까 쉽지는 않아요.,concern,D5,,143,기준치 달성이 쉽지 않다고 우려
+146,DUMMY_99-0146,968.17,SPK01,Distribution,알아. 그러니까 첫 주말에 다 쏟아야지.,none,D5,,,
+147,DUMMY_99-0147,973.72,SPK03,Marketing,첫 주말 광고비를 좀 당겨 써야 될 것 같아요.,none,,,,
+148,DUMMY_99-0148,987.49,SPK03,Marketing,전체 마케팅비 중에 첫 주 비중을 한 60%로.,none,,,,
+149,DUMMY_99-0149,994.87,SPK01,Distribution,전체 마케팅비가 얼마였지?,open_question,,,,마케팅비 총액 질문
+150,DUMMY_99-0150,999.50,SPK03,Marketing,P&A 합쳐서 12억이요.,none,,,,
+151,DUMMY_99-0151,1003.66,SPK01,Distribution,60%면 7억 좀 넘네.,none,,,,
+152,DUMMY_99-0152,1008.51,SPK02,Distribution,그러면 2주차 이후는 거의 못 써요.,concern,,,151,2주차 이후 예산 고갈 우려
+153,DUMMY_99-0153,1017.58,SPK03,Marketing,2주차부터는 입소문이 알아서 해 줘야죠.,none,,,,
+154,DUMMY_99-0154,1023.56,SPK02,Distribution,입소문 안 나면요?,none,,,,
+155,DUMMY_99-0155,1027.05,SPK03,Marketing,그럼 뭐 어차피 2주차 광고해도 안 돼요.,none,,,,
+156,DUMMY_99-0156,1033.29,SPK01,Distribution,비중은 우경 대리가 다음 주까지 안 두 개로 만들어 와. 60이랑 50.,open_question,,,,예산안 두 개 작성 요청
+157,DUMMY_99-0157,1047.21,SPK03,Marketing,"네, 다음 주 수요일까지 가져올게요.",commitment,,,156,기한 명시하고 예산안 작성 수락
+158,DUMMY_99-0158,1054.91,SPK01,Distribution,잠깐 쉬자. 나 전화 하나 받고.,none,,,,
+159,DUMMY_99-0159,1059.29,SPK02,Distribution,네.,none,,,,
+160,DUMMY_99-0160,1063.46,SPK03,Marketing,세빈 씨 어제 시사회 끝나고 뭐 먹었어요?,none,,,,
+161,DUMMY_99-0161,1071.88,SPK04,Data,설문지 정리하느라 편의점 김밥이요.,none,,,,
+162,DUMMY_99-0162,1078.02,SPK03,Marketing,아이고. 이따 저녁 같이 먹어요.,none,,,,
+163,DUMMY_99-0163,1088.71,SPK04,Data,좋아요.,none,,,,
+164,DUMMY_99-0164,1093.49,SPK02,Distribution,"저 오늘 여섯 시 반에 나가야 돼요, 애 학원.",none,,,,
+165,DUMMY_99-0165,1101.55,SPK03,Marketing,아 네네.,none,,,,
+166,DUMMY_99-0166,1106.83,SPK04,Data,대리님 곱창집 예약해야 돼요?,none,,,,
+167,DUMMY_99-0167,1113.07,SPK03,Marketing,거기 예약 안 받아. 일찍 가서 줄 서야 돼.,none,,,,
+168,DUMMY_99-0168,1118.90,SPK04,Data,아 그럼 여섯 시에 나가요?,none,,,,
+169,DUMMY_99-0169,1124.30,SPK03,Marketing,여섯 시 반. 팀장님 눈치 보고.,none,,,,
+170,DUMMY_99-0170,1129.33,SPK02,Distribution,하하 들려요.,none,,,,
+171,DUMMY_99-0171,1132.87,SPK01,Distribution,미안. 다시 하자.,none,,,,
+172,DUMMY_99-0172,1136.80,SPK01,Distribution,부가판권 얘기 좀 하자.,none,,,,
+173,DUMMY_99-0173,1141.10,SPK01,Distribution,IPTV 쪽에서 홀드백 짧게 하자고 연락 왔다며?,open_question,D6,,,IPTV 제안 확인 질문
+174,DUMMY_99-0174,1149.64,SPK02,Distribution,"네, 개봉 3주 뒤에 극장 동시 서비스 하자고요.",none,D6,,,
+175,DUMMY_99-0175,1156.32,SPK02,Distribution,대신 미니멈 개런티를 한 1억 5천 준대요.,none,D6,,,
+176,DUMMY_99-0176,1161.96,SPK03,Marketing,3주면 극장 쪽에서 난리 나요.,concern,D6,,174,짧은 홀드백에 극장 반발 우려
+177,DUMMY_99-0177,1167.20,SPK02,Distribution,극장에서 2주차 스크린 빼 버릴 수도 있죠.,none,D6,,,
+178,DUMMY_99-0178,1173.51,SPK04,Data,작년에 3주 홀드백 했던 영화 두 편 다 3주차 스크린이 반 토막 났어요.,none,D6,,,
+179,DUMMY_99-0179,1183.03,SPK01,Distribution,근데 1억 5천이면 적은 돈이 아니야.,none,D6,,,
+180,DUMMY_99-0180,1188.93,SPK02,Distribution,극장 성적이 좋으면 그쪽에서 조건 더 올려 줄 거예요.,none,D6,,,
+181,DUMMY_99-0181,1195.73,SPK01,Distribution,음.,none,D6,,,
+182,DUMMY_99-0182,1198.15,SPK01,Distribution,IPTV는 첫 주 스코어 나오고 나서 다시 보자. 그 전까진 답 주지 말고.,decision,D6,1,,첫 주 성적 확인 전까지 결정 보류
+183,DUMMY_99-0183,1208.65,SPK02,Distribution,"네, 그쪽엔 개봉 후에 논의하자고만 해 둘게요.",commitment,,,182,보류 방침에 따라 회신 방식을 밝힘
+184,DUMMY_99-0184,1217.10,SPK04,Data,OTT 쪽은요?,open_question,,,,OTT 진행 질문
+185,DUMMY_99-0185,1222.55,SPK02,Distribution,OTT는 아직 연락 온 데 없어요.,none,,,,
+186,DUMMY_99-0186,1228.46,SPK03,Marketing,요즘 극장 개봉작 OTT 가격이 많이 떨어졌대요.,none,,,,
+187,DUMMY_99-0187,1236.34,SPK02,Distribution,"네, 작년 대비 한 30% 빠졌다고 들었어요.",none,,,,
+188,DUMMY_99-0188,1247.84,SPK01,Distribution,그건 나중에.,none,,,,
+189,DUMMY_99-0189,1257.04,SPK01,Distribution,아 그리고 지방 배급 대행 건.,none,,,,
+190,DUMMY_99-0190,1262.42,SPK01,Distribution,올해도 영남은 그 대행사 쓸 거야?,open_question,,,,지방 대행사 유지 여부 질문
+191,DUMMY_99-0191,1267.26,SPK02,Distribution,"네, 수수료가 작년이랑 같은 3%라서 바꿀 이유가 없어요.",none,,,,
+192,DUMMY_99-0192,1274.71,SPK04,Data,근데 작년에 그 대행사 쪽 정산이 두 달 늦게 들어왔어요.,concern,,,191,정산 지연 전례 지적
+193,DUMMY_99-0193,1284.01,SPK02,Distribution,아 그건 극장 쪽 문제였다고 하던데.,none,,,,
+194,DUMMY_99-0194,1291.60,SPK04,Data,극장 문제였어도 대행사가 챙겼어야죠.,none,,,,
+195,DUMMY_99-0195,1298.68,SPK01,Distribution,계약서에 정산 기한 넣었어?,open_question,,,,계약 조건 질문
+196,DUMMY_99-0196,1303.41,SPK02,Distribution,작년 계약서에는 없었어요.,none,,,,
+197,DUMMY_99-0197,1307.22,SPK01,Distribution,이번엔 넣어 줘. 개봉 후 45일.,open_question,,,,정산 기한 반영 요청
+198,DUMMY_99-0198,1314.40,SPK02,Distribution,"네, 계약서 수정해서 이번 주 안에 보낼게요.",commitment,,,197,지시를 받아 기한 명시
+199,DUMMY_99-0199,1320.58,SPK01,Distribution,호남은?,none,,,,
+200,DUMMY_99-0200,1323.99,SPK02,Distribution,호남은 직배로 해요. 작년에 해 보니까 괜찮았어요.,none,,,,
+201,DUMMY_99-0201,1332.58,SPK01,Distribution,해외 판매는 어떻게 돼 가?,open_question,,,,해외 판매 현황 질문
+202,DUMMY_99-0202,1339.56,SPK02,Distribution,해외 세일즈사에서 대만이랑 일본 두 군데 관심 있다고 했어요.,none,,,,
+203,DUMMY_99-0203,1348.45,SPK02,Distribution,그 영화제에서 미팅 잡는다고 하더라고요.,ambiguous,,,,해외 세일즈사 계획을 전달
+204,DUMMY_99-0204,1356.09,SPK01,Distribution,감독님 가시는 김에 잘됐네.,none,,,,
+205,DUMMY_99-0205,1360.69,SPK03,Marketing,감독님 인터뷰 영상 하나 찍어 가면 좋을 것 같은데요.,none,,,,
+206,DUMMY_99-0206,1367.05,SPK03,Marketing,해외 바이어용으로 영어 자막 달아서.,none,,,,
+207,DUMMY_99-0207,1371.94,SPK04,Data,저 하나 여쭤볼 게 있는데요.,none,,,,
+208,DUMMY_99-0208,1377.87,SPK04,Data,좌석판매율 매일 아침에 뽑아서 공유할까요? 개봉 주에.,open_question,,,,데일리 공유 방식 질문
+209,DUMMY_99-0209,1385.22,SPK01,Distribution,그거 좋지. 시간은 세빈 씨 편한 대로.,none,,,,
+210,DUMMY_99-0210,1392.38,SPK04,Data,"네, 개봉일부터 아침 아홉 시에 올릴게요.",commitment,,,,개봉일부터 공유를 본인이 맡음
+211,DUMMY_99-0211,1399.87,SPK02,Distribution,"극장별로도 쪼개 주면 좋겠어요, 협상할 때 쓰게.",open_question,,,,극장별 분리 요청
+212,DUMMY_99-0212,1408.74,SPK04,Data,네 극장별로 할게요.,commitment,,,211,요청 수락
+213,DUMMY_99-0213,1413.49,SPK03,Marketing,그리고 개봉 2주차 특전 얘기요.,none,,,,
+214,DUMMY_99-0214,1418.48,SPK03,Marketing,극장 쪽에서 오리지널 티켓 하자고 먼저 연락이 왔어요.,none,,,,
+215,DUMMY_99-0215,1425.18,SPK01,Distribution,누가? 시네마루?,none,,,,
+216,DUMMY_99-0216,1428.87,SPK03,Marketing,"네, 시네마루요. 제작비는 극장이 반 부담한대요.",none,,,,
+217,DUMMY_99-0217,1436.74,SPK02,Distribution,반이면 우리가 한 얼마 내?,none,,,,
+218,DUMMY_99-0218,1440.67,SPK03,Marketing,한 천만 원 조금 안 돼요.,none,,,,
+219,DUMMY_99-0219,1447.73,SPK04,Data,오리지널 티켓 하면 2주차 관객이 보통 한 10% 정도 올라요.,none,,,,
+220,DUMMY_99-0220,1456.26,SPK01,Distribution,그게 우리 영화 같은 드라마에서도 그래?,open_question,,,,장르별 효과 질문
+221,DUMMY_99-0221,1461.34,SPK04,Data,드라마는 표본이 적어서 모르겠어요. 대부분 애니메이션이랑 팬덤 있는 영화라.,none,,,,
+222,DUMMY_99-0222,1470.56,SPK02,Distribution,그럼 굳이 먼저 돈 쓸 필요는 없겠네요.,none,,,,
+223,DUMMY_99-0223,1481.71,SPK03,Marketing,"음, 시네마루에는 제가 좀 더 생각해 보고 답 준다고 할게요.",commitment,,,,극장 회신을 맡음
+224,DUMMY_99-0224,1489.55,SPK01,Distribution,응.,none,,,,
+225,DUMMY_99-0225,1492.91,SPK01,Distribution,아까 첫 주 13일로 한 거.,none,,,,
+226,DUMMY_99-0226,1500.06,SPK01,Distribution,그거 13일로 간다고 했으니까 포스터 날짜 바꿔야 되지?,open_question,,,,포스터 수정 여부 질문
+227,DUMMY_99-0227,1506.89,SPK03,Marketing,"네, 메인 포스터에 11월 개봉으로만 돼 있어서 날짜 박은 버전 새로 뽑아야 돼요.",none,,,,
+228,DUMMY_99-0228,1516.53,SPK03,Marketing,디자인 업체에 오늘 넘기면 금요일에 나와요.,none,,,,
+229,DUMMY_99-0229,1523.26,SPK01,Distribution,그래.,none,,,,
+230,DUMMY_99-0230,1528.22,SPK03,Marketing,"예고편 2차도 화요일에 풀기로 했으니까, 포스터랑 같은 주에 나가네요.",commitment,,,,앞서 정한 예고편 공개 일정 상기
+231,DUMMY_99-0231,1536.51,SPK02,Distribution,"그러면 화요일에 예고편, 금요일에 포스터. 괜찮네.",none,,,,
+232,DUMMY_99-0232,1545.60,SPK02,Distribution,"팀장님, GV 지방 세 군데 하는 거요,",none,,,,
+233,DUMMY_99-0233,1552.47,SPK02,Distribution,"극장 섭외는 제가 할까요, 우경 대리가 할까요?",open_question,D7,,,GV 섭외 담당 질문
+234,DUMMY_99-0234,1558.59,SPK01,Distribution,섭외는 다솜 과장이 하고 모객은 우경 대리.,decision,D7,1,,팀장이 역할을 짧게 지정
+235,DUMMY_99-0235,1566.62,SPK03,Marketing,"네, 모객은 지역 커뮤니티 위주로 해 볼게요.",commitment,,,234,역할 지정을 받아들이고 방식을 밝힘
+236,DUMMY_99-0236,1580.03,SPK02,Distribution,부산은 해운대 쪽 예술영화관이 좋지 않을까요?,open_question,,,,부산 GV 장소 의견 질문
+237,DUMMY_99-0237,1585.54,SPK01,Distribution,거긴 대관료가 비싸.,none,,,,
+238,DUMMY_99-0238,1593.35,SPK02,Distribution,한 이백 정도요.,none,,,,
+239,DUMMY_99-0239,1596.44,SPK01,Distribution,부산은 멀티플렉스도 같이 알아봐 줘.,open_question,,,,대안 장소 확인 요청
+240,DUMMY_99-0240,1603.94,SPK02,Distribution,네.,none,,,,
+241,DUMMY_99-0241,1607.70,SPK02,Distribution,대구 광주는 제가 극장 쪽에 한번 알아는 볼게요.,ambiguous,,,234,구체적 기한 없는 약한 수락
+242,DUMMY_99-0242,1614.12,SPK01,Distribution,오늘 정리는 누가 해?,open_question,,,,정리 담당 질문
+243,DUMMY_99-0243,1617.51,SPK04,Data,제가 할게요. 오늘 저녁에 메일로 드릴게요.,commitment,,,242,회의 정리 요청을 받아 기한 명시
+244,DUMMY_99-0244,1624.30,SPK01,Distribution,그래. 수고했어.,none,,,,
+245,DUMMY_99-0245,1628.70,SPK03,Marketing,"아 팀장님, 오늘 저녁에 세빈 씨랑 밥 먹기로 했는데 같이 가실래요?",none,,,,
+246,DUMMY_99-0246,1642.62,SPK01,Distribution,나는 제작사 대표님 약속 있어.,none,,,,
+247,DUMMY_99-0247,1649.49,SPK03,Marketing,아 아쉽다.,none,,,,
+248,DUMMY_99-0248,1652.57,SPK02,Distribution,저는 학원 픽업이라 패스요.,none,,,,
+249,DUMMY_99-0249,1659.55,SPK04,Data,"그럼 둘이 가요, 대리님.",none,,,,
+250,DUMMY_99-0250,1665.63,SPK03,Marketing,"그래요, 곱창 어때요?",none,,,,
+251,DUMMY_99-0251,1670.32,SPK04,Data,좋아요.,none,,,,
+252,DUMMY_99-0252,1674.15,SPK03,Marketing,세빈 씨 매운 거 잘 먹어요?,none,,,,
+253,DUMMY_99-0253,1679.74,SPK04,Data,적당히요. 곱창은 안 매운 거죠?,none,,,,
+254,DUMMY_99-0254,1686.36,SPK03,Marketing,양념 말고 소금으로 시키면 돼.,none,,,,
+255,DUMMY_99-0255,1696.30,SPK04,Data,아 그럼 좋아요.,none,,,,
+256,DUMMY_99-0256,1699.78,SPK01,Distribution,곱창 먹고 내일 늦지 마.,none,,,,
+257,DUMMY_99-0257,1703.50,SPK03,Marketing,하하 네.,none,,,,
+258,DUMMY_99-0258,1707.36,SPK02,Distribution,저 먼저 일어날게요.,none,,,,
+259,DUMMY_99-0259,1712.89,SPK01,Distribution,그래 조심히 가.,none,,,,
+260,DUMMY_99-0260,1716.24,SPK04,Data,대리님 저 자료 다 정리하고 갈게요.,none,,,,
+261,DUMMY_99-0261,1723.34,SPK03,Marketing,"천천히 해요, 여섯 시 반이니까.",none,,,,
+262,DUMMY_99-0262,1728.00,SPK04,Data,네.,none,,,,

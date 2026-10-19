@@ -1,0 +1,73 @@
+{
+  "meeting": "DUMMY_75",
+  "title": "해온로지스틱스·다온관세법인 목담가구 검사 컨테이너 대응 회의",
+  "type": "cross-team",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "석도윤",
+      "team": "해온로지스틱스 수입운영팀",
+      "job": "Ops",
+      "position": "부장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "방세아",
+      "team": "해온로지스틱스 수입운영팀",
+      "job": "Ops",
+      "position": "과장",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "추경한",
+      "team": "해온로지스틱스 수입운영팀",
+      "job": "Ops",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "연태리",
+      "team": "해온로지스틱스 수입운영팀",
+      "job": "Ops",
+      "position": "사원",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "지승원",
+      "team": "다온관세법인 통관2팀",
+      "job": "Customs",
+      "position": "차장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK06",
+      "name": "오채린",
+      "team": "다온관세법인 통관2팀",
+      "job": "Customs",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK07",
+      "name": "봉가온",
+      "team": "다온관세법인 통관2팀",
+      "job": "Customs",
+      "position": "주임",
+      "title": ""
+    }
+  ]
+}

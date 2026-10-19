@@ -1,0 +1,57 @@
+{
+  "meeting": "DUMMY_26",
+  "title": "모래알기획 크리에이티브팀 서리곰 신규 광고주 내부 PT 준비",
+  "type": "team",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "표지훈",
+      "team": "크리에이티브1팀",
+      "job": "Creative",
+      "position": "부장",
+      "title": "CD"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "문가을",
+      "team": "크리에이티브1팀",
+      "job": "Copy",
+      "position": "과장",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "차은채",
+      "team": "크리에이티브1팀",
+      "job": "Copy",
+      "position": "사원",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "도현수",
+      "team": "크리에이티브1팀",
+      "job": "Design",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "남궁별",
+      "team": "크리에이티브1팀",
+      "job": "AE",
+      "position": "과장",
+      "title": ""
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "meeting": "DUMMY_49",
+  "title": "라온 레이븐스 마케팅팀 매니저 실무 회의 (팀장 출장 중)",
+  "type": "peers",
+  "position_order": [
+    "매니저",
+    "수석매니저",
+    "팀장"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "우지환",
+      "team": "마케팅팀",
+      "job": "Marketing",
+      "position": "매니저",
+      "title": ""
+    },
+    {
+      "speaker": "SPK02",
+      "name": "채소윤",
+      "team": "마케팅팀",
+      "job": "Marketing",
+      "position": "매니저",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "표준석",
+      "team": "마케팅팀",
+      "job": "Design",
+      "position": "매니저",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "금하람",
+      "team": "마케팅팀",
+      "job": "Data",
+      "position": "매니저",
+      "title": ""
+    }
+  ]
+}

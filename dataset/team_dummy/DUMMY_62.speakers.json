@@ -1,0 +1,60 @@
+{
+  "meeting": "DUMMY_62",
+  "title": "스톡메이트 시리즈A 투자자 미팅 준비",
+  "type": "with-senior",
+  "position_order": [
+    "매니저",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "정하윤",
+      "team": "경영진",
+      "job": "Exec",
+      "position": "대표",
+      "title": "대표"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "류재석",
+      "team": "경영지원본부",
+      "job": "Finance",
+      "position": "이사",
+      "title": "본부장"
+    },
+    {
+      "speaker": "SPK03",
+      "name": "문채원",
+      "team": "사업개발팀",
+      "job": "BizDev",
+      "position": "매니저",
+      "title": "리드"
+    },
+    {
+      "speaker": "SPK04",
+      "name": "강도윤",
+      "team": "제품팀",
+      "job": "PM",
+      "position": "매니저",
+      "title": "리드"
+    },
+    {
+      "speaker": "SPK05",
+      "name": "임소희",
+      "team": "경영지원본부",
+      "job": "Finance",
+      "position": "매니저",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "허준",
+      "team": "제품팀",
+      "job": "Data",
+      "position": "매니저",
+      "title": ""
+    }
+  ]
+}

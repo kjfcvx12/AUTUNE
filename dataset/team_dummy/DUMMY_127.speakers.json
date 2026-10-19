@@ -1,0 +1,57 @@
+{
+  "meeting": "DUMMY_127",
+  "title": "펫도그 돌봄 매칭팀 격주 운영 회의",
+  "type": "team",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "한소율",
+      "team": "펫도그 운영팀",
+      "job": "PM",
+      "position": "과장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "조은비",
+      "team": "펫도그 운영팀",
+      "job": "Sitter",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "문지오",
+      "team": "펫도그 운영팀",
+      "job": "Safety",
+      "position": "주임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "배시안",
+      "team": "펫도그 운영팀",
+      "job": "Settlement",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "심다온",
+      "team": "펫도그 운영팀",
+      "job": "CS",
+      "position": "사원",
+      "title": ""
+    }
+  ]
+}

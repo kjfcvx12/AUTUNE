@@ -1,0 +1,54 @@
+{
+  "meeting": "DUMMY_107",
+  "title": "물빛시립미술관 전시운영팀·교육홍보팀 가을 기획전 《물의 안쪽》 설치 실무 회의 (실장 연수 중)",
+  "type": "peers",
+  "position_order": [
+    "주임",
+    "선임",
+    "책임",
+    "수석",
+    "실장"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "남기주",
+      "team": "전시운영팀",
+      "job": "Curator",
+      "position": "선임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK02",
+      "name": "배유나",
+      "team": "전시운영팀",
+      "job": "Design",
+      "position": "선임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "류정후",
+      "team": "전시운영팀",
+      "job": "Ops",
+      "position": "선임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "조민결",
+      "team": "교육홍보팀",
+      "job": "Education",
+      "position": "선임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "표하람",
+      "team": "교육홍보팀",
+      "job": "Marketing",
+      "position": "선임",
+      "title": ""
+    }
+  ]
+}

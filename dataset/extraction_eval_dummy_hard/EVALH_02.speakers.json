@@ -1,0 +1,57 @@
+{
+  "meeting": "EVALH_02",
+  "title": "초록발자국 동물병원 본부 예약 시스템 교체 2차 점검 회의",
+  "type": "cross-team",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "정하람",
+      "team": "운영지원팀",
+      "job": "Ops",
+      "position": "과장",
+      "title": "파트장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "배윤슬",
+      "team": "운영지원팀",
+      "job": "PM",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "최도경",
+      "team": "정보시스템팀",
+      "job": "Dev",
+      "position": "주임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "남지우",
+      "team": "정보시스템팀",
+      "job": "Data",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "오해든",
+      "team": "운영지원팀",
+      "job": "CS",
+      "position": "사원",
+      "title": ""
+    }
+  ]
+}

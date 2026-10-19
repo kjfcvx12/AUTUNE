@@ -1,0 +1,57 @@
+{
+  "meeting": "DUMMY_24",
+  "title": "누리온시스템 보안팀 피싱 사고 후속 조치 회의",
+  "type": "team",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "장현우",
+      "team": "보안팀",
+      "job": "Security",
+      "position": "부장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "유다혜",
+      "team": "보안팀",
+      "job": "Security",
+      "position": "과장",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "차승민",
+      "team": "보안팀",
+      "job": "Security",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "진보라",
+      "team": "보안팀",
+      "job": "Security",
+      "position": "사원",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "문경태",
+      "team": "IT운영팀",
+      "job": "Ops",
+      "position": "과장",
+      "title": ""
+    }
+  ]
+}

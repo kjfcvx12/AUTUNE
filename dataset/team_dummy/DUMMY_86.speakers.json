@@ -1,0 +1,65 @@
+{
+  "meeting": "DUMMY_86",
+  "title": "누리온증권 리서치센터 소재화학팀 주간 커버리지 회의",
+  "type": "with-senior",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "서도윤",
+      "team": "소재화학팀",
+      "job": "Research",
+      "position": "차장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "민가람",
+      "team": "소재화학팀",
+      "job": "Research",
+      "position": "과장",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "여준석",
+      "team": "소재화학팀",
+      "job": "Research",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK04",
+      "name": "탁소희",
+      "team": "소재화학팀",
+      "job": "Research",
+      "position": "사원",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "구본열",
+      "team": "리서치센터",
+      "job": "Research",
+      "position": "이사",
+      "title": "센터장"
+    },
+    {
+      "speaker": "SPK06",
+      "name": "방지원",
+      "team": "준법감시팀",
+      "job": "Compliance",
+      "position": "대리",
+      "title": ""
+    }
+  ]
+}

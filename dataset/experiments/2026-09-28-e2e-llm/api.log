@@ -1,0 +1,56 @@
+2026-09-28T07:48:48.822973Z [info     ] cors_enabled                   origins=['http://localhost:3000']
+2026-09-28T07:48:49.173192Z [info     ] router_registered              module=audio prefix=/api/audio
+2026-09-28T07:48:49.277817Z [info     ] router_registered              module=extraction prefix=/api/extraction
+2026-09-28T07:48:49.589283Z [info     ] router_registered              module=gap prefix=/api/gap
+2026-09-28T07:48:49.644774Z [info     ] router_registered              module=context prefix=/api/context
+2026-09-28T07:48:49.694774Z [info     ] router_registered              module=intelligence prefix=/api/intelligence
+INFO:     Started server process [11668]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:60737 - "GET /api/extraction/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60739 - "GET /api/extraction/dev HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60741 - "GET /api/extraction/dev HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60743 - "POST /api/extraction/dev/connect-notion HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:60749 - "GET /api/extraction/dev HTTP/1.1" 200 OK
+HTTP Request: POST https://api.notion.com/v1/databases "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.notion.com/v1/databases "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:60750 - "POST /api/extraction/dev/connect-notion HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60775 - "GET /api/extraction/reviews/mtg_4ae0c7ac0149495e9711ecdbb3202dc2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60776 - "GET /api/extraction/action-items?meeting_id=mtg_4ae0c7ac0149495e9711ecdbb3202dc2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60776 - "OPTIONS /api/extraction/action-items/act_327c8e5ef9e94b27af33f946312a67a1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60775 - "OPTIONS /api/extraction/action-items/act_327c8e5ef9e94b27af33f946312a67a1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60776 - "GET /api/extraction/action-items/act_327c8e5ef9e94b27af33f946312a67a1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60776 - "GET /api/extraction/action-items/act_327c8e5ef9e94b27af33f946312a67a1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60778 - "PATCH /api/extraction/action-items/act_327c8e5ef9e94b27af33f946312a67a1 HTTP/1.1" 200 OK
+HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2026-09-28T07:51:04.224078Z [info     ] integration_call               method=POST path=/pages service=notion
+2026-09-28T07:51:04.226648Z [info     ] extraction_notion_synced       action_item_id=act_327c8e5ef9e94b27af33f946312a67a1 meeting_id=mtg_4ae0c7ac0149495e9711ecdbb3202dc2
+INFO:     127.0.0.1:60778 - "OPTIONS /api/extraction/decisions/dec_e99829f32ea6fd1086c52d3262dc49b8 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60778 - "PATCH /api/extraction/decisions/dec_e99829f32ea6fd1086c52d3262dc49b8 HTTP/1.1" 200 OK
+HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2026-09-28T07:51:06.152047Z [info     ] integration_call               method=POST path=/pages service=notion
+2026-09-28T07:51:06.155071Z [info     ] extraction_notion_decision_synced decision_id=dec_e99829f32ea6fd1086c52d3262dc49b8 meeting_id=mtg_4ae0c7ac0149495e9711ecdbb3202dc2
+2026-09-28T07:51:52.338807Z [info     ] cors_enabled                   origins=['http://localhost:3000']
+2026-09-28T07:51:52.691578Z [info     ] router_registered              module=audio prefix=/api/audio
+2026-09-28T07:51:52.797580Z [info     ] router_registered              module=extraction prefix=/api/extraction
+2026-09-28T07:51:53.185565Z [info     ] router_registered              module=gap prefix=/api/gap
+2026-09-28T07:51:53.239665Z [info     ] router_registered              module=context prefix=/api/context
+2026-09-28T07:51:53.287591Z [info     ] router_registered              module=intelligence prefix=/api/intelligence
+INFO:     Started server process [19180]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:60839 - "GET /api/extraction/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60843 - "GET /api/extraction/dev HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60845 - "POST /api/extraction/dev/connect-notion HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:60923 - "GET /api/extraction/action-items?meeting_id=mtg_4ae0c7ac0149495e9711ecdbb3202dc2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60922 - "GET /api/extraction/reviews/mtg_4ae0c7ac0149495e9711ecdbb3202dc2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60926 - "OPTIONS /api/extraction/action-items/act_80c65ade639d4fb59db75bc63dfe2110 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60926 - "OPTIONS /api/extraction/action-items/act_80c65ade639d4fb59db75bc63dfe2110 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60926 - "GET /api/extraction/action-items/act_80c65ade639d4fb59db75bc63dfe2110 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60926 - "GET /api/extraction/action-items/act_80c65ade639d4fb59db75bc63dfe2110 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60926 - "PATCH /api/extraction/action-items/act_80c65ade639d4fb59db75bc63dfe2110 HTTP/1.1" 200 OK
+HTTP Request: POST https://api.notion.com/v1/pages "HTTP/1.1 200 OK"
+2026-09-28T07:55:53.107938Z [info     ] integration_call               method=POST path=/pages service=notion
+2026-09-28T07:55:53.110721Z [info     ] extraction_notion_synced       action_item_id=act_80c65ade639d4fb59db75bc63dfe2110 meeting_id=mtg_4ae0c7ac0149495e9711ecdbb3202dc2

@@ -1,0 +1,65 @@
+{
+  "meeting": "DUMMY_105",
+  "title": "무담리빙 브랜드마케팅팀·리테일운영팀 성수 팝업스토어 오픈 준비 회의",
+  "type": "cross-team",
+  "position_order": [
+    "사원",
+    "주임",
+    "대리",
+    "과장",
+    "차장",
+    "부장",
+    "이사",
+    "대표"
+  ],
+  "speakers": [
+    {
+      "speaker": "SPK01",
+      "name": "정하윤",
+      "team": "브랜드마케팅팀",
+      "job": "Marketing",
+      "position": "과장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK02",
+      "name": "문서진",
+      "team": "브랜드마케팅팀",
+      "job": "Design",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK03",
+      "name": "오세빈",
+      "team": "리테일운영팀",
+      "job": "Ops",
+      "position": "차장",
+      "title": "팀장"
+    },
+    {
+      "speaker": "SPK04",
+      "name": "남기현",
+      "team": "리테일운영팀",
+      "job": "Sales",
+      "position": "대리",
+      "title": ""
+    },
+    {
+      "speaker": "SPK05",
+      "name": "한예솔",
+      "team": "브랜드마케팅팀",
+      "job": "Marketing",
+      "position": "주임",
+      "title": ""
+    },
+    {
+      "speaker": "SPK06",
+      "name": "강태오",
+      "team": "리빙사업본부",
+      "job": "PM",
+      "position": "부장",
+      "title": "본부장"
+    }
+  ]
+}
